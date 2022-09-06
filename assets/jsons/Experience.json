@@ -1,0 +1,65 @@
+[
+  {
+    "company": "SarveenTech",
+    "position": "Senior",
+    "isContinued": true,
+    "start": "Apr 2022",
+    "end": "",
+    "src": "assets/imgs/brands/sarveentech.svg",
+    "description": "I have developed a secure and reliable identity server based on IdentityServer4 and Skoruba Identity Server Admin. Moreover, I am working on enhancing the business logic of APIs and decreasing the number of API calls from the Angular front-end (minimizing load time)."
+  },
+  {
+    "company": "Fara-control I.P",
+    "position": "CTO",
+    "isContinued": true,
+    "start": "Aug 2021",
+    "end": "",
+    "src": "assets/imgs/brands/faracontrol.svg",
+    "description": "Developing the industrial platform in order to monitor and control the power grid network and SCADA systems. This project called FaraWAMS, is a successor project after Simpal v2. We are designing the high-performance and real-time platform to manage big data processing. To increase the performance of our databases, we used Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the main relational database, and MongoDB to store archive data. The .Net 6 is used for its back-end and ReactJS is used for its front-end."
+  },
+  {
+    "company": "IUST",
+    "position": "Researcher",
+    "isContinued": false,
+    "start": "2Jan 2019",
+    "end": "Mar 2022",
+    "src": "assets/imgs/brands/IUST.svg",
+    "description": "I was a graduated researcher at Iran University of Science and Technology in collaboration with the Université Grenoble Alpes in France. As a result of my research, I published many scientific papers."
+  },
+  {
+    "company": "ASI Green Techs",
+    "position": "Mid-level",
+    "isContinued": false,
+    "start": "Sep 2021",
+    "end": "Feb 2022",
+    "src": "",
+    "description": "Provides a platform for promoting sympathy and social connectivity in hard times and aims to cherish valuable norms and humanistic traits among people. Candle connects generations and expands sympathy. I worked as a back-end developer and developed ExpressJS and Swagger parts of this project."
+  },
+  {
+    "company": "Fara-control I.P",
+    "position": "Senior",
+    "isContinued": false,
+    "start": "Oct 2020",
+    "end": "Aug 2021",
+    "src": "assets/imgs/brands/faracontrol.svg",
+    "description": "The main goal of these projects is to design and develop .Net based multi-level software for monitoring the electrical and distribution substations called Simpal v1 and v2. I worked with the software team and we develops the user interface for Simpal v1 and I were in charge of designing back-end and front-end of Simpal v2 as a senior software developer. We designed user-friendly modules to illustrate real-time charts so that researchers can monitor the archives' power grid system data and plan design of new power stations."
+  },
+  {
+    "company": "Projects",
+    "position": "Freelancer",
+    "isContinued": false,
+    "start": "Mar 2019",
+    "end": "Nov 2021",
+    "src": "",
+    "description": "I developed many projects during this time, such as FNN, Noonnet, Restaurant Management System, and Neuro20EP for many people and companies."
+  },
+  {
+    "company": "Ultrasonic - Topsonics",
+    "position": "Junior",
+    "isContinued": false,
+    "start": "Jan 2021",
+    "end": "Sep 2016",
+    "src": "assets/imgs/brands/ultrasonic.svg",
+    "description": "Participating in the project of designing a graphical interface for an ultrasonic homogenizer device, designing a 3D printer software interface, and website development are among my activities in this company."
+  }
+]

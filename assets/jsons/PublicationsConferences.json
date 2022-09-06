@@ -1,0 +1,84 @@
+[
+  {
+    "title": "PAT-Noxim: A Precise Power & Thermal Cycle-Accurate NoC Simulator",
+    "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "A. Patooghy"],
+    "published": "31st IEEE International System-on-Chip Conference (SOCC)",
+    "link": "https://doi.org/10.1109/SOCC.2018.8618491",
+    "other": "2018, pp. 163-168"
+  },
+  {
+    "title": "An In-Depth Vulnerability Analysis of RISC-V Micro-Architecture Against Fault Injection Attack",
+    "authors": [
+      "Z. Kazemi",
+      "A. Norollah",
+      "A. Kchaou",
+      "M. Fazeli",
+      "D. Hely",
+      "V. Beroulle"
+    ],
+    "published": "IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "link": "https://doi.org/10.1109/DFT52944.2021.9568318",
+    "other": " 2021, pp. 1-6"
+  },
+  {
+    "title": "Efficient Scheduling of Dependent Tasks in Many-Core Real-Time System Using a Hardware Scheduler",
+    "authors": [
+      "A. Norollah",
+      "Z. Kazemi",
+      "N. Sayadi",
+      "H. Beitollahi",
+      "M. Fazeli",
+      "D. Hely"
+    ],
+    "published": "IEEE High Performance Extreme Computing Conference (HPEC)",
+    "link": "https://doi.org/10.1109/HPEC49654.2021.9622857",
+    "other": "2021, pp. 1-7"
+  },
+  {
+    "title": "3D-Sorter: 3D Design of a Resource-Aware Hardware Sorter for Edge Computing Platforms Under Area and Energy Consumption Constraints",
+    "authors": ["A. Norollah", "Z. Kazemi", "D. Hely"],
+    "published": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+    "link": "https://doi.org/10.1109/ISVLSI49217.2020.00018",
+    "other": "2020, pp. 42-47"
+  },
+  {
+    "title": "A New Hardware Accelerator for Data Sorting in Area & Energy Constrained Architectures",
+    "authors": ["A. Norollah", " H. Beitollahi", "A. Patooghy"],
+    "published": "IEEE 62nd International Midwest Symposium on Circuits and Systems (MWSCAS)",
+    "link": "https://doi.org/10.1109/MWSCAS.2019.8885297",
+    "other": "2019, pp. 985-988"
+  },
+  {
+    "title": "An Efficient Sorting Architecture for Area and Energy Constrained Edge Computing Devices",
+    "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi"],
+    "published": "International Conference on High Performance Computing & Simulation (HPCS)",
+    "link": "https://doi.org/10.1109/HPCS48598.2019.9188237",
+    "other": " 2019, pp. 455-462"
+  },
+  {
+    "title": "An Offline Hardware Security Assessment Approach using Symbol Assertion and Code Shredding",
+    "authors": [
+      "Z. Kazemi",
+      "A. Norollah",
+      "M. Fazeli",
+      "D. Hely",
+      "V. Beroulle"
+    ],
+    "published": "23rd International Symposium on Quality Electronic Design (ISQED)",
+    "link": "https://doi.org/10.1109/ISQED54688.2022.9806234",
+    "other": "2022, pp. 1-1"
+  },
+  {
+    "title": "Mist-Scan: A Secure Scan Chain Architecture to Resist Scan-Based Attacks in Cryptographic Chips",
+    "authors": [
+      "M. Taherifard",
+      "H. Beitollahi",
+      "F. Jamali",
+      "A. Norollah",
+      "A. Patooghy"
+    ],
+    "published": "IEEE 33rd International System-on-Chip Conference (SOCC)",
+    "link": "https://doi.org/10.1109/SOCC49529.2020.9524759",
+    "other": "2020, pp. 135-140"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "CSite back-end using .Net 6",
+    "ownership": "mine (open-source)",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "https://github.com/amin-norollah/JS-code#1-web-development-projects",
+    "description": "It is my first full open-source back-end project that I used it for my teaching as well. I tried to use the most recent and modern technologies in its development."
+  },
+  {
+    "name": "CSite front-end using Angular",
+    "ownership": "mine (open-source)",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
+    "description": "It is my first open-source Angular project that I could share publicly. This project will connect to CSite Backend project and work with it. Therefore, one should have enough knowledge to run both the .Net 6 back-end and Angular user interface in order to use these projects."
+  },
+  {
+    "name": "FaraWAMS back-end using .Net 6 and NodeJS",
+    "ownership": "FaraControl I.P co.",
+    "src": "assets/imgs/projects/farawams.svg",
+    "url": "",
+    "description": "The project is being developed with the aim of monitoring and controlling power systems, and I have the role of a technical manager in this project, of course, I also do programming. It is a large-scale project and consists of five different servers. Some servers are developed based on NodeJS, and others that require complex calculations are developed based on .Net technology. This project faces complications such as a high data rate, needs short response time, a large amount of data that should store in the database server, and event management."
+  },
+  {
+    "name": "SmartCattle back-end using .Net 6",
+    "ownership": "Sarveentech co.",
+    "src": "assets/imgs/projects/smartcattle.svg",
+    "url": "",
+    "description": "Smart Cattle records and analyzes the animal activities and eating patterns for monitoring their health. All this is offered in an easy to use software as a service platform. I am working with the software team where we are developing the back-end with the modern technologies."
+  },
+  {
+    "name": "SmartCattle Identity Server",
+    "ownership": "Sarveentech co.",
+    "src": "assets/imgs/projects/identityserver-smartcatle.svg",
+    "url": "",
+    "description": "In this project, our servers were responsible for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
+  },
+  {
+    "name": "Candle back-end using ExpressJS",
+    "ownership": "ASI Green Techs co.",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "",
+    "description": "Provides a platform for promoting sympathy and social connectivity in hard times and aims to cherish valuable norms and humanistic traits among people. Candle connects generations and expands sympathy. The project was developed using: Node.js, Express.js, Swagger, React Native, React.js, Next.js, pusher, push notification service (firebase), AWS Services such as Amplify (Serve UI using CI/CD), EC2 (Serve Backend), EC2 Load Balancer, S3, Route53 (Manage DNS), IAM. I worked as a back-end developer and developed ExpressJS and Swagger parts of this project."
+  },
+  {
+    "name": "Simpal v2 - Full Stack",
+    "ownership": "FaraControl I.P co.",
+    "src": "assets/imgs/projects/simpal2.jpg",
+    "url": "",
+    "description": "The purpose of developing this application is to monitor the data collected from the power grid system. In this software, various power engineering modules were used, so that experts can conduct studies on the power grid system (instead of simulation). In this project, calculations are performed on real-time data immediately after receiving and are displayed in the form of time-series charts, bars, XY plots, flow, and heat maps. The front end of this project was developed with Angular, and .Net core 3.1 was used for its back end."
+  },
+  {
+    "name": "JS code - pages",
+    "ownership": "mine (open-source)",
+    "src": "assets/imgs/projects/jsCode.svg",
+    "url": "https://github.com/amin-norollah/JS-code#2-pages",
+    "description": "I have a special interest in front-end designing, and sometimes I design vanilla JS pages. I shared my thoughts with vanilla JS on this page, because I think it is much more fun and easier to understand and share."
+  },
+  {
+    "name": "JS code - games",
+    "ownership": "mine (open-source)",
+    "src": "assets/imgs/projects/jsCode.svg",
+    "url": "https://github.com/amin-norollah/JS-code#4-games",
+    "description": "In the past, when I tried to learn JavaScript, I designed many interesting things such as simple games. In this part of my open-source project, I shared my first designs that I upgraded them to JS ES6+."
+  },
+  {
+    "name": "Restaurant Management System using ExpressJS",
+    "ownership": "person",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "",
+    "description": "It is my first JavaScript project experience. In this project, a local management system was developed via AngularJS, React Native, NodeJS, ExpressJS, and MongoDB in order to cope with customer orders, manage warehouse, and analyze store performance."
+  },
+  {
+    "name": "Noonnet application using ExpressJS",
+    "ownership": "person",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "",
+    "description": "An online Bread Sale application developed using: Node.js, Express.js, Mongoose, Swagger, React.js, and Material UI."
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "RTHS: A Low-Cost High-Performance Real-Time Hardware Sorter, Using a Multidimensional Sorting Algorithm,",
+    "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
+    "published": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "link": "https://doi.org/10.1109/TVLSI.2019.2912554",
+    "other": "vol. 27, no. 7, pp. 1601-1613, July 2019"
+  },
+  {
+    "title": "HRHS: A High-Performance Real-Time Hardware Scheduler",
+    "authors": [
+      "D. Derafshi",
+      "A. Norollah",
+      "M. Khosroanjam",
+      "H. Beitollahi"
+    ],
+    "published": "IEEE Transactions on Parallel and Distributed Systems",
+    "link": "https://doi.org/10.1109/TPDS.2019.2952136",
+    "other": "vol. 31, no. 4, pp. 897-908, 1 April 2020"
+  },
+  {
+    "title": "Hardware Support for Efficient and Low-Power Data Sorting in Massive Data Application: The 3-D Sorting Method",
+    "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi", "D. Hély"],
+    "published": "IEEE Consumer Electronics Magazine",
+    "link": "https://doi.org/10.1109/MCE.2021.3076979",
+    "other": "vol. 11, no. 3, pp. 87-94, 1 May 2022"
+  }
+]
