@@ -1,15 +1,22 @@
 [
   {
+    "name": "This portfolio website",
+    "ownership": "mine",
+    "src": "assets/imgs/projects/myPortfolio.svg",
+    "url": "",
+    "description": "I have designed this portfolio website to introduce myself, talk about my projects and show my capabilities in graphic design and front-end development. As you can see, I am very fond of the Matrix movie and used that theme here as much as I could. I tried my best to design my portfolio website in a short time, and there may be flaw in it. Therefore, if you see any, please let me know."
+  },
+  {
     "name": "CSite back-end using .Net 6",
     "ownership": "mine (open-source)",
-    "src": "assets/imgs/projects/web-design-amin.svg",
+    "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#1-web-development-projects",
     "description": "It is my first full open-source back-end project that I used it for my teaching as well. I tried to use the most recent and modern technologies in its development."
   },
   {
     "name": "CSite front-end using Angular",
     "ownership": "mine (open-source)",
-    "src": "assets/imgs/projects/web-design-amin.svg",
+    "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
     "description": "It is my first open-source Angular project that I could share publicly. This project will connect to CSite Backend project and work with it. Therefore, one should have enough knowledge to run both the .Net 6 back-end and Angular user interface in order to use these projects."
   },
