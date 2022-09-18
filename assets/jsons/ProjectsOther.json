@@ -1,6 +1,7 @@
 [
   {
     "name": "Simpal v1",
+    "techs": [".Net framework 4.5", "Windows form", "OXYplot", "SQLite"],
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/simpal1.jpg",
     "url": "",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Neuro20EP",
+    "techs": [".Net framework 4.7.2", "WPF", "Scichart", "SQLite"],
     "ownership": "NikAva co.",
     "src": "assets/imgs/projects/neuro20ep.jpg",
     "url": "",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Forecast Neural Network (FNN)",
+    "techs": [".Net framework 4.7.2", ".Net core 3.1", "WPF", "CNTK", "SQLite"],
     "ownership": "person",
     "src": "assets/imgs/projects/FNN.jpg",
     "url": "",
