@@ -1,24 +1,32 @@
 [
   {
+    "name": "CareYourEyes v1.1",
+    "ownership": "mine(open source)",
+    "techs": [".Net framework 4.5.2", "WPF"],
+    "src": "assets/imgs/projects/CareYourEyes.png",
+    "url": "https://github.com/amin-norollah/CareYourEyes",
+    "description": "Protect your eyes from tiredness and overwork. I developed this application to remind you that you supposed to rest at regular intervals. In the past, I used other applications, which unfortunately are no longer free to use. Therefore, I decided to provide a free application. The features of this software are limited."
+  },
+  {
     "name": "Simpal v1",
-    "techs": [".Net framework 4.5", "Windows form", "OXYplot", "SQLite"],
     "ownership": "FaraControl I.P co.",
+    "techs": [".Net framework 4.5", "Windows form", "OXYplot", "SQLite"],
     "src": "assets/imgs/projects/simpal1.jpg",
     "url": "",
     "description": "The Simpal v1 software, which was developed based on .Net framework 4.5 and the Windows form platform, was created in order to access the archived data of the power grid system and make it possible to studies on it. This project was associated with significant success and laid the foundation for the development of Simpal v2 and FaraWAMS software."
   },
   {
     "name": "Neuro20EP",
-    "techs": [".Net framework 4.7.2", "WPF", "Scichart", "SQLite"],
     "ownership": "NikAva co.",
+    "techs": [".Net framework 4.7.2", "WPF", "Scichart", "SQLite"],
     "src": "assets/imgs/projects/neuro20ep.jpg",
     "url": "",
     "description": "One of the projects is to design a health-care software that receives converted analog brain signals from more than eight input channels, processes data, analyses data and helps the neurologists diagnose abnormalities using indicators. The technology of most of these projects are C++ and C# languages based on .Net framework 4.7.2."
   },
   {
     "name": "Forecast Neural Network (FNN)",
-    "techs": [".Net framework 4.7.2", ".Net core 3.1", "WPF", "CNTK", "SQLite"],
     "ownership": "person",
+    "techs": [".Net framework 4.7.2", ".Net core 3.1", "WPF", "CNTK", "SQLite"],
     "src": "assets/imgs/projects/FNN.jpg",
     "url": "",
     "description": "Global stock market analysis software using artificial intelligence (deep learning-based approach) and with the ability to instantly analyze more than 30 different markets and provide the necessary solutions to increase productivity in each market. The technology used in this project was CNTK, WPF, SQLite and .Net core 3.1."
