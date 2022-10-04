@@ -4,6 +4,7 @@
     "ownership": "mine(open source)",
     "techs": [".Net framework 4.5.2", "WPF"],
     "src": "assets/imgs/projects/CareYourEyes.png",
+    "route": "/care-your-eyes",
     "url": "https://github.com/amin-norollah/CareYourEyes",
     "description": "Protect your eyes from tiredness and overwork. I developed this application to remind you that you supposed to rest at regular intervals. In the past, I used other applications, which unfortunately are no longer free to use. Therefore, I decided to provide a free application. The features of this software are limited."
   },
