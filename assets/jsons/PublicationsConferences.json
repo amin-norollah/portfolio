@@ -56,6 +56,19 @@
     "other": " 2019, pp. 455-462"
   },
   {
+    "title": "Mist-Scan: A Secure Scan Chain Architecture to Resist Scan-Based Attacks in Cryptographic Chips",
+    "authors": [
+      "M. Taherifard",
+      "H. Beitollahi",
+      "F. Jamali",
+      "A. Norollah",
+      "A. Patooghy"
+    ],
+    "published": "IEEE 33rd International System-on-Chip Conference (SOCC)",
+    "link": "https://doi.org/10.1109/SOCC49529.2020.9524759",
+    "other": "2020, pp. 135-140"
+  },
+  {
     "title": "An Offline Hardware Security Assessment Approach using Symbol Assertion and Code Shredding",
     "authors": [
       "Z. Kazemi",
@@ -69,16 +82,16 @@
     "other": "2022, pp. 1-1"
   },
   {
-    "title": "Mist-Scan: A Secure Scan Chain Architecture to Resist Scan-Based Attacks in Cryptographic Chips",
+    "title": "Protecting Security-Critical Real-Time Systems against Fault Attacks in Many-Core Platforms",
     "authors": [
-      "M. Taherifard",
-      "H. Beitollahi",
-      "F. Jamali",
       "A. Norollah",
-      "A. Patooghy"
+      "Z. Kazemi",
+      "D. Derafshi",
+      "H. Beitollahi",
+      "M. Fazeli"
     ],
-    "published": "IEEE 33rd International System-on-Chip Conference (SOCC)",
-    "link": "https://doi.org/10.1109/SOCC49529.2020.9524759",
-    "other": "2020, pp. 135-140"
+    "published": "CPSSI 4th International Symposium on Real-Time and Embedded Systems and Technologies (RTEST)",
+    "link": "https://doi.org/10.1109/RTEST56034.2022.9850010",
+    "other": "2022, pp. 1-6"
   }
 ]

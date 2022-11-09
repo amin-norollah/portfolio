@@ -24,5 +24,12 @@
     "published": "IEEE Consumer Electronics Magazine",
     "link": "https://doi.org/10.1109/MCE.2021.3076979",
     "other": "vol. 11, no. 3, pp. 87-94, 1 May 2022"
+  },
+  {
+    "title": "A security-aware hardware scheduler for modern multi-core systems with hard real-time constraints",
+    "authors": ["A. Norollah", "H. Beitollahi", "Z. Kazemi", "M. Fazeli"],
+    "published": "Elsevier Microprocessors and Microsystems (MICPRO)",
+    "link": "https://doi.org/10.1016/j.micpro.2022.104716",
+    "other": "ISSN 0141-9331, 2022"
   }
 ]
