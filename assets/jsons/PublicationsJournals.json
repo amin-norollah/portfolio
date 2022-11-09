@@ -1,10 +1,12 @@
 [
   {
-    "title": "RTHS: A Low-Cost High-Performance Real-Time Hardware Sorter, Using a Multidimensional Sorting Algorithm,",
+    "title": "RTHS: A Low-Cost High-Performance Real-Time Hardware Sorter, Using a Multidimensional Sorting Algorithm",
     "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
     "published": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
     "link": "https://doi.org/10.1109/TVLSI.2019.2912554",
-    "other": "vol. 27, no. 7, pp. 1601-1613, July 2019"
+    "other": "vol. 27, no. 7, pp. 1601-1613, July 2019",
+    "cover": "assets/imgs/publications/TVLSI.jpg",
+    "coverThumbnail": "assets/imgs/publications/TVLSI_thumbnail.jpg"
   },
   {
     "title": "HRHS: A High-Performance Real-Time Hardware Scheduler",
@@ -16,20 +18,26 @@
     ],
     "published": "IEEE Transactions on Parallel and Distributed Systems",
     "link": "https://doi.org/10.1109/TPDS.2019.2952136",
-    "other": "vol. 31, no. 4, pp. 897-908, 1 April 2020"
+    "other": "vol. 31, no. 4, pp. 897-908, 1 April 2020",
+    "cover": "assets/imgs/publications/TPDS.jpg",
+    "coverThumbnail": "assets/imgs/publications/TPDS_thumbnail.jpg"
   },
   {
     "title": "Hardware Support for Efficient and Low-Power Data Sorting in Massive Data Application: The 3-D Sorting Method",
     "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi", "D. Hély"],
     "published": "IEEE Consumer Electronics Magazine",
     "link": "https://doi.org/10.1109/MCE.2021.3076979",
-    "other": "vol. 11, no. 3, pp. 87-94, 1 May 2022"
+    "other": "vol. 11, no. 3, pp. 87-94, 1 May 2022",
+    "cover": "assets/imgs/publications/MCE.jpg",
+    "coverThumbnail": "assets/imgs/publications/MCE_thumbnail.jpg"
   },
   {
     "title": "A security-aware hardware scheduler for modern multi-core systems with hard real-time constraints",
     "authors": ["A. Norollah", "H. Beitollahi", "Z. Kazemi", "M. Fazeli"],
     "published": "Elsevier Microprocessors and Microsystems (MICPRO)",
     "link": "https://doi.org/10.1016/j.micpro.2022.104716",
-    "other": "ISSN 0141-9331, 2022"
+    "other": "ISSN 0141-9331, 2022",
+    "cover": "assets/imgs/publications/MICRO.jpg",
+    "coverThumbnail": "assets/imgs/publications/MICRO_thumbnail.jpg"
   }
 ]
