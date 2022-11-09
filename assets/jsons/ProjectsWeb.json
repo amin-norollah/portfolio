@@ -1,5 +1,28 @@
 [
   {
+    "name": "Vicinia",
+    "techs": [
+      "NodeJS",
+      "Angular",
+      "Angular material",
+      "MongoDB",
+      "Mongoose",
+      "Swagger"
+    ],
+    "ownership": "Cntxts Inc.",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "url": "",
+    "description": "Nowadays, online maps have routing and positioning tools that are widely used by many people. Meanwhile, the routing inside buildings, commercial centers, universities, and hospitals have not been developed in an integrated manner. This project aims to provide the possibility of routing within buildings, provide information facilities, and also can be used as an anti-theft system for the equipment of the places. In this project, my responsibility was to develop frontend and backend software in kiosks embedded in buildings."
+  },
+  {
+    "name": "Farawams Identity Server",
+    "techs": [".Net 6", "Swagger", "Postgre db", "Identity server 5"],
+    "ownership": "FaraControl I.P co.",
+    "src": "assets/imgs/projects/identityserver-farawams.svg",
+    "url": "",
+    "description": "This project was developed for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
+  },
+  {
     "name": "Pinkie (under construct)",
     "techs": ["Angular", "Angular material", "RXJS", "CSS", "HTML"],
     "ownership": "mine (open-source)",
