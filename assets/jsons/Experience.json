@@ -1,12 +1,21 @@
 [
   {
+    "company": "Cntxts Inc. (Vicinia co.)",
+    "position": "Senior",
+    "isContinued": true,
+    "start": "Sep 2022",
+    "end": "",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "description": "My position is the full stack web developer and my responsibility is to develop Angular frontend and NodeJS backend softwares for embedded kiosks device used in universities, hospitals, and public buildings."
+  },
+  {
     "company": "SarveenTech",
     "position": "Senior",
     "isContinued": true,
     "start": "Apr 2022",
     "end": "",
     "src": "assets/imgs/brands/sarveentech.svg",
-    "description": "I have developed a secure and reliable identity server based on IdentityServer4 and Skoruba Identity Server Admin. Moreover, I am working on enhancing the business logic of APIs and decreasing the number of API calls from the Angular front-end (minimizing load time)."
+    "description": "I have developed a secure and reliable identity server based on IdentityServer4 and Skoruba Identity Server Admin. Moreover, I am working on enhancing the business logic of APIs and decreasing the number of API calls from the Angular front-end (minimizing load time). This project is going to publish and after that I will continue my cooperation as a backup developer for the maintenance service. "
   },
   {
     "company": "Fara-control I.P",
@@ -54,10 +63,10 @@
     "description": "I developed many projects during this time, such as FNN, Noonnet, Restaurant Management System, and Neuro20EP for many people and companies."
   },
   {
-    "company": "Ultrasonic - Topsonics",
+    "company": "Ultrasonic co. (Topsonics)",
     "position": "Junior",
     "isContinued": false,
-    "start": "Jan 2021",
+    "start": "Jan 2012",
     "end": "Sep 2016",
     "src": "assets/imgs/brands/ultrasonic.svg",
     "description": "Participating in the project of designing a graphical interface for an ultrasonic homogenizer device, designing a 3D printer software interface, and website development are among my activities in this company."
