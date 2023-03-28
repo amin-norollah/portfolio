@@ -107,6 +107,14 @@
     "description": "In this project, our servers were responsible for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
   },
   {
+    "name": "Candle back-end",
+    "techs": ["NodeJS", "ExpressJS", "Swagger"],
+    "ownership": "ASI Green Techs co.",
+    "src": "assets/imgs/projects/web-design-amin.svg",
+    "url": "",
+    "description": "Provides a platform for promoting sympathy and social connectivity in hard times and aims to cherish valuable norms and humanistic traits among people. Candle connects generations and expands sympathy. The project was developed using: Node.js, Express.js, Swagger, React Native, React.js, Next.js, pusher, push notification service (firebase), AWS Services such as Amplify (Serve UI using CI/CD), EC2 (Serve Backend), EC2 Load Balancer, S3, Route53 (Manage DNS), IAM. I worked as a back-end developer and developed ExpressJS and Swagger parts of this project."
+  },
+  {
     "name": "Simpal v2 - Full Stack",
     "techs": [".Net core 3.1", "WPF", "Angular", "CSS", "HTML", "SQL Server"],
     "ownership": "FaraControl I.P co.",

@@ -33,7 +33,7 @@
     "start": "2Jan 2019",
     "end": "Mar 2022",
     "src": "assets/imgs/brands/IUST.svg",
-    "description": "I was a graduated researcher at Iran University of Science and Technology in collaboration with the Université Grenoble Alpes in France. As a result of my research, I published many scientific papers."
+    "description": "I was a graduated researcher at Iran University of Science and Technology in collaboration with the Université Grenoble Alpes in France. As a result of my research, I published many scientific papers. During this time, I focused on several hardware security research projects. Investigating and finding vulnerable points of high-level codes in clock glitching attacks in RISC-V chips has been one of these researches. Another goal was to find sensitive code blocks in the C/C++ language and their compiled assembly code. We used tools such as KLEE and LLVM for symbolic execution simulation and the RISC-V simulator, and Xilinx Vivado tool for this purpose. As a result, several papers in this field were published in international journals and conferences."
   },
   {
     "company": "ASI Green Techs",
