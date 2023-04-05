@@ -1,6 +1,20 @@
 [
   {
-    "name": "Vicinia",
+    "name": "Kiosk web app",
+    "techs": [
+      "Angular",
+      "Angular material",
+      "Keen slider",
+      "Google maps",
+      "Routing development"
+    ],
+    "ownership": "Cntxts Inc.",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "url": "",
+    "description": "Kisok web app is used for routing and content display of entertainment complexes, universities and administrative centers. I developed both the frontend and backend of this project using Angular 15 and ExpressJS."
+  },
+  {
+    "name": "Vicinia web app",
     "techs": [
       "NodeJS",
       "Angular",
