@@ -1,13 +1,13 @@
 [
   {
     "title": "Under The Moon light",
-    "subtitle": "A responsive artwork that is sensitive to mouse movement (using Angular)",
+    "subtitle": "A responsive artwork which is sensitive to mouse movement (developed using Angular)",
     "mediaPath": "assets/imgs/slider/under-the-moon-light.jpg",
     "url": "https://amin-norollah.github.io/under-the-moonlight/demo/"
   },
   {
     "title": "Kiosk",
-    "subtitle": "Kisok will be using for routing and content display of entertainment complexes, universities and administrative centers.  I developed both frontend and backend of this project.",
+    "subtitle": "Kisok web app is currently used for routing and content display of entertainment complexes, universities and administrative centers. I developed both frontend and backend of this project (Angular and ExpressJS).",
     "mediaPath": "assets/imgs/slider/kiosk.jpg",
     "url": "https://kiosk.cntxts.com/"
   },
