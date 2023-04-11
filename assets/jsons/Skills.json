@@ -1,0 +1,120 @@
+{
+  "languages": [
+    {
+      "name": "C#",
+      "src": "assets/imgs/skills/languages/csharp.svg"
+    },
+    {
+      "name": "Javascript (ES6+)",
+      "src": "assets/imgs/skills/languages/javascript.svg"
+    },
+    {
+      "name": "Typescript",
+      "src": "assets/imgs/skills/languages/typescript.svg"
+    },
+    {
+      "name": "HTML",
+      "src": "assets/imgs/skills/languages/html5.svg"
+    },
+    {
+      "name": "CSS",
+      "src": "assets/imgs/skills/languages/css3.svg"
+    },
+    {
+      "name": "SASS",
+      "src": "assets/imgs/skills/languages/sass.svg"
+    }
+  ],
+  "frontEnd": [
+    {
+      "name": "Angular",
+      "src": "assets/imgs/skills/frontend/angularjs.svg"
+    },
+    {
+      "name": "RxJs",
+      "src": "assets/imgs/skills/frontend/rxjs.svg"
+    },
+    {
+      "name": "Angular Material",
+      "src": "assets/imgs/skills/frontend/material.svg"
+    },
+    {
+      "name": "ReactJs",
+      "src": "assets/imgs/skills/frontend/react.svg"
+    },
+    {
+      "name": "Redux",
+      "src": "assets/imgs/skills/frontend/redux.svg"
+    }
+  ],
+  "backEnd": [
+    {
+      "name": ".Net 6",
+      "src": "assets/imgs/skills/backend/dot-net.svg"
+    },
+    {
+      "name": ".Net Framework 4.8",
+      "src": "assets/imgs/skills/backend/netFramework.svg"
+    },
+    {
+      "name": "NodeJs",
+      "src": "assets/imgs/skills/backend/nodejs.svg"
+    },
+    {
+      "name": "ExpressJs",
+      "src": "assets/imgs/skills/backend/express.svg"
+    },
+    {
+      "name": "GraphQL",
+      "src": "assets/imgs/skills/backend/graphql.svg"
+    }
+  ],
+  "databases": [
+    {
+      "name": "MS SQL Server",
+      "src": "assets/imgs/skills/databases/microsoftsqlserver.svg"
+    },
+    {
+      "name": "MongoDB",
+      "src": "assets/imgs/skills/databases/mongodb.svg"
+    },
+    {
+      "name": "SQLite",
+      "src": "assets/imgs/skills/databases/sqlite.svg"
+    },
+    {
+      "name": "MySQL",
+      "src": "assets/imgs/skills/databases/mysql.svg"
+    },
+    {
+      "name": "Redis",
+      "src": "assets/imgs/skills/databases/redis.svg"
+    }
+  ],
+  "security": [
+    {
+      "name": "Duende identity server",
+      "src": "assets/imgs/skills/security/identityserevr4.svg"
+    },
+    {
+      "name": "Oauth 2.1",
+      "src": "assets/imgs/skills/security/Oauth2.svg"
+    },
+    {
+      "name": "OpenID Connect",
+      "src": "assets/imgs/skills/security/OpenID.svg"
+    },
+    {
+      "name": "Open Web Application Security Project (OWASP)",
+      "src": "assets/imgs/skills/security/OWASP.svg"
+    }
+  ],
+  "others": [
+    "Microservice Architecture",
+    "DDD Clean Architecture",
+    "CQRS, Unit of Work, and Repository Patterns",
+    "ORMs: Entity Framework Core for .Net; and Mongoose for NodeJS",
+    "Application Test: xUnit; JMeter; Chai; Cypress",
+    "Graphic tools: Photoshop; CorelDraw; Figma"
+  ]
+}
