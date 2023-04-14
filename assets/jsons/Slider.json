@@ -6,6 +6,12 @@
     "url": "https://amin-norollah.github.io/under-the-moonlight/demo/"
   },
   {
+    "title": "New portfolio theme",
+    "subtitle": "",
+    "mediaPath": "assets/imgs/slider/newTheme.jpg",
+    "url": "https://norollah.com/#/brightening"
+  },
+  {
     "title": "Kiosk",
     "subtitle": "Kisok web app is currently used for routing and content display of entertainment complexes, universities and administrative centers. I developed both frontend and backend of this project (Angular and ExpressJS).",
     "mediaPath": "assets/imgs/slider/kiosk.jpg",
