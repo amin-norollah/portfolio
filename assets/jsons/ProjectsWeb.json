@@ -11,7 +11,7 @@
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
-    "description": "Kisok web app is used for routing and content display of entertainment complexes, universities and administrative centers. I developed both the frontend and backend of this project using Angular 15 and ExpressJS."
+    "description": "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities, and administrative centers. As the developer of this project, I was responsible for both the front-end and back-end development, utilizing Angular 15 and ExpressJS. By leveraging these technologies, I was able to create a dynamic and responsive platform that can be easily customized to meet the unique needs of each client. I take pride in having contributed to the development of a sophisticated solution that enhances the user experience and improves overall productivity within these settings."
   },
   {
     "name": "Vicinia web app",
@@ -26,7 +26,7 @@
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
-    "description": "Nowadays, online maps have routing and positioning tools that are widely used by many people. Meanwhile, the routing inside buildings, commercial centers, universities, and hospitals have not been developed in an integrated manner. This project aims to provide the possibility of routing within buildings, provide information facilities, and also can be used as an anti-theft system for the equipment of the places. In this project, my responsibility was to develop frontend and backend software in kiosks embedded in buildings."
+    "description": "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centers, universities, and hospitals have yet to be fully developed. This project seeks to address this need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on this project, my role involved the development of both the front-end and back-end parts of kiosks admin (back-office)."
   },
   {
     "name": "Farawams Identity Server",
@@ -34,7 +34,7 @@
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/identityserver-farawams.svg",
     "url": "",
-    "description": "This project was developed for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
+    "description": "The aim of this project was to create comprehensive authentication and authorization services that could support a variety of application types, including mobile, web, native, and other services. To achieve this, we utilized OpenID Connect and OAuth2.1 protocols and implemented a single session input and output system."
   },
   {
     "name": "Pinkie (under construct)",
@@ -42,7 +42,7 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/pinkie.svg",
     "url": "https://github.com/amin-norollah/pinkie",
-    "description": "I want to develop an Android application based on Angular. It is a sample code. This project is semi-social network software that I tried to make its user interface similar to Instagram. It is not done yet."
+    "description": "I am interested in developing an Android application using the Angular framework. The project I have in mind is a semi-social network software that is still in the early stages of development. My goal is to create a user interface that is similar to Instagram, with a focus on ease of use and aesthetically pleasing design. The project is currently in the sample code phase, which means that it is not yet a fully functional application. However, I am fully committed to ensuring the successful completion of this project in the near future. I am excited about the potential of this project and look forward to seeing it evolve into a valuable tool for users."
   },
   {
     "name": "This portfolio website",
@@ -50,7 +50,7 @@
     "ownership": "mine",
     "src": "assets/imgs/projects/myPortfolio.svg",
     "url": "",
-    "description": "I have designed this portfolio website to introduce myself, talk about my projects and show my capabilities in graphic design and front-end development. As you can see, I am very fond of the Matrix movie and used that theme here as much as I could. I tried my best to design my portfolio website in a short time, and there may be flaw in it. Therefore, if you see any, please let me know."
+    "description": "The purpose of this portfolio website is to showcase my skills and experience in graphic design and front-end development, as well as to introduce myself and highlight my projects. I have incorporated the theme of the Matrix movie into the design as it is a personal favorite of mine. Although I designed this website in a short period of time, I have put forth my best effort to ensure its quality. However, I recognize that there may be flaws or areas for improvement, so I would greatly appreciate any feedback or suggestions you may have. Thank you for taking the time to review my portfolio website."
   },
   {
     "name": "CSite back-end",
@@ -65,7 +65,7 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#1-web-development-projects",
-    "description": "It is my first full open-source back-end project that I used it for my teaching as well. I tried to use the most recent and modern technologies in its development."
+    "description": "This is my initial full open-source back-end project, which I have also used for teaching purposes. My aim was to incorporate the latest and most cutting-edge technologies into its development."
   },
   {
     "name": "CSite front-end",
@@ -73,7 +73,7 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
-    "description": "It is my first open-source Angular project that I could share publicly. This project will connect to CSite Backend project and work with it. Therefore, one should have enough knowledge to run both the .Net 6 back-end and Angular user interface in order to use these projects."
+    "description": "This is my first publicly available open-source Angular project, which is designed to connect with the CSite Backend project. It is important to note that in order to use these projects, one must have sufficient knowledge to run both the .Net 6 back-end and the Angular user interface."
   },
   {
     "name": "FaraWAMS back-end",
@@ -110,7 +110,7 @@
     "ownership": "Sarveentech co.",
     "src": "assets/imgs/projects/smartcattle.svg",
     "url": "",
-    "description": "Smart Cattle records and analyzes the animal activities and eating patterns for monitoring their health. All this is offered in an easy to use software as a service platform. I am working with the software team where we are developing the back-end with the modern technologies."
+    "description": "Smart Cattle is a software as a service platform that records and analyzes the activity patterns of farm animals to monitor their health. Our team is working on developing the back-end of the platform using the latest modern technologies. The end result will be an intuitive and user-friendly tool that simplifies the farm management."
   },
   {
     "name": "SmartCattle Identity Server",
@@ -126,7 +126,7 @@
     "ownership": "ASI Green Techs co.",
     "src": "assets/imgs/projects/web-design-amin.svg",
     "url": "",
-    "description": "Provides a platform for promoting sympathy and social connectivity in hard times and aims to cherish valuable norms and humanistic traits among people. Candle connects generations and expands sympathy. The project was developed using: Node.js, Express.js, Swagger, React Native, React.js, Next.js, pusher, push notification service (firebase), AWS Services such as Amplify (Serve UI using CI/CD), EC2 (Serve Backend), EC2 Load Balancer, S3, Route53 (Manage DNS), IAM. I worked as a back-end developer and developed ExpressJS and Swagger parts of this project."
+    "description": "Candle is a platform that helps people connect and support each other during tough times. It encourages positive traits and behaviors in people and brings different generations together to foster empathy and understanding. The project was developed using: ExpressJS, Swagger, ReactJS, NextJS."
   },
   {
     "name": "Simpal v2 - Full Stack",
@@ -142,7 +142,7 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
     "url": "https://github.com/amin-norollah/JS-code#2-pages",
-    "description": "I have a special interest in front-end designing, and sometimes I design vanilla JS pages. I shared my thoughts with vanilla JS on this page, because I think it is much more fun and easier to understand and share."
+    "description": "I have a keen interest in front-end design and enjoy creating vanilla JS pages from time to time. In fact, I have shared my thoughts regarding vanilla JS on this page because I find it both enjoyable and easy to comprehend and share."
   },
   {
     "name": "JS code - games",
@@ -150,7 +150,7 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
     "url": "https://github.com/amin-norollah/JS-code#4-games",
-    "description": "In the past, when I tried to learn JavaScript, I designed many interesting things such as simple games. In this part of my open-source project, I shared my first designs that I upgraded them to JS ES6+."
+    "description": "When I first started learning JavaScript, I created a variety of interesting things, including simple games. In this section of my open-source project, I have shared my original designs, which I have since upgraded to JS ES6+."
   },
   {
     "name": "Restaurant Management System using ExpressJS",
@@ -158,7 +158,7 @@
     "ownership": "person",
     "src": "assets/imgs/projects/web-design-amin.svg",
     "url": "",
-    "description": "It is my first JavaScript project experience. In this project, a local management system was developed via AngularJS, React Native, NodeJS, ExpressJS, and MongoDB in order to cope with customer orders, manage warehouse, and analyze store performance."
+    "description": "It is my first JavaScript project experience. In this project, a local management system was developed via AngularJS, NodeJS, ExpressJS, and MongoDB in order to cope with customer orders, manage warehouse, and analyze store performance."
   },
   {
     "name": "Noonnet application using ExpressJS",

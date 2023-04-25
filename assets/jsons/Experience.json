@@ -6,7 +6,7 @@
     "start": "Sep 2022",
     "end": "",
     "src": "assets/imgs/projects/VICINIA.svg",
-    "description": "My position is the full stack web developer and my responsibility is to develop Angular frontend and NodeJS backend softwares for embedded kiosks device used in universities, hospitals, and public buildings."
+    "description": "As a full-stack web developer, I am responsible for developing both the Angular frontend and NodeJS backend software for embedded kiosks devices utilized in various public settings, including universities, hospitals, and other public buildings. My primary objective is to ensure that the software is optimized for the kiosks' hardware and that it provides a seamless user experience."
   },
   {
     "company": "SarveenTech",
@@ -15,7 +15,7 @@
     "start": "Apr 2022",
     "end": "",
     "src": "assets/imgs/brands/sarveentech.svg",
-    "description": "I have developed a secure and reliable identity server based on IdentityServer4 and Skoruba Identity Server Admin. Moreover, I am working on enhancing the business logic of APIs and decreasing the number of API calls from the Angular front-end (minimizing load time). This project is going to publish and after that I will continue my cooperation as a backup developer for the maintenance service. "
+    "description": "I have created a highly secure and dependable identity server utilizing the cutting-edge technologies of IdentityServer4 and Skoruba Identity Server Admin. As part of my ongoing commitment to this project, I was engaged in enhancing the business logic of the APIs and optimizing the Angular frontend by reducing the number of API calls and minimizing load times. I continue my cooperation as a backup developer for the maintenance service. By doing so, I can ensure that this project remains sustainable and operationally sound, providing reliable identity services for years to come."
   },
   {
     "company": "Fara-control I.P",
@@ -24,7 +24,7 @@
     "start": "Aug 2021",
     "end": "",
     "src": "assets/imgs/brands/faracontrol.svg",
-    "description": "Developing the industrial platform in order to monitor and control the power grid network and SCADA systems. This project called FaraWAMS, is a successor project after Simpal v2. We are designing the high-performance and real-time platform to manage big data processing. To increase the performance of our databases, we used Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the main relational database, and MongoDB to store archive data. The .Net 6 is used for its back-end and ReactJS is used for its front-end."
+    "description": "We developed a high-performance, real-time industrial platform called FaraWAMS. This platform is designed to effectively monitor and control power grid networks and SCADA systems, and it is a successor project to the Simpal v2. To optimize database performance, we utilize Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive data storage. The back-end is developed using .Net 6, and ReactJS is used for its front-end."
   },
   {
     "company": "IUST",
@@ -33,7 +33,7 @@
     "start": "2Jan 2019",
     "end": "Mar 2022",
     "src": "assets/imgs/brands/IUST.svg",
-    "description": "I was a graduated researcher at Iran University of Science and Technology in collaboration with the Université Grenoble Alpes in France. As a result of my research, I published many scientific papers. During this time, I focused on several hardware security research projects. Investigating and finding vulnerable points of high-level codes in clock glitching attacks in RISC-V chips has been one of these researches. Another goal was to find sensitive code blocks in the C/C++ language and their compiled assembly code. We used tools such as KLEE and LLVM for symbolic execution simulation and the RISC-V simulator, and Xilinx Vivado tool for this purpose. As a result, several papers in this field were published in international journals and conferences."
+    "description": "I am a former research graduate of the Iran University of Science and Technology, where I collaborated with the Université Grenoble Alpes in France. My research endeavors have resulted in numerous scientific papers being published, with a particular focus on hardware security. One of my research projects involved investigating and identifying vulnerable points in high-level code during clock glitching attacks in RISC-V chips. Additionally, I aimed to identify sensitive code blocks in C/C++ language and their compiled assembly code. To accomplish this, we utilized various tools, including KLEE and LLVM for symbolic execution simulation, and the RISC-V simulator and Xilinx Vivado tool. Our efforts concluded in the publication of several papers in international journals and conferences, and we are proud to have contributed to the advancement of this field of study."
   },
   {
     "company": "ASI Green Techs",
@@ -42,7 +42,7 @@
     "start": "Sep 2021",
     "end": "Feb 2022",
     "src": "",
-    "description": "Provides a platform for promoting sympathy and social connectivity in hard times and aims to cherish valuable norms and humanistic traits among people. Candle connects generations and expands sympathy. I worked as a back-end developer and developed ExpressJS and Swagger parts of this project."
+    "description": "I was a back-end developer for Candle, a platform designed to promote sympathy and social connectivity. Candle bridges generational gaps and encourages empathy. My responsibilities included developing the ExpressJS and Swagger components of this project."
   },
   {
     "company": "Fara-control I.P",
@@ -51,7 +51,7 @@
     "start": "Oct 2020",
     "end": "Aug 2021",
     "src": "assets/imgs/brands/faracontrol.svg",
-    "description": "The main goal of these projects is to design and develop .Net based multi-level software for monitoring the electrical and distribution substations called Simpal v1 and v2. I worked with the software team and we develops the user interface for Simpal v1 and I were in charge of designing back-end and front-end of Simpal v2 as a senior software developer. We designed user-friendly modules to illustrate real-time charts so that researchers can monitor the archives' power grid system data and plan design of new power stations."
+    "description": "Our primary objective was to design and develop multi-level software using .Net for monitoring electrical and distribution substations in projects known as Simpal v1 and v2. In my role as a senior software developer, I was responsible for the back-end and front-end design of Simpal v2. Additionally, I worked with the software team to develop the user interface for Simpal v1. To enhance user experience, we incorporated user-friendly modules that featured real-time charts, allowing researchers to monitor archive power grid system data and plan new power station designs with ease. Our team is proud to have contributed to the successful delivery of these projects, which have been instrumental in advancing the field of electrical engineering."
   },
   {
     "company": "Projects",
@@ -60,7 +60,7 @@
     "start": "Mar 2019",
     "end": "Nov 2021",
     "src": "",
-    "description": "I developed many projects during this time, such as FNN, Noonnet, Restaurant Management System, and Neuro20EP for many people and companies."
+    "description": "During this period, I had the opportunity to develop numerous web-based projects for various individuals and companies. These projects included FNN, Noonnet, Restaurant Management System, and Neuro20EP, among others. For FNN, I implemented a responsive web design using modern front-end technologies such as ReactJS, HTML5, and CSS3. Additionally, I leveraged NodeJS and MongoDB for the back-end to ensure optimal performance and scalability."
   },
   {
     "company": "Ultrasonic co. (Topsonics)",
@@ -69,6 +69,6 @@
     "start": "Jan 2012",
     "end": "Sep 2016",
     "src": "assets/imgs/brands/ultrasonic.svg",
-    "description": "Participating in the project of designing a graphical interface for an ultrasonic homogenizer device, designing a 3D printer software interface, and website development are among my activities in this company."
+    "description": "My contributions to this company have included participation in multiple projects, such as the design of a graphical interface for an ultrasonic homogenizer device, the creation of a software interface for a 3D printer, and website development. Through my involvement in these projects, I have been able to leverage my expertise in software design and development. I take great pride in having played a role in delivering high-quality solutions that meet or exceed project requirements and expectations."
   }
 ]
