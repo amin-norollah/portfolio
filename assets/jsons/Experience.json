@@ -1,5 +1,14 @@
 [
   {
+    "company": "Mofid Securities",
+    "position": "Senior",
+    "isContinued": true,
+    "start": "May 2023",
+    "end": "",
+    "src": "assets/imgs/projects/mofid-securities.svg",
+    "description": "As a back-end developer, I am currently employed with the Mofid Online team, where my primary responsibilities include optimizing and maintaining existing code, as well as developing new features. I possess expertise in .NET Core, which enables me to develop high-performance and robust applications."
+  },
+  {
     "company": "Cntxts Inc. (Vicinia co.)",
     "position": "Senior",
     "isContinued": true,
@@ -11,18 +20,18 @@
   {
     "company": "SarveenTech",
     "position": "Senior",
-    "isContinued": true,
+    "isContinued": false,
     "start": "Apr 2022",
-    "end": "",
+    "end": "May 2023",
     "src": "assets/imgs/brands/sarveentech.svg",
     "description": "I have created a highly secure and dependable identity server utilizing the cutting-edge technologies of IdentityServer4 and Skoruba Identity Server Admin. As part of my ongoing commitment to this project, I was engaged in enhancing the business logic of the APIs and optimizing the Angular frontend by reducing the number of API calls and minimizing load times. I continue my cooperation as a backup developer for the maintenance service. By doing so, I can ensure that this project remains sustainable and operationally sound, providing reliable identity services for years to come."
   },
   {
     "company": "Fara-control I.P",
     "position": "CTO",
-    "isContinued": true,
+    "isContinued": false,
     "start": "Aug 2021",
-    "end": "",
+    "end": "May 2023",
     "src": "assets/imgs/brands/faracontrol.svg",
     "description": "We developed a high-performance, real-time industrial platform called FaraWAMS. This platform is designed to effectively monitor and control power grid networks and SCADA systems, and it is a successor project to the Simpal v2. To optimize database performance, we utilize Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive data storage. The back-end is developed using .Net 6, and ReactJS is used for its front-end."
   },
