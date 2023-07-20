@@ -9,13 +9,13 @@
     "description": "As a back-end developer, I am currently employed with the Mofid Online team, where my primary responsibilities include optimizing and maintaining existing code, as well as developing new features. I possess expertise in .NET Core, which enables me to develop high-performance and robust applications."
   },
   {
-    "company": "Cntxts Inc. (Vicinia co.)",
-    "position": "Senior",
-    "isContinued": true,
+    "company": "Cntxts Inc.",
+    "position": "Team lead",
+    "isContinued": false,
     "start": "Sep 2022",
-    "end": "",
+    "end": "May 2023",
     "src": "assets/imgs/projects/VICINIA.svg",
-    "description": "As a full-stack developer, I designed and developed both the back-end (ExpressJS) and front-end (Angular 16) parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements."
+    "description": "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements. My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
   },
   {
     "company": "SarveenTech",
@@ -28,10 +28,10 @@
   },
   {
     "company": "Fara-control I.P",
-    "position": "CTO",
+    "position": "Team lead",
     "isContinued": false,
     "start": "Aug 2021",
-    "end": "May 2023",
+    "end": "Feb 2023",
     "src": "assets/imgs/brands/faracontrol.svg",
     "description": "We developed a high-performance, real-time industrial platform called FaraWAMS. This platform is designed to effectively monitor and control power grid networks and SCADA systems, and it is a successor project to the Simpal v2. To optimize database performance, we utilize Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive data storage. The back-end is developed using .Net 6, and ReactJS is used for its front-end."
   },
@@ -39,14 +39,14 @@
     "company": "IUST",
     "position": "Researcher",
     "isContinued": false,
-    "start": "2Jan 2019",
-    "end": "Mar 2022",
+    "start": "Jan 2019",
+    "end": "Apr 2022",
     "src": "assets/imgs/brands/IUST.svg",
     "description": "I am a former research graduate of the Iran University of Science and Technology, where I collaborated with the Université Grenoble Alpes in France. My research endeavors have resulted in numerous scientific papers being published, with a particular focus on hardware security. One of my research projects involved investigating and identifying vulnerable points in high-level code during clock glitching attacks in RISC-V chips. Additionally, I aimed to identify sensitive code blocks in C/C++ language and their compiled assembly code. To accomplish this, we utilized various tools, including KLEE and LLVM for symbolic execution simulation, and the RISC-V simulator and Xilinx Vivado tool. Our efforts concluded in the publication of several papers in international journals and conferences, and we are proud to have contributed to the advancement of this field of study."
   },
   {
     "company": "Fara-control I.P",
-    "position": "Senior",
+    "position": "Mid-level",
     "isContinued": false,
     "start": "Oct 2020",
     "end": "Aug 2021",
