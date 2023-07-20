@@ -15,7 +15,7 @@
     "start": "Sep 2022",
     "end": "",
     "src": "assets/imgs/projects/VICINIA.svg",
-    "description": "As a full-stack web developer, I am responsible for developing both the Angular frontend and NodeJS backend software for embedded kiosks devices utilized in various public settings, including universities, hospitals, and other public buildings. My primary objective is to ensure that the software is optimized for the kiosks' hardware and that it provides a seamless user experience."
+    "description": "As a full-stack developer, I designed and developed both the back-end (ExpressJS) and front-end (Angular 16) parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements."
   },
   {
     "company": "SarveenTech",
@@ -43,15 +43,6 @@
     "end": "Mar 2022",
     "src": "assets/imgs/brands/IUST.svg",
     "description": "I am a former research graduate of the Iran University of Science and Technology, where I collaborated with the Université Grenoble Alpes in France. My research endeavors have resulted in numerous scientific papers being published, with a particular focus on hardware security. One of my research projects involved investigating and identifying vulnerable points in high-level code during clock glitching attacks in RISC-V chips. Additionally, I aimed to identify sensitive code blocks in C/C++ language and their compiled assembly code. To accomplish this, we utilized various tools, including KLEE and LLVM for symbolic execution simulation, and the RISC-V simulator and Xilinx Vivado tool. Our efforts concluded in the publication of several papers in international journals and conferences, and we are proud to have contributed to the advancement of this field of study."
-  },
-  {
-    "company": "ASI Green Techs",
-    "position": "Mid-level",
-    "isContinued": false,
-    "start": "Sep 2021",
-    "end": "Feb 2022",
-    "src": "",
-    "description": "I was a back-end developer for Candle, a platform designed to promote sympathy and social connectivity. Candle bridges generational gaps and encourages empathy. My responsibilities included developing the ExpressJS and Swagger components of this project."
   },
   {
     "company": "Fara-control I.P",
