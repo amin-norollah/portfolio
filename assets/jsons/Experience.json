@@ -1,19 +1,28 @@
 [
   {
-    "company": "Mofid Securities",
+    "company": "FocalPay co.",
     "position": "Senior",
     "isContinued": true,
-    "start": "May 2023",
+    "start": "Aug 2023",
     "end": "",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "description": "I am working at FocalPay, a company that developed an all-in-one software platform for Checkout, payments, and back-office operations. As a focused full-stack developer, my role centered on enhancing the back-end stack of this comprehensive solution. Being part of the team that created a unified platform, streamlining the entire payment process from customer transactions to back-office operations, was an immensely fulfilling experience."
+  },
+  {
+    "company": "Mofid Securities",
+    "position": "Senior",
+    "isContinued": false,
+    "start": "May 2023",
+    "end": "Oct 2023",
     "src": "assets/imgs/brands/mofid-securities.svg",
-    "description": "As a back-end developer, I am currently employed with the Mofid Online team, where my primary responsibilities include optimizing and maintaining existing code, as well as developing new features. I possess expertise in .NET Core, which enables me to develop high-performance and robust applications."
+    "description": "Mofid Securities Company is one of the top companies in Iran that has captured the largest market share in the country's stock exchange. During my time at this company, I worked as a backend developer in the “Mofid Online team”, specifically in the “Mofid Online Admin” and “Mofid Online Web API” sub-teams. I encountered various challenges during this period and gained valuable experiences. Mofid Online Admin: In this team, challenges included code refactoring and restructuring, optimizing the database stored procedures, and implementing new APIs. This sub-team was one of the best sub-teams at Mofid Securities, and in a short period of time, we were able to deliver a product ready for deployment with up-to-date standards. Mofid Online Web API: The main challenge in this team was managing the high volume of requests to the backend (Approximately 30 million requests per hour). Therefore, my main tasks in this sub-team were focused on improving performance, refactoring existing code, and redesigning APIs for the new version of the “Online Plus” and “Hamrah Plus” applications."
   },
   {
     "company": "Cntxts Inc.",
-    "position": "Team lead",
+    "position": "Tech lead",
     "isContinued": false,
     "start": "Sep 2022",
-    "end": "May 2023",
+    "end": "Aug 2023",
     "src": "assets/imgs/projects/VICINIA.svg",
     "description": "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements. My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
   },
