@@ -4,9 +4,16 @@
     "position": "Senior",
     "isContinued": true,
     "start": "Aug 2023",
-    "end": "",
+    "end": "Current",
     "src": "assets/imgs/brands/focalpay.svg",
-    "description": "I am working at FocalPay, a company that developed an all-in-one software platform for Checkout, payments, and back-office operations. As a focused full-stack developer, my role centered on enhancing the back-end stack of this comprehensive solution. Being part of the team that created a unified platform, streamlining the entire payment process from customer transactions to back-office operations, was an immensely fulfilling experience."
+    "description": [
+      "I am working at FocalPay, a company that developed an all-in-one software platform for Checkout, payments, and back-office operations. As a focused full-stack developer, my role centered on enhancing the back-end stack of this comprehensive solution. Being part of the team that created a unified platform, streamlining the entire payment process from customer transactions to back-office operations, was an immensely fulfilling experience."
+    ],
+    "opinion": [
+      "Engaging in international collaboration,",
+      "Establishing strong collaboration among group members,",
+      "Staying updated with market trends has helped us stay at the forefront of technology and using new tools."
+    ]
   },
   {
     "company": "Mofid Securities",
@@ -15,7 +22,18 @@
     "start": "May 2023",
     "end": "Oct 2023",
     "src": "assets/imgs/brands/mofid-securities.svg",
-    "description": "Mofid Securities Company is one of the top companies in Iran that has captured the largest market share in the country's stock exchange. During my time at this company, I worked as a backend developer in the “Mofid Online team”, specifically in the “Mofid Online Admin” and “Mofid Online Web API” sub-teams. I encountered various challenges during this period and gained valuable experiences. Mofid Online Admin: In this team, challenges included code refactoring and restructuring, optimizing the database stored procedures, and implementing new APIs. This sub-team was one of the best sub-teams at Mofid Securities, and in a short period of time, we were able to deliver a product ready for deployment with up-to-date standards. Mofid Online Web API: The main challenge in this team was managing the high volume of requests to the backend (Approximately 30 million requests per hour). Therefore, my main tasks in this sub-team were focused on improving performance, refactoring existing code, and redesigning APIs for the new version of the “Online Plus” and “Hamrah Plus” applications."
+    "description": [
+      "Mofid Securities Company is one of the top companies in Iran that has captured the largest market share in the country's stock exchange. During my time at this company, I worked as a backend developer in the “Mofid Online team”, specifically in the “Mofid Online Admin” and “Mofid Online Web API” sub-teams. I encountered various challenges during this period and gained valuable experiences.",
+      "1- Mofid Online Admin: In this team, challenges included code refactoring and restructuring, optimizing the database stored procedures, and implementing new APIs. This sub-team was one of the best sub-teams at Mofid Securities, and in a short period of time, we were able to deliver a product ready for deployment with up-to-date standards.",
+      "2- Mofid Online Web API: The main challenge in this team was managing the high volume of requests to the backend (Approximately 30 million requests per hour). Therefore, my main tasks in this sub-team were focused on improving performance, refactoring existing code, and redesigning APIs for the new version of the “Online Plus” and “Hamrah Plus” applications."
+    ],
+    "opinion": [
+      "We had a highly skilled development team consisting entirely of senior developers,",
+      "Dealing with a high volume of requests in the backend presented numerous performance challenges, which provided me with valuable experience,",
+      "We attended training classes aimed at enhancing our technical skills,",
+      "We had a positive team dynamic, with the lead team and other members working together to achieve project goals,",
+      "Working at Mofid Securities was an exceptional experience due to the respectful and supportive interactions among employees."
+    ]
   },
   {
     "company": "Cntxts Inc.",
@@ -24,7 +42,16 @@
     "start": "Sep 2022",
     "end": "Aug 2023",
     "src": "assets/imgs/projects/VICINIA.svg",
-    "description": "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements. My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
+    "description": [
+      "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements.",
+      "My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
+    ],
+    "opinion": [
+      "Collaborating with teams from different countries,",
+      "Building strong relationships within teams,",
+      "Facing numerous design challenges that significantly enhanced my skills,",
+      "Undertaking projects from inception, enabling me to implement optimal project structures."
+    ]
   },
   {
     "company": "SarveenTech",
@@ -33,16 +60,33 @@
     "start": "Apr 2022",
     "end": "May 2023",
     "src": "assets/imgs/brands/sarveentech.svg",
-    "description": "I have created a highly secure and dependable identity server utilizing the cutting-edge technologies of IdentityServer4 and Skoruba Identity Server Admin. As part of my ongoing commitment to this project, I was engaged in enhancing the business logic of the APIs and optimizing the Angular frontend by reducing the number of API calls and minimizing load times. I continue my cooperation as a backup developer for the maintenance service. By doing so, I can ensure that this project remains sustainable and operationally sound, providing reliable identity services for years to come."
+    "description": [
+      "I have created a highly secure and dependable identity server utilizing the cutting-edge technologies of IdentityServer4 and Skoruba Identity Server Admin. As part of my ongoing commitment to this project, I was engaged in enhancing the business logic of the APIs and optimizing the Angular frontend by reducing the number of API calls and minimizing load times.",
+      "I continue my cooperation as a backup developer for the maintenance service. By doing so, I can ensure that this project remains sustainable and operationally sound, providing reliable identity services for years to come."
+    ],
+    "opinion": [
+      "A professional yet relaxed working atmosphere,",
+      "Collaborating on two simultaneous projects involving different technologies that needed to be integrated,",
+      "Addressing software security concerns,",
+      "Collaborating with the hardware and operational teams."
+    ]
   },
   {
     "company": "Fara-control I.P",
-    "position": "Team lead",
+    "position": "Mid-level ~ Team lead",
     "isContinued": false,
     "start": "Aug 2021",
     "end": "Feb 2023",
     "src": "assets/imgs/brands/faracontrol.svg",
-    "description": "We developed a high-performance, real-time industrial platform called FaraWAMS. This platform is designed to effectively monitor and control power grid networks and SCADA systems, and it is a successor project to the Simpal v2. To optimize database performance, we utilize Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive data storage. The back-end is developed using .Net 6, and ReactJS is used for its front-end."
+    "description": [
+      "We developed a high-performance, real-time industrial platform called FaraWAMS. This platform is designed to effectively monitor and control power grid networks and SCADA systems, and it is a successor project to the Simpal v2.",
+      "To optimize database performance, we utilize Apache Ignite in-memory database for managing real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive data storage. The back-end is developed using .Net 6, and ReactJS is used for its front-end."
+    ],
+    "opinion": [
+      "Being a lead team for the first time provided me with a valuable opportunity to adopt a managerial perspective and strive towards achieving the desired product,",
+      "The company director's trust in our team's expertise and granting us freedom allowed us to leverage the latest web development technologies in developing the final product,",
+      "I held a dual role within the team as both a tech lead and the team lead, primarily due to my extensive familiarity with the system and the company's small size."
+    ]
   },
   {
     "company": "IUST",
@@ -51,7 +95,17 @@
     "start": "Jan 2019",
     "end": "Apr 2022",
     "src": "assets/imgs/brands/IUST.svg",
-    "description": "I am a former research graduate of the Iran University of Science and Technology, where I collaborated with the Université Grenoble Alpes in France. My research endeavors have resulted in numerous scientific papers being published, with a particular focus on hardware security. One of my research projects involved investigating and identifying vulnerable points in high-level code during clock glitching attacks in RISC-V chips. Additionally, I aimed to identify sensitive code blocks in C/C++ language and their compiled assembly code. To accomplish this, we utilized various tools, including KLEE and LLVM for symbolic execution simulation, and the RISC-V simulator and Xilinx Vivado tool. Our efforts concluded in the publication of several papers in international journals and conferences, and we are proud to have contributed to the advancement of this field of study."
+    "description": [
+      "I am a former research graduate of the Iran University of Science and Technology, where I collaborated with the Université Grenoble Alpes in France.",
+      "My research endeavors have resulted in numerous scientific papers being published, with a particular focus on hardware security. One of my research projects involved investigating and identifying vulnerable points in high-level code during clock glitching attacks in RISC-V chips.",
+      "Additionally, I aimed to identify sensitive code blocks in C/C++ language and their compiled assembly code. To accomplish this, we utilized various tools, including KLEE and LLVM for symbolic execution simulation, and the RISC-V simulator and Xilinx Vivado tool.",
+      "Our efforts concluded in the publication of several papers in international journals and conferences, and we are proud to have contributed to the advancement of this field of study."
+    ],
+    "opinion": [
+      "International cooperation,",
+      "Solve complex problems by focusing on the best solutions,",
+      "Collaborating with student teams and managing their works."
+    ]
   },
   {
     "company": "Fara-control I.P",
@@ -60,7 +114,16 @@
     "start": "Oct 2020",
     "end": "Aug 2021",
     "src": "assets/imgs/brands/faracontrol.svg",
-    "description": "Our primary objective was to design and develop multi-level software using .Net for monitoring electrical and distribution substations in projects known as Simpal v1 and v2. In my role as a senior software developer, I was responsible for the back-end and front-end design of Simpal v2. Additionally, I worked with the software team to develop the user interface for Simpal v1. To enhance user experience, we incorporated user-friendly modules that featured real-time charts, allowing researchers to monitor archive power grid system data and plan new power station designs with ease. Our team is proud to have contributed to the successful delivery of these projects, which have been instrumental in advancing the field of electrical engineering."
+    "description": [
+      "Our primary objective was to design and develop multi-level software using .Net for monitoring electrical and distribution substations in projects known as Simpal v1 and v2. In my role as a senior software developer, I was responsible for the back-end and front-end design of Simpal v2.",
+      "Additionally, I worked with the software team to develop the user interface for Simpal v1. To enhance user experience, we incorporated user-friendly modules that featured real-time charts, allowing researchers to monitor archive power grid system data and plan new power station designs with ease.",
+      "Our team is proud to have contributed to the successful delivery of these projects, which have been instrumental in advancing the field of electrical engineering."
+    ],
+    "opinion": [
+      "Having the opportunity to work on large-scale projects,",
+      "Projects involving substantial computational load and high volume of requests,",
+      "Collaborating with teams across different companies and organizations."
+    ]
   },
   {
     "company": "Projects",
@@ -69,15 +132,31 @@
     "start": "Mar 2019",
     "end": "Nov 2021",
     "src": "",
-    "description": "During this period, I had the opportunity to develop numerous web-based projects for various individuals and companies. These projects included FNN, Noonnet, Restaurant Management System, and Neuro20EP, among others. For FNN, I implemented a responsive web design using modern front-end technologies such as ReactJS, HTML5, and CSS3. Additionally, I leveraged NodeJS and MongoDB for the back-end to ensure optimal performance and scalability."
+    "description": [
+      "During this period, I had the opportunity to develop numerous web-based projects for various individuals and companies. These projects included FNN, Noonnet, Restaurant Management System, and Neuro20EP, among others.",
+      " For FNN, I implemented a responsive web design using modern front-end technologies such as ReactJS, HTML5, and CSS3. Additionally, I leveraged NodeJS and MongoDB for the back-end to ensure optimal performance and scalability."
+    ],
+    "opinion": [
+      "Enhancing my coding speed,",
+      "Expanding my knowledge by tackling challenges across various topics,",
+      "Gaining valuable experience through working with remote teams."
+    ]
   },
   {
     "company": "Ultrasonic co. (Topsonics)",
-    "position": "Junior",
+    "position": "Junior ~ Mid-level",
     "isContinued": false,
     "start": "Jan 2012",
     "end": "Sep 2016",
     "src": "assets/imgs/brands/ultrasonic.svg",
-    "description": "My contributions to this company have included participation in multiple projects, such as the design of a graphical interface for an ultrasonic homogenizer device, the creation of a software interface for a 3D printer, and website development. Through my involvement in these projects, I have been able to leverage my expertise in software design and development. I take great pride in having played a role in delivering high-quality solutions that meet or exceed project requirements and expectations."
+    "description": [
+      "My contributions to this company have included participation in multiple projects, such as the design of a graphical interface for an ultrasonic homogenizer device, the creation of a software interface for a 3D printer, and website development.",
+      " Through my involvement in these projects, I have been able to leverage my expertise in software design and development. I take great pride in having played a role in delivering high-quality solutions that meet or exceed project requirements and expectations."
+    ],
+    "opinion": [
+      "Accumulated knowledge and expertise,",
+      "Under the guidance of the skilled manager, Mr. Shahidi, I was able to uncover and nurture my talents,",
+      "Leveraging cutting-edge science and gathering customer feedback to enhance product development."
+    ]
   }
 ]

@@ -1,79 +1,92 @@
 [
   {
+    "title": "Portfolio v2.1.35",
+    "subtitle": "Boosting Performance and Enhancing Style in Web App Version 2",
+    "mediaPath": "assets/imgs/slider/newVersion.jpg",
+    "url": "https://norollah.com/"
+  },
+  {
+    "title": "Mofid Online - Backend projects",
+    "subtitle": "Refactoring Existing APIs and Designing New APIs",
+    "mediaPath": "assets/imgs/slider/mofid-online.jpg",
+    "url": "https://www.mofidonline.com/Account/Login"
+  },
+  {
+    "title": "FocalPay - Cashier System",
+    "subtitle": "Enhancing and Implementing the Cashier System and Writing Cypress Tests",
+    "mediaPath": "assets/imgs/slider/focalpay-cashier.jpg",
+    "url": "https://focalpay.se/"
+  },
+  {
     "title": "Under The Moon light",
-    "subtitle": "A responsive artwork which is sensitive to mouse movement (developed using Angular)",
+    "subtitle": "An Angular-based Responsive Artwork with Mouse Movement Sensitivity",
     "mediaPath": "assets/imgs/slider/under-the-moon-light.jpg",
     "url": "https://amin-norollah.github.io/under-the-moonlight/demo/"
   },
-  {
-    "title": "New portfolio theme",
-    "subtitle": "",
-    "mediaPath": "assets/imgs/slider/newTheme.jpg",
-    "url": "https://norollah.com/#/brightening"
-  },
+
   {
     "title": "Kiosk",
-    "subtitle": "Kisok web app is currently used for routing and content display of entertainment complexes, universities and administrative centers. I developed both frontend and backend of this project (Angular and ExpressJS).",
+    "subtitle": "I have developed both the frontend and backend of the Kisok web app, which is currently utilized for routing and content display in various settings such as entertainment complexes, universities, and administrative centers.",
     "mediaPath": "assets/imgs/slider/kiosk.jpg",
     "url": "https://kiosk.cntxts.com/"
   },
   {
     "title": "Smart-cattle portal (back-end and Identity server)",
-    "subtitle": "Smart Cattle records and analyzes the animal activities and eating patterns for monitoring their health.",
+    "subtitle": "Monitoring Animal Health through Activity and Eating Pattern Analysis",
     "mediaPath": "assets/imgs/slider/smartcattle.jpg",
     "url": "https://sc.sarveentech.ir/"
   },
   {
     "title": "FaraWAMS monitoring portal (back-end and Identity server)",
-    "subtitle": "Collecting, processing, monitoring and controlling power systems is a main purpose of this project.",
+    "subtitle": "Project Focus: Power System Collection, Processing, Monitoring, and Control",
     "mediaPath": "assets/imgs/slider/farawams.jpg",
     "url": "http://portal.macosyst.com/"
   },
   {
     "title": "CSite Backend",
-    "subtitle": "A sample open-source .Net 6 backend project using cutting-edge technologies",
+    "subtitle": "Cutting-Edge Technologies in Action: Exploring an Open-Source .NET 6 Backend Project",
     "mediaPath": "assets/imgs/slider/back-end1.jpg",
     "url": "https://github.com/amin-norollah/CSite_Backend_dotNet6"
   },
   {
     "title": "Care Your Eyes v1.0",
-    "subtitle": "Protect your eyes from tiredness and overwork (Open-source .Net framework project)",
+    "subtitle": "Alleviating Eye Fatigue and Strain: An Open-Source .NET Framework Project",
     "mediaPath": "assets/imgs/slider/careEye.jpg",
     "url": "https://github.com/amin-norollah/CareYourEyes"
   },
   {
     "title": "Pinkie (under construct)",
-    "subtitle": "A sample social media web app based on Angular technology",
+    "subtitle": "Exploring an Angular-Based Sample Social Media Web App",
     "mediaPath": "assets/imgs/slider/pinkie.jpg",
     "url": "https://github.com/amin-norollah/pinkie"
   },
   {
     "title": "Flight booking demo (vanilla JS)",
-    "subtitle": "a responsive web page to search, book and manage international flight tickets ",
+    "subtitle": "Seamlessly Searching, Booking, and Managing International Flight Tickets with a Responsive Web Page ",
     "mediaPath": "assets/imgs/slider/flight.jpg",
     "url": "https://amin-norollah.github.io/JS-code/Pages/FlightBooking/"
   },
   {
     "title": "Business Webpage (vanilla JS)",
-    "subtitle": "a lightweight, classical and responsive web page suitable for business plans",
+    "subtitle": "Crafting a Business-Friendly, Lightweight, and Responsive Web Page",
     "mediaPath": "assets/imgs/slider/business.jpg",
     "url": "https://amin-norollah.github.io/JS-code/Pages/BusinessWebpage/"
   },
   {
     "title": "Mosaic art gallery (vanilla JS)",
-    "subtitle": "This image photo gallery is fully responsive, uses a new features of vanilla JS.",
+    "subtitle": "Cutting-Edge Responsive Image Photo Gallery Powered by Vanilla JS",
     "mediaPath": "assets/imgs/slider/Mosaic.jpg",
     "url": "https://amin-norollah.github.io/JS-code/Pages/MosaicGallery/"
   },
   {
     "title": "Heatmap simulator",
-    "subtitle": "a responsive and easy to use project for creating heatmap chart with the resolution between 10x10 and 80x80 pixels.",
+    "subtitle": "Creating Responsive Heatmap Charts with Ease: A Project with Resolution Ranging from 10x10 to 80x80 Pixels",
     "mediaPath": "assets/imgs/slider/heatmap.jpg",
     "url": "https://amin-norollah.github.io/JS-code/Charts/Heatmap/"
   },
   {
     "title": "Nastaligh (SVG artwork)",
-    "subtitle": "",
+    "subtitle": "Exploring Diverse Techniques for Working with SVG Files through Artwork Project",
     "mediaPath": "assets/imgs/slider/nast.jpg",
     "url": "https://amin-norollah.github.io/JS-code/Pages/Nastaligh/"
   }

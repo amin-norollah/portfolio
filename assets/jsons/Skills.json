@@ -5,12 +5,20 @@
       "src": "assets/imgs/skills/languages/csharp.svg"
     },
     {
-      "name": "Javascript (ES6+)",
+      "name": "C++",
+      "src": "assets/imgs/skills/languages/cplusplus.svg"
+    },
+    {
+      "name": "Javascript",
       "src": "assets/imgs/skills/languages/javascript.svg"
     },
     {
       "name": "Typescript",
       "src": "assets/imgs/skills/languages/typescript.svg"
+    },
+    {
+      "name": "Java",
+      "src": "assets/imgs/skills/languages/java.svg"
     },
     {
       "name": "HTML",
@@ -27,6 +35,10 @@
   ],
   "frontEnd": [
     {
+      "name": "Vue.JS",
+      "src": "assets/imgs/skills/frontend/vueJs.svg"
+    },
+    {
       "name": "Angular",
       "src": "assets/imgs/skills/frontend/angularjs.svg"
     },
@@ -39,7 +51,7 @@
       "src": "assets/imgs/skills/frontend/material.svg"
     },
     {
-      "name": "ReactJs",
+      "name": "React.Js",
       "src": "assets/imgs/skills/frontend/react.svg"
     },
     {
@@ -49,7 +61,7 @@
   ],
   "backEnd": [
     {
-      "name": ".Net 6",
+      "name": ".Net core 8",
       "src": "assets/imgs/skills/backend/dot-net.svg"
     },
     {
@@ -63,6 +75,10 @@
     {
       "name": "ExpressJs",
       "src": "assets/imgs/skills/backend/express.svg"
+    },
+    {
+      "name": "Spring Boot",
+      "src": "assets/imgs/skills/backend/spring.svg"
     },
     {
       "name": "GraphQL",

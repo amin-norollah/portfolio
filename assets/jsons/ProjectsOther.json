@@ -4,7 +4,6 @@
     "ownership": "mine(open source)",
     "techs": [".Net framework 4.5.2", "WPF"],
     "src": "assets/imgs/projects/CareYourEyes.svg",
-    "route": "/care-your-eyes",
     "url": "https://github.com/amin-norollah/CareYourEyes",
     "description": "I have developed an application to help prevent eye strain and fatigue caused by prolonged computer use. This application serves as a reminder to take regular breaks at specified intervals. Previously, I had used other applications that were no longer available for free, which prompted me to create a free alternative. It is important to note that this application has limited features compared to its paid counterparts. Nevertheless, I am proud to have created a solution that can help individuals maintain healthy eye habits while avoiding the negative effects of extended computer usage."
   },

@@ -1,5 +1,43 @@
 [
   {
+    "name": "Cashier System",
+    "techs": [
+      "Vue.JS",
+      "Cypress"
+    ],
+    "ownership": "FocalPay co.",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "url": "",
+    "description": "In this project, my primary focus was on enhancing the performance of the existing Vue.JS front-end application. Additionally, I took the responsibility of implementing Cypress codes to enable automated testing for both end-to-end (E2E) and component-based test scenarios."
+  },
+  {
+    "name": "Mofid Online Plus",
+    "techs": [
+      ".Net core 6",
+      "Redis",
+      "Grafana",
+      "Performance",
+      "Acceptance and unit tests"
+    ],
+    "ownership": "Mofid Securities",
+    "src": "assets/imgs/projects/modifonline.svg",
+    "url": "",
+    "description": "The main challenge I encountered was managing an exceptionally high volume of backend requests, approximately 30 million per hour. Consequently, my primary tasks revolved around optimizing our API, utilizing asynchronous functions appropriately, identifying and eliminating zombie threads, enhancing code quality, and redesigning the APIs for the updated versions of the \"Online Plus\" and \"Hamrah Plus\" applications."
+  },
+  {
+    "name": "Mofid Online Admin",
+    "techs": [
+      ".Net core 6",
+      "Redesign",
+      "Performance",
+      "Acceptance and unit tests"
+    ],
+    "ownership": "Mofid Securities",
+    "src": "assets/imgs/projects/modifonline.svg",
+    "url": "",
+    "description": "The team faced several key challenges, such as refactoring and redesigning the code, optimizing database stored procedures, and implementing new APIs. Despite the tight timeframe, I successfully delivered a product that met the latest standards and was ready for deployment."
+  },
+  {
     "name": "Kiosk web app",
     "techs": [
       "Angular",
@@ -14,7 +52,7 @@
     "description": "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities, and administrative centers. As the developer of this project, I was responsible for both the front-end and back-end development, utilizing Angular 15 and ExpressJS. By leveraging these technologies, I was able to create a dynamic and responsive platform that can be easily customized to meet the unique needs of each client. I take pride in having contributed to the development of a sophisticated solution that enhances the user experience and improves overall productivity within these settings."
   },
   {
-    "name": "Vicinia web app",
+    "name": "Vicinia Desk",
     "techs": [
       "NodeJS",
       "Angular",

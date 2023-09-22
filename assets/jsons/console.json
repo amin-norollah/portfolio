@@ -1,0 +1,62 @@
+[
+  {
+    "command": "clear",
+    "description": "clear terminal",
+    "content": [""]
+  },
+  {
+    "command": "copyright",
+    "description": "show copyright",
+    "content": ["©2023 designed by Amin NOROLLAH"]
+  },
+  {
+    "command": "info",
+    "description": "about me",
+    "content": [
+      "name: amin norollah,",
+      "known as: balrug,",
+      "degree: Master of engineering,",
+      "career: developer,",
+      "lang.: c#, js, ts, java, c++",
+      "backend tech.: nodejs, .net core, spring boot,",
+      "frontend tech.: angular, vue.js,",
+      "experience: +11 years,",
+      "hobbies: working on my projects,"
+    ]
+  },
+  {
+    "command": "version",
+    "description": "version of web app",
+    "content": ["portfolio v2.1.35"]
+  },
+  {
+    "command": "init",
+    "description": "initial message",
+    "content": ["To see a list of supported commands, run: help"]
+  },
+  {
+    "command": "minimize",
+    "description": "minimize the terminal",
+    "content": ["in progress..."]
+  },
+  {
+    "command": "maximize",
+    "description": "maximize the terminal",
+    "content": ["in progress..."]
+  },
+  {
+    "command": "help",
+    "description": "list of commands",
+    "content": [""]
+  },
+  {
+    "command": "name YOUR_NAME",
+    "description": "set your name",
+    "content": [""]
+  },
+  {
+    "command": "search PHRASE",
+    "description": "search for content",
+    "content": [""]
+  }
+]

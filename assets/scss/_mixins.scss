@@ -1,0 +1,156 @@
+/*respond-to
+This mixin applies styles for screens equal
+to or greater than the specified breakpoint. You can use
+this mixin to create responsive designs that adapt to
+different screen sizes.
+*/
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+/*
+ellipsis
+This mixin adds an ellipsis to text that overflows
+its container. You can use this mixin to prevent
+text from overflowing and breaking the layout of your page.
+*/
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*
+clearfix
+This mixin clears floats to prevent layout issues
+caused by float elements. You can use this mixin
+to ensure that your layout stays consistent and predictable.
+*/
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/*
+transition
+This mixin adds a transition effect to elements.
+You can use this mixin to create smooth and subtle
+animations when elements change state.
+*/
+@mixin transition($property, $duration: 0.3s, $timing-function: ease-in-out) {
+  transition: $property $duration $timing-function;
+}
+
+/*
+placeholder
+This mixin styles the placeholder text of an input
+element. You can use this mixin to make the placeholder
+text more visible and readable.
+*/
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    /* Webkit browsers */
+    color: $placeholder-color;
+  }
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $placeholder-color;
+  }
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: $placeholder-color;
+  }
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: $placeholder-color;
+  }
+  &::placeholder {
+    /* Modern browsers */
+    color: $placeholder-color;
+  }
+}
+
+/*
+flex-center
+This mixin centers an element both horizontally
+and vertically using flexbox layout. You can use
+this mixin to easily center elements in your layout.
+
+.container {
+  @include flex-center();
+}
+*/
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+hover-bg
+This mixin applies a background color to an element
+when it is hovered over. You can use this mixin to
+create hover effects on elements.
+
+.button {
+  background-color: $primary-color;
+  color: #fff;
+  @include hover-bg($secondary-color);
+}
+*/
+@mixin hover-bg($color) {
+  @include transition(background-color);
+  &:hover {
+    background-color: $color;
+  }
+}
+
+/*
+triangle
+This mixin creates a triangle shape using CSS
+borders. You can use this mixin to create arrow
+or pointer shapes in your layout.
+
+.arrow {
+  @include triangle(10px, $primary-color, up);
+}
+*/
+@mixin triangle($size, $color, $direction: down) {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: $size / 2;
+
+  // Set border color for each direction
+  @if $direction == up {
+    border-color: $color transparent transparent transparent;
+  } @else if $direction == right {
+    border-color: transparent $color transparent transparent;
+  } @else if $direction == down {
+    border-color: transparent transparent $color transparent;
+  } @else if $direction == left {
+    border-color: transparent transparent transparent $color;
+  }
+}
+
+/*
+gradient
+This mixin creates a linear gradient background
+using CSS. You can use this mixin to create gradient
+effects in your layout.
+
+.header {
+  @include gradient($primary-color, $secondary-color);
+}
+*/
+@mixin gradient($start-color, $end-color) {
+  background: linear-gradient(to bottom, $start-color, $end-color);
+}

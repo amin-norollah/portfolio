@@ -1,0 +1,81 @@
+/*
+Fade-in animation
+This animation gradually fades in an element over a specified duration.
+
+*/
+.anim-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.anim-fade-out {
+  opacity: 0;
+  animation: fadeOut 0.5s ease-in-out forwards;
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
+
+/*
+Slide-in animation
+This animation slides an element in from the left or right over a specified duration.
+*/
+.anim-slide-in-left {
+  transform: translateX(-100%);
+  animation: slideInLeft 0.5s ease-in-out forwards;
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+.anim-slide-in-right {
+  transform: translateX(100%);
+  animation: slideInRight 0.5s ease-in-out forwards;
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+/*
+Spin animation 
+This animation spins an element 360 degrees over a specified duration.
+*/
+.anim-spin {
+  animation: spin 1s ease-in-out infinite;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

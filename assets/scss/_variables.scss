@@ -1,0 +1,148 @@
+// Color palette
+$color-primary: #00c400;
+$color-secondary: #007ccf;
+$color-light-1: #afe4af;
+$color-light-2: #9bf09b;
+$color-light-3: #83da83;
+$color-dark: #343a40;
+$color-dark-2: #006900;
+$color-dark-3: #1b1f1b;
+$color-highlight-1: rgba(0, 0, 0, 0.5);
+$color-highlight-2: rgba(17, 105, 17, 0.2);
+$color-highlight-3: rgba(12, 151, 12, 0.4);
+
+// Text colors
+$text-color: $color-light-1;
+$text-muted-color: #b7c2cc;
+$link-color: #00a300;
+$link-hover-color: #00e600;
+
+// System colors
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-info: #17a2b8;
+
+// Typography
+$font-family: "lato", tahoma, sans-serif;
+$font-family-title: "play", tahoma, sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.5;
+
+// Spacing
+$spacing-unit: 0.6rem;
+$padding-base: $spacing-unit / 2;
+$padding-large: $spacing-unit;
+$padding-x-large: $spacing-unit * 2;
+$margin-base: $spacing-unit / 2;
+$margin-large: $spacing-unit;
+$margin-x-large: $spacing-unit * 2;
+
+// Border
+$border-radius: 0.35rem;
+$border-width: 1px;
+$border-color: rgba(161, 164, 168, 0.5);
+
+// Z-index
+$z-index-1: 5;
+$z-index-2: 10;
+$z-index-3: 15;
+$z-index-4: 20;
+$z-index-5: 25;
+
+// Animation
+$translation-time: 0.25s;
+
+// Shadow
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+  rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+$box-shadow-2: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+  rgba(0, 0, 0, 0.12) 0px 1px 2px 0px;
+$box-shadow-inner: inset rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+$box-shadow-bottom: 0 3px 2px -2px rgba(0, 0, 0, 0.13);
+
+$box-shadow-fantastic: 0 0.5vh 1.3vh -0.6vh $color-primary,
+  inset 0 0.5vh 1vh -0.75vh $color-light-1;
+
+// Breakpoints
+$breakpoint-xs: 0; /* Extra small devices (phones) */
+$breakpoint-sm: 576px; /* Small devices (tablets) */
+$breakpoint-md: 768px; /* Medium devices (desktops) */
+$breakpoint-lg: 992px; /* Large devices (desktops) */
+$breakpoint-xl: 1200px; /* Extra large devices (large desktops) */
+
+// Buttons
+$btn-padding: 0.2rem 0.4rem;
+$btn-margin: 0.2rem;
+$btn-border-radius: 0.35rem;
+$btn-font-weight: bold;
+$btn-min-width: 5rem;
+$btn-height: 2rem;
+
+// Toggle
+$toggle-width: 4rem;
+$toggle-height: 2.1rem;
+$toggle-ball: 1.6rem;
+$toggle-margin: 0.5rem;
+
+// Card
+$card-margin: 0.5rem;
+$card-header-padding: 0 1rem 0.2rem 1rem;
+$card-content-margin: 0.3rem 1rem;
+$card-control-padding: 0.5rem 1rem;
+
+// Checkbox
+$checkbox-margin: 0.1rem 0.3rem;
+$checkbox-label-margin: 0.5rem;
+
+// Input
+$input-min-width: 14rem;
+$input-height: 2.1rem;
+$input-padding: 0 0.5rem;
+$input-margin: 0.45rem;
+$input-border-radius: $btn-border-radius;
+
+// Select
+$select-min-width: 14rem;
+$select-height: 2.1rem;
+$select-padding: 0 0.5rem;
+$select-margin: 0.45rem;
+$select-border-radius: $btn-border-radius;
+
+// Search
+$search-min-width: 14rem;
+$search-height: 2.5rem;
+$search-padding: 0 0.5rem;
+$search-margin: 0.45rem;
+$search-border-radius: $btn-border-radius;
+$search-results-padding: 0.5rem 0;
+$search-results-width: 20rem;
+$search-results-height: 2rem;
+
+// Modal
+$modal-max-height: 60vh;
+$modal-max-width: 40rem;
+$modal-padding: 0.5rem 1rem;
+
+// Progress bar
+$progress-bar-margin: 0.5rem;
+$progress-bar-min-width: 4rem;
+$progress-bar-height: 0.9rem;
+$progress-bar-color-0: #b80000;
+$progress-bar-color-20: #ff7300;
+$progress-bar-color-40: #ffb900;
+$progress-bar-color-60: #90ce00;
+$progress-bar-color-80: #00c70a;
+
+// Spinner
+$spinner-size: 5rem;
+$spinner-size-small: 2rem;
+
+// Paginator
+$paginator-width: 1.5rem;
+$paginator-height: 1.5rem;
+$paginator-margin: 0 0.3rem;
+$paginator-padding: 0.3rem 0;
+
+// Menu
+$menu-height: 1.6rem;
