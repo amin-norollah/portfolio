@@ -2,22 +2,25 @@
   {
     "name": "Secure And FAst hardware Scheduler (SAFAS)",
     "ownership": "mine (open-source)",
+    "date": "2022/11",
     "src": "assets/imgs/projects/SAFAS.svg",
     "url": "https://github.com/amin-norollah/SAFAS",
     "description": "Hardware scheduler is the concept of separating task scheduling unit from the Operating System(OS) and leaving it to a specific hardware unit for real-time connected embedded systems. Due to the direct access of the hardware scheduler to the processing units and the possibility of parallel control on each unit, the hardware scheduler is expected to increase efficiency and be able to better manage hardware resources than OS in multi-core systems."
   },
   {
-    "name": "PAT-Noxim - the NoC Simulator",
-    "ownership": "mine (open-source)",
-    "src": "assets/imgs/projects/Pat-noxim.svg",
-    "url": "https://github.com/amin-norollah/PAT-Noxim",
-    "description": "Networks-on-Chip (NoCs) have proven to be a low-latency and highly scalable in many-core architectures. Due to the importance of scalability, designers try to optimize latency, power and temperature across the network. Therefore, developing a precise tool to calculate the aforementioned attributes is of utmost importance. Designers need to evaluate their proposed techniques in a NoC simulated environment. So, we propose PAT-Noxim to address the shortcomings in design and post-design stages. PAT-Noxim, developed based on Access-Noxim, provides an environment to simulate a NoC in power consumption, area, delay and temperature models. PAT-Noxim is developed to support several predefined and custom architectures."
-  },
-  {
     "name": "RTHS - Real Time Hardware Sorter",
     "ownership": "mine (open-source)",
+    "date": "2019/2",
     "src": "assets/imgs/projects/RTHS.svg",
     "url": "https://github.com/amin-norollah/RTHS",
     "description": "We proposed a novel multi-dimensional sorting algorithm and its related FPGA-based architecture to greatly reduce the required resources, increase memory efficiency and have little negative impact on execution-time in the FPGA chip, while the number of input records increased. These features make our solution a worthy replacement to other sorting techniques. The proposed method can also be used for two other applications: 1) To implement Min/Max queues to find minimum and maximum records quickly, 2)to find the largest/smallest records in the stream Processing of the big data. In the latter case, we have access to the largest and the smallest records at any time through the sorting process. The hardware description of sorter that is provided in this project is a simple version of the RTHS design, that can sort 16 input records (4 x 4 matrix records)."
+  },
+  {
+    "name": "PAT-Noxim - the NoC Simulator",
+    "ownership": "mine (open-source)",
+    "date": "2018/7",
+    "src": "assets/imgs/projects/Pat-noxim.svg",
+    "url": "https://github.com/amin-norollah/PAT-Noxim",
+    "description": "Networks-on-Chip (NoCs) have proven to be a low-latency and highly scalable in many-core architectures. Due to the importance of scalability, designers try to optimize latency, power and temperature across the network. Therefore, developing a precise tool to calculate the aforementioned attributes is of utmost importance. Designers need to evaluate their proposed techniques in a NoC simulated environment. So, we propose PAT-Noxim to address the shortcomings in design and post-design stages. PAT-Noxim, developed based on Access-Noxim, provides an environment to simulate a NoC in power consumption, area, delay and temperature models. PAT-Noxim is developed to support several predefined and custom architectures."
   }
 ]
