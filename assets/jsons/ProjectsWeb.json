@@ -1,7 +1,7 @@
 [
   {
     "name": "Cashier System",
-    "techs": ["Vue.JS", "Cypress", "Performance"],
+    "techs": ["Clean code", "Vue.JS", "Cypress", "Performance"],
     "date": "2023/9",
     "ownership": "FocalPay co.",
     "src": "assets/imgs/brands/focalpay.svg",
@@ -11,6 +11,7 @@
   {
     "name": "Mofid Online Plus",
     "techs": [
+      "Clean code",
       ".Net core",
       "Redis",
       "Prometheus",
@@ -33,6 +34,7 @@
   {
     "name": "Mofid Online Admin",
     "techs": [
+      "Clean code",
       ".Net core",
       "Redesign",
       "Performance",
@@ -55,6 +57,7 @@
   {
     "name": "Kiosk web app",
     "techs": [
+      "Clean code",
       "Angular",
       "Angular material",
       "Keen slider",
@@ -63,7 +66,8 @@
       "State management",
       "RXJS",
       "CSS",
-      "HTML"
+      "HTML",
+      "Cypress"
     ],
     "date": "2023/6",
     "ownership": "Cntxts Inc.",
@@ -74,6 +78,7 @@
   {
     "name": "Vicinia Desk",
     "techs": [
+      "Clean code",
       "NodeJS",
       "Angular",
       "Redesign",
@@ -95,6 +100,7 @@
   {
     "name": "Farawams Identity Server",
     "techs": [
+      "Clean code",
       ".Net core",
       "Postgre db",
       "Identity server",
@@ -112,7 +118,14 @@
   },
   {
     "name": "Pinkie (under construct)",
-    "techs": ["Angular", "Angular material", "RXJS", "CSS", "HTML"],
+    "techs": [
+      "Clean code",
+      "Angular",
+      "Angular material",
+      "RXJS",
+      "CSS",
+      "HTML"
+    ],
     "date": "2023/4",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/pinkie.svg",
@@ -121,7 +134,16 @@
   },
   {
     "name": "This portfolio website",
-    "techs": ["Angular", "chart.Js", "Design system", "RXJS", "CSS", "HTML"],
+    "techs": [
+      "Clean code",
+      "Angular",
+      "chart.Js",
+      "Design system",
+      "RXJS",
+      "CSS",
+      "HTML",
+      "Cypress"
+    ],
     "date": "2022/7",
     "ownership": "mine",
     "src": "assets/imgs/projects/myPortfolio.svg",
@@ -131,6 +153,7 @@
   {
     "name": "CSite back-end",
     "techs": [
+      "Clean code",
       ".Net core",
       "Swagger",
       "SQL Server",
@@ -148,7 +171,14 @@
   },
   {
     "name": "CSite front-end",
-    "techs": ["Angular", "Angular material", "RXJS", "CSS", "HTML"],
+    "techs": [
+      "Clean code",
+      "Angular",
+      "Angular material",
+      "RXJS",
+      "CSS",
+      "HTML"
+    ],
     "date": "2023/2",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
@@ -158,6 +188,7 @@
   {
     "name": "FaraWAMS back-end",
     "techs": [
+      "Clean code",
       ".Net core",
       "Swagger",
       "Gateway",
@@ -183,6 +214,7 @@
   {
     "name": "SmartCattle back-end",
     "techs": [
+      "Clean code",
       ".Net core",
       "Swagger",
       "SQL Server",
@@ -202,7 +234,13 @@
   },
   {
     "name": "SmartCattle Identity Server",
-    "techs": [".Net core", "Swagger", "SQL Server", "Identity server"],
+    "techs": [
+      "Clean code",
+      ".Net core",
+      "Swagger",
+      "SQL Server",
+      "Identity server"
+    ],
     "date": "2022/5",
     "ownership": "Sarveentech co.",
     "src": "assets/imgs/projects/identityserver-smartcatle.svg",
@@ -211,7 +249,7 @@
   },
   {
     "name": "Candle back-end",
-    "techs": ["NodeJS", "ExpressJS", "Swagger"],
+    "techs": ["Clean code", "NodeJS", "ExpressJS", "Swagger"],
     "date": "2021/10",
     "ownership": "ASI Green Techs co.",
     "src": "assets/imgs/projects/web-design-amin.svg",
@@ -220,7 +258,15 @@
   },
   {
     "name": "Simpal v2 - Full Stack",
-    "techs": [".Net core", "WPF", "Angular", "CSS", "HTML", "SQL Server"],
+    "techs": [
+      "Clean code",
+      ".Net core",
+      "WPF",
+      "Angular",
+      "CSS",
+      "HTML",
+      "SQL Server"
+    ],
     "date": "2020/8",
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/simpal2.jpg",
@@ -229,7 +275,7 @@
   },
   {
     "name": "JS code - pages",
-    "techs": ["Vanilla JS", "CSS", "HTML"],
+    "techs": ["Clean code", "Vanilla JS", "CSS", "HTML"],
     "date": "2021/5",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
@@ -238,7 +284,7 @@
   },
   {
     "name": "JS code - games",
-    "techs": ["Vanilla JS", "CSS", "HTML"],
+    "techs": ["Clean code", "Vanilla JS", "CSS", "HTML"],
     "date": "2021/5",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
@@ -247,7 +293,7 @@
   },
   {
     "name": "Restaurant Management System using ExpressJS",
-    "techs": ["NodeJS", "ExpressJS", "MongoDB"],
+    "techs": ["Clean code", "NodeJS", "ExpressJS", "MongoDB"],
     "date": "2021/3",
     "ownership": "person",
     "src": "assets/imgs/projects/web-design-amin.svg",
@@ -256,7 +302,7 @@
   },
   {
     "name": "Noonnet application using ExpressJS",
-    "techs": ["NodeJS", "ExpressJS", "Swagger", "MongoDB"],
+    "techs": ["Clean code", "NodeJS", "ExpressJS", "Swagger", "MongoDB"],
     "date": "2019/2",
     "ownership": "person",
     "src": "assets/imgs/projects/web-design-amin.svg",
