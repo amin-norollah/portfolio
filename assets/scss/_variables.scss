@@ -12,7 +12,7 @@ $color-highlight-2: rgba(17, 105, 17, 0.2);
 $color-highlight-3: rgba(12, 151, 12, 0.4);
 
 // Text colors
-$text-color: $color-light-1;
+$text-color: #c4e0c4;
 $text-muted-color: #b7c2cc;
 $link-color: #00a300;
 $link-hover-color: #00e600;
@@ -24,7 +24,7 @@ $color-warning: #ffc107;
 $color-info: #17a2b8;
 
 // Typography
-$font-family: "lato", tahoma, sans-serif;
+$font-family: "Roboto", tahoma, sans-serif;
 $font-family-title: "play", tahoma, sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.5;
@@ -87,7 +87,7 @@ $toggle-margin: 0.5rem;
 
 // Card
 $card-margin: 0.5rem;
-$card-header-padding: 0 1rem 0.2rem 1rem;
+$card-header-padding: 0.3vh 1.5vw;
 $card-content-margin: 0.3rem 1rem;
 $card-control-padding: 0.5rem 1rem;
 

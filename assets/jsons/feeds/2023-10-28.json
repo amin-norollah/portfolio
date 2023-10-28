@@ -1,0 +1,18 @@
+{
+  "title": "CSS Trick: Selecting and Changing Sibling Elements on Hover",
+  "content": [
+    "<p>Have you ever wondered how to select and change the styles of previous and next sibling elements when one of the elements is being hovered? While using JavaScript is certainly an option, did you know that you can achieve the same effect using pure CSS?</p>",
+
+    "<p>consider we have following elements:</p>",
+    "<code>&lt;div&gt; &lt;a&gt;1&lt;/a&gt;&lt;a&gt;2&lt;/a&gt;&lt;a&gt;3&lt;/a&gt;&lt;a&gt;4&lt;/a&gt;&lt;a&gt;5&lt;/a&gt; &lt;/div&gt;</code>",
+
+    "<p>and CSS class is:</p>",
+    "<code>a <p>{color: #f55;}</p></code>",
+
+    "<p>Now, here comes the interesting part. I use the :has() selector along with the general sibling combinator (~) to target the previous sibling elements (i.e., the elements before a:hover). and I use ~ a to select the next sibling elements when any of the <code>&lt;a&gt;</code> elements are being hovered. This combination of selectors allows us to precisely select and style the desired elements based on the hover state.</p>",
+
+    "<code> <p>a:has(~ a:hover),</p>   <p> a:hover ~ a </p><p>{     color: #000;    }  </p>  </code>"
+  ],
+  "image": "assets/imgs/feeds/csstrick.jpg",
+  "publishedDate": "2023/10/28"
+}
