@@ -27,7 +27,7 @@
   {
     "command": "version",
     "description": "version of web app",
-    "content": ["portfolio v2.1.35"]
+    "content": ["portfolio v2.2.15"]
   },
   {
     "command": "init",
