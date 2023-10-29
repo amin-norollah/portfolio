@@ -25,10 +25,10 @@
   },
 
   {
-    "title": "Kiosk",
+    "title": "Kiosk Web App",
     "subtitle": "I have developed both the frontend and backend of the Kisok web app, which is currently utilized for routing and content display in various settings such as entertainment complexes, universities, and administrative centers.",
     "mediaPath": "assets/imgs/slider/kiosk.jpg",
-    "url": "https://kiosk.cntxts.com/"
+    "url": "https://dev.cntxts.com/kiosk"
   },
   {
     "title": "Smart-cattle portal (back-end and Identity server)",
