@@ -64,6 +64,37 @@
     "description": "The team faced several key challenges, such as refactoring and redesigning the code, optimizing database stored procedures, and implementing new APIs. Despite the tight timeframe, I successfully delivered a product that met the latest standards and was ready for deployment."
   },
   {
+    "name": "Vicinia Map-Library",
+    "techs": ["Angular", "Google maps", "RXJS", "CSS", "HTML"],
+    "date": "2023/7",
+    "ownership": "Cntxts Inc.",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "url": "",
+    "description": "I developed a map-library package to enhance Google Maps with new features, allowing other applications within Cntxts Inc. to seamlessly utilize these capabilities without any extra code. The significant additions to this project include 2D and 2.5D maps for buildings, improved pins and information display, and the implementation of routing and directions to guide users from their source to their destination."
+  },
+  {
+    "name": "Vicinia Desk",
+    "techs": [
+      "Clean code",
+      "NodeJS",
+      "Angular",
+      "Redesign",
+      "PrimeNG",
+      "MongoDB",
+      "Mongoose",
+      "Swagger",
+      "State management",
+      "RXJS",
+      "CSS",
+      "HTML"
+    ],
+    "date": "2023/6",
+    "ownership": "Cntxts Inc.",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "url": "",
+    "description": "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centers, universities, and hospitals have yet to be fully developed. This project seeks to address this need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on this project, my role involved the development of both the front-end and back-end parts of kiosks admin (back-office)."
+  },
+  {
     "name": "Kiosk web app",
     "techs": [
       "Clean code",
@@ -78,33 +109,11 @@
       "HTML",
       "Cypress"
     ],
-    "date": "2023/6",
+    "date": "2023/4",
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
     "description": "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities, and administrative centers. As the developer of this project, I was responsible for both the front-end and back-end development, utilizing Angular 15 and ExpressJS. By leveraging these technologies, I was able to create a dynamic and responsive platform that can be easily customized to meet the unique needs of each client. I take pride in having contributed to the development of a sophisticated solution that enhances the user experience and improves overall productivity within these settings."
-  },
-  {
-    "name": "Vicinia Desk",
-    "techs": [
-      "Clean code",
-      "NodeJS",
-      "Angular",
-      "Redesign",
-      "Angular material",
-      "MongoDB",
-      "Mongoose",
-      "Swagger",
-      "State management",
-      "RXJS",
-      "CSS",
-      "HTML"
-    ],
-    "date": "2023/6",
-    "ownership": "Cntxts Inc.",
-    "src": "assets/imgs/projects/VICINIA.svg",
-    "url": "",
-    "description": "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centers, universities, and hospitals have yet to be fully developed. This project seeks to address this need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on this project, my role involved the development of both the front-end and back-end parts of kiosks admin (back-office)."
   },
   {
     "name": "Farawams Identity Server",
