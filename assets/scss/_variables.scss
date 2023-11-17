@@ -24,8 +24,8 @@ $color-warning: #ffc107;
 $color-info: #17a2b8;
 
 // Typography
-$font-family: "Roboto", tahoma, sans-serif;
-$font-family-title: "play", tahoma, sans-serif;
+$font-family: 'Roboto', tahoma, sans-serif;
+$font-family-title: 'play', tahoma, sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.5;
 
@@ -54,14 +54,17 @@ $z-index-5: 25;
 $translation-time: 0.25s;
 
 // Shadow
-$box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+$box-shadow:
+  rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
   rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-$box-shadow-2: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+$box-shadow-2:
+  rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
   rgba(0, 0, 0, 0.12) 0px 1px 2px 0px;
 $box-shadow-inner: inset rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
 $box-shadow-bottom: 0 3px 2px -2px rgba(0, 0, 0, 0.13);
 
-$box-shadow-fantastic: 0 0.5vh 1.3vh -0.6vh $color-primary,
+$box-shadow-fantastic:
+  0 0.5vh 1.3vh -0.6vh $color-primary,
   inset 0 0.5vh 1vh -0.75vh $color-light-1;
 
 // Breakpoints
