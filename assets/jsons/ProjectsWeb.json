@@ -1,7 +1,16 @@
 [
   {
+    "name": "FocalPay backend robot test",
+    "techs": ["Robot Framework", "API Testing", "Database Testing", "Go", "Selenium", "Continuous Integration"],
+    "date": "2023/11",
+    "ownership": "FocalPay co.",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "url": "",
+    "description": "Due to the criticality and sensitivity of our services, we have chosen to utilize robot tests to ensure the smooth operation and proper functionality of all components, thereby guaranteeing reliability and efficiency."
+  },
+  {
     "name": "Cashier System",
-    "techs": ["Clean code", "Vue.JS", "Cypress", "Performance"],
+    "techs": ["Clean code", "Vue.JS", "Cypress", "Performance", "Continuous Integration"],
     "date": "2023/9",
     "ownership": "FocalPay co.",
     "src": "assets/imgs/brands/focalpay.svg",
@@ -118,14 +127,7 @@
   },
   {
     "name": "Pinkie (under construct)",
-    "techs": [
-      "Clean code",
-      "Angular",
-      "Angular material",
-      "RXJS",
-      "CSS",
-      "HTML"
-    ],
+    "techs": ["Clean code", "Angular", "Angular material", "RXJS", "CSS", "HTML"],
     "date": "2023/4",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/pinkie.svg",
@@ -134,16 +136,7 @@
   },
   {
     "name": "This portfolio website",
-    "techs": [
-      "Clean code",
-      "Angular",
-      "chart.Js",
-      "Design system",
-      "RXJS",
-      "CSS",
-      "HTML",
-      "Cypress"
-    ],
+    "techs": ["Clean code", "Angular", "chart.Js", "Design system", "RXJS", "CSS", "HTML", "Cypress"],
     "date": "2022/7",
     "ownership": "mine",
     "src": "assets/imgs/projects/myPortfolio.svg",
@@ -171,14 +164,7 @@
   },
   {
     "name": "CSite front-end",
-    "techs": [
-      "Clean code",
-      "Angular",
-      "Angular material",
-      "RXJS",
-      "CSS",
-      "HTML"
-    ],
+    "techs": ["Clean code", "Angular", "Angular material", "RXJS", "CSS", "HTML"],
     "date": "2023/2",
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
@@ -234,13 +220,7 @@
   },
   {
     "name": "SmartCattle Identity Server",
-    "techs": [
-      "Clean code",
-      ".Net core",
-      "Swagger",
-      "SQL Server",
-      "Identity server"
-    ],
+    "techs": ["Clean code", ".Net core", "Swagger", "SQL Server", "Identity server"],
     "date": "2022/5",
     "ownership": "Sarveentech co.",
     "src": "assets/imgs/projects/identityserver-smartcatle.svg",
@@ -258,15 +238,7 @@
   },
   {
     "name": "Simpal v2 - Full Stack",
-    "techs": [
-      "Clean code",
-      ".Net core",
-      "WPF",
-      "Angular",
-      "CSS",
-      "HTML",
-      "SQL Server"
-    ],
+    "techs": ["Clean code", ".Net core", "WPF", "Angular", "CSS", "HTML", "SQL Server"],
     "date": "2020/8",
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/simpal2.jpg",
