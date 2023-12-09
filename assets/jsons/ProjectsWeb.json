@@ -1,6 +1,6 @@
 [
   {
-    "name": "FocalPay backend robot test",
+    "name": "Robot-test",
     "techs": ["Robot Framework", "API Testing", "Database Testing", "Go", "Selenium", "Continuous Integration"],
     "date": "2023/11",
     "ownership": "FocalPay co.",
