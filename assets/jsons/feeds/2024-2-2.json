@@ -1,0 +1,18 @@
+{
+  "title": "Maintain Your Github Contributions When Leaving an Organization",
+  "content": [
+    "<p>As software engineers, we frequently experience the thrill of transitioning to a new job. However, we often fail to consider the inevitable outcome of being removed from our previous Github organization. Our hard work and contributions will rapidly vanish from our Github profile after we are removed from the company where we made significant updates over time.</p>",
+
+    "<p>For those of us who value our Github profiles, it can be disheartening to think about losing our contributions. A software engineer's Github profile is like their resume in my eyes. So, it's important to make sure we keep our contributions intact on our profiles. A neat and regular contributions graph on your Github profile not only shows how committed you are, but also makes you more noticeable to potential employers. </p>",
+    
+    "<h4>What should we do to make sure we don't lose the contributions we worked hard for?</h4>",
+
+    "<p>The solution is straightforward. Make sure to 'Star ⭐' the repositories in your organization that you are actively contributing to. This way, your contributions will still be tracked in your graph, even if you decide to leave the organization or unfork the repository later on.</p>",
+    
+    "<h4>And before you depart from your company, be sure...</h4>",
+
+    "<p>to update the necessary information in your personal account including unverifying your company email address in your Email settings. You can then delete it and re-add it without verification to ensure any associated commits remain linked to your account.</p>"
+  ],
+  "image": "assets/imgs/feeds/github_contributions.jpg",
+  "publishedDate": "2024/2/2"
+}
