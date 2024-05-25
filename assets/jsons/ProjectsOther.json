@@ -6,7 +6,7 @@
     "techs": ["Clean code", ".Net framework", "WPF"],
     "src": "assets/imgs/projects/CareYourEyes.svg",
     "url": "https://github.com/amin-norollah/CareYourEyes",
-    "description": "I have developed an application to help prevent eye strain and fatigue caused by prolonged computer use. This application serves as a reminder to take regular breaks at specified intervals. Previously, I had used other applications that were no longer available for free, which prompted me to create a free alternative. It is important to note that this application has limited features compared to its paid counterparts. Nevertheless, I am proud to have created a solution that can help individuals maintain healthy eye habits while avoiding the negative effects of extended computer usage."
+    "description": ["I have developed an application to help prevent eye strain and fatigue caused by prolonged computer use. This application serves as a reminder to take regular breaks at specified intervals. Previously, I had used other applications that were no longer available for free, which prompted me to create a free alternative.","It is important to note that this application has limited features compared to its paid counterparts.","Nevertheless, I am proud to have created a solution that can help individuals maintain healthy eye habits while avoiding the negative effects of extended computer usage."]
   },
   {
     "name": "Simpal v1",
@@ -22,7 +22,7 @@
     ],
     "src": "assets/imgs/projects/simpal1.jpg",
     "url": "",
-    "description": "The Simpal v1 software, which was developed based on .Net framework 4.5 and the Windows form platform, was created in order to access the archived data of the power grid system and make it possible to studies on it. This project was associated with significant success and laid the foundation for the development of Simpal v2 and FaraWAMS software."
+    "description": ["The Simpal v1 software, which was developed based on .Net framework 4.5 and the Windows form platform, was created in order to access the archived data of the power grid system and make it possible to studies on it. This project was associated with significant success and laid the foundation for the development of Simpal v2 and FaraWAMS software."]
   },
   {
     "name": "Forecast Neural Network (FNN)",
@@ -38,7 +38,7 @@
     ],
     "src": "assets/imgs/projects/FNN.jpg",
     "url": "",
-    "description": "We developed a software solution for global stock market analysis, utilizing artificial intelligence with a deep learning-based approach. This software has the ability to analyze more than 30 different markets instantly and provide tailored solutions to increase productivity in each market. The technology stack used for this project included CNTK, WPF, SQLite, and .Net core 3.1. Our team is proud to have employed cutting-edge technologies to deliver a powerful and effective solution for our clients in the financial sector."
+    "description": ["We developed a software solution for global stock market analysis, utilizing artificial intelligence with a deep learning-based approach. This software has the ability to analyze more than 30 different markets instantly and provide tailored solutions to increase productivity in each market.","The technology stack used for this project included CNTK, WPF, SQLite, and .Net core 3.1. Our team is proud to have employed cutting-edge technologies to deliver a powerful and effective solution for our clients in the financial sector."]
   },
   {
     "name": "Neuro20EP",
@@ -54,6 +54,6 @@
     ],
     "src": "assets/imgs/projects/neuro20ep.jpg",
     "url": "",
-    "description": "One of the projects is to design a health-care software that receives converted analog brain signals from more than eight input channels, processes data, analyses data and helps the neurologists diagnose abnormalities using indicators. The technology of most of these projects are C++ and C# languages based on .Net framework 4.7.2."
+    "description": ["One of the projects is to design a health-care software that receives converted analog brain signals from more than eight input channels, processes data, analyses data and helps the neurologists diagnose abnormalities using indicators. The technology of most of these projects are C++ and C# languages based on .Net framework 4.7.2."]
   }
 ]

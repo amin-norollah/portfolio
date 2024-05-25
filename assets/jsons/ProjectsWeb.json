@@ -1,21 +1,40 @@
 [
   {
-    "name": "Robot-test",
+    "name": "Centra: 3th-party application",
+    "techs": ["Centra e-commerce platform", "Integration", "3th-party", "NodeJS", "ExpressJS", "Rest API", "Scheduler"],
+    "date": "2024/4",
+    "ownership": "FocalPay co.",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "url": "https://centra.com/",
+    "description": [
+      "Centra is an advanced e-commerce platform that consumer brands can use. It has features for both direct-to-consumer and wholesale e-commerce.",
+      "FocalPay is also an e-commerce platform, and its main goal is to manage physical stores. FocalPay started to integrate with other platforms so users could use FocalPay's services along with their other web-based solutions.",
+      "The idea behind the project I developed was to create a service that would make it easy and safe for other e-commerce platforms to connect to FocalPay, and vice versa."
+    ]
+  },
+  {
+    "name": "Robot-test framework",
     "techs": ["Robot Framework", "API Testing", "Database Testing", "Go", "Selenium", "Continuous Integration"],
     "date": "2023/11",
     "ownership": "FocalPay co.",
     "src": "assets/imgs/brands/focalpay.svg",
     "url": "",
-    "description": "Due to the criticality and sensitivity of our services, we have chosen to utilize robot tests to ensure the smooth operation and proper functionality of all components, thereby guaranteeing reliability and efficiency."
+    "description": [
+      "The use of a robot test framework allows us to thoroughly validate the smooth operation and proper functionality of all our APIs, thereby ensuring the reliability and efficiency of our critical and sensitive services.",
+      "Also, this approach allows us to quickly and comprehensively validate any changes or new features before deploying them to production.",
+      "My responsibility was to develop the structure of a robot testing project. This involved utilizing and implementing temporary services using a Docker-in-Docker approach. also, I was tasked with writing the test case code in order to enhance the speed of test writing with test team."
+    ]
   },
   {
-    "name": "Cashier System",
+    "name": "Cashier front-end platform",
     "techs": ["Clean code", "Vue.JS", "Cypress", "Performance", "Continuous Integration"],
     "date": "2023/9",
     "ownership": "FocalPay co.",
     "src": "assets/imgs/brands/focalpay.svg",
     "url": "",
-    "description": "In this project, my primary focus was on enhancing the performance of the existing Vue.JS front-end application. Additionally, I took the responsibility of implementing Cypress codes to enable automated testing for both end-to-end (E2E) and component-based test scenarios."
+    "description": [
+      "In this project, my primary focus was on enhancing the performance of the existing Vue.JS front-end application. Also, I took the responsibility of implementing Cypress codes to enable automated testing for both end-to-end (E2E) and component-based test scenarios."
+    ]
   },
   {
     "name": "Mofid Online Plus",
@@ -38,7 +57,9 @@
     "ownership": "Mofid Securities",
     "src": "assets/imgs/projects/modifonline.svg",
     "url": "",
-    "description": "The main challenge I encountered was managing an exceptionally high volume of backend requests, approximately 30 million per hour. Consequently, my primary tasks revolved around optimizing our API, utilizing asynchronous functions appropriately, identifying and eliminating zombie threads, enhancing code quality, and redesigning the APIs for the updated versions of the \"Online Plus\" and \"Hamrah Plus\" applications."
+    "description": [
+      "The main challenge I encountered was managing an exceptionally high volume of backend requests, approximately 30 million per hour. Consequently, my primary tasks revolved around optimizing our API, utilizing asynchronous functions appropriately, identifying and eliminating zombie threads, enhancing code quality, and redesigning the APIs for the updated versions of the \"Online Plus\" and \"Hamrah Plus\" applications."
+    ]
   },
   {
     "name": "Mofid Online Admin",
@@ -61,7 +82,9 @@
     "ownership": "Mofid Securities",
     "src": "assets/imgs/projects/modifonline.svg",
     "url": "",
-    "description": "The team faced several key challenges, such as refactoring and redesigning the code, optimizing database stored procedures, and implementing new APIs. Despite the tight timeframe, I successfully delivered a product that met the latest standards and was ready for deployment."
+    "description": [
+      "The team faced several key challenges, such as refactoring and redesigning the code, optimizing database stored procedures, and implementing new APIs. Despite the tight timeframe, I successfully delivered a product that met the latest standards and was ready for deployment."
+    ]
   },
   {
     "name": "Vicinia Map-Library",
@@ -70,7 +93,10 @@
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
-    "description": "I developed a map-library package to enhance Google Maps with new features, allowing other applications within Cntxts Inc. to seamlessly utilize these capabilities without any extra code. The significant additions to this project include 2D and 2.5D maps for buildings, improved pins and information display, and the implementation of routing and directions to guide users from their source to their destination."
+    "description": [
+      "I developed a map-library package to enhance Google Maps with new features, allowing other applications within Cntxts Inc. to seamlessly utilize these capabilities without any extra code.",
+      "The significant additions to this project include 2D and 2.5D maps for buildings, improved pins and information display, and the implementation of routing and directions to guide users from their source to their destination."
+    ]
   },
   {
     "name": "Vicinia Desk",
@@ -92,7 +118,10 @@
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
-    "description": "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centers, universities, and hospitals have yet to be fully developed. This project seeks to address this need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on this project, my role involved the development of both the front-end and back-end parts of kiosks admin (back-office)."
+    "description": [
+      "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centers, universities, and hospitals have yet to be fully developed.",
+      "This project seeks to address this need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on this project, my role involved the development of both the front-end and back-end parts of kiosks admin (back-office)."
+    ]
   },
   {
     "name": "Kiosk web app",
@@ -113,7 +142,11 @@
     "ownership": "Cntxts Inc.",
     "src": "assets/imgs/projects/VICINIA.svg",
     "url": "",
-    "description": "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities, and administrative centers. As the developer of this project, I was responsible for both the front-end and back-end development, utilizing Angular 15 and ExpressJS. By leveraging these technologies, I was able to create a dynamic and responsive platform that can be easily customized to meet the unique needs of each client. I take pride in having contributed to the development of a sophisticated solution that enhances the user experience and improves overall productivity within these settings."
+    "description": [
+      "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities, and administrative centers.",
+      "As the developer of this project, I was responsible for both the front-end and back-end development, utilizing Angular 15 and ExpressJS. By leveraging these technologies, I was able to create a dynamic and responsive platform that can be easily customized to meet the unique needs of each client.",
+      "I take pride in having contributed to the development of a sophisticated solution that enhances the user experience and improves overall productivity within these settings."
+    ]
   },
   {
     "name": "Farawams Identity Server",
@@ -132,7 +165,9 @@
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/identityserver-farawams.svg",
     "url": "",
-    "description": "The aim of this project was to create comprehensive authentication and authorization services that could support a variety of application types, including mobile, web, native, and other services. To achieve this, we utilized OpenID Connect and OAuth2.1 protocols and implemented a single session input and output system."
+    "description": [
+      "The aim of this project was to create comprehensive authentication and authorization services that could support a variety of application types, including mobile, web, native, and other services. To achieve this, we utilized OpenID Connect and OAuth2.1 protocols and implemented a single session input and output system."
+    ]
   },
   {
     "name": "Pinkie (under construct)",
@@ -141,7 +176,11 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/pinkie.svg",
     "url": "https://github.com/amin-norollah/pinkie",
-    "description": "I am interested in developing an Android application using the Angular framework. The project I have in mind is a semi-social network software that is still in the early stages of development. My goal is to create a user interface that is similar to Instagram, with a focus on ease of use and aesthetically pleasing design. The project is currently in the sample code phase, which means that it is not yet a fully functional application. However, I am fully committed to ensuring the successful completion of this project in the near future. I am excited about the potential of this project and look forward to seeing it evolve into a valuable tool for users."
+    "description": [
+      "I am interested in developing an Android application using the Angular framework. The project I have in mind is a semi-social network software that is still in the early stages of development. My goal is to create a user interface that is similar to Instagram, with a focus on ease of use and aesthetically pleasing design.",
+      "The project is currently in the sample code phase, which means that it is not yet a fully functional application.",
+      "However, I am fully committed to ensuring the successful completion of this project in the near future. I am excited about the potential of this project and look forward to seeing it evolve into a valuable tool for users."
+    ]
   },
   {
     "name": "This portfolio website",
@@ -150,7 +189,11 @@
     "ownership": "mine",
     "src": "assets/imgs/projects/myPortfolio.svg",
     "url": "",
-    "description": "The purpose of this portfolio website is to showcase my skills and experience in graphic design and front-end development, as well as to introduce myself and highlight my projects. I have incorporated the theme of the Matrix movie into the design as it is a personal favorite of mine. Although I designed this website in a short period of time, I have put forth my best effort to ensure its quality. However, I recognize that there may be flaws or areas for improvement, so I would greatly appreciate any feedback or suggestions you may have. Thank you for taking the time to review my portfolio website."
+    "description": [
+      "The purpose of this portfolio website is to showcase my skills and experience in graphic design and front-end development, as well as to introduce myself and highlight my projects. I have incorporated the theme of the Matrix movie into the design as it is a personal favorite of mine.",
+      "Although I designed this website in a short period of time, I have put forth my best effort to ensure its quality.",
+      "However, I recognize that there may be flaws or areas for improvement, so I would greatly appreciate any feedback or suggestions you may have. Thank you for taking the time to review my portfolio website."
+    ]
   },
   {
     "name": "CSite back-end",
@@ -169,7 +212,9 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#1-web-development-projects",
-    "description": "This is my initial full open-source back-end project, which I have also used for teaching purposes. My aim was to incorporate the latest and most cutting-edge technologies into its development."
+    "description": [
+      "This is my initial full open-source back-end project, which I have also used for teaching purposes. My aim was to incorporate the latest and most cutting-edge technologies into its development."
+    ]
   },
   {
     "name": "CSite front-end",
@@ -178,7 +223,9 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/CSite-logo.svg",
     "url": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
-    "description": "This is my first publicly available open-source Angular project, which is designed to connect with the CSite Backend project. It is important to note that in order to use these projects, one must have sufficient knowledge to run both the .Net 6 back-end and the Angular user interface."
+    "description": [
+      "This is my first publicly available open-source Angular project, which is designed to connect with the CSite Backend project. It is important to note that in order to use these projects, one must have sufficient knowledge to run both the .Net 6 back-end and the Angular user interface."
+    ]
   },
   {
     "name": "FaraWAMS back-end",
@@ -204,7 +251,10 @@
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/farawams.svg",
     "url": "",
-    "description": "The project is being developed with the aim of monitoring and controlling power systems, and I have the role of a technical manager in this project, of course, I also do programming. It is a large-scale project and consists of five different servers. Some servers are developed based on NodeJS, and others that require complex calculations are developed based on .Net technology. This project faces complications such as a high data rate, needs short response time, a large amount of data that should store in the database server, and event management."
+    "description": [
+      "The project is being developed with the aim of monitoring and controlling power systems, and I have the role of a technical manager in this project, of course, I also do programming. It is a large-scale project and consists of five different servers.",
+      "Some servers are developed based on NodeJS, and others that require complex calculations are developed based on .Net technology. This project faces complications such as a high data rate, needs short response time, a large amount of data that should store in the database server, and event management."
+    ]
   },
   {
     "name": "SmartCattle back-end",
@@ -225,7 +275,9 @@
     "ownership": "Sarveentech co.",
     "src": "assets/imgs/projects/smartcattle.svg",
     "url": "",
-    "description": "Smart Cattle is a software as a service platform that records and analyzes the activity patterns of farm animals to monitor their health. Our team is working on developing the back-end of the platform using the latest modern technologies. The end result will be an intuitive and user-friendly tool that simplifies the farm management."
+    "description": [
+      "Smart Cattle is a software as a service platform that records and analyzes the activity patterns of farm animals to monitor their health. Our team is working on developing the back-end of the platform using the latest modern technologies. The end result will be an intuitive and user-friendly tool that simplifies the farm management."
+    ]
   },
   {
     "name": "SmartCattle Identity Server",
@@ -234,7 +286,9 @@
     "ownership": "Sarveentech co.",
     "src": "assets/imgs/projects/identityserver-smartcatle.svg",
     "url": "",
-    "description": "In this project, our servers were responsible for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
+    "description": [
+      "In this project, our servers were responsible for creating a complete authentication and authorization services, with single session input and output for various types of applications, such as mobile, web, native, and other services, using OpenID Connect and OAuth2.1 protocols."
+    ]
   },
   {
     "name": "Candle back-end",
@@ -243,7 +297,9 @@
     "ownership": "ASI Green Techs co.",
     "src": "assets/imgs/projects/web-design-amin.svg",
     "url": "",
-    "description": "Candle is a platform that helps people connect and support each other during tough times. It encourages positive traits and behaviors in people and brings different generations together to foster empathy and understanding. The project was developed using: ExpressJS, Swagger, ReactJS, NextJS."
+    "description": [
+      "Candle is a platform that helps people connect and support each other during tough times. It encourages positive traits and behaviors in people and brings different generations together to foster empathy and understanding. The project was developed using: ExpressJS, Swagger, ReactJS, NextJS."
+    ]
   },
   {
     "name": "Simpal v2 - Full Stack",
@@ -252,7 +308,10 @@
     "ownership": "FaraControl I.P co.",
     "src": "assets/imgs/projects/simpal2.jpg",
     "url": "",
-    "description": "The purpose of developing this application is to monitor the data collected from the power grid system. In this software, various power engineering modules were used, so that experts can conduct studies on the power grid system (instead of simulation). In this project, calculations are performed on real-time data immediately after receiving and are displayed in the form of time-series charts, bars, XY plots, flow, and heat maps. The front end of this project was developed with Angular, and .Net core 3.1 was used for its back end."
+    "description": [
+      "The purpose of developing this application is to monitor the data collected from the power grid system. In this software, various power engineering modules were used, so that experts can conduct studies on the power grid system (instead of simulation).",
+      "In this project, calculations are performed on real-time data immediately after receiving and are displayed in the form of time-series charts, bars, XY plots, flow, and heat maps. The front end of this project was developed with Angular, and .Net core 3.1 was used for its back end."
+    ]
   },
   {
     "name": "JS code - pages",
@@ -261,7 +320,9 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
     "url": "https://github.com/amin-norollah/JS-code#2-pages",
-    "description": "I have a keen interest in front-end design and enjoy creating vanilla JS pages from time to time. In fact, I have shared my thoughts regarding vanilla JS on this page because I find it both enjoyable and easy to comprehend and share."
+    "description": [
+      "I have a keen interest in front-end design and enjoy creating vanilla JS pages from time to time. In fact, I have shared my thoughts regarding vanilla JS on this page because I find it both enjoyable and easy to comprehend and share."
+    ]
   },
   {
     "name": "JS code - games",
@@ -270,7 +331,9 @@
     "ownership": "mine (open-source)",
     "src": "assets/imgs/projects/jsCode.svg",
     "url": "https://github.com/amin-norollah/JS-code#4-games",
-    "description": "When I first started learning JavaScript, I created a variety of interesting things, including simple games. In this section of my open-source project, I have shared my original designs, which I have since upgraded to JS ES6+."
+    "description": [
+      "When I first started learning JavaScript, I created a variety of interesting things, including simple games. In this section of my open-source project, I have shared my original designs, which I have since upgraded to JS ES6+."
+    ]
   },
   {
     "name": "Restaurant Management System using ExpressJS",
@@ -279,7 +342,9 @@
     "ownership": "person",
     "src": "assets/imgs/projects/web-design-amin.svg",
     "url": "",
-    "description": "It is my first JavaScript project experience. In this project, a local management system was developed via AngularJS, NodeJS, ExpressJS, and MongoDB in order to cope with customer orders, manage warehouse, and analyze store performance."
+    "description": [
+      "It is my first JavaScript project experience. In this project, a local management system was developed via AngularJS, NodeJS, ExpressJS, and MongoDB in order to cope with customer orders, manage warehouse, and analyze store performance."
+    ]
   },
   {
     "name": "Noonnet application using ExpressJS",
@@ -288,6 +353,8 @@
     "ownership": "person",
     "src": "assets/imgs/projects/web-design-amin.svg",
     "url": "",
-    "description": "An online Bread Sale application developed using: Node.js, Express.js, Mongoose, Swagger, React.js, and Material UI."
+    "description": [
+      "An online Bread Sale application developed using: Node.js, Express.js, Mongoose, Swagger, React.js, and Material UI."
+    ]
   }
 ]
