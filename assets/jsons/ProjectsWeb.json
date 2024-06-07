@@ -13,6 +13,21 @@
     ]
   },
   {
+    "name": "Landing site: static webpage",
+    "techs": ["Angular", "PrimeNG", "Keen slider", "State management", "RXJS", "CSS", "HTML", "Cypress"],
+    "date": "2024/4",
+    "ownership": "ArnicaFam co.",
+    "src": "assets/imgs/brands/arnicafam.svg",
+    "url": "https://arnicafamp.com/home",
+    "description": [
+      "I was asked to make a landing page in just 3 days. This was a good chance for me to test my skills and create a basic web page that my customer could use for their future web app projects.",
+
+      "So I made a simple, lightweight web page using Angular 16. I used static JSON files as the data source, instead of using a backend (it was temporary and implemented like JSON server project). This let my customer manage their own web page before their deadline.",
+
+      "You can see it at the link below. I hope this landing page stays up for a long time on their website. After that, I will add this landing page to the project section of my website so anyone can access it."
+    ]
+  },
+  {
     "name": "Robot-test framework",
     "techs": ["Robot Framework", "API Testing", "Database Testing", "Go", "Selenium", "Continuous Integration"],
     "date": "2023/11",

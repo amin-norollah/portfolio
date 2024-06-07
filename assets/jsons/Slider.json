@@ -1,5 +1,17 @@
 [
   {
+    "title": "Centra Integration",
+    "subtitle": "Developing Service to connect two e-commerce platforms, Focalpay and Centra",
+    "mediaPath": "assets/imgs/slider/centra.jpg",
+    "url": "https://centra.com/"
+  },
+  {
+    "title": "Landing page",
+    "subtitle": "Simple, light weight and fast landing page using Angular 16",
+    "mediaPath": "assets/imgs/slider/arnicafam.jpg",
+    "url": "https://arnicafamp.com/home"
+  },
+  {
     "title": "Portfolio v2.2.15",
     "subtitle": "Boosting Performance and Enhancing Style in Web App Version 2",
     "mediaPath": "assets/imgs/slider/newVersion.jpg",
