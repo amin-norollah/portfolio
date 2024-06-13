@@ -41,6 +41,27 @@
     ]
   },
   {
+    "name": "Focalpay Order API",
+    "techs": [
+      "Java JDK",
+      "Spring boot",
+      "Rest API",
+      "Swagger",
+      "Redis",
+      "Prometheus",
+      "Redesign",
+      "Performance",
+      "Unit test"
+    ],
+    "date": "2023/10",
+    "ownership": "FocalPay co.",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "url": "https://centra.com/",
+    "description": [
+      "My responsibilities for this project include writing unit tests and adding new APIs to the order service. This project is using the most up-to-date frameworks and packages, which requires me to update my knowledge to leverage state-of-the-art solutions."
+    ]
+  },
+  {
     "name": "Cashier front-end platform",
     "techs": ["Clean code", "Vue.JS", "Cypress", "Performance", "Continuous Integration"],
     "date": "2023/9",
@@ -55,6 +76,8 @@
     "name": "Mofid Online Plus",
     "techs": [
       "Clean code",
+      "Java JDK",
+      "Spring boot",
       ".Net core",
       "Redis",
       "Prometheus",
@@ -111,6 +134,17 @@
     "description": [
       "I developed a map-library package to enhance Google Maps with new features, allowing other applications within Cntxts Inc. to seamlessly utilize these capabilities without any extra code.",
       "The significant additions to this project include 2D and 2.5D maps for buildings, improved pins and information display, and the implementation of routing and directions to guide users from their source to their destination."
+    ]
+  },
+  {
+    "name": "Vicinia Back-end",
+    "techs": ["Java JDK", "Spring boot", "REST APIs", "Sql server", "Swagger", "Rabbit MQ"],
+    "date": "2023/5",
+    "ownership": "Cntxts Inc.",
+    "src": "assets/imgs/projects/VICINIA.svg",
+    "url": "",
+    "description": [
+      "Refactoring and upgrading the versions of Vicinia back-end's dependencies, such as packages and frameworks are some of my responsibility. Also, the project needs ongoing maintenance and the implementation of new APIs to support the development of new features."
     ]
   },
   {

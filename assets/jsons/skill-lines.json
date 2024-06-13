@@ -1,0 +1,142 @@
+[
+  {
+    "year": 2011,
+    "items": [
+      { "name": "C++", "value": 10 },
+      { "name": "C#", "value": 60 },
+      { "name": "JS", "value": 0 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2012,
+    "items": [
+      { "name": "C++", "value": 20 },
+      { "name": "C#", "value": 60 },
+      { "name": "JS", "value": 0 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2013,
+    "items": [
+      { "name": "C++", "value": 40 },
+      { "name": "C#", "value": 0 },
+      { "name": "JS", "value": 0 },
+      { "name": "Java", "value": 25 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2014,
+    "items": [
+      { "name": "C++", "value": 30 },
+      { "name": "C#", "value": 0 },
+      { "name": "JS", "value": 30 },
+      { "name": "Java", "value": 25 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2015,
+    "items": [
+      { "name": "C++", "value": 30 },
+      { "name": "C#", "value": 0 },
+      { "name": "JS", "value": 45 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2016,
+    "items": [
+      { "name": "C++", "value": 5 },
+      { "name": "C#", "value": 40 },
+      { "name": "JS", "value": 35 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2017,
+    "items": [
+      { "name": "C++", "value": 30 },
+      { "name": "C#", "value": 60 },
+      { "name": "JS", "value": 0 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2018,
+    "items": [
+      { "name": "C++", "value": 10 },
+      { "name": "C#", "value": 50 },
+      { "name": "JS", "value": 30 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2019,
+    "items": [
+      { "name": "C++", "value": 0 },
+      { "name": "C#", "value": 40 },
+      { "name": "JS", "value": 40 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2020,
+    "items": [
+      { "name": "C++", "value": 10 },
+      { "name": "C#", "value": 30 },
+      { "name": "JS", "value": 50 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2021,
+    "items": [
+      { "name": "C++", "value": 0 },
+      { "name": "C#", "value": 40 },
+      { "name": "JS", "value": 50 },
+      { "name": "Java", "value": 0 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2022,
+    "items": [
+      { "name": "C++", "value": 0 },
+      { "name": "C#", "value": 35 },
+      { "name": "JS", "value": 40 },
+      { "name": "Java", "value": 10 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2023,
+    "items": [
+      { "name": "C++", "value": 0 },
+      { "name": "C#", "value": 30 },
+      { "name": "JS", "value": 30 },
+      { "name": "Java", "value": 30 },
+      { "name": "Others", "value": 0 }
+    ]
+  },
+  {
+    "year": 2024,
+    "items": [
+      { "name": "C++", "value": 0 },
+      { "name": "C#", "value": 20 },
+      { "name": "JS", "value": 30 },
+      { "name": "Java", "value": 30 },
+      { "name": "Others", "value": 0 }
+    ]
+  }
+]
