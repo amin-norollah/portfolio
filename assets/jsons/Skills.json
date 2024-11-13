@@ -55,6 +55,10 @@
       "src": "assets/imgs/skills/frontend/react.svg"
     },
     {
+      "name": "Prime Design System",
+      "src": "assets/imgs/skills/frontend/prime.svg"
+    },
+    {
       "name": "Redux",
       "src": "assets/imgs/skills/frontend/redux.svg"
     }
@@ -75,6 +79,10 @@
     {
       "name": "ExpressJs",
       "src": "assets/imgs/skills/backend/express.svg"
+    },
+    {
+      "name": "NestJS",
+      "src": "assets/imgs/skills/backend/nestjs.svg"
     },
     {
       "name": "Spring Boot",
@@ -126,11 +134,14 @@
     }
   ],
   "others": [
-    "Microservice Architecture",
-    "DDD Clean Architecture",
-    "CQRS, Unit of Work, and Repository Patterns",
-    "ORMs: Entity Framework Core for .Net; and Mongoose for NodeJS",
-    "Application Test: xUnit; JMeter; Chai; Cypress",
-    "Graphic tools: Photoshop; CorelDraw; Figma"
+    "Cloud Platforms: Azure, Google Cloud",
+    "CI/CD: GitHub Actions, Docker, Kubernetes, CI/CD pipeline setup",
+    "Monitoring and Logging: Prometheus, Grafana",
+    "Automated Testing and Deployment Management",
+    "Architectures: Microservices, Domain-Driven Design (DDD) Clean Architecture",
+    "Design Patterns: CQRS, Unit of Work, Repository Pattern",
+    "ORMs: Entity Framework Core (.NET), Mongoose (NodeJS)",
+    "Testing Tools: xUnit, JMeter, Chai, Cypress",
+    "Graphic Tools: Photoshop, CorelDraw, Figma"
   ]
 }

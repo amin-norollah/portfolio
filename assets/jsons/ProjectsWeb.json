@@ -1,5 +1,17 @@
 [
   {
+    "name": "Navigation project",
+    "techs": ["NodeJS", "NestJS", "ReactJS", "MongoDB", "Rest API", "Scheduler"],
+    "date": "2024/9",
+    "ownership": "Cyberdesign co.",
+    "src": "assets/imgs/brands/focalpay.svg",
+    "url": "",
+    "description": [
+      "This standalone project integrates the admin section built in ReactJS with a NestJS backend, developed to connect store products with the Focalpay app, enabling a navigation feature for customers.",
+      "My responsibility involved developing the main backend service and the admin frontend. I managed core data operations and provided a data feed for the navigation service, supporting route calculation and delivering real-time navigation information to the end-user web app."
+    ]
+  },
+  {
     "name": "Centra: 3th-party application",
     "techs": ["Centra e-commerce platform", "Integration", "3th-party", "NodeJS", "ExpressJS", "Rest API", "Scheduler"],
     "date": "2024/4",
@@ -42,16 +54,7 @@
   },
   {
     "name": "Focalpay Order API",
-    "techs": [
-      "Java JDK",
-      "Spring boot",
-      "Rest API",
-      "Swagger",
-      "Redis",
-      "Prometheus",
-      "Redesign",
-      "Unit test"
-    ],
+    "techs": ["Java JDK", "Spring boot", "Rest API", "Swagger", "Redis", "Prometheus", "Redesign", "Unit test"],
     "date": "2023/10",
     "ownership": "FocalPay co.",
     "src": "assets/imgs/brands/focalpay.svg",
