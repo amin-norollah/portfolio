@@ -1,30 +1,5 @@
 [
   {
-    "name": "Navigation project",
-    "techs": ["NodeJS", "NestJS", "ReactJS", "MongoDB", "Rest API", "Scheduler"],
-    "date": "2024/9",
-    "ownership": "Cyberdesign co.",
-    "src": "assets/imgs/brands/focalpay.svg",
-    "url": "",
-    "description": [
-      "This standalone project integrates the admin section built in ReactJS with a NestJS backend, developed to connect store products with the Focalpay app, enabling a navigation feature for customers.",
-      "My responsibility involved developing the main backend service and the admin frontend. I managed core data operations and provided a data feed for the navigation service, supporting route calculation and delivering real-time navigation information to the end-user web app."
-    ]
-  },
-  {
-    "name": "Centra: 3th-party application",
-    "techs": ["Centra e-commerce platform", "Integration", "3th-party", "NodeJS", "ExpressJS", "Rest API", "Scheduler"],
-    "date": "2024/4",
-    "ownership": "FocalPay co.",
-    "src": "assets/imgs/brands/focalpay.svg",
-    "url": "https://centra.com/",
-    "description": [
-      "Centra is an advanced e-commerce platform that consumer brands can use. It has features for both direct-to-consumer and wholesale e-commerce.",
-      "FocalPay is also an e-commerce platform, and its main goal is to manage physical stores. FocalPay started to integrate with other platforms so users could use FocalPay's services along with their other web-based solutions.",
-      "The idea behind the project I developed was to create a service that would make it easy and safe for other e-commerce platforms to connect to FocalPay, and vice versa."
-    ]
-  },
-  {
     "name": "Landing site: static webpage",
     "techs": ["Angular", "PrimeNG", "Keen slider", "State management", "RXJS", "CSS", "HTML", "Cypress"],
     "date": "2024/4",
@@ -37,41 +12,6 @@
       "So I made a simple, lightweight web page using Angular 16. I used static JSON files as the data source, instead of using a backend (it was temporary and implemented like JSON server project). This let my customer manage their own web page before their deadline.",
 
       "You can see it at the link below. I hope this landing page stays up for a long time on their website. After that, I will add this landing page to the project section of my website so anyone can access it."
-    ]
-  },
-  {
-    "name": "Robot-test framework",
-    "techs": ["Robot Framework", "API Testing", "Database Testing", "Go", "Selenium", "Continuous Integration"],
-    "date": "2023/11",
-    "ownership": "FocalPay co.",
-    "src": "assets/imgs/brands/focalpay.svg",
-    "url": "",
-    "description": [
-      "The use of a robot test framework allows us to thoroughly validate the smooth operation and proper functionality of all our APIs, thereby ensuring the reliability and efficiency of our critical and sensitive services.",
-      "Also, this approach allows us to quickly and comprehensively validate any changes or new features before deploying them to production.",
-      "My responsibility was to develop the structure of a robot testing project. This involved utilizing and implementing temporary services using a Docker-in-Docker approach. also, I was tasked with writing the test case code in order to enhance the speed of test writing with test team."
-    ]
-  },
-  {
-    "name": "Focalpay Order API",
-    "techs": ["Java JDK", "Spring boot", "Rest API", "Swagger", "Redis", "Prometheus", "Redesign", "Unit test"],
-    "date": "2023/10",
-    "ownership": "FocalPay co.",
-    "src": "assets/imgs/brands/focalpay.svg",
-    "url": "https://centra.com/",
-    "description": [
-      "My responsibilities in this project include developing system test framework for the Order APIs. This project uses the most up-to-date frameworks and technologies, that requires me to update my knowledge to leverage state-of-the-art solutions."
-    ]
-  },
-  {
-    "name": "Cashier front-end platform",
-    "techs": ["Clean code", "Vue.JS", "Cypress", "Performance", "Continuous Integration"],
-    "date": "2023/9",
-    "ownership": "FocalPay co.",
-    "src": "assets/imgs/brands/focalpay.svg",
-    "url": "",
-    "description": [
-      "In this project, my primary focus was on enhancing the performance of the existing Vue.JS front-end application. Also, I took the responsibility of implementing Cypress codes to enable automated testing for both end-to-end (E2E) and component-based test scenarios."
     ]
   },
   {

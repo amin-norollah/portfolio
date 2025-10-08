@@ -1,18 +1,20 @@
 [
   {
-    "company": "FocalPay co. & Cyberdesign co.",
-    "position": "Senior",
-    "isContinued": true,
-    "start": "Aug 2023",
-    "end": "Current",
-    "src": "assets/imgs/brands/focalpay.svg",
+    "company": "SarveenTech",
+    "position": "Tech lead",
+    "isContinued": false,
+    "start": "Sep 2022",
+    "end": "Jun 2025",
+    "src": "assets/imgs/projects/VICINIA.svg",
     "description": [
-      "I am working at FocalPay, a company that developed an all-in-one software platform for Checkout, payments, and back-office operations. As a focused full-stack developer, my role centered on enhancing the back-end stack of this comprehensive solution. Being part of the team that created a unified platform, streamlining the entire payment process from customer transactions to back-office operations, was an immensely fulfilling experience."
+      "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements.",
+      "My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
     ],
     "opinion": [
-      "Engaging in international collaboration,",
-      "Establishing strong collaboration among group members,",
-      "Staying updated with market trends has helped us stay at the forefront of technology and using new tools."
+      "Collaborating with teams from different countries,",
+      "Building strong relationships within teams,",
+      "Facing numerous design challenges that significantly enhanced my skills,",
+      "Undertaking projects from inception, enabling me to implement optimal project structures."
     ]
   },
   {
@@ -35,24 +37,7 @@
       "Working at Mofid Securities was an exceptional experience due to the respectful and supportive interactions among employees."
     ]
   },
-  {
-    "company": "Cntxts Inc.",
-    "position": "Tech lead",
-    "isContinued": false,
-    "start": "Sep 2022",
-    "end": "Aug 2023",
-    "src": "assets/imgs/projects/VICINIA.svg",
-    "description": [
-      "As a full-stack developer, I designed and developed both the ExpressJS back-end and  Angular front-end parts of the Vicinia Kiosk, which provides users with routing options on the map as well as shows them information such as news, advertisements, events and announcements.",
-      "My next responsibility was to lead the front-end team, providing technical assistance to each developer in their projects and conducting code reviews"
-    ],
-    "opinion": [
-      "Collaborating with teams from different countries,",
-      "Building strong relationships within teams,",
-      "Facing numerous design challenges that significantly enhanced my skills,",
-      "Undertaking projects from inception, enabling me to implement optimal project structures."
-    ]
-  },
+
   {
     "company": "SarveenTech",
     "position": "Senior",
