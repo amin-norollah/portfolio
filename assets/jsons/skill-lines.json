@@ -138,5 +138,25 @@
       { "name": "Java", "value": 30 },
       { "name": "Others", "value": 0 }
     ]
+  },
+  {
+    "year": 2025,
+    "items": [
+      { "name": "C++", "value": 10 },
+      { "name": "C#", "value": 5 },
+      { "name": "JS", "value": 50 },
+      { "name": "Java", "value": 30 },
+      { "name": "Others", "value": 5 }
+    ]
+  },
+  {
+    "year": 2026,
+    "items": [
+      { "name": "C++", "value": 5 },
+      { "name": "C#", "value": 5 },
+      { "name": "JS", "value": 40 },
+      { "name": "Java", "value": 40 },
+      { "name": "Others", "value": 10 }
+    ]
   }
 ]
