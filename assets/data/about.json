@@ -1,26 +1,26 @@
 {
   "heading": {
-    "en": "Shipping since 2012, and still asking what the system will look like in year three.",
-    "sv": "Levererar sedan 2012, och frågar fortfarande hur systemet ser ut om tre år.",
+    "en": "Writing code since 2012, and I still think about what a system will look like three years from now.",
+    "sv": "Har skrivit kod sedan 2012, och jag tänker fortfarande på hur ett system ser ut om tre år.",
     "fa": "از ۲۰۱۲ کد می‌نویسم و هنوز قبل از هر کاری از خودم می‌پرسم این سیستم سه سال دیگر چه وضعی دارد."
   },
   "lead": {
-    "en": "I create digital products that live on the internet - mostly the parts you do not see. APIs, integrations, identity, and the performance work that decides whether a platform feels solid.",
-    "sv": "Jag skapar digitala produkter som lever på internet - mest de delar du inte ser. API:er, integrationer, identitet, och det prestandaarbete som avgör om en plattform känns stabil.",
+    "en": "I build digital products that live on the internet - mostly the parts you don't see. APIs, integrations, identity, and the performance work that decides if a platform feels solid or not.",
+    "sv": "Jag bygger digitala produkter som finns på internet - mest de delarna man inte ser. API:er, integrationer, identitet och prestandaarbete. Det är sånt som avgör om en plattform känns stabil eller inte.",
     "fa": "بیشتر روی بخش‌هایی از محصول کار می‌کنم که کاربر نمی‌بیند: API، یکپارچه‌سازی با سیستم‌های دیگر، احراز هویت و کارایی. کاربر معمولاً این بخش‌ها را نمی‌بیند، ولی اگر خوب کار نکنند زود متوجه می‌شود."
   },
   "paragraphs": {
     "en": [
-      "My love affair with web development dates back to 2012, when I was pursuing my bachelor's degree and had the opportunity to work for a small firm. There I was tasked with editing Joomla and WordPress sites using PHP, CSS and HTML, and that experience ignited the fascination I still work from.",
-      "As I advanced, I moved onto more complex projects and joined bigger teams. Those years taught me to deliver top-notch results inside tight deadlines without trading away quality, and gave me hands-on range across a wide array of languages and frameworks - which is really an education in knowing which tool the problem actually needs.",
-      "Today my profile is backend-heavy: designing and developing server applications, APIs, integration flows, testing, debugging, and training staff. My expertise spans .NET, C#, JavaScript (ES6+), TypeScript, Java, and both SQL and NoSQL databases, and I am particularly adept at optimising web functionality to improve data retrieval and workflow efficiency.",
-      "Alongside product work I spent three years as a researcher at IUST in collaboration with Université Grenoble Alpes, publishing on hardware security and real-time systems. Research changed how I engineer: it made me slower to guess and much faster to measure."
+      "I started with web development in 2012, during my bachelor's degree, when I got the chance to work at a small company. My job there was editing Joomla and WordPress sites with PHP, CSS and HTML. That's where my interest in this field started, and it never really stopped.",
+      "Over time I moved to bigger projects and bigger teams. Those years taught me how to deliver good results under tight deadlines without giving up on quality. I also worked with a lot of different languages and frameworks, which taught me how to pick the right tool for each problem.",
+      "These days most of my work is backend: designing and building server applications, APIs, integration flows, testing, debugging, and helping other developers on the team. I mainly work with .NET, C#, JavaScript (ES6+), TypeScript, Java, and both SQL and NoSQL databases. I'm also good at optimising things so data loads faster and workflows run smoother.",
+      "Next to product work, I spent three years as a researcher at IUST, together with Université Grenoble Alpes, and published papers on hardware security and real-time systems. Research changed how I work as an engineer: I stopped guessing so much and started measuring things instead."
     ],
     "sv": [
-      "Min kärleksaffär med webbutveckling går tillbaka till 2012, när jag läste min kandidatexamen och fick chansen att arbeta för ett litet företag. Där fick jag redigera Joomla- och WordPress-sajter med PHP, CSS och HTML, och den erfarenheten tände den fascination jag fortfarande arbetar utifrån.",
-      "I takt med att jag utvecklades gick jag vidare till mer komplexa projekt och större team. De åren lärde mig att leverera förstklassiga resultat inom snäva deadlines utan att kompromissa med kvaliteten, och gav mig praktisk bredd över många språk och ramverk - vilket i grunden är en utbildning i att veta vilket verktyg problemet faktiskt behöver.",
-      "Idag är min profil backendtung: att designa och utveckla serverapplikationer, API:er, integrationsflöden, testning, felsökning och att utbilda kollegor. Min kompetens omfattar .NET, C#, JavaScript (ES6+), TypeScript, Java samt både SQL- och NoSQL-databaser, och jag är särskilt skicklig på att optimera webbfunktioner för snabbare datahämtning och effektivare arbetsflöden.",
-      "Parallellt med produktarbetet var jag i tre år forskare vid IUST i samarbete med Université Grenoble Alpes, med publikationer inom hårdvarusäkerhet och realtidssystem. Forskningen förändrade hur jag arbetar tekniskt: den gjorde mig långsammare att gissa och betydligt snabbare att mäta."
+      "Jag började med webbutveckling 2012, under min kandidatutbildning, när jag fick chansen att jobba på ett litet företag. Där redigerade jag Joomla- och WordPress-sajter med PHP, CSS och HTML. Det var där mitt intresse för det här området började, och det har aldrig försvunnit.",
+      "Med tiden gick jag vidare till större projekt och större team. De åren lärde mig att leverera bra resultat under snäva deadlines utan att ge upp på kvaliteten. Jag jobbade också med många olika språk och ramverk, vilket lärde mig att välja rätt verktyg för varje problem.",
+      "Idag jobbar jag mest med backend: att designa och bygga serverapplikationer, API:er, integrationsflöden, testning, felsökning och att hjälpa andra utvecklare i teamet. Jag jobbar mest med .NET, C#, JavaScript (ES6+), TypeScript, Java, och både SQL- och NoSQL-databaser. Jag är också bra på att optimera saker så att data laddas snabbare och arbetsflöden går smidigare.",
+      "Vid sidan av produktarbetet var jag i tre år forskare på IUST, tillsammans med Université Grenoble Alpes, och publicerade artiklar om hårdvarusäkerhet och realtidssystem. Forskningen förändrade hur jag jobbar som ingenjör: jag slutade gissa så mycket och började mäta istället."
     ],
     "fa": [
       "سال ۲۰۱۲، وقتی دانشجوی کارشناسی بودم، در یک شرکت کوچک مشغول کار شدم. کارم ویرایش سایت‌های جوملا و وردپرس با PHP، CSS و HTML بود و علاقه‌ام به توسعه‌ی وب از همان‌جا شروع شد.",
@@ -39,8 +39,8 @@
         "fa": "کدی که بشود نگهش داشت، مهم‌تر از کد زرنگ است"
       },
       "body": {
-        "en": "I design backend services and integration flows around explicit boundaries and contracts, so the next person - often me, two years later - can change one thing without discovering four others.",
-        "sv": "Jag designar backend-tjänster och integrationsflöden kring explicita gränser och kontrakt, så att nästa person - ofta jag själv två år senare - kan ändra en sak utan att upptäcka fyra andra.",
+        "en": "I design backend services and integrations with clear boundaries and contracts. That way, the next person, often me two years later, can change one thing without breaking four others.",
+        "sv": "Jag designar backend-tjänster och integrationer med tydliga gränser och kontrakt. På det sättet kan nästa person, ofta jag själv två år senare, ändra en sak utan att andra saker går sönder.",
         "fa": "سرویس‌ها و یکپارچه‌سازی‌ها را طوری طراحی می‌کنم که مرزها و قراردادهایشان روشن باشد. نفر بعدی که سراغ کد می‌آید (که معمولاً خودم هستم، دو سال بعد) باید بتواند یک چیز را عوض کند بدون این‌که چهار جای دیگر خراب شود."
       }
     },
@@ -53,8 +53,8 @@
         "fa": "کارایی را از روز اول جدی می‌گیرم"
       },
       "body": {
-        "en": "Thirty million requests an hour does not leave room for guessing. Profile first, remove the zombie threads, fix the query, then optimise the code - in that order, because the order is where the wins are.",
-        "sv": "Trettio miljoner förfrågningar i timmen lämnar inget rum för gissningar. Profilera först, ta bort zombietrådarna, fixa frågan, optimera sedan koden - i den ordningen, för ordningen är där vinsterna finns.",
+        "en": "Thirty million requests an hour means there is no room for guessing. First I profile the system, then remove threads that are stuck doing nothing, then fix the slow queries, and only after that I optimise the code. This order matters, it's where the real gains come from.",
+        "sv": "Trettio miljoner förfrågningar i timmen betyder att det inte finns plats för gissningar. Först profilerar jag systemet, sen tar jag bort trådar som fastnat och inte gör något, sen fixar jag långsamma queries, och först efter det optimerar jag koden. Den ordningen spelar roll, det är där de riktiga förbättringarna kommer ifrån.",
         "fa": "وقتی ساعتی سی میلیون درخواست می‌آید، جایی برای حدس زدن نمی‌ماند. اول پروفایل می‌گیرم، بعد تردهای زامبی را پیدا می‌کنم، بعد کوئری‌ها را درست می‌کنم و آخر سر سراغ بهینه کردن خود کد می‌روم. این ترتیب را تجربه یادم داده."
       }
     },
@@ -67,8 +67,8 @@
         "fa": "احراز هویت کار زیرساخت است"
       },
       "body": {
-        "en": "Having built identity servers on OpenID Connect and OAuth 2.1 for mobile, web and native clients, I treat authentication as a platform capability with one owner - never as a feature each team reimplements.",
-        "sv": "Efter att ha byggt identitetsservrar på OpenID Connect och OAuth 2.1 för mobil-, webb- och nativa klienter behandlar jag autentisering som en plattformsförmåga med en ägare - aldrig som en funktion varje team implementerar om.",
+        "en": "I have built identity servers with OpenID Connect and OAuth 2.1 for mobile, web and native apps. Because of that, I think authentication should be one platform capability with one owner, not something every team builds again on its own.",
+        "sv": "Jag har byggt identitetsservrar med OpenID Connect och OAuth 2.1 för mobil, webb och nativa appar. Därför tycker jag att autentisering bör vara en plattformsfunktion med en ägare, inte något varje team bygger om själva.",
         "fa": "چند سرور هویت روی OpenID Connect و OAuth 2.1 برای اپ‌های موبایل، وب و دسکتاپ ساخته‌ام. نتیجه‌ای که گرفتم این است که احراز هویت باید یک صاحب مشخص داشته باشد و یک بار در سطح پلتفرم حل شود. اگر هر تیم خودش از اول پیاده‌اش کند، دیر یا زود یک جایش می‌لنگد."
       }
     },
@@ -76,13 +76,13 @@
       "id": "testing",
       "icon": "check",
       "title": {
-        "en": "Tests that operate the real thing",
-        "sv": "Tester som kör det verkliga",
+        "en": "Tests that run on the real thing",
+        "sv": "Tester som körs på riktigt",
         "fa": "تست روی سیستم واقعی"
       },
       "body": {
-        "en": "On the Cashier Probe framework I drove a real POS with real terminals, cash guards, scanners and printers - no mocks. Tests that avoid the messy edges are the tests that pass while production fails.",
-        "sv": "I ramverket Cashier Probe körde jag ett verkligt kassasystem med verkliga terminaler, kontantskydd, skannrar och skrivare - inga mockar. Tester som undviker de stökiga kanterna är de tester som går igenom medan produktionen fallerar.",
+        "en": "With the Cashier Probe framework, I run tests on a real point-of-sale system with real terminals, cash guards, scanners and printers, no mocks. Tests that skip the messy real-world parts are the same tests that pass while production still breaks.",
+        "sv": "Med ramverket Cashier Probe kör jag tester på ett riktigt kassasystem, med riktiga terminaler, kontantskydd, skannrar och skrivare, inga mockar. Tester som hoppar över de stökiga verkliga delarna är samma tester som passerar medan produktionen ändå går sönder.",
         "fa": "در Cashier Probe صندوق فروش را با پایانه‌ی پرداخت، دستگاه پول نقد، اسکنر و چاپگر واقعی تست می‌کنیم، بدون mock. تجربه‌ام این است که تستی که از موقعیت‌های نامرتب فرار کند همیشه پاس می‌شود، حتی روزی که production از کار افتاده."
       }
     },
@@ -95,8 +95,8 @@
         "fa": "اول اندازه بگیر، بعد باور کن"
       },
       "body": {
-        "en": "Three years of publishing taught me to distrust a plausible explanation until there is a number beside it. That habit transfers directly to production debugging.",
-        "sv": "Tre år av publicering lärde mig att misstro en trovärdig förklaring tills en siffra bekräftar den. Den vanan överförs direkt till felsökning i produktion.",
+        "en": "Three years of publishing papers taught me not to trust an explanation just because it sounds reasonable, not until there is a number behind it. That habit helps a lot with production debugging too.",
+        "sv": "Tre år av att publicera artiklar lärde mig att inte lita på en förklaring bara för att den låter rimlig, inte förrän det finns en siffra bakom den. Den vanan hjälper mycket även när jag felsöker i produktion.",
         "fa": "سه سال کار پژوهشی یادم داد هیچ توضیحی را، هر قدر هم قانع‌کننده باشد، تا عددی کنارش نباشد قبول نکنم. همین عادت الان موقع دیباگ کردن در production خیلی به کارم می‌آید."
       }
     },
@@ -109,8 +109,8 @@
         "fa": "تریدآف‌ها را روی میز بگذار"
       },
       "body": {
-        "en": "Leading a team for the first time at Fara-control taught me the managerial view: most technical disagreements are really unstated constraints, and saying them out loud resolves the argument.",
-        "sv": "Att leda ett team för första gången på Fara-control gav mig ett ledarskapsperspektiv: de flesta tekniska oenigheter är egentligen outtalade begränsningar, och att säga dem högt löser diskussionen.",
+        "en": "Leading a team for the first time at Fara-control taught me something important: most technical disagreements are really about constraints nobody said out loud. Once you say them clearly, the disagreement usually goes away.",
+        "sv": "Att leda ett team för första gången på Fara-control lärde mig något viktigt: de flesta tekniska meningsskiljaktigheter handlar egentligen om begränsningar som ingen sagt högt. När man säger dem tydligt brukar oenigheten försvinna.",
         "fa": "اولین بار که در Fara-control سرپرست تیم شدم، فهمیدم بیشتر بحث‌های فنی سر محدودیت‌هایی است که کسی به زبان نیاورده. کافی است یک نفر آن‌ها را بگوید تا بحث تمام شود."
       }
     }
@@ -124,8 +124,8 @@
         "fa": "سیستم‌های بک‌اند و APIها"
       },
       "detail": {
-        "en": "Designing maintainable services, API contracts, integration flows, and performance-sensitive backend paths.",
-        "sv": "Designa underhållbara tjänster, API-kontrakt, integrationsflöden och prestandakritiska backend-vägar.",
+        "en": "Designing services that are easy to maintain, API contracts, integration flows, and the backend parts where performance really matters.",
+        "sv": "Att designa tjänster som är lätta att underhålla, API-kontrakt, integrationsflöden, och de delar av backend där prestanda verkligen spelar roll.",
         "fa": "طراحی سرویس‌هایی که بشود نگهشان داشت، قرارداد API، یکپارچه‌سازی و بخش‌هایی از بک‌اند که سرعت در آن‌ها حیاتی است."
       },
       "depth": {
@@ -177,8 +177,8 @@
         "fa": "معماری فرانت‌اند"
       },
       "detail": {
-        "en": "Building web applications with clear structure, design systems, routing, state, and testing discipline.",
-        "sv": "Bygga webbapplikationer med tydlig struktur, designsystem, routing, state och testdisciplin.",
+        "en": "Building web apps with a clear structure: design systems, routing, state management, and consistent testing.",
+        "sv": "Bygga webbappar med tydlig struktur: designsystem, routing, state-hantering och konsekvent testning.",
         "fa": "اپ‌های وب با ساختار تمیز: دیزاین‌سیستم، routing، مدیریت state و تست."
       },
       "depth": {
@@ -229,8 +229,8 @@
         "fa": "داده، کش و مشاهده‌پذیری"
       },
       "detail": {
-        "en": "Choosing storage and runtime patterns that fit the shape of product data and operating constraints.",
-        "sv": "Välja lagrings- och runtime-mönster som passar produktdatans form och driftens begränsningar.",
+        "en": "Choosing storage and runtime patterns that actually fit the data and the constraints of the product.",
+        "sv": "Välja lagrings- och runtime-mönster som faktiskt passar datan och begränsningarna i produkten.",
         "fa": "انتخاب روش ذخیره‌سازی و کش بر اساس شکل داده و محدودیت‌های واقعی محصول."
       },
       "depth": {
@@ -275,8 +275,8 @@
         "fa": "امنیت، هویت و پژوهش"
       },
       "detail": {
-        "en": "Identity service experience plus academic research in hardware security and real-time systems.",
-        "sv": "Erfarenhet av identitetstjänster samt akademisk forskning inom hårdvarusäkerhet och realtidssystem.",
+        "en": "Experience building identity services, plus academic research in hardware security and real-time systems.",
+        "sv": "Erfarenhet av att bygga identitetstjänster, plus akademisk forskning inom hårdvarusäkerhet och realtidssystem.",
         "fa": "تجربه‌ی ساخت سرویس هویت، به‌علاوه‌ی کار پژوهشی در امنیت سخت‌افزار و سیستم‌های بی‌درنگ."
       },
       "depth": {
@@ -324,32 +324,32 @@
     {
       "name": "Rust for systems work",
       "note": {
-        "en": "Used where predictable performance and memory safety matter. Two projects so far: a network-on-chip simulator with 18 crates, and a disk wiper with no external dependencies at all.",
-        "sv": "Används där förutsägbar prestanda och minnessäkerhet spelar roll. Två projekt hittills: en simulator för network-on-chip med 18 crates, och en diskrensare helt utan externa beroenden.",
+        "en": "I use it where performance needs to be predictable and memory safety matters. Two projects so far: a network-on-chip simulator with 18 crates, and a disk wiper with zero external dependencies.",
+        "sv": "Jag använder det där prestanda måste vara förutsägbar och minnessäkerhet spelar roll. Två projekt hittills: en simulator för network-on-chip med 18 crates, och ett verktyg för att rensa diskar helt utan externa beroenden.",
         "fa": "وقتی کارایی قابل پیش‌بینی و امنیت حافظه مهم باشد سراغش می‌روم. تا الان دو پروژه با آن نوشته‌ام: یک شبیه‌ساز شبکه‌ی روی تراشه با ۱۸ crate و یک ابزار پاک‌سازی دیسک بدون هیچ وابستگی خارجی."
       }
     },
     {
       "name": "Java & Spring Boot",
       "note": {
-        "en": "Adopted for a project that ties several existing infrastructures together into one coherent backend, running alongside the existing Node.js stack.",
-        "sv": "Antaget för ett projekt som binder samman flera befintliga infrastrukturer till en sammanhållen backend, sida vid sida med den befintliga Node.js-stacken.",
+        "en": "I picked it up for a project that connects several existing systems into one backend, running next to our existing Node.js stack.",
+        "sv": "Jag började med det för ett projekt som kopplar ihop flera befintliga system till en gemensam backend, sida vid sida med vår befintliga Node.js-stack.",
         "fa": "برای پروژه‌ای سراغش رفتم که باید چند سیستم موجود را زیر یک بک‌اند یکپارچه جمع کند، کنار Node.js که از قبل داشتیم."
       }
     },
     {
       "name": "AI-assisted fraud detection",
       "note": {
-        "en": "Training models to catch data tampering and fraud in accounting records, the kind of anomaly a manual review usually misses.",
-        "sv": "Tränar modeller för att upptäcka datamanipulation och bedrägeri i bokföringsdata, den typ av avvikelse en manuell granskning ofta missar.",
+        "en": "I'm training models to catch data tampering and fraud in accounting records, the kind of thing a manual review usually misses.",
+        "sv": "Jag tränar modeller för att hitta datamanipulation och bedrägeri i bokföringsdata, sånt som en manuell granskning oftast missar.",
         "fa": "مدل‌هایی آموزش می‌دهم که دست‌کاری داده و تقلب را در اسناد حسابداری پیدا کنند، همان ناهنجاری‌هایی که در بازبینی دستی معمولاً از چشم می‌افتند."
       }
     },
     {
       "name": "Marketplace & logistics platform",
       "note": {
-        "en": "Building a full marketplace end to end, with an AI layer on the logistics side pushing more throughput out of the same infrastructure.",
-        "sv": "Bygger en komplett marknadsplats från grunden, med ett AI-lager på logistiksidan som pressar ut mer kapacitet ur samma infrastruktur.",
+        "en": "Building a full marketplace from the ground up, with an AI layer on the logistics side that gets more throughput out of the same infrastructure.",
+        "sv": "Bygger en komplett marknadsplats från grunden, med ett AI-lager på logistiksidan som får ut mer kapacitet från samma infrastruktur.",
         "fa": "دارم یک مارکت‌پلیس کامل را از صفر می‌سازم، با یک لایه‌ی هوش مصنوعی در بخش لجستیک که از همان زیرساخت کار بیشتری بکشد."
       }
     }
@@ -361,8 +361,8 @@
       "fa": "تیم‌هایی که با آن‌ها کار کرده‌ام"
     },
     "note": {
-      "en": "International collaboration has been a constant - Sweden, France, Iran - and it is the part of the work I would not trade.",
-      "sv": "Internationellt samarbete har varit en konstant - Sverige, Frankrike, Iran - och det är den del av arbetet jag inte skulle byta bort.",
+      "en": "I have always worked with international teams, Sweden, France, Iran, and that's one part of the job I really enjoy.",
+      "sv": "Jag har alltid jobbat med internationella team, Sverige, Frankrike, Iran, och det är en del av jobbet jag verkligen uppskattar.",
       "fa": "همیشه با آدم‌هایی از کشورهای مختلف کار کرده‌ام، از سوئد و فرانسه تا ایران، و این بخش از کارم را خیلی دوست دارم."
     },
     "images": [
