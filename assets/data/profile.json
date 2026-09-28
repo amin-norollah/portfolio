@@ -68,14 +68,11 @@
   },
   "email": "a.norollah.official@gmail.com",
   "website": "https://norollah.com",
-  "avatar": "imgs/profile-front.png",
-  "avatarBackdrop": "imgs/profile-back.jpg",
   "avatarAlt": {
     "en": "Portrait of Amin Norollah",
     "sv": "Porträtt av Amin Norollah",
     "fa": "تصویر امین نورالله"
   },
-  "logo": "imgs/Logo.svg",
   "resume": {
     "url": "#print",
     "label": {

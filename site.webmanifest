@@ -6,8 +6,5 @@
   "display": "standalone",
   "background_color": "#08060c",
   "theme_color": "#08060c",
-  "icons": [
-    { "src": "imgs/profile-front.png", "sizes": "220x287", "type": "image/png" },
-    { "src": "favicon.ico", "sizes": "48x48", "type": "image/x-icon" }
-  ]
+  "icons": [{ "src": "favicon.ico", "sizes": "48x48", "type": "image/x-icon" }]
 }
