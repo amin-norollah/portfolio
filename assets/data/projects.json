@@ -1,0 +1,2232 @@
+[
+  {
+    "id": "fraud-risk-scoring",
+    "name": "Explainable Fraud Risk Scoring",
+    "track": "academic",
+    "category": "ai",
+    "date": "2026-09",
+    "year": 2026,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/fraud-scoring.svg",
+    "cover": "imgs/slider/fraud-scoring.jpg",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Research on scoring accounting journal entries for fraud risk, with internal controls as model features and an LLM that explains each alert",
+      "sv": "Forskning om att riskbedöma verifikationer för bedrägeri, med interna kontroller som modellvariabler och en LLM som förklarar varje larm",
+      "fa": "پژوهشی درباره‌ی امتیازدهی ریسک تقلب در اسناد حسابداری، با کنترل‌های داخلی به‌عنوان ویژگی مدل و یک LLM که هر هشدار را توضیح می‌دهد"
+    },
+    "description": {
+      "en": [
+        "A research paper, currently in draft, written with Dorsa Salimi and Khadijeh Khodabakhshi Parijan, where I am the corresponding author. The question behind it: auditors already know which internal controls failed on a journal entry (segregation of duties, approval status, authorisation limits), so what happens when those controls become features of the risk model, next to the usual accounting red flags?",
+        "The pipeline scores a synthetic ledger of about 20,000 entries over 24 months on a Jalali fiscal calendar, with six injected fraud scenarios. It compares four models: rules traced to ISA 240, unsupervised Isolation Forest and LOF, and logistic regression with and without the control features. Features are point-in-time and the split is time-ordered, so no model ever sees the future.",
+        "On top sits an explanation layer. Claude receives only the triggered indicators and their weights, never ledger data, and writes a short explanation for each alert, which is then checked locally so it can only cite indicators that actually fired. I wrote the pipeline in Node.js with the maths (IRLS, Isolation Forest, LOF, PR-AUC, agreement statistics) implemented by hand and covered by tests, plus an Angular dashboard for reviewing alerts."
+      ],
+      "sv": [
+        "En forskningsartikel, just nu i utkast, skriven tillsammans med Dorsa Salimi och Khadijeh Khodabakhshi Parijan, där jag är korresponderande författare. Frågan bakom den: revisorer vet redan vilka interna kontroller som brast för en verifikation (arbetsfördelning, attest, beloppsgränser), så vad händer när de kontrollerna blir variabler i riskmodellen, bredvid de vanliga redovisningsmässiga varningssignalerna?",
+        "Flödet riskbedömer en syntetisk huvudbok med cirka 20 000 verifikationer över 24 månader i en persisk (Jalali) räkenskapskalender, med sex inplanterade bedrägeriscenarier. Fyra modeller jämförs: regler härledda från ISA 240, oövervakad Isolation Forest och LOF, samt logistisk regression med och utan kontrollvariablerna. Variablerna är tidpunktsbaserade och uppdelningen är tidsordnad, så ingen modell ser framtiden.",
+        "Överst ligger ett förklaringslager. Claude får bara de utlösta indikatorerna och deras vikter, aldrig bokföringsdata, och skriver en kort förklaring till varje larm, som sedan kontrolleras lokalt så att den bara kan hänvisa till indikatorer som faktiskt slog till. Jag skrev flödet i Node.js med matematiken (IRLS, Isolation Forest, LOF, PR-AUC, överensstämmelsemått) implementerad för hand och täckt av tester, plus en Angular-panel för att granska larm."
+      ],
+      "fa": [
+        "یک مقاله‌ی پژوهشی که فعلاً در مرحله‌ی پیش‌نویس است و با درسا سلیمی و خدیجه خدابخشی پاریجان نوشته شده؛ من نویسنده‌ی مسئول آن هستم. پرسش اصلی این است: حسابرس از قبل می‌داند کدام کنترل داخلی روی یک سند شکسته شده (تفکیک وظایف، وضعیت تأیید، سقف اختیارات)، پس اگر همین کنترل‌ها کنار نشانه‌های هشدار حسابداری به ویژگی‌های مدل ریسک تبدیل شوند چه اتفاقی می‌افتد؟",
+        "این پایپ‌لاین یک دفتر کل مصنوعی با حدود ۲۰ هزار سند در ۲۴ ماه و با تقویم مالی شمسی را امتیازدهی می‌کند که شش سناریوی تقلب در آن کاشته شده است. چهار مدل با هم مقایسه می‌شوند: قواعد برگرفته از ISA 240، مدل‌های بدون ناظر Isolation Forest و LOF، و رگرسیون لجستیک با و بدون ویژگی‌های کنترلی. ویژگی‌ها نقطه‌در‌زمان‌اند و تقسیم داده به ترتیب زمانی است، پس هیچ مدلی آینده را نمی‌بیند.",
+        "روی این‌ها یک لایه‌ی توضیح‌دهنده قرار دارد. Claude فقط شاخص‌های فعال‌شده و وزن‌هایشان را می‌گیرد، نه داده‌ی دفتر را، و برای هر هشدار توضیح کوتاهی می‌نویسد که بعد به‌صورت محلی بررسی می‌شود تا فقط به شاخص‌هایی ارجاع بدهد که واقعاً فعال شده‌اند. پایپ‌لاین را با Node.js نوشتم و ریاضیاتش (IRLS، Isolation Forest، LOF، PR-AUC و آماره‌های توافق) را دستی پیاده‌سازی و با تست پوشش دادم، به‌علاوه‌ی یک داشبورد Angular برای بازبینی هشدارها."
+      ]
+    },
+    "technologies": [
+      "Node.js",
+      "Claude API",
+      "Machine Learning",
+      "Explainable AI",
+      "Logistic Regression",
+      "Isolation Forest",
+      "Angular",
+      "LaTeX"
+    ]
+  },
+  {
+    "id": "focalpay-inventory",
+    "name": "FocalPay Inventory Service",
+    "track": "web",
+    "category": "backend",
+    "date": "2026-08",
+    "year": 2026,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay"
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "imgs/slider/focalpay-inventory.jpg",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Leading the move of stock management out of a larger service into its own: the plan, the architecture and the safeguards",
+      "sv": "Bröt ut lagerhanteringen ur en större tjänst och byggde en egen tjänst för den, från plan och arkitektur till skyddsnät",
+      "fa": "جدا کردن مدیریت موجودی از یک سرویس بزرگ‌تر و ساختن سرویسی مستقل برایش، از برنامه‌ی مهاجرت و معماری تا سازوکارهایی که درستی کار را تضمین می‌کنند"
+    },
+    "description": {
+      "en": [
+        "Stock management at FocalPay lived inside a larger service that had outgrown it, and correctness problems had started to show. I led the work to move it into a dedicated inventory service: I wrote the migration plan, designed the new service and built it, so it could take over step by step instead of in one risky switch.",
+        "The key decisions were mine, and I recorded each one in an architecture decision record. The cut-over is staged and reversible, following the strangler pattern, with a rehearsed rollback for every step. Stock is derived from an append-only movement ledger, so every change can be explained and audited. Stock counts change through atomic updates, so concurrent sales can never overwrite each other. Events leave through a transactional outbox to idempotent consumers, so nothing is lost or applied twice. And the service is hexagonal, with its architecture rules checked in the build, so the domain stays independent of frameworks and infrastructure.",
+        "Functionally it covers stock levels, supplier purchase orders with spreadsheet export, goods receipt with batch numbers and expiry dates, expiry alerts, stock counts, weighed goods, reporting, and reconciliation of deliveries against orders.",
+        "I treated confidence as part of the deliverable: more than a thousand automated tests, many of them integration tests against real databases and brokers running in containers, plus end-to-end tests across services, load tests, and deliberately breaking each safeguard to prove the build goes red. I also wrote the runbooks, troubleshooting guides and roadmap the team needs to operate it. The service is complete and tested, and ready for its staged cut-over."
+      ],
+      "sv": [
+        "Lagerhanteringen på FocalPay låg i en större tjänst som inte längre passade för uppgiften, och fel i lagersaldona hade börjat dyka upp. Jag fick ansvaret för att bryta ut den. Jag skrev migreringsplanen, designade den nya tjänsten och byggde den själv. Tanken var att den nya tjänsten skulle ta över lite i taget, inte att allt skulle bytas ut på en gång.",
+        "De viktiga besluten tog jag, och vart och ett finns dokumenterat i en ADR. Flytten görs stegvis enligt strangler-mönstret, och varje steg går att backa med en rollback som vi har övat på i förväg. Lagret räknas fram ur en huvudbok där inget skrivs över eller tas bort, så man kan alltid se varifrån en siffra kommer. Saldot ändras med atomiska uppdateringar, så att två samtidiga försäljningar aldrig kan skriva över varandra. Händelser skickas via en outbox till idempotenta mottagare, så ingenting försvinner och ingenting räknas två gånger. Tjänsten är dessutom hexagonal, och arkitekturreglerna kontrolleras i bygget så att affärslogiken inte blir beroende av ramverk eller infrastruktur.",
+        "Funktionellt hanterar tjänsten lagersaldon, inköpsorder till leverantörer med export till Excel, inleverans med batchnummer och bäst före-datum, varningar när varor närmar sig utgångsdatum, inventering, viktvaror, rapporter och avstämning av leveranser mot order.",
+        "För mig var det en del av leveransen att kunna visa att allt faktiskt fungerar. Tjänsten har över tusen automatiska tester, och många av dem körs mot riktiga databaser och meddelandeköer i containrar. Till det kommer end-to-end-tester mellan tjänster och lasttester, och jag bröt medvetet varje skydd för att se att bygget verkligen blev rött. Jag skrev också runbooks, felsökningsguider och en färdplan så att teamet kan förvalta tjänsten. Tjänsten är klar och testad och väntar nu på att den stegvisa flytten ska börja."
+      ],
+      "fa": [
+        "مدیریت موجودی در FocalPay بخشی از یک سرویس بزرگ‌تر بود. آن سرویس دیگر برای این کار مناسب نبود و کم‌کم خطا در داده‌های موجودی دیده می‌شد. من مسئول جدا کردن این بخش شدم: برنامه‌ی مهاجرت را نوشتم، سرویس جدید را طراحی کردم و خودم ساختمش. هدف این بود که سرویس جدید کم‌کم کار را به دست بگیرد، نه این‌که یک روز همه‌چیز یک‌جا عوض شود.",
+        "تصمیم‌های اصلی را خودم گرفتم و برای هرکدام یک ADR نوشتم. مهاجرت مرحله‌به‌مرحله و با الگوی strangler انجام می‌شود و هر مرحله راه برگشتی دارد که از قبل تمرینش کرده‌ایم. موجودی از روی دفتری حساب می‌شود که فقط چیزی به آن اضافه می‌شود و هیچ رکوردی در آن پاک یا بازنویسی نمی‌شود؛ یعنی برای هر عدد می‌شود نشان داد از کجا آمده. عدد موجودی با آپدیت اتمیک تغییر می‌کند تا دو فروش هم‌زمان هیچ‌وقت کار همدیگر را خراب نکنند. رویدادها از طریق outbox فرستاده می‌شوند و گیرنده‌ها idempotent هستند، پس هیچ رویدادی نه گم می‌شود و نه دو بار اثر می‌گذارد. معماری سرویس هم hexagonal است و قواعدش در خود بیلد چک می‌شود تا منطق اصلی به فریم‌ورک و زیرساخت وابسته نشود.",
+        "از نظر امکانات، این سرویس موجودی انبار، سفارش خرید از تأمین‌کننده با خروجی اکسل، ورود کالا با شماره‌ی بچ و تاریخ انقضا، هشدار نزدیک شدن به تاریخ انقضا، انبارگردانی، کالاهای وزنی، گزارش‌ها و تطبیق تحویل‌ها با سفارش‌ها را پوشش می‌دهد.",
+        "برای من اطمینان از درست کار کردن سیستم بخشی از خود تحویل بود. سرویس بیش از هزار تست خودکار دارد و بخش بزرگی از آن‌ها روی دیتابیس و message broker واقعی داخل کانتینر اجرا می‌شوند. کنارش تست end-to-end بین سرویس‌ها و تست بار هم هست، و هر کدام از گاردها را عمداً شکستم تا مطمئن شوم بیلد واقعاً قرمز می‌شود. runbook، راهنمای رفع اشکال و نقشه‌ی راه را هم نوشتم تا تیم بتواند سرویس را نگه دارد. سرویس آماده و تست‌شده است و منتظر شروع مهاجرت مرحله‌ای."
+      ]
+    },
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "MongoDB",
+      "Kafka",
+      "Event-Driven Architecture",
+      "Transactional Outbox",
+      "Hexagonal Architecture",
+      "DDD",
+      "ArchUnit",
+      "Testcontainers",
+      "k6",
+      "ADR"
+    ]
+  },
+  {
+    "id": "bandcenter-store",
+    "name": "Band Center Audio Store",
+    "track": "web",
+    "category": "ecommerce",
+    "date": "2026-08",
+    "year": 2026,
+    "ownership": {
+      "kind": "client",
+      "org": "Band Center"
+    },
+    "logo": "imgs/projects/bandcenter.png",
+    "cover": "imgs/slider/bandcenter.jpg",
+    "url": "https://www.bandcenter.ir/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A trilingual WooCommerce store for an audio retailer, built on a custom theme and six in-house plugins",
+      "sv": "En trespråkig WooCommerce-butik för en ljudåterförsäljare, byggd på ett eget tema och sex egna plugins",
+      "fa": "فروشگاه ووکامرس سه‌زبانه برای یک فروشنده‌ی تجهیزات صوتی، با تم اختصاصی و شش پلاگین که خودم نوشتم"
+    },
+    "description": {
+      "en": [
+        "Band Center makes and sells audio equipment. I built their online store on WordPress and WooCommerce from a custom theme up, in English, Persian and Arabic with full right-to-left support, and took it to production.",
+        "The theme is built with Vite, TypeScript and SCSS: GSAP scroll animation, a procedural Three.js hero scene, an AJAX cart drawer, a product gallery with a 360-degree viewer, wishlist and compare, dark and light modes, and SEO metadata with JSON-LD.",
+        "Around it I wrote six plugins. A self-hosted live chat with an admin inbox that hands over to WhatsApp when nobody is online. A B2B bulk-order portal where staff quote line by line and customers accept or decline. A product authenticity and warranty registry where every unit gets its own QR code and counterfeit scans are logged. CMS-managed homepage sections with a dealer application form and built-in visitor analytics. A multilingual hero slider, and a news section linked to products."
+      ],
+      "sv": [
+        "Band Center tillverkar och säljer ljudutrustning. Jag byggde deras webbutik på WordPress och WooCommerce från ett eget tema och uppåt, på engelska, persiska och arabiska med fullt stöd för höger-till-vänster, och tog den i produktion.",
+        "Temat är byggt med Vite, TypeScript och SCSS: scrollanimationer med GSAP, en procedurell Three.js-scen i hero-delen, en AJAX-varukorgslåda, ett produktgalleri med 360-gradersvy, önskelista och jämförelse, mörkt och ljust läge samt SEO-metadata med JSON-LD.",
+        "Runt det skrev jag sex plugins. En egenhostad livechatt med en inkorg i adminpanelen som lämnar över till WhatsApp när ingen är online. En B2B-portal för storbeställningar där personalen offererar rad för rad och kunden accepterar eller tackar nej. Ett register för äkthet och garanti där varje enhet får en egen QR-kod och skanningar av förfalskningar loggas. CMS-styrda startsidesektioner med ansökningsformulär för återförsäljare och inbyggd besöksstatistik. En flerspråkig hero-slider, och en nyhetsdel kopplad till produkter."
+      ],
+      "fa": [
+        "Band Center تجهیزات صوتی تولید می‌کند و می‌فروشد. فروشگاه اینترنتی‌شان را از تم اختصاصی تا آخر روی وردپرس و ووکامرس ساختم، به سه زبان انگلیسی، فارسی و عربی با پشتیبانی کامل از راست‌به‌چپ، و خودم هم راه‌اندازی‌اش کردم.",
+        "تم با Vite، TypeScript و SCSS ساخته شده: انیمیشن اسکرول با GSAP، صحنه‌ی رویه‌ای Three.js در بخش hero، کشوی سبد خرید AJAX، گالری محصول با نمای ۳۶۰ درجه، علاقه‌مندی‌ها و مقایسه، حالت تیره و روشن، و متادیتای سئو با JSON-LD.",
+        "کنارش شش پلاگین هم نوشتم: یک چت آنلاین که روی سرور خودشان اجرا می‌شود و اگر کسی از پشتیبانی آنلاین نباشد گفت‌وگو را به واتس‌اپ می‌فرستد؛ یک پورتال سفارش عمده‌ی B2B که کارمندها برای هر ردیف قیمت می‌دهند و مشتری قبول یا رد می‌کند؛ یک سیستم اصالت کالا و گارانتی که هر دستگاه کد QR خودش را دارد و اسکن‌های مشکوک ثبت می‌شوند؛ بخش‌های صفحه‌ی اصلی که از CMS مدیریت می‌شوند، همراه فرم درخواست نمایندگی و آمار بازدید؛ یک اسلایدر چندزبانه؛ و بخش اخبار که به محصولات وصل است."
+      ]
+    },
+    "technologies": [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "Polylang",
+      "TypeScript",
+      "SCSS",
+      "Vite",
+      "GSAP",
+      "Three.js",
+      "MySQL",
+      "Docker",
+      "RTL"
+    ]
+  },
+  {
+    "id": "escpos-inspector",
+    "name": "ESC/POS Receipt Inspector",
+    "track": "web",
+    "category": "tooling",
+    "date": "2026-07",
+    "year": 2026,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/escpos-inspector.svg",
+    "cover": "imgs/slider/escpos-inspector.jpg",
+    "url": "",
+    "repo": "https://github.com/amin-norollah/EscPosInspector",
+    "featured": true,
+    "tagline": {
+      "en": "Decode, preview and debug thermal-printer command streams in the browser, without a printer",
+      "sv": "Avkoda, förhandsgranska och felsök kommandoströmmar till kvittoskrivare i webbläsaren, utan skrivare",
+      "fa": "رمزگشایی و پیش‌نمایش دستورهای چاپگر حرارتی در مرورگر، بدون این‌که چاپگری لازم باشد"
+    },
+    "description": {
+      "en": [
+        "Receipt printers speak ESC/POS, a byte-level command language, and when a receipt comes out wrong the usual way to debug it is to print it again. ESC/POS Receipt Inspector decodes the stream instead: load a .bin, .prn or .escpos file, or paste hex or Base64, and it renders the receipt on a canvas next to a list of every command it found.",
+        "The parser covers eleven command families, including text styles, line spacing, paper cuts, 24-dot and raster images, QR codes and barcodes. Clicking a command highlights what it printed, raster images get their own inline preview, and unsupported bytes show up as raw hex with a reason instead of being skipped silently. Everything runs locally, so no receipt data leaves the browser.",
+        "Built with React 19, TypeScript and Vite, with no runtime dependencies beyond React, and released under the MIT licence."
+      ],
+      "sv": [
+        "Kvittoskrivare talar ESC/POS, ett kommandospråk på bytenivå, och när ett kvitto blir fel är det vanliga sättet att felsöka att skriva ut det igen. ESC/POS Receipt Inspector avkodar strömmen i stället: läs in en .bin-, .prn- eller .escpos-fil, eller klistra in hex eller Base64, så ritas kvittot upp på en canvas bredvid en lista över alla kommandon som hittades.",
+        "Parsern täcker elva kommandofamiljer, bland annat textstilar, radavstånd, pappersklipp, 24-punkts- och rasterbilder, QR-koder och streckkoder. Ett klick på ett kommando markerar vad det skrev ut, rasterbilder får en egen förhandsvisning, och byte som inte stöds visas som rå hex med en förklaring i stället för att hoppas över i tysthet. Allt körs lokalt, så ingen kvittodata lämnar webbläsaren.",
+        "Byggt med React 19, TypeScript och Vite, utan körberoenden utöver React, och släppt under MIT-licensen."
+      ],
+      "fa": [
+        "چاپگرهای رسید با ESC/POS حرف می‌زنند، زبانی از دستورات در سطح بایت، و وقتی رسیدی اشتباه چاپ می‌شود راه معمول اشکال‌زدایی این است که دوباره چاپش کنی. ESC/POS Receipt Inspector به‌جای آن خود جریان را رمزگشایی می‌کند: یک فایل ‎.bin، ‎.prn یا ‎.escpos بارگذاری کنید یا hex یا Base64 بچسبانید، و رسید روی canvas کنار فهرست همه‌ی دستورات پیداشده رسم می‌شود.",
+        "پارسر یازده خانواده‌ی دستور را پوشش می‌دهد، از جمله سبک متن، فاصله‌ی خطوط، برش کاغذ، تصاویر ۲۴ نقطه‌ای و رستری، کد QR و بارکد. کلیک روی هر دستور همان بخشی را که چاپ کرده برجسته می‌کند، تصاویر رستری پیش‌نمایش جداگانه دارند، و بایت‌های پشتیبانی‌نشده به‌جای این‌که بی‌صدا رد شوند به‌صورت hex خام همراه با دلیل نمایش داده می‌شوند. همه‌چیز محلی اجرا می‌شود، پس هیچ داده‌ای از رسید از مرورگر بیرون نمی‌رود.",
+        "با React 19، TypeScript و Vite ساخته شده، جز React هیچ وابستگی زمان اجرا ندارد و با مجوز MIT منتشر شده است."
+      ]
+    },
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Canvas",
+      "ESC/POS",
+      "Parsing"
+    ]
+  },
+  {
+    "id": "diskwiper",
+    "name": "DiskWiper",
+    "track": "desktop",
+    "category": "security",
+    "date": "2026-06",
+    "year": 2026,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/diskwiper.svg",
+    "cover": "imgs/slider/diskwiper.jpg",
+    "url": "",
+    "repo": "https://github.com/amin-norollah/DiskWiper",
+    "featured": true,
+    "tagline": {
+      "en": "A single-file Windows tool that makes deleted files unrecoverable without touching the files you keep",
+      "sv": "Ett Windows-verktyg i en enda fil som gör raderade filer omöjliga att återskapa, utan att röra filerna du behåller",
+      "fa": "ابزار تک‌فایلی ویندوز که فایل‌های پاک‌شده را غیرقابل بازیابی می‌کند و به فایل‌های موجود دست نمی‌زند"
+    },
+    "description": {
+      "en": [
+        "DiskWiper overwrites the free space on a drive so that files deleted earlier cannot be recovered, and it never touches existing files. It is written in Rust with zero external crates: the random generator (a ChaCha8 keystream), the terminal UI, argument parsing and the Win32 bindings are all written in-tree, and the whole tool ships as a single executable of about 550 KB.",
+        "It fills temporary files inside its own scratch folder instead of writing to the raw device, using multi-threaded unbuffered I/O tuned to the medium. It then floods free NTFS MFT records so that small deleted files stored inside the MFT are overwritten too, and finishes with a TRIM on SSDs. A shred command securely deletes individual files and folders.",
+        "Most of the work went into safety. Every run shows a plan and asks for confirmation, with a stricter typed phrase for the system drive. The volume always keeps some headroom, Ctrl+C cancels cleanly, and temporary files are removed even after a crash. The tool is also honest about its limits: on SSDs a free-space wipe is best-effort, and it says so before it starts."
+      ],
+      "sv": [
+        "DiskWiper skriver över det lediga utrymmet på en disk så att tidigare raderade filer inte går att återskapa, och rör aldrig befintliga filer. Det är skrivet i Rust helt utan externa crates: slumpgeneratorn (en ChaCha8-nyckelström), terminalgränssnittet, argumenttolkningen och Win32-bindningarna är alla skrivna i projektet, och hela verktyget levereras som en enda körbar fil på cirka 550 KB.",
+        "Det fyller temporära filer i sin egen arbetsmapp i stället för att skriva direkt till enheten, med flertrådad obuffrad I/O anpassad efter mediet. Sedan fylls lediga NTFS MFT-poster så att små raderade filer som låg i MFT också skrivs över, och på SSD avslutas körningen med TRIM. Kommandot shred raderar enskilda filer och mappar säkert.",
+        "Det mesta av arbetet gick till säkerheten. Varje körning visar en plan och ber om bekräftelse, med en strängare inskriven fras för systemdisken. Volymen behåller alltid lite marginal, Ctrl+C avbryter rent, och temporära filer tas bort även efter en krasch. Verktyget är också ärligt om sina gränser: på SSD är en rensning av ledigt utrymme bara bästa möjliga försök, och det sägs innan körningen börjar."
+      ],
+      "fa": [
+        "DiskWiper فضای خالی دیسک را بازنویسی می‌کند تا فایل‌هایی که قبلاً حذف شده‌اند قابل بازیابی نباشند، و هیچ‌وقت به فایل‌های موجود دست نمی‌زند. با Rust و بدون حتی یک crate خارجی نوشته شده: مولد تصادفی (جریان کلید ChaCha8)، رابط ترمینال، پردازش آرگومان‌ها و اتصال‌های Win32 همه داخل خود پروژه نوشته شده‌اند، و کل ابزار یک فایل اجرایی حدوداً ۵۵۰ کیلوبایتی است.",
+        "به‌جای نوشتن مستقیم روی دستگاه، فایل‌های موقت را داخل پوشه‌ی کاری خودش پر می‌کند، با I/O چندنخی و بدون بافر که متناسب با نوع حافظه تنظیم می‌شود. بعد رکوردهای آزاد MFT در NTFS را پر می‌کند تا فایل‌های کوچکِ حذف‌شده‌ای که داخل خود MFT بوده‌اند هم بازنویسی شوند، و روی SSD کار را با TRIM تمام می‌کند. دستور shred هم فایل‌ها و پوشه‌های تکی را به‌شکل امن حذف می‌کند.",
+        "بیشتر کار صرف ایمنی شد. هر اجرا اول یک برنامه نشان می‌دهد و تأیید می‌خواهد، و برای درایو سیستم باید یک عبارت مشخص تایپ شود. همیشه مقداری فضای آزاد روی درایو باقی می‌ماند، Ctrl+C بی‌دردسر لغو می‌کند، و فایل‌های موقت حتی بعد از کرش هم پاک می‌شوند. ابزار درباره‌ی محدودیت‌هایش هم صادق است: روی SSD پاک‌سازی فضای خالی فقط در حد تلاش است و این را پیش از شروع می‌گوید."
+      ]
+    },
+    "technologies": [
+      "Rust",
+      "Win32 API",
+      "Windows",
+      "NTFS",
+      "Multithreading",
+      "CLI",
+      "Security",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "id": "cashier-probe",
+    "name": "Cashier Probe",
+    "track": "web",
+    "category": "testing",
+    "date": "2026-06",
+    "year": 2026,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay"
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "End-to-end automation that operates a real POS - terminals, cash guards, scanners and printers, no mocks",
+      "sv": "End-to-end-automation som kör ett verkligt kassasystem - terminaler, kontantskydd, skannrar och skrivare, inga mockar",
+      "fa": "تست end-to-end روی صندوق فروش واقعی با پایانه، دستگاه پول نقد، اسکنر و چاپگر، بدون هیچ mock"
+    },
+    "description": {
+      "en": [
+        "End-to-end test automation for the FocalPay Cashier Electron POS application, operating the app like a real cashier with no mocks - including payment terminals, cash guards, barcode scanners and receipt printers on real store hardware.",
+        "I designed and built the automation framework in TypeScript and Playwright, implemented the Page Object Model and 25+ test suites (login, cart, payments, refunds, age verification and more), and delivered a C# WPF launcher so QA can run suites without touching a CLI.",
+        "I also built the config-driven environment system, HTML and JSON reporting, and Windows packaging for on-site deployment."
+      ],
+      "sv": [
+        "End-to-end-testautomation för FocalPays Cashier-kassaapplikation i Electron, som kör appen som en verklig kassör utan mockar - inklusive betalterminaler, kontantskydd, streckkodsläsare och kvittoskrivare på verklig butikshårdvara.",
+        "Jag designade och byggde automationsramverket i TypeScript och Playwright, implementerade Page Object Model och 25+ testsviter (inloggning, varukorg, betalningar, återbetalningar, ålderskontroll med mera), och levererade en C# WPF-launcher så att QA kan köra sviter utan att röra ett CLI.",
+        "Jag byggde även det konfigurationsdrivna miljösystemet, rapportering i HTML och JSON, samt Windows-paketering för driftsättning på plats."
+      ],
+      "fa": [
+        "تست خودکار end-to-end برای FocalPay Cashier، صندوق فروشی که با Electron نوشته شده. این تست‌ها برنامه را مثل یک صندوق‌دار واقعی و بدون mock اجرا می‌کنند، روی سخت‌افزار واقعی فروشگاه: پایانه‌ی پرداخت، دستگاه پول نقد، بارکدخوان و چاپگر رسید.",
+        "فریم‌ورک را با TypeScript و Playwright و با الگوی Page Object Model طراحی کردم و ساختم. بیش از ۲۵ مجموعه‌تست نوشتم (ورود، سبد خرید، پرداخت، بازپرداخت، تأیید سن و چیزهای دیگر) و یک launcher با C# و WPF هم ساختم تا تیم QA بدون خط فرمان بتواند تست‌ها را اجرا کند.",
+        "تنظیمات هر محیط از فایل config خوانده می‌شود، گزارش‌ها به شکل HTML و JSON ساخته می‌شوند و کل ابزار برای نصب روی ویندوزِ فروشگاه‌ها بسته‌بندی شده است."
+      ]
+    },
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "Playwright",
+      "Electron",
+      "C#",
+      "WPF",
+      "E2E Testing",
+      "Page Object Model"
+    ]
+  },
+  {
+    "id": "focalpay-marketplace",
+    "name": "FocalPay Marketplace",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2026-04",
+    "year": 2026,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay"
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "imgs/slider/focalpay-marketplace.jpg",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A B2B wholesale marketplace for Nordic grocery stores, built around a reorder engine that tells each store what to buy next",
+      "sv": "En B2B-marknadsplats för grossistinköp till nordiska livsmedelsbutiker, byggd kring en motor som föreslår vad varje butik behöver beställa",
+      "fa": "مارکت‌پلیس عمده‌فروشی B2B برای فروشگاه‌های مواد غذایی در کشورهای نوردیک، با موتوری که به هر فروشگاه می‌گوید چه چیزی را دوباره سفارش بدهد"
+    },
+    "description": {
+      "en": [
+        "FocalPay Marketplace lets stores buy from wholesalers and producers across the Nordic markets, in Swedish, Danish, Norwegian, Icelandic and English. Its wedge is a reorder engine: it reads live stock and sales velocity, flags what is about to run out, suggests quantities that respect minimum order sizes and defaults to the cheapest supplier, so a list of suggestions becomes a basket in one step. Around it sit the catalog and listings, basket and orders, messaging, logistics, party management and a super-admin panel.",
+        "FocalPay acts as a directory and never touches trade money. Every order produces a sealed, tamper-evident trade record, and FocalPay earns a commission that it invoices monthly.",
+        "I am the main engineer, with about 110 of the first 155 commits, across both ends. The front end is Angular 22 written the modern way: zoneless, signals, standalone and OnPush, with headless Spartan components, TanStack Table with virtual scroll and Tailwind v4 on design tokens. The back end is a Java 25 and Spring Boot 4.1 modular monolith with seven bounded contexts in a hexagonal layout, boundaries checked by ArchUnit, PostgreSQL with 39 Flyway migrations, about 150 endpoints, and an order state machine modelled with sealed interfaces. Sign-in runs on Spring Authorization Server, and every user only ever sees their own organisation's data.",
+        "Money and language got real care: amounts are stored in minor units with a currency registry (the Icelandic króna has no decimals), VAT is calculated per country, sorting and search follow each language's collation, and ICU messages get Icelandic plurals right. I wrote more than 30 architecture decision records, and the build has its own gates for missing translation keys, money handling and temporary facades that outlive their deadline. The platform is in staged delivery toward its first pilot store."
+      ],
+      "sv": [
+        "På FocalPay Marketplace köper butiker från grossister och producenter på de nordiska marknaderna, på svenska, danska, norska, isländska och engelska. Det viktigaste är beställningsförslagen: systemet tittar på aktuellt lager och hur fort varorna säljer, visar vad som håller på att ta slut, föreslår en mängd som klarar minsta orderkvantitet och väljer den billigaste leverantören. Butiken lägger förslagen i varukorgen med ett klick. Runt det finns katalog, varukorg och order, meddelanden, logistik, hantering av handelspartner och en adminpanel för hela plattformen.",
+        "FocalPay fungerar som förmedlare och hanterar aldrig själva betalningarna mellan parterna. Varje order sparas som en komplett post som inte kan ändras i efterhand, och FocalPay tar betalt genom en provision som faktureras en gång i månaden.",
+        "Jag är huvudutvecklare och står för ungefär 110 av de första 155 commitsen, i både frontend och backend. Frontend är skriven i Angular 22 på det moderna sättet: utan zone.js, med signals, fristående komponenter och OnPush. Tabellerna bygger på TanStack Table med virtuell scroll och utseendet på Tailwind v4 med designtokens. Backend är en modulär monolit i Java 25 och Spring Boot 4.1, uppdelad i sju avgränsade kontexter med hexagonal struktur, där ArchUnit ser till att modulgränserna hålls. Databasen är PostgreSQL med 39 Flyway-migreringar, API:et har runt 150 endpoints och orderflödet är modellerat som en tillståndsmaskin. Inloggningen bygger på Spring Authorization Server, och varje användare ser bara sin egen organisations data.",
+        "Pengar och språk fick mycket omsorg. Belopp lagras i minsta valutaenhet och varje valuta har sina egna regler (isländska kronor har till exempel inga decimaler), momsen räknas per land, sortering och sökning följer varje språks alfabet och översättningarna klarar även isländskans pluralformer. Jag har skrivit över 30 ADR:er och lagt in egna kontroller i bygget som stoppar saknade översättningar, felaktig pengahantering och tillfälliga lösningar som har blivit kvar för länge. Plattformen byggs ut steg för steg inför den första pilotbutiken."
+      ],
+      "fa": [
+        "FocalPay Marketplace جایی است که فروشگاه‌ها از عمده‌فروش‌ها و تولیدکننده‌ها خرید می‌کنند، در بازارهای نوردیک و به زبان‌های سوئدی، دانمارکی، نروژی، ایسلندی و انگلیسی. مهم‌ترین بخشش موتور پیشنهاد خرید است: موجودی فعلی و سرعت فروش هر کالا را نگاه می‌کند، کالاهایی را که دارند تمام می‌شوند نشان می‌دهد، مقدار مناسب را با در نظر گرفتن حداقل سفارش پیشنهاد می‌دهد و ارزان‌ترین تأمین‌کننده را انتخاب می‌کند. فروشگاه با یک کلیک این پیشنهادها را به سبد خرید می‌برد. کاتالوگ، سبد و سفارش، پیام‌رسانی، لجستیک، مدیریت طرف‌های معامله و پنل مدیریت کل هم بخش‌های دیگر سیستم هستند.",
+        "در این مدل FocalPay فقط نقش معرف را دارد و پول معامله از دستش رد نمی‌شود. برای هر سفارش یک سابقه‌ی کامل ثبت می‌شود که بعداً نمی‌شود دست‌کاری‌اش کرد، و درآمد FocalPay کمیسیونی است که ماهی یک بار فاکتور می‌شود.",
+        "مهندس اصلی پروژه من هستم و از ۱۵۵ کامیت اول، حدود ۱۱۰ تا را خودم زده‌ام؛ هم در فرانت‌اند و هم در بک‌اند. فرانت‌اند با Angular 22 و به سبک جدیدش نوشته شده: بدون zone.js، با signals، کامپوننت‌های standalone و OnPush. برای جدول‌ها از TanStack Table با virtual scroll و برای ظاهر از Tailwind v4 روی design tokenها استفاده کردم. بک‌اند یک ماژولار مونولیت با Java 25 و Spring Boot 4.1 است که به هفت bounded context تقسیم شده و ساختار hexagonal دارد، و ArchUnit مراقب است مرز بین ماژول‌ها رعایت شود. دیتابیس PostgreSQL است با ۳۹ migration در Flyway، سیستم حدود ۱۵۰ endpoint دارد و چرخه‌ی سفارش با یک state machine مدل شده است. ورود کاربران روی Spring Authorization Server است و هر کاربر فقط داده‌های سازمان خودش را می‌بیند.",
+        "برای پول و زبان حوصله‌ی زیادی به خرج دادم. مبلغ‌ها به کوچک‌ترین واحد پول ذخیره می‌شوند و هر ارز قواعد خودش را دارد (مثلاً کرون ایسلند اعشار ندارد)، مالیات بر ارزش افزوده برای هر کشور جدا حساب می‌شود، مرتب‌سازی و جستجو قواعد الفبای هر زبان را رعایت می‌کنند و متن‌های ترجمه‌شده حتی حالت‌های جمع زبان ایسلندی را درست نشان می‌دهند. بیش از ۳۰ ADR نوشتم و چند بررسی خودکار هم به بیلد اضافه کردم که جلوی کلید ترجمه‌ی جاافتاده، کار نادرست با پول و راه‌حل‌های موقتیِ ازمهلت‌گذشته را می‌گیرند. پلتفرم مرحله‌به‌مرحله آماده می‌شود تا در اولین فروشگاه پایلوت راه بیفتد."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "Signals",
+      "Tailwind CSS",
+      "TanStack Table",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Flyway",
+      "MongoDB",
+      "Hexagonal Architecture",
+      "DDD",
+      "OAuth 2.1",
+      "ArchUnit",
+      "Testcontainers",
+      "Playwright",
+      "i18n"
+    ]
+  },
+  {
+    "id": "tessera",
+    "name": "Tessera - NoC Simulator",
+    "track": "academic",
+    "category": "hardware",
+    "date": "2026-01",
+    "year": 2026,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/tessera.svg",
+    "cover": "imgs/slider/tessera.jpg",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A clean-room Rust successor to PAT-Noxim: deterministic, replayable network-on-chip simulation with a queryable record of every run",
+      "sv": "En nyskriven efterträdare till PAT-Noxim i Rust: deterministisk, återspelbar simulering av network-on-chip med en sökbar logg över varje körning",
+      "fa": "جانشین PAT-Noxim که از صفر با Rust نوشته شده: شبیه‌ساز شبکه‌ی روی تراشه که هر اجرایش دقیقاً تکرارپذیر است و می‌شود از نتایجش کوئری گرفت"
+    },
+    "description": {
+      "en": [
+        "Tessera is a cycle-accurate network-on-chip simulator written from scratch in Rust, as the successor to PAT-Noxim, the SystemC simulator from my master's research. It keeps what made PAT-Noxim useful to researchers, power, area and thermal modelling alongside latency, and drops the limits that came with SystemC.",
+        "The engine models routers with virtual channels and credit-based flow control on 2D mesh and torus topologies, with eight routing algorithms (from XY and odd-even to table-based routing imported from Noxim), four selection policies and three switch allocators including iSLIP. Traffic can be synthetic, closed-loop, or replayed from Netrace and SynFull traces.",
+        "Every run is deterministic. Per-node random streams and keyframe snapshots mean you can seek to any cycle and replay it bit for bit, and that replay doubles as a test oracle. Runs are recorded to Arrow and Parquet and queried with DuckDB, so comparing two experiments is a SQL query rather than a spreadsheet. A frozen plugin API, with an optional WebAssembly sandbox, lets new routing or traffic models register through the same path as the built-ins.",
+        "The workspace has 18 crates and 247 tests. Still open: bindings to the reference power and thermal models (DSENT, ORION, McPAT, HotSpot), parallel execution, and a web UI."
+      ],
+      "sv": [
+        "Tessera är en cykelexakt simulator för network-on-chip, skriven från grunden i Rust som efterträdare till PAT-Noxim, SystemC-simulatorn från min masterforskning. Den behåller det som gjorde PAT-Noxim användbar för forskare, modeller för effekt, yta och temperatur bredvid latens, och gör sig av med begränsningarna som följde med SystemC.",
+        "Motorn modellerar routrar med virtuella kanaler och kreditbaserad flödeskontroll på 2D-mesh och torus, med åtta routingalgoritmer (från XY och odd-even till tabellbaserad routing importerad från Noxim), fyra urvalspolicyer och tre switchallokatorer, bland dem iSLIP. Trafiken kan vara syntetisk, sluten, eller återspelad från Netrace- och SynFull-spår.",
+        "Varje körning är deterministisk. Separata slumpströmmar per nod och nyckelbildsögonblick gör att man kan hoppa till vilken cykel som helst och spela upp den bit för bit, och den uppspelningen fungerar också som testorakel. Körningar sparas i Arrow och Parquet och frågas med DuckDB, så att jämföra två experiment är en SQL-fråga i stället för ett kalkylark. Ett fryst plugin-API, med valfri WebAssembly-sandlåda, låter nya routing- och trafikmodeller registreras på samma väg som de inbyggda.",
+        "Arbetsytan har 18 crates och 247 tester. Kvar att göra: bindningar till referensmodellerna för effekt och värme (DSENT, ORION, McPAT, HotSpot), parallell körning och ett webbgränssnitt."
+      ],
+      "fa": [
+        "Tessera یک شبیه‌ساز دقیق در سطح سیکل برای شبکه‌ی روی تراشه است که از صفر با Rust نوشته شده، به‌عنوان جانشین PAT-Noxim، شبیه‌ساز SystemC دوران پژوهش کارشناسی ارشدم. آن چیزی را که PAT-Noxim را برای پژوهشگران مفید می‌کرد نگه می‌دارد، یعنی مدل‌سازی توان، مساحت و دما در کنار تأخیر، و محدودیت‌هایی را که SystemC با خودش می‌آورد کنار می‌گذارد.",
+        "موتور، روترها را با کانال‌های مجازی و کنترل جریان مبتنی بر اعتبار روی توپولوژی‌های mesh و torus دوبعدی مدل می‌کند، با هشت الگوریتم مسیریابی (از XY و odd-even تا مسیریابی جدولی واردشده از Noxim)، چهار سیاست انتخاب و سه تخصیص‌دهنده‌ی سوئیچ از جمله iSLIP. ترافیک می‌تواند مصنوعی، حلقه‌بسته، یا بازپخش ردهای Netrace و SynFull باشد.",
+        "هر اجرا قطعی است. جریان‌های تصادفی جدا برای هر گره و snapshotهای کلیدی یعنی می‌شود به هر سیکلی پرید و آن را بیت به بیت دوباره اجرا کرد، و همین بازپخش نقش مرجع تست را هم بازی می‌کند. اجراها در Arrow و Parquet ذخیره و با DuckDB پرس‌وجو می‌شوند، پس مقایسه‌ی دو آزمایش یک کوئری SQL است نه یک صفحه‌گسترده. یک API پلاگین تثبیت‌شده، با sandbox اختیاری WebAssembly، اجازه می‌دهد مدل‌های تازه‌ی مسیریابی یا ترافیک از همان مسیری ثبت شوند که مدل‌های داخلی ثبت می‌شوند.",
+        "این workspace هجده crate و ۲۴۷ تست دارد. کارهای باقی‌مانده: اتصال به مدل‌های مرجع توان و دما (DSENT، ORION، McPAT، HotSpot)، اجرای موازی و رابط وب."
+      ]
+    },
+    "technologies": [
+      "Rust",
+      "NoC",
+      "Simulation",
+      "Apache Arrow",
+      "Parquet",
+      "DuckDB",
+      "SQLite",
+      "WebAssembly",
+      "Thermal Modelling"
+    ],
+    "relatedPublicationIds": [
+      "socc-2018-pat-noxim"
+    ]
+  },
+  {
+    "id": "chainsync",
+    "name": "ChainSync",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2025-10",
+    "year": 2025,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/chainsync.svg",
+    "cover": "imgs/slider/chainsync.jpg",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A multi-tenant logistics API that plans couriers and routes, tracks every delivery and reports on all of it",
+      "sv": "Ett logistik-API för flera kunder som planerar bud och rutter, spårar varje leverans och rapporterar om allt",
+      "fa": "API لجستیک چندمستأجری که پیک و مسیر را برنامه‌ریزی می‌کند، هر تحویل را دنبال می‌کند و از همه‌اش گزارش می‌دهد"
+    },
+    "description": {
+      "en": [
+        "ChainSync is a logistics API platform for businesses that run their own deliveries. A client sends its packages in a single request, and the platform assigns couriers and routes with one of five optimisation strategies (fewest carriers, shortest time, shortest distance, lowest cost, or automatic) across one-to-one, one-to-many, many-to-one and many-to-many delivery patterns.",
+        "I have built it alone, end to end, over more than 400 commits: a NestJS 11 API with 30 modules and about 230 endpoints, and an Angular 19 operations console with more than 80 pages, localised into English, Persian, Arabic and French. It covers courier and delivery tracking, proof of delivery, route planning, package packing, billing, alerts and an analytics dashboard with live maps and heatmaps.",
+        "The decisions I care most about: separate PostgreSQL databases for core data and notifications, each with its own Prisma schema. A single global guard that accepts either a JWT or an API key and scopes every request to a tenant. A Redis-backed notification worker. Demand scoring on the H3 hexagonal grid. And an AI assistant that can only act through a registry of vetted tools. It is a feature-rich MVP today, with security hardening under way before a public launch."
+      ],
+      "sv": [
+        "ChainSync är en logistikplattform med API för företag som sköter sina egna leveranser. En kund skickar in sina paket i ett enda anrop, och plattformen tilldelar bud och rutter med en av fem optimeringsstrategier (minst antal bud, kortast tid, kortast sträcka, lägst kostnad eller automatiskt) för leveransmönstren en-till-en, en-till-många, många-till-en och många-till-många.",
+        "Jag har byggt den ensam, från början till slut, i över 400 commits: ett NestJS 11-API med 30 moduler och runt 230 endpoints, och en driftkonsol i Angular 19 med över 80 sidor, översatt till engelska, persiska, arabiska och franska. Den täcker spårning av bud och leveranser, leveransbevis, ruttplanering, packning, fakturering, larm och en analyspanel med livekartor och värmekartor.",
+        "De beslut jag bryr mig mest om: separata PostgreSQL-databaser för kärndata och notiser, var och en med sitt eget Prisma-schema. En enda global guard som tar emot antingen JWT eller API-nyckel och knyter varje anrop till en kund. En notisarbetare som bygger på Redis. Efterfrågebedömning på det hexagonala H3-rutnätet. Och en AI-assistent som bara kan agera via ett register av granskade verktyg. I dag är det en funktionsrik MVP, och säkerhetshärdning pågår inför en publik lansering."
+      ],
+      "fa": [
+        "ChainSync یک پلتفرم API لجستیکی برای کسب‌وکارهایی است که خودشان تحویل انجام می‌دهند. مشتری بسته‌هایش را در یک درخواست می‌فرستد و پلتفرم با یکی از پنج راهبرد بهینه‌سازی (کمترین تعداد پیک، کوتاه‌ترین زمان، کوتاه‌ترین مسافت، کمترین هزینه، یا خودکار) پیک و مسیر تعیین می‌کند، در الگوهای تحویل یک‌به‌یک، یک‌به‌چند، چندبه‌یک و چندبه‌چند.",
+        "همه‌اش را خودم تنها ساخته‌ام، در بیش از ۴۰۰ کامیت: یک API با NestJS 11 با ۳۰ ماژول و حدود ۲۳۰ endpoint، و یک کنسول عملیات با Angular 19 با بیش از ۸۰ صفحه که به انگلیسی، فارسی، عربی و فرانسوی ترجمه شده. ردیابی پیک و تحویل، تأیید تحویل، برنامه‌ریزی مسیر، چیدمان بسته، صورت‌حساب، هشدارها و داشبورد تحلیلی با نقشه‌ی زنده و نقشه‌ی حرارتی را پوشش می‌دهد.",
+        "تصمیم‌هایی که بیشتر از همه برایم مهم بودند: دیتابیس‌های جدای PostgreSQL برای داده‌ی اصلی و اعلان‌ها، هرکدام با schema خودش در Prisma. یک guard سراسری که JWT یا کلید API را می‌پذیرد و هر درخواست را به یک مستأجر محدود می‌کند. یک worker اعلان روی Redis. امتیازدهی تقاضا روی شبکه‌ی شش‌ضلعی H3. و یک دستیار هوش مصنوعی که فقط از طریق فهرستی از ابزارهای بررسی‌شده می‌تواند کاری انجام بدهد. الان یک MVP کامل است و قبل از انتشار عمومی دارم امنیتش را محکم‌تر می‌کنم."
+      ]
+    },
+    "technologies": [
+      "NestJS",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Angular",
+      "Angular Material",
+      "ECharts",
+      "Leaflet",
+      "H3",
+      "Swagger",
+      "Docker",
+      "REST APIs",
+      "i18n"
+    ]
+  },
+  {
+    "id": "laddergo",
+    "name": "LadderGo",
+    "track": "mobile",
+    "category": "game",
+    "date": "2025-03",
+    "year": 2025,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/laddergo.png",
+    "cover": "imgs/slider/laddergo.jpg",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Snakes & Ladders and Ludo for Android and iOS, offline against AI or online in real time",
+      "sv": "Stege och orm samt Fia för Android och iOS, offline mot AI eller online i realtid",
+      "fa": "مار و پله و منچ برای اندروید و iOS، آفلاین در برابر هوش مصنوعی یا آنلاین و بی‌درنگ"
+    },
+    "description": {
+      "en": [
+        "LadderGo is a casual board-game app for Android and iOS with two games, Snakes & Ladders and Ludo. You can play offline with up to four players, mixing people and AI opponents at three difficulty levels, or online in real-time matches with matchmaking, friend invites, turn timers and emoji reactions.",
+        "The Snakes & Ladders board adds elevators, gift cells and five power-ups (extra life, shield, double dice and two kinds of bomb), and you can shake the phone to roll the dice, read from the accelerometer. A star currency unlocks new maps, and there is a global ranking and a friends list.",
+        "I built both sides. The app is React Native with Redux Toolkit, Reanimated and Lottie. The backend is NestJS with Prisma on PostgreSQL, and live games run through a Socket.IO gateway with twelve events, with game state kept in Redis behind a mutex so a player who drops out can reconnect to the same game. It is deployed with Docker behind nginx."
+      ],
+      "sv": [
+        "LadderGo är en app med sällskapsspel för Android och iOS med två spel, Stege och orm samt Fia. Man kan spela offline med upp till fyra spelare, med både människor och AI-motståndare på tre svårighetsnivåer, eller online i realtidsmatcher med matchning, vänförfrågningar, turtimer och emoji-reaktioner.",
+        "Brädet i Stege och orm har också hissar, presentrutor och fem power-ups (extra liv, sköld, dubbeltärning och två sorters bomber), och man kan skaka telefonen för att slå tärningen, avläst från accelerometern. En stjärnvaluta låser upp nya kartor, och det finns en global topplista och en vänlista.",
+        "Jag byggde båda sidorna. Appen är React Native med Redux Toolkit, Reanimated och Lottie. Backend är NestJS med Prisma på PostgreSQL, och livematcher går genom en Socket.IO-gateway med tolv händelser, där speltillståndet ligger i Redis bakom en mutex så att en spelare som tappar anslutningen kan komma tillbaka till samma parti. Den driftsätts med Docker bakom nginx."
+      ],
+      "fa": [
+        "LadderGo یک اپ بازی رومیزی برای اندروید و iOS با دو بازی مار و پله و منچ است. می‌شود آفلاین تا چهار نفر بازی کرد، ترکیبی از آدم‌ها و حریف‌های هوش مصنوعی در سه سطح دشواری، یا آنلاین در مسابقه‌های بی‌درنگ با جفت‌یابی، دعوت دوستان، زمان‌سنج نوبت و واکنش با ایموجی.",
+        "صفحه‌ی مار و پله آسانسور، خانه‌ی هدیه و پنج قدرت ویژه (جان اضافه، سپر، تاس دوبرابر و دو نوع بمب) هم دارد، و می‌شود برای انداختن تاس گوشی را تکان داد که از شتاب‌سنج خوانده می‌شود. یک ارز ستاره‌ای نقشه‌های تازه را باز می‌کند و رتبه‌بندی جهانی و فهرست دوستان هم هست.",
+        "هر دو طرف را خودم ساختم. اپ با React Native، Redux Toolkit، Reanimated و Lottie نوشته شده. بک‌اند NestJS با Prisma روی PostgreSQL است و بازی‌های زنده از یک gateway مبتنی بر Socket.IO با دوازده رویداد عبور می‌کنند؛ وضعیت بازی پشت یک mutex در Redis نگه‌داری می‌شود تا بازیکنی که اتصالش قطع شده بتواند به همان بازی برگردد. استقرار با Docker و پشت nginx است."
+      ]
+    },
+    "technologies": [
+      "React Native",
+      "TypeScript",
+      "Redux",
+      "Socket.IO",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Lottie"
+    ]
+  },
+  {
+    "id": "compass-campus-map",
+    "name": "Compass Campus Map",
+    "track": "web",
+    "category": "frontend",
+    "date": "2024-10",
+    "year": 2024,
+    "ownership": {
+      "kind": "company",
+      "org": "Cntxts Inc."
+    },
+    "logo": "imgs/projects/VICINIA.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A multi-tenant interactive campus map: search, walking directions, indoor floors, shuttles and parking on any device",
+      "sv": "En interaktiv campuskarta för flera kunder: sök, gångvägbeskrivning, våningsplan inomhus, skyttlar och parkering på alla enheter",
+      "fa": "نقشه‌ی تعاملی و چندمستأجری پردیس: جستجو، مسیریابی پیاده، طبقات داخلی، شاتل‌ها و پارکینگ روی هر دستگاهی"
+    },
+    "description": {
+      "en": [
+        "Compass is the visitor-facing side of the Vicinia platform: a multi-tenant interactive map where people find buildings, parking and services, get walking directions, and explore a campus floor by floor. Each venue gets its own branding, content and SEO, served from its own backend.",
+        "I have been one of its two main developers since late 2024, with more than 770 commits. My work covers the sign-in flow (OAuth2, sign-up with phone verification, password reset and account editing), per-tenant SEO tags injected when the container starts, a redesigned shuttle panel with live vehicle positions, temporary closures on the map, 2.5D indoor parking structures, and moving the build from the Angular CLI to Vite.",
+        "I also led a large accessibility pass: full keyboard navigation, screen-reader announcements, skip links and an accessible map mode, so the map works without a mouse and without sight. The app ships continuously and has passed 580 releases."
+      ],
+      "sv": [
+        "Compass är besökarsidan av Vicinia-plattformen: en interaktiv karta för flera kunder där man hittar byggnader, parkering och service, får gångvägbeskrivningar och utforskar ett campus våning för våning. Varje plats får sitt eget varumärke, innehåll och SEO, levererat från sin egen backend.",
+        "Jag har varit en av de två huvudutvecklarna sedan slutet av 2024, med över 770 commits. Mitt arbete omfattar inloggningsflödet (OAuth2, registrering med telefonverifiering, återställning av lösenord och kontoredigering), SEO-taggar per kund som injiceras när containern startar, en omgjord skyttelpanel med fordonspositioner i realtid, tillfälliga avstängningar på kartan, 2,5D-parkeringshus inomhus och flytten av bygget från Angular CLI till Vite.",
+        "Jag ledde också en stor tillgänglighetsinsats: full tangentbordsnavigering, uppläsning för skärmläsare, hopplänkar och ett tillgängligt kartläge, så att kartan fungerar utan mus och utan syn. Appen levereras kontinuerligt och har passerat 580 releaser."
+      ],
+      "fa": [
+        "Compass بخش رو به بازدیدکننده‌ی پلتفرم Vicinia است: نقشه‌ای تعاملی و چندمستأجری که مردم در آن ساختمان‌ها، پارکینگ و خدمات را پیدا می‌کنند، مسیر پیاده می‌گیرند و پردیس را طبقه به طبقه می‌گردند. هر مجموعه برند، محتوا و سئوی خودش را دارد که از بک‌اند خودش می‌آید.",
+        "از اواخر ۲۰۲۴ یکی از دو توسعه‌دهنده‌ی اصلی آن بوده‌ام، با بیش از ۷۷۰ کامیت. کار من شامل جریان ورود (OAuth2، ثبت‌نام با تأیید شماره تلفن، بازیابی رمز و ویرایش حساب)، تزریق تگ‌های سئوی هر مستأجر هنگام بالا آمدن کانتینر، طراحی دوباره‌ی پنل شاتل با موقعیت زنده‌ی خودروها، نمایش بسته‌شدن‌های موقت روی نقشه، پارکینگ‌های طبقاتی ۲٫۵ بعدی، و انتقال build از Angular CLI به Vite است.",
+        "یک دور بزرگ دسترس‌پذیری را هم رهبری کردم: ناوبری کامل با صفحه‌کلید، اعلان برای صفحه‌خوان‌ها، لینک‌های پرش و حالت نقشه‌ی دسترس‌پذیر، تا نقشه بدون ماوس و بدون بینایی هم قابل استفاده باشد. اپ به‌طور پیوسته منتشر می‌شود و از ۵۸۰ نسخه گذشته است."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "Google Maps",
+      "Angular Material",
+      "Firebase",
+      "Accessibility",
+      "i18n",
+      "Vite",
+      "Docker"
+    ]
+  },
+  {
+    "id": "navigation-project",
+    "name": "Navigation Service",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2024-09",
+    "year": 2024,
+    "ownership": {
+      "kind": "company",
+      "org": "Cyberdesign co."
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "A NestJS backend and React admin that turn store product data into in-store customer navigation",
+      "sv": "En NestJS-backend och React-admin som gör butikens produktdata till kundnavigering i butik",
+      "fa": "بک‌اند NestJS و پنل مدیریت React که از داده‌ی محصولات فروشگاه، مسیریابی داخل فروشگاه برای مشتری می‌سازد"
+    },
+    "description": {
+      "en": [
+        "This standalone project integrates an admin section built in React with a NestJS backend, developed to connect store products with the FocalPay app and enable a navigation feature for customers.",
+        "My responsibility involved developing the main backend service and the admin front end. I managed core data operations and provided a data feed for the navigation service, supporting route calculation and delivering real-time navigation information to the end-user web app."
+      ],
+      "sv": [
+        "Detta fristående projekt integrerar en adminsektion byggd i React med en NestJS-backend, utvecklat för att koppla butikens produkter till FocalPay-appen och möjliggöra en navigeringsfunktion för kunder.",
+        "Mitt ansvar innefattade att utveckla huvudbackendtjänsten och admin-frontenden. Jag hanterade kärndataoperationerna och tillhandahöll ett dataflöde till navigeringstjänsten, som stödjer ruttberäkning och levererar navigeringsinformation i realtid till slutanvändarens webbapp."
+      ],
+      "fa": [
+        "این پروژه‌ی مستقل یک پنل مدیریت React را به بک‌اند NestJS وصل می‌کند. هدف این بود که محصولات فروشگاه به اپ FocalPay وصل شوند و مشتری بتواند داخل فروشگاه مسیرش را تا هر محصول پیدا کند.",
+        "بک‌اند اصلی و فرانت‌اند پنل مدیریت را من نوشتم. عملیات اصلی روی داده با من بود و داده‌ی لازم برای سرویس مسیریابی را آماده می‌کردم تا مسیر محاسبه شود و همان لحظه به وب‌اپ کاربر برسد."
+      ]
+    },
+    "technologies": [
+      "Node.js",
+      "NestJS",
+      "React",
+      "MongoDB",
+      "REST APIs",
+      "Scheduler"
+    ]
+  },
+  {
+    "id": "fortune-hunters",
+    "name": "Fortune Hunters",
+    "track": "web",
+    "category": "game",
+    "date": "2024-08",
+    "year": 2024,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/fortune-hunters.jpg",
+    "cover": "imgs/slider/fortune-hunters.jpg",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "A real-time empire-building strategy game that runs inside Telegram as a Mini App",
+      "sv": "Ett strategispel i realtid om att bygga ett imperium, som körs i Telegram som en Mini App",
+      "fa": "بازی استراتژی بی‌درنگ امپراتوری‌سازی که به شکل Mini App داخل تلگرام اجرا می‌شود"
+    },
+    "description": {
+      "en": [
+        "Fortune Hunters is a multiplayer strategy game played inside Telegram. Players grow a village from twelve building types, manage five resources, train eight kinds of warriors and attack each other on a hexagonal world map to capture, destroy or raid, with battle reports and a news feed afterwards. Alliances with squad chat, a marketplace, daily tasks and a two-level referral system keep people coming back.",
+        "I designed and built the whole stack. The front end is an Angular 18 Mini App with standalone components and signals, a canvas-rendered map and translations into twelve languages. The back end is NestJS with fifteen modules and about 55 endpoints, a large Prisma schema on PostgreSQL, Redis caching, scheduled jobs for resource production, a Telegram bot, and Protocol Buffers for the heavier map and battle payloads.",
+        "The project has been on hold since early 2025."
+      ],
+      "sv": [
+        "Fortune Hunters är ett strategispel för flera spelare som spelas i Telegram. Spelarna bygger upp en by med tolv byggnadstyper, hanterar fem resurser, tränar åtta sorters krigare och anfaller varandra på en hexagonal världskarta för att erövra, förstöra eller plundra, med stridsrapporter och ett nyhetsflöde efteråt. Allianser med gruppchatt, en marknadsplats, dagliga uppdrag och ett värvningssystem i två nivåer får folk att komma tillbaka.",
+        "Jag designade och byggde hela stacken. Frontend är en Mini App i Angular 18 med fristående komponenter och signals, en karta som ritas på canvas och översättningar till tolv språk. Backend är NestJS med femton moduler och runt 55 endpoints, ett stort Prisma-schema på PostgreSQL, cache i Redis, schemalagda jobb för resursproduktion, en Telegram-bot och Protocol Buffers för de tyngre kart- och stridsdatat.",
+        "Projektet har varit vilande sedan början av 2025."
+      ],
+      "fa": [
+        "Fortune Hunters یک بازی استراتژی چندنفره است که داخل تلگرام بازی می‌شود. بازیکن‌ها روستایی را با دوازده نوع ساختمان بزرگ می‌کنند، پنج منبع را مدیریت می‌کنند، هشت نوع جنگجو آموزش می‌دهند و روی نقشه‌ی شش‌ضلعی جهان به هم حمله می‌کنند تا تصرف کنند، نابود کنند یا غارت کنند، و بعد گزارش نبرد و خبرنامه می‌گیرند. اتحادها با چت گروهی، بازارچه، مأموریت‌های روزانه و سیستم معرفی دوسطحی بازیکن‌ها را برمی‌گرداند.",
+        "کل پشته را خودم طراحی کردم و ساختم. فرانت‌اند یک Mini App با Angular 18 است، با کامپوننت‌های standalone و signals، نقشه‌ای که روی canvas رسم می‌شود و ترجمه به دوازده زبان. بک‌اند NestJS است با پانزده ماژول و حدود ۵۵ endpoint، یک schema بزرگ Prisma روی PostgreSQL، کش Redis، کارهای زمان‌بندی‌شده برای تولید منابع، یک ربات تلگرام، و Protocol Buffers برای داده‌های سنگین‌تر نقشه و نبرد.",
+        "این پروژه از اوایل ۲۰۲۵ متوقف مانده است."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Signals",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Telegram Bot API",
+      "Protocol Buffers",
+      "Canvas",
+      "i18n"
+    ]
+  },
+  {
+    "id": "centra-integration",
+    "name": "Centra Integration",
+    "track": "web",
+    "category": "integration",
+    "date": "2024-04",
+    "year": 2024,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay co."
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "imgs/slider/centra.jpg",
+    "url": "https://centra.com/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A safe, isolated bridge between physical store operations and an external e-commerce platform",
+      "sv": "En säker, isolerad brygga mellan fysisk butiksdrift och en extern e-handelsplattform",
+      "fa": "اتصالی امن و جدا بین فروشگاه‌های فیزیکی و یک پلتفرم تجارت الکترونیک بیرونی"
+    },
+    "description": {
+      "en": [
+        "Centra is an advanced e-commerce platform for consumer brands, with features for both direct-to-consumer and wholesale commerce.",
+        "FocalPay is also an e-commerce platform, but its main goal is managing physical stores. FocalPay started integrating with other platforms so users could combine FocalPay's services with their existing web-based solutions.",
+        "The idea behind the project I developed was to create a service that makes it easy and safe for other e-commerce platforms to connect to FocalPay, and vice versa. I designed the backend integration around explicit API boundaries, implemented the synchronisation workflows and operational data mapping, and kept the integration isolated so FocalPay's own services could evolve independently."
+      ],
+      "sv": [
+        "Centra är en avancerad e-handelsplattform för konsumentvarumärken, med funktioner för både direkt-till-konsument och grossistförsäljning.",
+        "FocalPay är också en e-handelsplattform, men dess huvudsyfte är att hantera fysiska butiker. FocalPay började integrera med andra plattformar så att användare kunde kombinera FocalPays tjänster med sina befintliga webblösningar.",
+        "Tanken bakom projektet jag utvecklade var att skapa en tjänst som gör det enkelt och säkert för andra e-handelsplattformar att ansluta till FocalPay, och omvänt. Jag designade backendintegrationen kring explicita API-gränser, implementerade synkroniseringsflödena och den operativa datamappningen, och höll integrationen isolerad så att FocalPays egna tjänster kunde utvecklas oberoende."
+      ],
+      "fa": [
+        "Centra یک پلتفرم تجارت الکترونیک برای برندهای مصرفی است که هم فروش مستقیم به مشتری را پوشش می‌دهد و هم عمده‌فروشی را.",
+        "FocalPay هم در تجارت الکترونیک کار می‌کند، ولی تمرکز اصلی‌اش مدیریت فروشگاه‌های فیزیکی است. FocalPay شروع کرد به اتصال با پلتفرم‌های دیگر تا مشتری‌ها بتوانند سرویس‌هایش را کنار فروشگاه اینترنتی خودشان استفاده کنند.",
+        "کار من ساختن سرویسی بود که اتصال پلتفرم‌های دیگر به FocalPay و برعکس را ساده و امن کند. مرزهای API را مشخص کردم، هم‌گام‌سازی و نگاشت داده را پیاده کردم و یکپارچه‌سازی را جدا نگه داشتم تا سرویس‌های خود FocalPay مستقل از آن جلو بروند."
+      ]
+    },
+    "technologies": [
+      "Centra",
+      "Integration",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Scheduler"
+    ]
+  },
+  {
+    "id": "arnicafam-landing",
+    "name": "ArnicaFam Landing Site",
+    "track": "web",
+    "category": "frontend",
+    "date": "2024-04",
+    "year": 2024,
+    "ownership": {
+      "kind": "client",
+      "org": "ArnicaFam co."
+    },
+    "logo": "imgs/brands/arnicafam.svg",
+    "cover": "imgs/slider/arnicafam.jpg",
+    "url": "https://arnicafamp.com/home",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "A lightweight Angular landing page built in three days, with static JSON standing in for a backend",
+      "sv": "En lättviktig Angular-landningssida byggd på tre dagar, med statisk JSON istället för en backend",
+      "fa": "صفحه‌ی فرود سبک با Angular که در سه روز ساختم، با فایل‌های JSON به‌جای بک‌اند"
+    },
+    "description": {
+      "en": [
+        "I was asked to make a landing page in just three days. It was a good chance to test my skills and build a basic web page the customer could reuse for future web app projects.",
+        "So I made a simple, lightweight page using Angular 16. I used static JSON files as the data source instead of a backend - it was temporary, implemented much like a JSON server project - which let the customer manage their own page before their deadline.",
+        "You can still see it at the link below. I hope this landing page stays up on their site for a long time."
+      ],
+      "sv": [
+        "Jag ombads göra en landningssida på bara tre dagar. Det var ett bra tillfälle att testa mina färdigheter och bygga en enkel webbsida kunden kunde återanvända i framtida webbappsprojekt.",
+        "Så jag gjorde en enkel, lättviktig sida med Angular 16. Jag använde statiska JSON-filer som datakälla istället för en backend - det var tillfälligt, implementerat ungefär som ett JSON server-projekt - vilket lät kunden hantera sin egen sida före deadline.",
+        "Du kan fortfarande se den på länken nedan. Jag hoppas att landningssidan står kvar på deras sajt länge."
+      ],
+      "fa": [
+        "از من خواستند در سه روز یک صفحه‌ی فرود بسازم. فرصت خوبی بود که خودم را محک بزنم و صفحه‌ای بسازم که مشتری بعداً بتواند در پروژه‌های دیگرش هم از آن استفاده کند.",
+        "صفحه‌ای ساده و سبک با Angular 16 ساختم. به‌جای بک‌اند داده را از فایل‌های JSON خواندم (یک راه‌حل موقت، تقریباً شبیه JSON server) و همین باعث شد مشتری قبل از مهلتش بتواند صفحه را خودش مدیریت کند.",
+        "هنوز می‌توانید از لینک پایین ببینیدش. امیدوارم مدت‌ها روی سایتشان بماند."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "PrimeNG",
+      "Keen Slider",
+      "State Management",
+      "RxJS",
+      "CSS",
+      "HTML",
+      "Cypress"
+    ]
+  },
+  {
+    "id": "robot-test-framework",
+    "name": "Robot Test Framework",
+    "track": "web",
+    "category": "testing",
+    "date": "2023-11",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay co."
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "API and database validation with Docker-in-Docker throwaway services, built for speed of test writing",
+      "sv": "API- och databasvalidering med engångstjänster i Docker-in-Docker, byggt för snabb testskrivning",
+      "fa": "تست API و دیتابیس با سرویس‌های موقت Docker-in-Docker، طوری که نوشتن تست سریع‌تر شود"
+    },
+    "description": {
+      "en": [
+        "Using a robot test framework lets us thoroughly validate the smooth operation and correct functionality of all our APIs, which is how we keep critical and sensitive services reliable and efficient.",
+        "It also lets us validate any change or new feature quickly and comprehensively before it reaches production.",
+        "My responsibility was developing the structure of the robot testing project. That involved standing up temporary services using a Docker-in-Docker approach, and writing test case code that increases the test team's writing speed."
+      ],
+      "sv": [
+        "Att använda ett robot-testramverk låter oss noggrant validera att alla våra API:er fungerar korrekt och smidigt, vilket är hur vi håller kritiska och känsliga tjänster tillförlitliga och effektiva.",
+        "Det låter oss också validera varje ändring eller ny funktion snabbt och heltäckande innan den når produktion.",
+        "Mitt ansvar var att utveckla strukturen för robot-testprojektet. Det innebar att starta tillfälliga tjänster med en Docker-in-Docker-approach, och att skriva testfallskod som ökar testteamets skrivhastighet."
+      ],
+      "fa": [
+        "با این فریم‌ورک تست Robot می‌توانیم عملکرد و درستی همه‌ی APIها را کامل بررسی کنیم، و همین سرویس‌های حساس ما را قابل اعتماد نگه می‌دارد.",
+        "هر تغییر یا قابلیت جدید را هم می‌شود قبل از رسیدن به production سریع و کامل تست کرد.",
+        "ساختار پروژه‌ی تست با من بود: سرویس‌های موقت را با Docker-in-Docker راه انداختم و کد تست‌ها را طوری نوشتم که تیم تست سریع‌تر بتواند تست بنویسد."
+      ]
+    },
+    "technologies": [
+      "Robot Framework",
+      "API Testing",
+      "Database Testing",
+      "Go",
+      "Selenium",
+      "Docker",
+      "Continuous Integration"
+    ]
+  },
+  {
+    "id": "focalpay-order-api",
+    "name": "FocalPay Order API",
+    "track": "web",
+    "category": "backend",
+    "date": "2023-10",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay co."
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "",
+    "url": "https://focalpay.se/",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "A redesigned Order API in Java and Spring Boot, with the system test framework to prove it",
+      "sv": "Ett omdesignat Order-API i Java och Spring Boot, med systemtestramverket som bevisar det",
+      "fa": "بازطراحی Order API با Java و Spring Boot، همراه یک فریم‌ورک تست سیستمی که درستی‌اش را نشان بدهد"
+    },
+    "description": {
+      "en": [
+        "My responsibilities in this project included developing the system test framework for the Order APIs.",
+        "The project uses very current frameworks and technologies, which required me to keep my knowledge up to date so I could take advantage of state-of-the-art solutions."
+      ],
+      "sv": [
+        "Mina ansvarsområden i detta projekt omfattade att utveckla systemtestramverket för Order-API:erna.",
+        "Projektet använder mycket aktuella ramverk och tekniker, vilket krävde att jag höll min kunskap uppdaterad för att kunna dra nytta av de bästa tillgängliga lösningarna."
+      ],
+      "fa": [
+        "در این پروژه فریم‌ورک تست سیستمی برای Order APIها را من ساختم.",
+        "پروژه با فریم‌ورک‌ها و فناوری‌های خیلی جدید نوشته شده بود و مجبور بودم مدام به‌روز بمانم."
+      ]
+    },
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "Swagger",
+      "Redis",
+      "Prometheus",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "cashier-frontend",
+    "name": "Cashier Front-End Platform",
+    "track": "web",
+    "category": "frontend",
+    "date": "2023-09",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "FocalPay co."
+    },
+    "logo": "imgs/brands/focalpay.svg",
+    "cover": "imgs/slider/focalpay-cashier.jpg",
+    "url": "https://focalpay.se/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Performance work on a live Vue.js cashier, plus the Cypress coverage that keeps it honest",
+      "sv": "Prestandaarbete på ett Vue.js-kassasystem i drift, plus den Cypress-täckning som håller det ärligt",
+      "fa": "سریع‌تر کردن صندوق فروش Vue.js در محیط واقعی و پوشش تست با Cypress"
+    },
+    "description": {
+      "en": [
+        "In this project my primary focus was enhancing the performance of the existing Vue.js front-end application.",
+        "I also took responsibility for implementing Cypress code to enable automated testing for both end-to-end and component-level scenarios."
+      ],
+      "sv": [
+        "I detta projekt var mitt främsta fokus att förbättra prestandan i den befintliga Vue.js-frontendapplikationen.",
+        "Jag tog också ansvar för att implementera Cypress-kod som möjliggör automatiserad testning för både end-to-end- och komponentnivåscenarier."
+      ],
+      "fa": [
+        "کار اصلی من در این پروژه سریع‌تر کردن فرانت‌اند Vue.js بود.",
+        "تست‌های Cypress را هم نوشتم تا سناریوهای end-to-end و کامپوننت‌ها خودکار تست شوند."
+      ]
+    },
+    "technologies": [
+      "Vue.js",
+      "Clean Code",
+      "Cypress",
+      "Performance",
+      "Continuous Integration"
+    ]
+  },
+  {
+    "id": "mofid-online-plus",
+    "name": "Mofid Online Plus",
+    "track": "web",
+    "category": "backend",
+    "date": "2023-07",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Mofid Securities"
+    },
+    "logo": "imgs/projects/modifonline.svg",
+    "cover": "imgs/slider/mofid-online.jpg",
+    "url": "https://www.mofidonline.com/Account/Login",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Backend performance and API redesign for a trading platform serving ~30M requests per hour",
+      "sv": "Backend-prestanda och API-omdesign för en handelsplattform med ~30 miljoner förfrågningar per timme",
+      "fa": "بهبود کارایی بک‌اند و طراحی دوباره‌ی API برای پلتفرم معاملاتی با ساعتی حدود ۳۰ میلیون درخواست"
+    },
+    "description": {
+      "en": [
+        "The main challenge I encountered was managing an exceptionally high volume of backend requests - approximately thirty million per hour.",
+        "Consequently my primary tasks revolved around optimising our API, using asynchronous functions appropriately, identifying and eliminating zombie threads, improving code quality, and redesigning the APIs for the updated versions of the Online Plus and Hamrah Plus applications."
+      ],
+      "sv": [
+        "Den huvudsakliga utmaningen jag mötte var att hantera en exceptionellt hög volym backend-förfrågningar - omkring trettio miljoner per timme.",
+        "Följaktligen kretsade mina främsta uppgifter kring att optimera vårt API, använda asynkrona funktioner korrekt, identifiera och eliminera zombietrådar, förbättra kodkvaliteten, och designa om API:erna för de uppdaterade versionerna av applikationerna Online Plus och Hamrah Plus."
+      ],
+      "fa": [
+        "مشکل اصلی حجم خیلی بالای درخواست‌ها به بک‌اند بود، حدود سی میلیون در ساعت.",
+        "برای همین بیشتر کارم این‌ها بود: بهینه کردن API، استفاده‌ی درست از async، پیدا کردن و حذف تردهای زامبی، بالا بردن کیفیت کد و طراحی دوباره‌ی APIها برای نسخه‌های جدید آنلاین پلاس و همراه پلاس."
+      ]
+    },
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      ".NET Core",
+      "Redis",
+      "Prometheus",
+      "SQL Server",
+      "Grafana",
+      "RabbitMQ",
+      "REST APIs",
+      "Swagger",
+      "Performance",
+      "Acceptance Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "mofid-online-admin",
+    "name": "Mofid Online Admin",
+    "track": "web",
+    "category": "backend",
+    "date": "2023-07",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Mofid Securities"
+    },
+    "logo": "imgs/projects/modifonline.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Refactor, restructure, optimise the stored procedures - and ship to current standards on a tight clock",
+      "sv": "Refaktorera, omstrukturera, optimera de lagrade procedurerna - och leverera enligt aktuella standarder på kort tid",
+      "fa": "بازنویسی کد، بهینه کردن stored procedureها و تحویل محصول با استانداردهای روز، آن هم با مهلت کم"
+    },
+    "description": {
+      "en": [
+        "The team faced several key challenges: refactoring and redesigning the code, optimising database stored procedures, and implementing new APIs.",
+        "Despite the tight timeframe I delivered a product that met the latest standards and was ready for deployment."
+      ],
+      "sv": [
+        "Teamet stod inför flera centrala utmaningar: refaktorera och designa om koden, optimera databasens lagrade procedurer, och implementera nya API:er.",
+        "Trots den snäva tidsramen levererade jag en produkt som uppfyllde de senaste standarderna och var klar för driftsättning."
+      ],
+      "fa": [
+        "کار اصلی تیم بازنویسی و طراحی دوباره‌ی کد، بهینه کردن stored procedureهای دیتابیس و نوشتن APIهای جدید بود.",
+        "با وجود مهلت کم، محصولی تحویل دادیم که با استانداردهای روز جور بود و آماده‌ی استقرار."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "Entity Framework",
+      "Redis",
+      "Prometheus",
+      "SQL Server",
+      "RabbitMQ",
+      "REST APIs",
+      "Swagger",
+      "Performance",
+      "Acceptance Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "vicinia-map-library",
+    "name": "Vicinia Map Library",
+    "track": "web",
+    "category": "library",
+    "date": "2023-07",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Cntxts Inc."
+    },
+    "logo": "imgs/projects/VICINIA.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Google Maps extended with 2D and 2.5D building views, better pins, and routing other apps get for free",
+      "sv": "Google Maps utökat med 2D- och 2,5D-byggnadsvyer, bättre pins och ruttning som andra appar får gratis",
+      "fa": "Google Maps با نمای دوبعدی و ۲٫۵ بعدی ساختمان، پین‌های بهتر و مسیریابی، که بقیه‌ی اپ‌ها بدون کد اضافه از آن استفاده می‌کنند"
+    },
+    "description": {
+      "en": [
+        "I developed a map library package to enhance Google Maps with new features, allowing other applications within Cntxts Inc. to use those capabilities seamlessly without any extra code.",
+        "The significant additions include 2D and 2.5D maps for buildings, improved pins and information display, and the implementation of routing and directions to guide users from their source to their destination.",
+        "The library kept growing after that and I stayed its main developer: I wrote about two thirds of its 1,500 commits, and it has shipped more than 600 tagged releases, up to version 1.215. It now has around twenty renderers (buildings, floors, indoor routing across buildings, parking, shuttles, closures, clustering and more), a floor picker, theming and an accessibility layer, with 31 example apps showing how to use it."
+      ],
+      "sv": [
+        "Jag utvecklade ett kartbibliotek för att utöka Google Maps med nya funktioner, så att andra applikationer inom Cntxts Inc. kunde använda dessa förmågor sömlöst utan extra kod.",
+        "De väsentliga tilläggen omfattar 2D- och 2,5D-kartor för byggnader, förbättrade pins och informationsvisning, samt implementering av ruttning och vägbeskrivningar som guidar användare från start till mål.",
+        "Biblioteket fortsatte att växa efter det och jag förblev dess huvudutvecklare: jag skrev ungefär två tredjedelar av dess 1 500 commits, och det har levererats i över 600 taggade releaser, upp till version 1.215. Det har nu ett tjugotal renderare (byggnader, våningar, inomhusnavigering mellan byggnader, parkering, skyttlar, avstängningar, klustring med mera), en våningsväljare, teman och ett tillgänglighetslager, med 31 exempelappar som visar hur det används."
+      ],
+      "fa": [
+        "یک کتابخانه‌ی نقشه نوشتم که روی Google Maps قابلیت‌های تازه اضافه می‌کند، طوری که بقیه‌ی اپ‌های Cntxts Inc. بدون کد اضافه از آن استفاده کنند.",
+        "مهم‌ترین اضافه‌ها: نقشه‌ی دوبعدی و ۲٫۵ بعدی ساختمان‌ها، پین‌ها و پنجره‌های اطلاعات بهتر، و مسیریابی قدم‌به‌قدم از مبدأ تا مقصد.",
+        "کتابخانه بعد از آن هم بزرگ‌تر شد و من توسعه‌دهنده‌ی اصلی‌اش ماندم: حدود دوسوم از ۱۵۰۰ کامیت آن را نوشته‌ام و بیش از ۶۰۰ نسخه‌ی برچسب‌خورده، تا نسخه‌ی 1.215، از آن منتشر شده است. حالا حدود بیست renderer دارد (ساختمان، طبقه، مسیریابی داخلی بین ساختمان‌ها، پارکینگ، شاتل، بسته‌شدن‌ها، خوشه‌بندی و موارد دیگر)، انتخابگر طبقه، پوسته‌پذیری و لایه‌ی دسترس‌پذیری، همراه با ۳۱ اپ نمونه که نحوه‌ی استفاده را نشان می‌دهند."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "Google Maps",
+      "RxJS",
+      "CSS",
+      "HTML",
+      "TypeScript",
+      "Marker Clustering",
+      "Indoor Routing",
+      "Accessibility"
+    ]
+  },
+  {
+    "id": "vicinia-desk",
+    "name": "Vicinia Desk",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2023-06",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Cntxts Inc."
+    },
+    "logo": "imgs/projects/VICINIA.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "The back office behind the kiosks: indoor routing, information services and equipment anti-theft",
+      "sv": "Back-office bakom kioskerna: inomhusnavigering, informationstjänster och stöldskydd för utrustning",
+      "fa": "پنل مدیریت پشت کیوسک‌ها: مسیریابی داخلی، سرویس‌های اطلاعاتی و ضدسرقت تجهیزات"
+    },
+    "description": {
+      "en": [
+        "Despite the widespread availability of online maps with routing and positioning tools, integrated routing systems for buildings, commercial centres, universities and hospitals have yet to be fully developed.",
+        "This project addresses that need by providing indoor routing capabilities, information services, and an integrated anti-theft system for building equipment. As a developer on the project, my role involved developing both the front-end and back-end parts of the kiosk admin, the back office.",
+        "Since then the desk has grown into the multi-tenant admin for the whole Vicinia platform, now on Angular 19, and I am still its top contributor with more than 2,600 commits. It manages campuses, buildings, places and outdoor zones, indoor maps through the Vicinia Maps library, shuttle routes with real-time tracking, space booking, parking, kiosks, QR codes and themes."
+      ],
+      "sv": [
+        "Trots den utbredda tillgången på onlinekartor med rutt- och positioneringsverktyg är integrerade navigeringssystem för byggnader, köpcentra, universitet och sjukhus ännu inte fullt utvecklade.",
+        "Detta projekt möter det behovet genom inomhusnavigering, informationstjänster och ett integrerat stöldskyddssystem för byggnadsutrustning. Som utvecklare i projektet innefattade min roll att utveckla både frontend- och backenddelarna av kioskadministrationen, back-office.",
+        "Sedan dess har desken vuxit till adminverktyget för hela Vicinia-plattformen och alla dess kunder, nu på Angular 19, och jag är fortfarande den som bidragit mest, med över 2 600 commits. Där hanteras campus, byggnader, platser och utomhuszoner, inomhuskartor via Vicinia Maps-biblioteket, skyttellinjer med spårning i realtid, lokalbokning, parkering, kiosker, QR-koder och teman."
+      ],
+      "fa": [
+        "نقشه‌های آنلاین با مسیریابی و موقعیت‌یابی همه‌جا هستند، ولی برای داخل ساختمان‌ها، مراکز خرید، دانشگاه‌ها و بیمارستان‌ها هنوز سیستم کاملی وجود ندارد.",
+        "این پروژه همین کمبود را پر می‌کند: مسیریابی داخلی، سرویس‌های اطلاعاتی و سیستم ضدسرقت برای تجهیزات ساختمان. کار من ساختن فرانت‌اند و بک‌اند پنل مدیریت کیوسک بود.",
+        "از آن زمان این پنل به ابزار مدیریت چندمستأجری کل پلتفرم Vicinia تبدیل شده و حالا روی Angular 19 است، و من همچنان بیشترین سهم را در آن دارم، با بیش از ۲۶۰۰ کامیت. پردیس‌ها، ساختمان‌ها، مکان‌ها و محدوده‌های بیرونی، نقشه‌های داخلی از طریق کتابخانه‌ی Vicinia Maps، مسیرهای شاتل با ردیابی زنده، رزرو فضا، پارکینگ، کیوسک‌ها، کدهای QR و پوسته‌ها از همین‌جا مدیریت می‌شوند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Node.js",
+      "Angular",
+      "PrimeNG",
+      "MongoDB",
+      "Mongoose",
+      "Swagger",
+      "State Management",
+      "RxJS",
+      "CSS",
+      "HTML",
+      "Firebase",
+      "Google Maps",
+      "Angular Material"
+    ]
+  },
+  {
+    "id": "vicinia-backend",
+    "name": "Vicinia Back End",
+    "track": "web",
+    "category": "backend",
+    "date": "2023-05",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Cntxts Inc."
+    },
+    "logo": "imgs/projects/VICINIA.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Dependency modernisation, ongoing maintenance and the new APIs each feature needed",
+      "sv": "Modernisering av beroenden, löpande underhåll och de nya API:er varje funktion krävde",
+      "fa": "به‌روزرسانی وابستگی‌ها، نگه‌داری مداوم و APIهای جدید برای قابلیت‌های تازه"
+    },
+    "description": {
+      "en": [
+        "Refactoring and upgrading the versions of the Vicinia back end's dependencies - packages and frameworks - was part of my responsibility.",
+        "The project also needs ongoing maintenance and the implementation of new APIs to support the development of new features."
+      ],
+      "sv": [
+        "Att refaktorera och uppgradera versionerna av Vicinia-backendens beroenden - paket och ramverk - var en del av mitt ansvar.",
+        "Projektet behöver också löpande underhåll och implementering av nya API:er för att stödja utvecklingen av nya funktioner."
+      ],
+      "fa": [
+        "بازنویسی و به‌روزرسانی وابستگی‌های بک‌اند Vicinia، یعنی پکیج‌ها و فریم‌ورک‌ها، با من بود.",
+        "پروژه نگه‌داری مداوم هم لازم دارد و برای هر قابلیت جدید باید API تازه نوشته شود."
+      ]
+    },
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "SQL Server",
+      "Swagger",
+      "RabbitMQ"
+    ]
+  },
+  {
+    "id": "kiosk-web-app",
+    "name": "Vicinia Kiosk",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2023-04",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Cntxts Inc."
+    },
+    "logo": "imgs/projects/VICINIA.svg",
+    "cover": "imgs/slider/kiosk.jpg",
+    "url": "https://dev.cntxts.com/kiosk",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Indoor routing and content display for entertainment complexes, universities and administrative centres",
+      "sv": "Inomhusnavigering och innehållsvisning för nöjeskomplex, universitet och administrativa centra",
+      "fa": "مسیریابی داخلی و نمایش محتوا برای مجتمع‌های تفریحی، دانشگاه‌ها و مراکز اداری"
+    },
+    "description": {
+      "en": [
+        "The Kiosk web application is designed to facilitate routing and content display within entertainment complexes, universities and administrative centres.",
+        "As the developer of this project I was responsible for both the front-end and back-end development, using Angular 15 and Express.js. With those technologies I built a dynamic, responsive platform that can be customised to each client's needs.",
+        "I take pride in having contributed to a sophisticated solution that improves the user experience and overall productivity in these settings."
+      ],
+      "sv": [
+        "Kiosk-webbapplikationen är byggd för att underlätta navigering och innehållsvisning i nöjeskomplex, universitet och administrativa centra.",
+        "Som utvecklare av projektet ansvarade jag för både frontend- och backendutvecklingen, med Angular 15 och Express.js. Med dessa tekniker byggde jag en dynamisk, responsiv plattform som kan anpassas till varje kunds behov.",
+        "Jag är stolt över att ha bidragit till en avancerad lösning som förbättrar användarupplevelsen och den övergripande produktiviteten i dessa miljöer."
+      ],
+      "fa": [
+        "وب‌اپ کیوسک برای مسیریابی و نمایش محتوا در مجتمع‌های تفریحی، دانشگاه‌ها و ساختمان‌های اداری.",
+        "فرانت‌اند و بک‌اند را خودم با Angular 15 و Express.js ساختم. نتیجه پلتفرمی واکنش‌گراست که می‌شود برای هر مشتری شخصی‌سازی‌اش کرد.",
+        "هدف این بود که پیدا کردن مسیر و اطلاعات در این مکان‌ها برای مردم ساده‌تر شود."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Angular",
+      "Angular Material",
+      "Keen Slider",
+      "Google Maps",
+      "Routing",
+      "State Management",
+      "RxJS",
+      "CSS",
+      "HTML",
+      "Cypress"
+    ]
+  },
+  {
+    "id": "farawams-identity",
+    "name": "FaraWAMS Identity Server",
+    "track": "web",
+    "category": "identity",
+    "date": "2023-04",
+    "year": 2023,
+    "ownership": {
+      "kind": "company",
+      "org": "Fara-control I.P"
+    },
+    "logo": "imgs/projects/identityserver-farawams.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "One session model for mobile, web and native clients, on OpenID Connect and OAuth 2.1",
+      "sv": "En sessionsmodell för mobil-, webb- och nativa klienter, på OpenID Connect och OAuth 2.1",
+      "fa": "یک مدل نشست مشترک برای اپ‌های موبایل، وب و دسکتاپ، روی OpenID Connect و OAuth 2.1"
+    },
+    "description": {
+      "en": [
+        "The aim of this project was to create comprehensive authentication and authorisation services that could support a variety of application types, including mobile, web, native and other services.",
+        "To achieve that we used the OpenID Connect and OAuth 2.1 protocols and implemented a single session sign-in and sign-out system."
+      ],
+      "sv": [
+        "Målet med detta projekt var att skapa kompletta autentiserings- och auktoriseringstjänster som kunde stödja flera applikationstyper, inklusive mobil, webb, nativa och andra tjänster.",
+        "För att uppnå det använde vi protokollen OpenID Connect och OAuth 2.1 och implementerade ett system för enkel sessionsinloggning och -utloggning."
+      ],
+      "fa": [
+        "هدف ساختن سرویس احراز هویت و سطح دسترسی بود که همه‌جور کلاینتی را پشتیبانی کند: موبایل، وب، دسکتاپ و سرویس‌های دیگر.",
+        "از OpenID Connect و OAuth 2.1 استفاده کردیم و ورود و خروج یکپارچه را پیاده کردیم."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "PostgreSQL",
+      "IdentityServer4",
+      "OpenID Connect",
+      "OAuth 2.1",
+      "Acceptance Testing",
+      "Unit Testing",
+      "Swagger",
+      "Redis",
+      "RabbitMQ"
+    ]
+  },
+  {
+    "id": "pinkie",
+    "name": "Pinkie",
+    "track": "web",
+    "category": "frontend",
+    "date": "2023-04",
+    "year": 2023,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/pinkie.svg",
+    "cover": "imgs/slider/pinkie.jpg",
+    "url": "https://github.com/amin-norollah/pinkie",
+    "repo": "https://github.com/amin-norollah/pinkie",
+    "featured": true,
+    "tagline": {
+      "en": "A semi-social-network Angular app, exploring what Angular can do as an Android front end",
+      "sv": "En semi-social Angular-app som utforskar vad Angular kan göra som Android-frontend",
+      "fa": "یک اپ نیمه‌اجتماعی با Angular، برای این‌که ببینم Angular برای ساخت اپ اندروید چقدر خوب است"
+    },
+    "description": {
+      "en": [
+        "I am interested in developing an Android application using the Angular framework. The project I have in mind is a semi-social-network application that is still in the early stages of development. My goal is a user interface similar to Instagram, with a focus on ease of use and an aesthetically pleasing design.",
+        "The project is currently in the sample code phase, which means it is not yet a fully functional application.",
+        "However, I am committed to completing it. I am excited about its potential and look forward to seeing it evolve into something genuinely useful."
+      ],
+      "sv": [
+        "Jag är intresserad av att utveckla en Android-applikation med Angular-ramverket. Projektet jag har i tankarna är en semi-social nätverksapplikation som fortfarande är i tidiga utvecklingsstadier. Mitt mål är ett användargränssnitt liknande Instagram, med fokus på enkelhet och en estetiskt tilltalande design.",
+        "Projektet befinner sig just nu i exempelkodfasen, vilket innebär att det ännu inte är en fullt fungerande applikation.",
+        "Jag är dock inställd på att slutföra det. Jag är entusiastisk över dess potential och ser fram emot att se det utvecklas till något genuint användbart."
+      ],
+      "fa": [
+        "می‌خواستم ببینم می‌شود با Angular یک اپ اندروید ساخت یا نه. ایده‌ام یک اپ نیمه‌اجتماعی بود با ظاهری شبیه اینستاگرام که ساده و خوش‌دست باشد.",
+        "فعلاً در حد کد نمونه است و هنوز برنامه‌ی کاملی نیست.",
+        "ولی قصد دارم تمامش کنم و کنجکاوم ببینم آخرش چه از آب درمی‌آید."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Angular",
+      "Angular Material",
+      "RxJS",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "id": "care-your-eyes",
+    "name": "CareYourEyes",
+    "track": "desktop",
+    "category": "desktop",
+    "date": "2023-03",
+    "year": 2023,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/CareYourEyes.svg",
+    "cover": "imgs/slider/careEye.jpg",
+    "url": "https://github.com/amin-norollah/CareYourEyes",
+    "repo": "https://github.com/amin-norollah/CareYourEyes",
+    "featured": true,
+    "tagline": {
+      "en": "A free break reminder for eye strain, written because the alternatives stopped being free",
+      "sv": "En gratis pauspåminnare mot ansträngda ögon, skriven eftersom alternativen slutade vara gratis",
+      "fa": "یادآور رایگان استراحت برای چشم، که ساختمش چون برنامه‌هایی که استفاده می‌کردم پولی شدند"
+    },
+    "description": {
+      "en": [
+        "I developed an application to help prevent eye strain and fatigue caused by prolonged computer use. It serves as a reminder to take regular breaks at specified intervals.",
+        "Previously I had used other applications that were no longer available for free, which prompted me to create a free alternative. It is worth noting that this application has limited features compared to its paid counterparts.",
+        "Nevertheless I am proud to have created a solution that can help people maintain healthy eye habits while avoiding the negative effects of extended computer usage."
+      ],
+      "sv": [
+        "Jag utvecklade en applikation för att förebygga ansträngda och trötta ögon orsakade av långvarig datoranvändning. Den fungerar som en påminnelse om att ta regelbundna pauser vid angivna intervall.",
+        "Tidigare hade jag använt andra applikationer som inte längre var gratis, vilket fick mig att skapa ett fritt alternativ. Det är värt att notera att denna applikation har begränsade funktioner jämfört med sina betalda motsvarigheter.",
+        "Ändå är jag stolt över att ha skapat en lösning som kan hjälpa människor att hålla sunda ögonvanor och undvika de negativa effekterna av utsträckt datoranvändning."
+      ],
+      "fa": [
+        "این برنامه را ساختم تا چشم‌ها از کار طولانی با کامپیوتر خسته نشوند. هر چند وقت یک بار یادآوری می‌کند که کمی استراحت کنید.",
+        "قبلاً از برنامه‌های دیگری استفاده می‌کردم که پولی شدند، برای همین یک نسخه‌ی رایگان برای خودم نوشتم. البته امکاناتش از نسخه‌های پولی کمتر است.",
+        "ولی کارش را انجام می‌دهد و شاید به بقیه هم کمک کند برای چشم‌هایشان عادت بهتری داشته باشند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Framework",
+      "WPF",
+      "C#"
+    ]
+  },
+  {
+    "id": "csite-backend",
+    "name": "CSite Back End",
+    "track": "web",
+    "category": "backend",
+    "date": "2023-02",
+    "year": 2023,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/CSite-logo.svg",
+    "cover": "imgs/slider/back-end1.jpg",
+    "url": "https://github.com/amin-norollah/CSite_Backend_dotNet6",
+    "repo": "https://github.com/amin-norollah/CSite_Backend_dotNet6",
+    "featured": true,
+    "tagline": {
+      "en": "My first fully open-source .NET back end, written to be taught from",
+      "sv": "Min första helt öppna .NET-backend, skriven för att kunna undervisas från",
+      "fa": "اولین بک‌اند کاملاً متن‌بازم با .NET، که برای آموزش نوشتم"
+    },
+    "description": {
+      "en": [
+        "This is my first fully open-source back-end project, which I have also used for teaching purposes.",
+        "My aim was to incorporate the latest and most current technologies into its development, so that anyone reading it sees a realistic modern structure rather than a toy example."
+      ],
+      "sv": [
+        "Detta är mitt första helt öppna backend-projekt, som jag också använt i undervisningssyfte.",
+        "Mitt mål var att bygga in de senaste och mest aktuella teknikerna i utvecklingen, så att den som läser koden ser en realistisk modern struktur istället för ett leksaksexempel."
+      ],
+      "fa": [
+        "این اولین بک‌اند کاملاً متن‌باز من است و از آن برای آموزش هم استفاده کرده‌ام.",
+        "سعی کردم از جدیدترین فناوری‌ها استفاده کنم تا هر کس کد را می‌خواند یک ساختار واقعی و به‌روز ببیند، نه یک پروژه‌ی اسباب‌بازی."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "Swagger",
+      "SQL Server",
+      "Entity Framework",
+      "REST APIs",
+      "IdentityServer4",
+      "Acceptance Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "csite-frontend",
+    "name": "CSite Front End",
+    "track": "web",
+    "category": "frontend",
+    "date": "2023-02",
+    "year": 2023,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/CSite-logo.svg",
+    "cover": "",
+    "url": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
+    "repo": "https://github.com/amin-norollah/JS-code#csite-front-end-using-angular",
+    "featured": false,
+    "tagline": {
+      "en": "The Angular client for CSite, built as the teaching counterpart to the open-source back end",
+      "sv": "Angular-klienten för CSite, byggd som undervisningsmotparten till den öppna backenden",
+      "fa": "کلاینت Angular برای CSite، که کنار بک‌اند متن‌بازش برای آموزش ساخته شد"
+    },
+    "description": {
+      "en": [
+        "The Angular front end that consumes the CSite back-end APIs, written in the same spirit: a complete, readable reference implementation rather than a demo.",
+        "It covers the parts tutorials usually skip - routing structure, state, forms and the shape of a real component library."
+      ],
+      "sv": [
+        "Angular-frontenden som konsumerar CSite-backendens API:er, skriven i samma anda: en komplett, läsbar referensimplementation snarare än en demo.",
+        "Den täcker de delar tutorials brukar hoppa över - routingstruktur, state, formulär och formen på ett verkligt komponentbibliotek."
+      ],
+      "fa": [
+        "فرانت‌اند Angular که از APIهای CSite استفاده می‌کند و با همان هدف نوشته شده: یک نمونه‌ی کامل و خوانا که بشود از رویش یاد گرفت.",
+        "بخش‌هایی را پوشش می‌دهد که آموزش‌ها معمولاً از رویشان رد می‌شوند: ساختار routing، مدیریت state، فرم‌ها و شکل یک کتابخانه‌ی کامپوننت واقعی."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Angular",
+      "Angular Material",
+      "RxJS",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "id": "under-the-moonlight",
+    "name": "Under the Moonlight",
+    "track": "web",
+    "category": "frontend",
+    "date": "2023-01",
+    "year": 2023,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/jsCode.svg",
+    "cover": "imgs/slider/under-the-moon-light.jpg",
+    "url": "https://amin-norollah.github.io/under-the-moonlight/demo/",
+    "repo": "https://github.com/amin-norollah/under-the-moonlight",
+    "featured": true,
+    "tagline": {
+      "en": "Responsive Angular artwork that reacts to mouse movement - parallax as a study, not a gimmick",
+      "sv": "Responsiv Angular-konst som reagerar på musrörelser - parallax som studie, inte gimmick",
+      "fa": "یک کار هنری واکنش‌گرا با Angular که با حرکت ماوس جابه‌جا می‌شود، تمرینی برای فهمیدن پارالاکس"
+    },
+    "description": {
+      "en": [
+        "An Angular-based responsive artwork with mouse-movement sensitivity: layers of a night scene shift at different rates as the pointer moves, giving a sense of depth from flat SVG.",
+        "It started as a way to understand pointer-driven parallax properly - how to keep the motion smooth, how to avoid layout thrash, and how to make it degrade gracefully on touch devices where there is no pointer to follow."
+      ],
+      "sv": [
+        "Ett Angular-baserat responsivt konstverk med känslighet för musrörelser: lager i en nattscen förskjuts i olika takt när pekaren rör sig, vilket ger djupkänsla från platt SVG.",
+        "Det började som ett sätt att förstå pekardriven parallax ordentligt - hur man håller rörelsen mjuk, hur man undviker layout-thrash, och hur man låter det degradera elegant på touchenheter där det inte finns någon pekare att följa."
+      ],
+      "fa": [
+        "یک کار هنری با Angular که به حرکت ماوس واکنش نشان می‌دهد: لایه‌های یک منظره‌ی شب با سرعت‌های متفاوت حرکت می‌کنند و از یک SVG تخت حس عمق درمی‌آید.",
+        "شروعش کردم تا پارالاکس را درست بفهمم: این‌که حرکت چطور روان بماند، چطور از layout thrash دوری کنم و روی دستگاه‌های لمسی که ماوس ندارند چه رفتاری داشته باشد."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "SVG",
+      "CSS",
+      "Parallax"
+    ]
+  },
+  {
+    "id": "farawams-backend",
+    "name": "FaraWAMS",
+    "track": "web",
+    "category": "backend",
+    "date": "2022-11",
+    "year": 2022,
+    "ownership": {
+      "kind": "company",
+      "org": "Fara-control I.P"
+    },
+    "logo": "imgs/projects/farawams.svg",
+    "cover": "imgs/slider/farawams.jpg",
+    "url": "http://portal.macosyst.com/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "Five servers monitoring and controlling power grids in real time - high data rate, short response times",
+      "sv": "Fem servrar som övervakar och styr elnät i realtid - hög datatakt, korta svarstider",
+      "fa": "پنج سرور برای پایش و کنترل بی‌درنگ شبکه‌ی برق، با حجم داده‌ی بالا و زمان پاسخ کوتاه"
+    },
+    "description": {
+      "en": [
+        "The project is developed to monitor and control power systems, and I held the role of technical manager on it - while still programming, of course. It is a large-scale project consisting of five different servers.",
+        "Some servers are developed on Node.js, and those requiring complex calculations are developed on .NET. The project faces complications such as a high data rate, a need for short response times, a large amount of data that must be stored on the database server, and event management.",
+        "To optimise database performance we used the Apache Ignite in-memory database for real-time data, Microsoft SQL Server as the primary relational database, and MongoDB for archive storage. React was used for the front end."
+      ],
+      "sv": [
+        "Projektet är utvecklat för att övervaka och styra kraftsystem, och jag hade rollen som teknisk chef - samtidigt som jag naturligtvis fortsatte programmera. Det är ett storskaligt projekt bestående av fem olika servrar.",
+        "Några servrar är utvecklade på Node.js, och de som kräver komplexa beräkningar är utvecklade på .NET. Projektet möter komplikationer som hög datatakt, behov av korta svarstider, stora datamängder som måste lagras på databasservern, och händelsehantering.",
+        "För att optimera databasprestandan använde vi in-memory-databasen Apache Ignite för realtidsdata, Microsoft SQL Server som primär relationsdatabas, och MongoDB för arkivlagring. React användes i frontenden."
+      ],
+      "fa": [
+        "این پروژه برای پایش و کنترل شبکه‌ی برق ساخته شد. مدیر فنی پروژه بودم و کنارش کد هم می‌نوشتم. پروژه‌ی بزرگی بود با پنج سرور مختلف.",
+        "بعضی سرورها با Node.js نوشته شدند و آن‌هایی که محاسبات سنگین داشتند با .NET. سختی‌های پروژه: حجم بالای داده‌ی ورودی، نیاز به پاسخ سریع، داده‌ی زیادی که باید در دیتابیس ذخیره می‌شد و مدیریت رویدادها.",
+        "برای داده‌ی بی‌درنگ از Apache Ignite (دیتابیس درون‌حافظه‌ای) استفاده کردیم، SQL Server دیتابیس رابطه‌ای اصلی بود و MongoDB برای آرشیو. فرانت‌اند با React بود."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "React",
+      "Swagger",
+      "API Gateway",
+      "Entity Framework",
+      "REST APIs",
+      "IdentityServer4",
+      "Node.js",
+      "Express.js",
+      "SQL Server",
+      "MongoDB",
+      "Mongoose",
+      "Apache Ignite",
+      "RabbitMQ",
+      "Acceptance Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "safas",
+    "name": "SAFAS - Secure and Fast Hardware Scheduler",
+    "track": "academic",
+    "category": "hardware",
+    "date": "2022-11",
+    "year": 2022,
+    "ownership": {
+      "kind": "open-source",
+      "org": "IUST"
+    },
+    "logo": "imgs/projects/SAFAS.svg",
+    "cover": "",
+    "url": "https://github.com/amin-norollah/SAFAS",
+    "repo": "https://github.com/amin-norollah/SAFAS",
+    "featured": false,
+    "tagline": {
+      "en": "Taking task scheduling out of the OS and putting it in silicon, for hard real-time multi-core systems",
+      "sv": "Att flytta uppgiftsschemaläggning från operativsystemet till kisel, för hårda realtidssystem med flera kärnor",
+      "fa": "بردن زمان‌بندی وظایف از سیستم‌عامل به سخت‌افزار، برای سیستم‌های چندهسته‌ای بی‌درنگ سخت"
+    },
+    "description": {
+      "en": [
+        "A hardware scheduler separates the task scheduling unit from the operating system and hands it to a dedicated hardware unit, for real-time connected embedded systems.",
+        "Because the hardware scheduler has direct access to the processing units and can control each one in parallel, it is expected to increase efficiency and manage hardware resources better than an OS can in multi-core systems.",
+        "The published work extends this into a security-aware scheduler for modern multi-core systems under hard real-time constraints."
+      ],
+      "sv": [
+        "En hårdvaruschemaläggare separerar uppgiftsschemaläggningsenheten från operativsystemet och överlämnar den till en dedikerad hårdvaruenhet, för realtidsanslutna inbyggda system.",
+        "Eftersom hårdvaruschemaläggaren har direkt åtkomst till processorenheterna och kan styra varje enhet parallellt förväntas den öka effektiviteten och hantera hårdvaruresurser bättre än ett operativsystem kan i system med flera kärnor.",
+        "Det publicerade arbetet utökar detta till en säkerhetsmedveten schemaläggare för moderna flerkärniga system under hårda realtidskrav."
+      ],
+      "fa": [
+        "زمان‌بند سخت‌افزاری کار زمان‌بندی وظایف را از سیستم‌عامل می‌گیرد و به یک واحد سخت‌افزاری اختصاصی می‌سپارد، برای سیستم‌های نهفته‌ی بی‌درنگ.",
+        "چون زمان‌بند سخت‌افزاری مستقیم به واحدهای پردازشی دسترسی دارد و می‌تواند همه را موازی کنترل کند، انتظار داریم در سیستم‌های چندهسته‌ای هم سریع‌تر باشد و هم منابع را بهتر از سیستم‌عامل مدیریت کند.",
+        "در مقاله‌ی منتشرشده این ایده را به زمان‌بندی امنیت‌آگاه برای سیستم‌های چندهسته‌ای با محدودیت‌های بی‌درنگ سخت گسترش دادیم."
+      ]
+    },
+    "technologies": [
+      "C++",
+      "Verilog",
+      "Hardware Scheduling",
+      "Real-Time Systems",
+      "Hardware Security"
+    ],
+    "relatedPublicationIds": [
+      "micpro-security-scheduler",
+      "tpds-hrhs",
+      "hpec-2021-dependent-tasks",
+      "rtest-2022-fault-attacks"
+    ]
+  },
+  {
+    "id": "portfolio-site",
+    "name": "This Portfolio",
+    "track": "web",
+    "category": "frontend",
+    "date": "2022-07",
+    "year": 2022,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/myPortfolio.svg",
+    "cover": "imgs/slider/newVersion.jpg",
+    "url": "https://norollah.com/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "The site you are reading - a place to show the work, and an excuse to push the front end",
+      "sv": "Sajten du läser - en plats att visa arbetet, och en ursäkt för att pressa frontenden",
+      "fa": "همین سایتی که الان دارید می‌خوانید - جایی برای نمایش کارهایم و بهانه‌ای برای امتحان چیزهای تازه در فرانت‌اند"
+    },
+    "description": {
+      "en": [
+        "The purpose of this portfolio is to showcase my skills and experience in front-end development and design, to introduce myself, and to give my projects somewhere to live.",
+        "Each version has been an excuse to build something I would not otherwise get to build. Earlier iterations leaned on a Matrix-inspired theme; this one is a data-driven Angular application where every section reads from JSON, the whole UI localises into English, Swedish and Persian, and the Persian mode mirrors the entire layout to RTL.",
+        "There may still be rough edges or areas to improve, so any feedback or suggestions are genuinely welcome."
+      ],
+      "sv": [
+        "Syftet med denna portfölj är att visa mina färdigheter och min erfarenhet inom frontendutveckling och design, att presentera mig själv, och att ge mina projekt någonstans att bo.",
+        "Varje version har varit en ursäkt för att bygga något jag annars inte skulle få bygga. Tidigare iterationer lutade mot ett Matrix-inspirerat tema; denna är en datadriven Angular-applikation där varje avsnitt läser från JSON, hela gränssnittet lokaliseras till engelska, svenska och persiska, och det persiska läget speglar hela layouten till RTL.",
+        "Det kan fortfarande finnas skavanker eller saker att förbättra, så all feedback och alla förslag är genuint välkomna."
+      ],
+      "fa": [
+        "این سایت را ساختم تا کارهایم در فرانت‌اند را نشان بدهم، خودم را معرفی کنم و بالاخره پروژه‌هایم یک جای مشخص داشته باشند.",
+        "هر نسخه‌اش بهانه‌ای بود تا چیزی را امتحان کنم که معمولاً وقتش پیش نمی‌آید. نسخه‌های قبلی تمی شبیه ماتریکس داشتند. این نسخه یک اپ Angular است که همه‌ی محتوایش را از فایل‌های JSON می‌خواند، به انگلیسی، سوئدی و فارسی ترجمه شده و در حالت فارسی کل صفحه راست‌به‌چپ می‌شود.",
+        "حتماً هنوز جاهایی هست که می‌شود بهترش کرد. اگر نظری یا پیشنهادی دارید، خوشحال می‌شوم بشنوم."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Angular",
+      "TypeScript",
+      "Signals",
+      "ECharts",
+      "Design System",
+      "SCSS",
+      "i18n",
+      "RTL",
+      "Accessibility",
+      "Cypress"
+    ]
+  },
+  {
+    "id": "smartcattle-backend",
+    "name": "SmartCattle",
+    "track": "web",
+    "category": "backend",
+    "date": "2022-05",
+    "year": 2022,
+    "ownership": {
+      "kind": "company",
+      "org": "SarveenTech"
+    },
+    "logo": "imgs/projects/smartcattle.svg",
+    "cover": "imgs/slider/smartcattle.jpg",
+    "url": "https://sc.sarveentech.ir/",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "SaaS that monitors farm animal health from activity and eating patterns",
+      "sv": "SaaS som övervakar lantbruksdjurs hälsa utifrån aktivitets- och ätmönster",
+      "fa": "سرویس SaaS که از روی الگوی فعالیت و تغذیه‌ی دام، سلامتشان را زیر نظر دارد"
+    },
+    "description": {
+      "en": [
+        "Smart Cattle is a software-as-a-service platform that records and analyses the activity patterns of farm animals in order to monitor their health.",
+        "Our team developed the back end of the platform using modern technologies. The end result is an intuitive, user-friendly tool that simplifies farm management."
+      ],
+      "sv": [
+        "Smart Cattle är en software-as-a-service-plattform som registrerar och analyserar lantbruksdjurs aktivitetsmönster för att övervaka deras hälsa.",
+        "Vårt team utvecklade plattformens back end med moderna tekniker. Slutresultatet är ett intuitivt, användarvänligt verktyg som förenklar gårdsdriften."
+      ],
+      "fa": [
+        "Smart Cattle یک پلتفرم SaaS است که فعالیت دام‌ها را ثبت و تحلیل می‌کند تا سلامتشان زیر نظر باشد.",
+        "بک‌اندش را در تیم خودمان ساختیم و نتیجه ابزاری ساده و راحت شد که مدیریت دامداری را آسان‌تر می‌کند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "Swagger",
+      "SQL Server",
+      "Entity Framework",
+      "REST APIs",
+      "RabbitMQ",
+      "Acceptance Testing",
+      "Unit Testing",
+      "Prometheus",
+      "Grafana"
+    ]
+  },
+  {
+    "id": "smartcattle-identity",
+    "name": "SmartCattle Identity Server",
+    "track": "web",
+    "category": "identity",
+    "date": "2022-05",
+    "year": 2022,
+    "ownership": {
+      "kind": "company",
+      "org": "SarveenTech"
+    },
+    "logo": "imgs/projects/identityserver-smartcatle.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Complete authentication and authorisation with single session sign-in across every client type",
+      "sv": "Komplett autentisering och auktorisering med enkel sessionsinloggning för alla klienttyper",
+      "fa": "احراز هویت و سطح دسترسی کامل، با ورود یکپارچه برای همه‌ی کلاینت‌ها"
+    },
+    "description": {
+      "en": [
+        "In this project our servers were responsible for creating complete authentication and authorisation services, with single session sign-in and sign-out for various types of application - mobile, web, native and other services - using the OpenID Connect and OAuth 2.1 protocols.",
+        "It was built on IdentityServer4 together with Skoruba Identity Server Admin, and I continue to support it as a backup developer on the maintenance service so it stays sustainable and operationally sound."
+      ],
+      "sv": [
+        "I detta projekt ansvarade våra servrar för att skapa kompletta autentiserings- och auktoriseringstjänster, med enkel sessionsinloggning och -utloggning för olika applikationstyper - mobil, webb, nativa och andra tjänster - med protokollen OpenID Connect och OAuth 2.1.",
+        "Det byggdes på IdentityServer4 tillsammans med Skoruba Identity Server Admin, och jag fortsätter stödja det som backup-utvecklare i underhållstjänsten så att det förblir hållbart och driftmässigt sunt."
+      ],
+      "fa": [
+        "در این پروژه سرورهای ما احراز هویت و سطح دسترسی را با OpenID Connect و OAuth 2.1 پیاده می‌کردند، با ورود و خروج یکپارچه برای همه‌جور برنامه: موبایل، وب، دسکتاپ و سرویس‌های دیگر.",
+        "سرویس روی IdentityServer4 و Skoruba Identity Server Admin ساخته شده و هنوز هم در نگه‌داری‌اش کمک می‌کنم تا پایدار بماند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "Swagger",
+      "SQL Server",
+      "IdentityServer4",
+      "OpenID Connect",
+      "OAuth 2.1"
+    ]
+  },
+  {
+    "id": "candle-backend",
+    "name": "Candle Back End",
+    "track": "web",
+    "category": "backend",
+    "date": "2021-10",
+    "year": 2021,
+    "ownership": {
+      "kind": "company",
+      "org": "ASI Green Techs co."
+    },
+    "logo": "imgs/projects/web-design-amin.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "A clean Express.js service with a documented API surface from the first commit",
+      "sv": "En ren Express.js-tjänst med ett dokumenterat API redan från första commit",
+      "fa": "سرویس تمیز Express.js که API آن از اولین کامیت مستند شد"
+    },
+    "description": {
+      "en": [
+        "A Node.js and Express.js back-end service built for ASI Green Techs, with a Swagger-documented API surface maintained alongside the code rather than after it."
+      ],
+      "sv": [
+        "En backend-tjänst i Node.js och Express.js byggd för ASI Green Techs, med ett Swagger-dokumenterat API som underhålls parallellt med koden snarare än i efterhand."
+      ],
+      "fa": [
+        "سرویس بک‌اند با Node.js و Express.js برای ASI Green Techs. API هم‌زمان با نوشتن کد در Swagger مستند می‌شد، نه بعد از تمام شدن کار."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Node.js",
+      "Express.js",
+      "Swagger"
+    ]
+  },
+  {
+    "id": "fnn",
+    "name": "FNN - Forecast Neural Network",
+    "track": "desktop",
+    "category": "desktop",
+    "date": "2021-06",
+    "year": 2021,
+    "ownership": {
+      "kind": "client",
+      "org": ""
+    },
+    "logo": "imgs/projects/FNN.jpg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Deep-learning stock market analysis across more than thirty markets, instantly",
+      "sv": "Aktiemarknadsanalys med djupinlärning över mer än trettio marknader, direkt",
+      "fa": "تحلیل بی‌درنگ بیش از سی بازار سهام با یادگیری عمیق"
+    },
+    "description": {
+      "en": [
+        "We developed a software solution for global stock market analysis using artificial intelligence with a deep-learning-based approach. The software can analyse more than thirty different markets instantly and provide tailored solutions to increase productivity in each one.",
+        "The technology stack included CNTK, WPF, SQLite and .NET Core 3.1. I am proud to have employed cutting-edge technologies to deliver a powerful and effective solution for clients in the financial sector."
+      ],
+      "sv": [
+        "Vi utvecklade en mjukvarulösning för global aktiemarknadsanalys med artificiell intelligens och ett djupinlärningsbaserat tillvägagångssätt. Programvaran kan analysera fler än trettio olika marknader direkt och ge skräddarsydda lösningar för att öka produktiviteten på var och en.",
+        "Teknikstacken omfattade CNTK, WPF, SQLite och .NET Core 3.1. Jag är stolt över att ha använt spetsteknik för att leverera en kraftfull och effektiv lösning för kunder inom finanssektorn."
+      ],
+      "fa": [
+        "با یادگیری عمیق نرم‌افزاری برای تحلیل بازارهای سهام دنیا ساختیم. بیش از سی بازار را بی‌درنگ تحلیل می‌کند و برای هر کدام پیشنهادهای مناسب می‌دهد.",
+        "با CNTK، WPF، SQLite و .NET Core 3.1 ساخته شد و مشتری‌هایش از بخش مالی بودند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Framework",
+      ".NET Core",
+      "WPF",
+      "CNTK",
+      "SQL Server",
+      "SQLite",
+      "Deep Learning"
+    ]
+  },
+  {
+    "id": "js-code-pages",
+    "name": "JS Code - Pages & Charts",
+    "track": "web",
+    "category": "frontend",
+    "date": "2021-05",
+    "year": 2021,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/jsCode.svg",
+    "cover": "imgs/slider/Mosaic.jpg",
+    "url": "https://github.com/amin-norollah/JS-code#2-pages",
+    "repo": "https://github.com/amin-norollah/JS-code",
+    "featured": true,
+    "tagline": {
+      "en": "Vanilla-JS studies: a flight booking flow, a mosaic gallery, a heat-map simulator, Nastaliq SVG artwork",
+      "sv": "Vanilla-JS-studier: ett flygbokningsflöde, ett mosaikgalleri, en värmekartsimulator, Nastaliq-SVG-konst",
+      "fa": "تمرین‌های جاوااسکریپت خالص: جریان رزرو پرواز، گالری موزاییکی، شبیه‌ساز نقشه‌ی حرارتی، اثر SVG نستعلیق"
+    },
+    "description": {
+      "en": [
+        "A collection of pages and charts written in vanilla JavaScript, CSS and HTML - deliberately without a framework, to keep the fundamentals sharp.",
+        "It includes a responsive international flight booking demo, a lightweight business page, a mosaic art gallery, and a heat-map simulator that renders resolutions from 10×10 up to 80×80 without dropping frames.",
+        "The Nastaliq piece is the odd one out: an exploration of techniques for working with SVG, using Persian calligraphy as the subject."
+      ],
+      "sv": [
+        "En samling sidor och diagram skrivna i vanilla JavaScript, CSS och HTML - avsiktligt utan ramverk, för att hålla grunderna skarpa.",
+        "Den innehåller en responsiv demo för internationell flygbokning, en lättviktig företagssida, ett mosaikkonstgalleri, och en värmekartsimulator som renderar upplösningar från 10×10 upp till 80×80 utan tappade bildrutor.",
+        "Nastaliq-stycket är avvikaren: en utforskning av tekniker för att arbeta med SVG, med persisk kalligrafi som motiv."
+      ],
+      "fa": [
+        "چند صفحه و نمودار با جاوااسکریپت خالص، CSS و HTML. عمداً بدون فریم‌ورک نوشتمشان تا پایه‌هایم را تمرین کنم.",
+        "یک نمونه‌ی واکنش‌گرای رزرو پرواز بین‌المللی، یک صفحه‌ی تجاری، یک گالری هنری موزاییکی و یک شبیه‌ساز نقشه‌ی حرارتی که از ۱۰×۱۰ تا ۸۰×۸۰ را بدون افت فریم رندر می‌کند.",
+        "قطعه‌ی نستعلیق فرق دارد: آزمایشی با SVG که موضوعش خوش‌نویسی فارسی است."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Vanilla JS",
+      "CSS",
+      "HTML",
+      "SVG",
+      "Canvas"
+    ]
+  },
+  {
+    "id": "js-code-games",
+    "name": "JS Code - Games",
+    "track": "web",
+    "category": "frontend",
+    "date": "2021-05",
+    "year": 2021,
+    "ownership": {
+      "kind": "open-source",
+      "org": ""
+    },
+    "logo": "imgs/projects/jsCode.svg",
+    "cover": "",
+    "url": "https://github.com/amin-norollah/JS-code#4-games",
+    "repo": "https://github.com/amin-norollah/JS-code",
+    "featured": false,
+    "tagline": {
+      "en": "Small browser games, written to practise game loops and state without a library",
+      "sv": "Små webbläsarspel, skrivna för att öva spelloopar och state utan bibliotek",
+      "fa": "بازی‌های کوچک مرورگری بدون کتابخانه، برای تمرین حلقه‌ی بازی و مدیریت state"
+    },
+    "description": {
+      "en": [
+        "A set of small games in vanilla JavaScript. Games are a good forcing function for the things frameworks usually hide: a real render loop, input handling, and state that changes sixty times a second."
+      ],
+      "sv": [
+        "En uppsättning små spel i vanilla JavaScript. Spel är en bra tvingande funktion för det ramverk brukar dölja: en verklig renderingsloop, indatahantering och state som ändras sextio gånger i sekunden."
+      ],
+      "fa": [
+        "چند بازی کوچک با جاوااسکریپت خالص. بازی‌ها برای تمرین چیزهایی که فریم‌ورک‌ها معمولاً پنهان می‌کنند عالی‌اند: حلقه‌ی رندر، مدیریت ورودی و state که شصت بار در ثانیه عوض می‌شود."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Vanilla JS",
+      "CSS",
+      "HTML",
+      "Canvas"
+    ]
+  },
+  {
+    "id": "restaurant-management",
+    "name": "Restaurant Management System",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2021-03",
+    "year": 2021,
+    "ownership": {
+      "kind": "client",
+      "org": ""
+    },
+    "logo": "imgs/projects/web-design-amin.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Orders, menus and staff in one Express.js and MongoDB system, built freelance",
+      "sv": "Order, menyer och personal i ett Express.js- och MongoDB-system, byggt som frilans",
+      "fa": "سفارش، منو و کارکنان در یک سیستم Express.js و MongoDB که به‌صورت فریلنس ساختم"
+    },
+    "description": {
+      "en": [
+        "A restaurant management system built during my freelance years, using Node.js, Express.js and MongoDB.",
+        "The interesting constraint was that the people using it were not office workers - the interface had to survive a busy service, which shaped every decision about how much a screen was allowed to ask for."
+      ],
+      "sv": [
+        "Ett restauranghanteringssystem byggt under mina frilansår, med Node.js, Express.js och MongoDB.",
+        "Den intressanta begränsningen var att de som använde det inte satt på kontor - gränssnittet måste klara en hektisk service, vilket formade varje beslut om hur mycket en skärm fick fråga efter."
+      ],
+      "fa": [
+        "سیستم مدیریت رستوران که در دوران فریلنسری با Node.js، Express.js و MongoDB ساختم.",
+        "نکته‌ی جالبش این بود که کاربرها کارمند اداری نبودند. رابط باید وسط شلوغی رستوران هم جواب می‌داد و همین روی هر تصمیمی درباره‌ی این‌که هر صفحه چقدر از کاربر سؤال بپرسد اثر گذاشت."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "id": "simpal-v1",
+    "name": "Simpal v1",
+    "track": "desktop",
+    "category": "desktop",
+    "date": "2020-10",
+    "year": 2020,
+    "ownership": {
+      "kind": "company",
+      "org": "Fara-control I.P"
+    },
+    "logo": "imgs/projects/simpal1.jpg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "The archive-study tool that laid the foundation for Simpal v2 and FaraWAMS",
+      "sv": "Arkivstudieverktyget som lade grunden för Simpal v2 och FaraWAMS",
+      "fa": "ابزار بررسی داده‌های آرشیوی که پایه‌ی Simpal v2 و FaraWAMS شد"
+    },
+    "description": {
+      "en": [
+        "Simpal v1, developed on .NET Framework 4.5 and the Windows Forms platform, was created to access archived power grid data and make studies on it possible.",
+        "This project was associated with significant success and laid the foundation for the development of Simpal v2 and, later, the FaraWAMS platform."
+      ],
+      "sv": [
+        "Simpal v1, utvecklad på .NET Framework 4.5 och Windows Forms-plattformen, skapades för att göra det möjligt att komma åt arkiverad elnätsdata och studera den.",
+        "Projektet blev en stor framgång och lade grunden för utvecklingen av Simpal v2 och senare FaraWAMS-plattformen."
+      ],
+      "fa": [
+        "Simpal v1 را با .NET Framework 4.5 و Windows Forms ساختیم تا بشود به داده‌های آرشیوی شبکه‌ی برق دسترسی داشت و رویشان مطالعه کرد.",
+        "پروژه‌ی موفقی بود و پایه‌ی Simpal v2 و بعد FaraWAMS شد."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Framework",
+      "Windows Forms",
+      "OxyPlot",
+      "SciChart",
+      "SQLite"
+    ]
+  },
+  {
+    "id": "simpal-v2",
+    "name": "Simpal v2",
+    "track": "web",
+    "category": "fullstack",
+    "date": "2020-08",
+    "year": 2020,
+    "ownership": {
+      "kind": "company",
+      "org": "Fara-control I.P"
+    },
+    "logo": "imgs/projects/simpal2.jpg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Real-time power grid study tooling - time series, XY plots, flow diagrams and heat maps",
+      "sv": "Realtidsverktyg för elnätsstudier - tidsserier, XY-plottar, flödesdiagram och värmekartor",
+      "fa": "ابزار بررسی بی‌درنگ شبکه‌ی برق: سری زمانی، نمودار XY، دیاگرام جریان و نقشه‌ی حرارتی"
+    },
+    "description": {
+      "en": [
+        "The purpose of this application is to monitor the data collected from the power grid system. Various power engineering modules were used so that experts can conduct studies on the real grid instead of a simulation.",
+        "Calculations are performed on real-time data immediately after it arrives and displayed as time-series charts, bars, XY plots, flow diagrams and heat maps. The front end was developed with Angular and .NET Core 3.1 was used for the back end."
+      ],
+      "sv": [
+        "Syftet med denna applikation är att övervaka data som samlas in från elnätet. Olika kraftteknikmoduler användes så att experter kan göra studier på det verkliga nätet istället för på en simulering.",
+        "Beräkningar görs på realtidsdata direkt när den kommer in och visas som tidsseriediagram, staplar, XY-plottar, flödesdiagram och värmekartor. Frontenden utvecklades med Angular och .NET Core 3.1 användes för backenden."
+      ],
+      "fa": [
+        "این برنامه داده‌هایی را که از شبکه‌ی برق جمع می‌شود پایش می‌کند. چند ماژول مهندسی برق در آن هست تا کارشناس‌ها به‌جای شبیه‌سازی، روی شبکه‌ی واقعی مطالعه کنند.",
+        "محاسبات همان لحظه‌ی رسیدن داده انجام می‌شود و نتیجه به شکل نمودار سری زمانی، میله‌ای، XY، دیاگرام جریان و نقشه‌ی حرارتی نمایش داده می‌شود. فرانت‌اند با Angular بود و بک‌اند با .NET Core 3.1."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Core",
+      "WPF",
+      "Angular",
+      "CSS",
+      "HTML",
+      "SQL Server"
+    ]
+  },
+  {
+    "id": "neuro20ep",
+    "name": "Neuro20EP",
+    "track": "desktop",
+    "category": "desktop",
+    "date": "2019-04",
+    "year": 2019,
+    "ownership": {
+      "kind": "company",
+      "org": "NikAva co."
+    },
+    "logo": "imgs/projects/neuro20ep.jpg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "Health-care software that turns eight channels of brain signal into something a neurologist can read",
+      "sv": "Vårdprogramvara som gör åtta kanaler hjärnsignal till något en neurolog kan läsa",
+      "fa": "نرم‌افزار سلامت که سیگنال هشت کانال مغزی را برای متخصص مغز و اعصاب قابل خواندن می‌کند"
+    },
+    "description": {
+      "en": [
+        "One of the projects was to design health-care software that receives converted analogue brain signals from more than eight input channels, processes the data, analyses it, and helps neurologists diagnose abnormalities using indicators.",
+        "The technology for most of these projects was C++ and C# on .NET Framework 4.7.2, with SciChart for the signal rendering that had to stay readable in real time."
+      ],
+      "sv": [
+        "Ett av projekten var att designa vårdprogramvara som tar emot konverterade analoga hjärnsignaler från fler än åtta ingångskanaler, bearbetar datan, analyserar den, och hjälper neurologer att diagnostisera avvikelser med hjälp av indikatorer.",
+        "Tekniken för de flesta av dessa projekt var C++ och C# på .NET Framework 4.7.2, med SciChart för signalrenderingen som måste förbli läsbar i realtid."
+      ],
+      "fa": [
+        "یکی از این پروژه‌ها نرم‌افزار سلامتی بود که سیگنال‌های مغزی را از بیش از هشت کانال ورودی می‌گیرد، پردازش و تحلیل می‌کند و با نشان دادن شاخص‌ها به متخصص مغز و اعصاب کمک می‌کند ناهنجاری‌ها را پیدا کند.",
+        "بیشتر این پروژه‌ها با C++ و C# روی .NET Framework 4.7.2 نوشته شدند و برای رسم سیگنال از SciChart استفاده کردیم تا نمودار در لحظه خوانا بماند."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      ".NET Framework",
+      "WPF",
+      "SciChart",
+      "SQLite",
+      "SQL Server",
+      "C++",
+      "C#"
+    ]
+  },
+  {
+    "id": "noonnet",
+    "name": "Noonnet",
+    "track": "web",
+    "category": "backend",
+    "date": "2019-02",
+    "year": 2019,
+    "ownership": {
+      "kind": "client",
+      "org": ""
+    },
+    "logo": "imgs/projects/web-design-amin.svg",
+    "cover": "",
+    "url": "",
+    "repo": "",
+    "featured": false,
+    "tagline": {
+      "en": "An early Express.js application, and where I learned to document an API before writing it",
+      "sv": "En tidig Express.js-applikation, och där jag lärde mig dokumentera ett API innan jag skrev det",
+      "fa": "یکی از اولین برنامه‌هایم با Express.js، جایی که یاد گرفتم API را قبل از نوشتن مستند کنم"
+    },
+    "description": {
+      "en": [
+        "A Node.js and Express.js application built with MongoDB and a Swagger-documented API.",
+        "One of my earliest freelance backends, and the project where contract-first API design stopped being theory for me."
+      ],
+      "sv": [
+        "En applikation i Node.js och Express.js byggd med MongoDB och ett Swagger-dokumenterat API.",
+        "En av mina tidigaste frilans-backends, och projektet där kontrakt-först-API-design slutade vara teori för mig."
+      ],
+      "fa": [
+        "برنامه‌ای با Node.js، Express.js و MongoDB، با APIای که در Swagger مستند شد.",
+        "از اولین بک‌اندهای فریلنسی‌ام بود و اولین جایی که طراحی API به روش Contract-First را واقعاً به کار بردم."
+      ]
+    },
+    "technologies": [
+      "Clean Code",
+      "Node.js",
+      "Express.js",
+      "Swagger",
+      "MongoDB"
+    ]
+  },
+  {
+    "id": "rths",
+    "name": "RTHS - Real-Time Hardware Sorter",
+    "track": "academic",
+    "category": "hardware",
+    "date": "2019-02",
+    "year": 2019,
+    "ownership": {
+      "kind": "open-source",
+      "org": "IUST"
+    },
+    "logo": "imgs/projects/RTHS.svg",
+    "cover": "",
+    "url": "https://github.com/amin-norollah/RTHS",
+    "repo": "https://github.com/amin-norollah/RTHS",
+    "featured": false,
+    "tagline": {
+      "en": "A multi-dimensional sorting algorithm and FPGA architecture that stays cheap as inputs grow",
+      "sv": "En flerdimensionell sorteringsalgoritm och FPGA-arkitektur som förblir billig när indata växer",
+      "fa": "الگوریتم مرتب‌سازی چندبُعدی و معماری FPGA که با بزرگ شدن ورودی، هزینه‌اش زیاد بالا نمی‌رود"
+    },
+    "description": {
+      "en": [
+        "We proposed a novel multi-dimensional sorting algorithm and its related FPGA-based architecture to greatly reduce the required resources, increase memory efficiency and have little negative impact on execution time in the FPGA chip, even as the number of input records increases.",
+        "These features make our solution a worthy replacement for other sorting techniques. The proposed method can also be used for two further applications: implementing Min/Max queues to find minimum and maximum records quickly, and finding the largest or smallest records in stream processing of big data.",
+        "In the latter case we have access to the largest and smallest records at any time during the sorting process. The hardware description provided in this repository is a simple version of the RTHS design that can sort sixteen input records - a 4 × 4 matrix."
+      ],
+      "sv": [
+        "Vi föreslog en ny flerdimensionell sorteringsalgoritm och dess tillhörande FPGA-baserade arkitektur för att kraftigt minska resursbehovet, öka minneseffektiviteten och ha liten negativ inverkan på exekveringstiden i FPGA-chippet, även när antalet indataposter ökar.",
+        "Dessa egenskaper gör vår lösning till en värdig ersättare för andra sorteringstekniker. Den föreslagna metoden kan även användas för två ytterligare tillämpningar: att implementera min/max-köer för att snabbt hitta minsta och största poster, och att hitta de största eller minsta posterna i strömbearbetning av stordata.",
+        "I det senare fallet har vi tillgång till de största och minsta posterna vid varje tidpunkt under sorteringsprocessen. Hårdvarubeskrivningen i detta repositorium är en enkel version av RTHS-designen som kan sortera sexton indataposter - en 4 × 4-matris."
+      ],
+      "fa": [
+        "یک الگوریتم جدید برای مرتب‌سازی چندبُعدی و یک معماری FPGA برای آن پیشنهاد دادیم. منابع لازم را خیلی کم می‌کند، حافظه را بهتر به کار می‌گیرد و حتی وقتی تعداد رکوردهای ورودی زیاد می‌شود، زمان اجرا روی FPGA زیاد بالا نمی‌رود.",
+        "به همین دلیل جایگزین خوبی برای روش‌های دیگر مرتب‌سازی است. در دو کاربرد دیگر هم به درد می‌خورد: صف‌های Min/Max برای پیدا کردن سریع کمینه و بیشینه، و پیدا کردن بزرگ‌ترین یا کوچک‌ترین رکوردها در پردازش جریانی داده‌های حجیم.",
+        "در کاربرد دوم، در هر لحظه از مرتب‌سازی به بزرگ‌ترین و کوچک‌ترین رکوردها دسترسی داریم. کد سخت‌افزاری این مخزن نسخه‌ی ساده‌ای از طرح RTHS است که شانزده رکورد ورودی (یک ماتریس ۴ × ۴) را مرتب می‌کند."
+      ]
+    },
+    "technologies": [
+      "C++",
+      "Verilog",
+      "FPGA",
+      "Sorting Algorithms",
+      "Stream Processing"
+    ],
+    "relatedPublicationIds": [
+      "tvlsi-rths",
+      "mce-3d-sorting",
+      "mwscas-2019-accelerator",
+      "hpcs-2019-sorting",
+      "isvlsi-2020-3d-sorter"
+    ]
+  },
+  {
+    "id": "pat-noxim",
+    "name": "PAT-Noxim - NoC Simulator",
+    "track": "academic",
+    "category": "hardware",
+    "date": "2018-07",
+    "year": 2018,
+    "ownership": {
+      "kind": "open-source",
+      "org": "IUST"
+    },
+    "logo": "imgs/projects/Pat-noxim.svg",
+    "cover": "",
+    "url": "https://github.com/amin-norollah/PAT-Noxim",
+    "repo": "https://github.com/amin-norollah/PAT-Noxim",
+    "featured": false,
+    "tagline": {
+      "en": "A cycle-accurate simulator for power, area, delay and temperature in networks-on-chip",
+      "sv": "En cykelexakt simulator för effekt, yta, fördröjning och temperatur i networks-on-chip",
+      "fa": "شبیه‌سازی دقیق در سطح سیکل برای توان، مساحت، تأخیر و دما در شبکه‌های روی تراشه"
+    },
+    "description": {
+      "en": [
+        "Networks-on-Chip have proven low-latency and highly scalable in many-core architectures. Because scalability matters so much, designers try to optimise latency, power and temperature across the network - so developing a precise tool to calculate those attributes is of real importance.",
+        "Designers need to evaluate proposed techniques in a simulated NoC environment. PAT-Noxim addresses shortcomings at both the design and post-design stages. Developed on top of Access-Noxim, it provides an environment to simulate a NoC across power consumption, area, delay and temperature models, and supports several predefined and custom architectures."
+      ],
+      "sv": [
+        "Networks-on-Chip har visat sig ha låg latens och vara mycket skalbara i many-core-arkitekturer. Eftersom skalbarhet betyder så mycket försöker designers optimera latens, effekt och temperatur över nätverket - så att utveckla ett precist verktyg för att beräkna dessa egenskaper är verkligt viktigt.",
+        "Designers behöver utvärdera föreslagna tekniker i en simulerad NoC-miljö. PAT-Noxim adresserar brister i både design- och efterdesignstadierna. Utvecklad ovanpå Access-Noxim erbjuder den en miljö för att simulera en NoC över modeller för effektförbrukning, yta, fördröjning och temperatur, och stödjer flera fördefinierade och egna arkitekturer."
+      ],
+      "fa": [
+        "شبکه‌های روی تراشه در معماری‌های چندهسته‌ای نشان داده‌اند که تأخیر کم و مقیاس‌پذیری بالایی دارند. طراح‌ها سعی می‌کنند تأخیر، توان و دما را در کل شبکه بهینه کنند و برای همین به ابزار دقیقی برای اندازه‌گیری این‌ها نیاز دارند.",
+        "طراح‌ها باید ایده‌هایشان را اول در یک محیط شبیه‌سازی NoC امتحان کنند. PAT-Noxim برای همین ساخته شد. روی Access-Noxim بنا شده، توان، مساحت، تأخیر و دما را شبیه‌سازی می‌کند و از چند معماری آماده و معماری‌های سفارشی پشتیبانی می‌کند."
+      ]
+    },
+    "technologies": [
+      "C++",
+      "SystemC",
+      "NoC",
+      "Simulation",
+      "Thermal Modelling"
+    ],
+    "relatedPublicationIds": [
+      "socc-2018-pat-noxim"
+    ]
+  }
+]

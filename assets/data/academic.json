@@ -1,0 +1,373 @@
+{
+  "heading": {
+    "en": "A research detour that never really ended.",
+    "sv": "En forskningsavstickare som aldrig riktigt tog slut.",
+    "fa": "قرار بود پژوهش یک دوره‌ی کوتاه باشد، ولی هنوز کامل کنارش نگذاشته‌ام."
+  },
+  "lead": {
+    "en": "An MSc in computer engineering, three years as a researcher at IUST in collaboration with Université Grenoble Alpes, and thirteen peer-reviewed papers on hardware security, real-time scheduling and data sorting architectures.",
+    "sv": "En MSc i datorteknik, tre år som forskare vid IUST i samarbete med Université Grenoble Alpes, och tretton granskade artiklar om hårdvarusäkerhet, realtidsschemaläggning och arkitekturer för datasortering.",
+    "fa": "ارشد مهندسی کامپیوتر خواندم، سه سال در IUST پژوهشگر بودم (با همکاری دانشگاه گرنوبل آلپ) و سیزده مقاله‌ی داوری‌شده نوشتم؛ بیشترشان درباره‌ی امنیت سخت‌افزار، زمان‌بندی بی‌درنگ و سخت‌افزار مرتب‌سازی."
+  },
+  "degrees": [
+    {
+      "id": "iust-msc",
+      "degree": {
+        "en": "Master of Science",
+        "sv": "Masterexamen",
+        "fa": "کارشناسی ارشد"
+      },
+      "abbreviation": "MSc",
+      "field": {
+        "en": "Computer Engineering",
+        "sv": "Datorteknik",
+        "fa": "مهندسی کامپیوتر"
+      },
+      "institution": "Iran University of Science and Technology",
+      "institutionShort": "IUST",
+      "logo": "imgs/brands/IUST.svg",
+      "grade": {
+        "en": "GPA 4.0 - ranked first in class",
+        "sv": "Snittbetyg 4,0 - främst i årskullen",
+        "fa": "معدل ۴٫۰ - رتبه‌ی اول کلاس"
+      },
+      "summary": {
+        "en": "I obtained an MSc in computer engineering from IUST with a GPA of 4.0, placing me at the top of my class. The programme pushed me toward computer architecture and real-time systems, which is where the rest of my research came from.",
+        "sv": "Jag tog en MSc i datorteknik vid IUST med snittbetyget 4,0, vilket placerade mig främst i årskullen. Programmet drev mig mot datorarkitektur och realtidssystem, och därifrån kom resten av min forskning.",
+        "fa": "ارشد مهندسی کامپیوتر را در IUST با معدل ۴٫۰ و رتبه‌ی اول کلاس تمام کردم. در همین دوره به معماری کامپیوتر و سیستم‌های بی‌درنگ علاقه‌مند شدم و بقیه‌ی کارهای پژوهشی‌ام از همین‌جا شروع شد."
+      },
+      "highlights": {
+        "en": [
+          "Graduated top of class with a 4.0 GPA",
+          "Specialised in computer architecture, real-time systems and hardware security",
+          "Continued at IUST as a researcher after graduating",
+          "Work published in IEEE journals and international conferences"
+        ],
+        "sv": [
+          "Tog examen främst i årskullen med snittbetyget 4,0",
+          "Specialisering inom datorarkitektur, realtidssystem och hårdvarusäkerhet",
+          "Fortsatte vid IUST som forskare efter examen",
+          "Arbete publicerat i IEEE-tidskrifter och internationella konferenser"
+        ],
+        "fa": [
+          "فارغ‌التحصیلی با رتبه‌ی اول و معدل ۴٫۰",
+          "تمرکز روی معماری کامپیوتر، سیستم‌های بی‌درنگ و امنیت سخت‌افزار",
+          "ماندن در IUST به‌عنوان پژوهشگر بعد از فارغ‌التحصیلی",
+          "انتشار مقاله در مجلات IEEE و کنفرانس‌های بین‌المللی"
+        ]
+      },
+      "url": "https://www.iust.ac.ir/en",
+      "color": "viz-1"
+    }
+  ],
+  "research": {
+    "role": {
+      "en": "Researcher",
+      "sv": "Forskare",
+      "fa": "پژوهشگر"
+    },
+    "institution": "Iran University of Science and Technology",
+    "institutionShort": "IUST",
+    "logo": "imgs/brands/IUST.svg",
+    "collaborator": "Université Grenoble Alpes, France",
+    "start": "2019-01",
+    "end": "2022-04",
+    "summary": {
+      "en": "I was a research graduate of IUST, collaborating with Université Grenoble Alpes in France. My work focused on hardware security: one project investigated and identified vulnerable points in high-level code during clock-glitching attacks on RISC-V chips, and another set out to locate sensitive code blocks in C/C++ and in the assembly they compile to.",
+      "sv": "Efter examen fortsatte jag som forskare vid IUST, i samarbete med Université Grenoble Alpes i Frankrike. Mitt arbete inriktades på hårdvarusäkerhet: ett projekt undersökte och identifierade sårbara punkter i högnivåkod under clock-glitching-attacker mot RISC-V-chip, och ett annat syftade till att lokalisera känsliga kodblock i C/C++ och i den assemblerkod de kompileras till.",
+      "fa": "بعد از فارغ‌التحصیلی در IUST ماندم و به‌عنوان پژوهشگر با دانشگاه گرنوبل آلپ فرانسه کار کردم. بیشتر روی امنیت سخت‌افزار کار می‌کردیم. در یک پروژه بررسی کردیم کدام بخش‌های کد سطح‌بالا روی تراشه‌های RISC-V در برابر حمله‌ی clock-glitching آسیب‌پذیرند، و در پروژه‌ی دیگری دنبال بلوک‌های حساس در کد C/C++ و اسمبلی خروجی کامپایلر بودیم."
+    },
+    "focus": [
+      {
+        "label": {
+          "en": "Hardware security",
+          "sv": "Hårdvarusäkerhet",
+          "fa": "امنیت سخت‌افزار"
+        },
+        "detail": {
+          "en": "Fault-injection and clock-glitching vulnerability analysis on RISC-V micro-architectures.",
+          "sv": "Analys av sårbarheter för fault injection och clock glitching i RISC-V-mikroarkitekturer.",
+          "fa": "تحلیل آسیب‌پذیری در برابر تزریق خطا و clock-glitching در ریزمعماری‌های RISC-V."
+        }
+      },
+      {
+        "label": {
+          "en": "Real-time scheduling",
+          "sv": "Realtidsschemaläggning",
+          "fa": "زمان‌بندی بی‌درنگ"
+        },
+        "detail": {
+          "en": "Moving task scheduling out of the OS and into dedicated hardware for many-core embedded systems.",
+          "sv": "Flytt av uppgiftsschemaläggning från operativsystemet till dedikerad hårdvara, i inbyggda many-core-system.",
+          "fa": "بردن زمان‌بندی وظایف از سیستم‌عامل به سخت‌افزار اختصاصی، در سیستم‌های نهفته‌ی چندهسته‌ای."
+        }
+      },
+      {
+        "label": {
+          "en": "Sorting architectures",
+          "sv": "Sorteringsarkitekturer",
+          "fa": "معماری‌های مرتب‌سازی"
+        },
+        "detail": {
+          "en": "Multi-dimensional and 3-D hardware sorters for area- and energy-constrained edge devices.",
+          "sv": "Flerdimensionella och 3D-hårdvarusorterare för yt- och energibegränsade edge-enheter.",
+          "fa": "مرتب‌کننده‌های سخت‌افزاری چندبُعدی برای دستگاه‌های لبه که مساحت و انرژی محدودی دارند."
+        }
+      },
+      {
+        "label": {
+          "en": "NoC simulation",
+          "sv": "NoC-simulering",
+          "fa": "شبیه‌سازی NoC"
+        },
+        "detail": {
+          "en": "PAT-Noxim, a cycle-accurate power, area, delay and thermal simulator for networks-on-chip.",
+          "sv": "PAT-Noxim, en cykelexakt simulator för effekt, yta, fördröjning och temperatur i networks-on-chip.",
+          "fa": "PAT-Noxim، شبیه‌سازی دقیق در سطح سیکل که توان، مساحت، تأخیر و دمای شبکه‌های روی تراشه (NoC) را اندازه می‌گیرد."
+        }
+      }
+    ],
+    "tools": ["KLEE", "LLVM", "RISC-V simulator", "Xilinx Vivado", "SystemC", "Verilog", "C++"],
+    "highlights": {
+      "en": [
+        "International cooperation with a French research group",
+        "Solved complex problems by focusing on the best available solution rather than the first one",
+        "Collaborated with student teams and managed their work"
+      ],
+      "sv": [
+        "Internationellt samarbete med en fransk forskargrupp",
+        "Löste komplexa problem genom att fokusera på den bästa tillgängliga lösningen snarare än den första",
+        "Samarbetade med studentteam och ledde deras arbete"
+      ],
+      "fa": [
+        "همکاری با یک گروه پژوهشی در فرانسه",
+        "برای مسئله‌های سخت، به اولین جوابی که پیدا می‌شد قانع نمی‌شدیم",
+        "کار با دانشجوها و هماهنگ کردن کارشان"
+      ]
+    },
+    "color": "viz-2"
+  },
+  "publications": [
+    {
+      "id": "tvlsi-rths",
+      "type": "journal",
+      "title": "RTHS: A Low-Cost High-Performance Real-Time Hardware Sorter, Using a Multidimensional Sorting Algorithm",
+      "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
+      "firstAuthor": true,
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "venueShort": "IEEE TVLSI",
+      "citation": "vol. 27, no. 7, pp. 1601–1613, July 2019",
+      "year": 2019,
+      "doi": "https://doi.org/10.1109/TVLSI.2019.2912554",
+      "cover": "imgs/publications/TVLSI.jpg",
+      "coverThumbnail": "imgs/publications/TVLSI_thumbnail.jpg",
+      "topics": ["sorting", "FPGA", "real-time"],
+      "relatedProjectId": "rths",
+      "color": "viz-1"
+    },
+    {
+      "id": "tpds-hrhs",
+      "type": "journal",
+      "title": "HRHS: A High-Performance Real-Time Hardware Scheduler",
+      "authors": ["D. Derafshi", "A. Norollah", "M. Khosroanjam", "H. Beitollahi"],
+      "firstAuthor": false,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "venueShort": "IEEE TPDS",
+      "citation": "vol. 31, no. 4, pp. 897–908, 1 April 2020",
+      "year": 2020,
+      "doi": "https://doi.org/10.1109/TPDS.2019.2952136",
+      "cover": "imgs/publications/TPDS.jpg",
+      "coverThumbnail": "imgs/publications/TPDS_thumbnail.jpg",
+      "topics": ["scheduling", "many-core", "real-time"],
+      "relatedProjectId": "safas",
+      "color": "viz-2"
+    },
+    {
+      "id": "mce-3d-sorting",
+      "type": "journal",
+      "title": "Hardware Support for Efficient and Low-Power Data Sorting in Massive Data Application: The 3-D Sorting Method",
+      "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi", "D. Hély"],
+      "firstAuthor": true,
+      "venue": "IEEE Consumer Electronics Magazine",
+      "venueShort": "IEEE CEM",
+      "citation": "vol. 11, no. 3, pp. 87–94, 1 May 2022",
+      "year": 2022,
+      "doi": "https://doi.org/10.1109/MCE.2021.3076979",
+      "cover": "imgs/publications/MCE.jpg",
+      "coverThumbnail": "imgs/publications/MCE_thumbnail.jpg",
+      "topics": ["sorting", "low-power", "big data"],
+      "relatedProjectId": "rths",
+      "color": "viz-3"
+    },
+    {
+      "id": "micpro-security-scheduler",
+      "type": "journal",
+      "title": "A security-aware hardware scheduler for modern multi-core systems with hard real-time constraints",
+      "authors": ["A. Norollah", "H. Beitollahi", "Z. Kazemi", "M. Fazeli"],
+      "firstAuthor": true,
+      "venue": "Elsevier Microprocessors and Microsystems (MICPRO)",
+      "venueShort": "Elsevier MICPRO",
+      "citation": "ISSN 0141-9331, 2022",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.micpro.2022.104716",
+      "cover": "imgs/publications/MICRO.jpg",
+      "coverThumbnail": "imgs/publications/MICRO_thumbnail.jpg",
+      "topics": ["security", "scheduling", "multi-core"],
+      "relatedProjectId": "safas",
+      "color": "viz-5"
+    },
+    {
+      "id": "socc-2018-pat-noxim",
+      "type": "conference",
+      "title": "PAT-Noxim: A Precise Power & Thermal Cycle-Accurate NoC Simulator",
+      "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "A. Patooghy"],
+      "firstAuthor": true,
+      "venue": "31st IEEE International System-on-Chip Conference (SOCC)",
+      "venueShort": "IEEE SOCC",
+      "citation": "2018, pp. 163–168",
+      "year": 2018,
+      "doi": "https://doi.org/10.1109/SOCC.2018.8618491",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["NoC", "simulation", "thermal"],
+      "relatedProjectId": "pat-noxim",
+      "color": "viz-4"
+    },
+    {
+      "id": "mwscas-2019-accelerator",
+      "type": "conference",
+      "title": "A New Hardware Accelerator for Data Sorting in Area & Energy Constrained Architectures",
+      "authors": ["A. Norollah", "H. Beitollahi", "A. Patooghy"],
+      "firstAuthor": true,
+      "venue": "IEEE 62nd International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "venueShort": "IEEE MWSCAS",
+      "citation": "2019, pp. 985–988",
+      "year": 2019,
+      "doi": "https://doi.org/10.1109/MWSCAS.2019.8885297",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["sorting", "accelerator", "energy"],
+      "relatedProjectId": "rths",
+      "color": "viz-1"
+    },
+    {
+      "id": "hpcs-2019-sorting",
+      "type": "conference",
+      "title": "An Efficient Sorting Architecture for Area and Energy Constrained Edge Computing Devices",
+      "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi"],
+      "firstAuthor": true,
+      "venue": "International Conference on High Performance Computing & Simulation (HPCS)",
+      "venueShort": "HPCS",
+      "citation": "2019, pp. 455–462",
+      "year": 2019,
+      "doi": "https://doi.org/10.1109/HPCS48598.2019.9188237",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["sorting", "edge computing"],
+      "relatedProjectId": "rths",
+      "color": "viz-3"
+    },
+    {
+      "id": "isvlsi-2020-3d-sorter",
+      "type": "conference",
+      "title": "3D-Sorter: 3D Design of a Resource-Aware Hardware Sorter for Edge Computing Platforms Under Area and Energy Consumption Constraints",
+      "authors": ["A. Norollah", "Z. Kazemi", "D. Hély"],
+      "firstAuthor": true,
+      "venue": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+      "venueShort": "IEEE ISVLSI",
+      "citation": "2020, pp. 42–47",
+      "year": 2020,
+      "doi": "https://doi.org/10.1109/ISVLSI49217.2020.00018",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["sorting", "3-D design", "edge computing"],
+      "relatedProjectId": "rths",
+      "color": "viz-2"
+    },
+    {
+      "id": "socc-2020-mist-scan",
+      "type": "conference",
+      "title": "Mist-Scan: A Secure Scan Chain Architecture to Resist Scan-Based Attacks in Cryptographic Chips",
+      "authors": ["M. Taherifard", "H. Beitollahi", "F. Jamali", "A. Norollah", "A. Patooghy"],
+      "firstAuthor": false,
+      "venue": "IEEE 33rd International System-on-Chip Conference (SOCC)",
+      "venueShort": "IEEE SOCC",
+      "citation": "2020, pp. 135–140",
+      "year": 2020,
+      "doi": "https://doi.org/10.1109/SOCC49529.2020.9524759",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["security", "scan chain", "cryptography"],
+      "relatedProjectId": "",
+      "color": "viz-6"
+    },
+    {
+      "id": "dft-2021-riscv",
+      "type": "conference",
+      "title": "An In-Depth Vulnerability Analysis of RISC-V Micro-Architecture Against Fault Injection Attack",
+      "authors": ["Z. Kazemi", "A. Norollah", "A. Kchaou", "M. Fazeli", "D. Hély", "V. Beroulle"],
+      "firstAuthor": false,
+      "venue": "IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+      "venueShort": "IEEE DFT",
+      "citation": "2021, pp. 1–6",
+      "year": 2021,
+      "doi": "https://doi.org/10.1109/DFT52944.2021.9568318",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["RISC-V", "fault injection", "security"],
+      "relatedProjectId": "",
+      "color": "viz-5"
+    },
+    {
+      "id": "hpec-2021-dependent-tasks",
+      "type": "conference",
+      "title": "Efficient Scheduling of Dependent Tasks in Many-Core Real-Time System Using a Hardware Scheduler",
+      "authors": ["A. Norollah", "Z. Kazemi", "N. Sayadi", "H. Beitollahi", "M. Fazeli", "D. Hély"],
+      "firstAuthor": true,
+      "venue": "IEEE High Performance Extreme Computing Conference (HPEC)",
+      "venueShort": "IEEE HPEC",
+      "citation": "2021, pp. 1–7",
+      "year": 2021,
+      "doi": "https://doi.org/10.1109/HPEC49654.2021.9622857",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["scheduling", "many-core", "real-time"],
+      "relatedProjectId": "safas",
+      "color": "viz-4"
+    },
+    {
+      "id": "isqed-2022-offline-assessment",
+      "type": "conference",
+      "title": "An Offline Hardware Security Assessment Approach using Symbol Assertion and Code Shredding",
+      "authors": ["Z. Kazemi", "A. Norollah", "M. Fazeli", "D. Hély", "V. Beroulle"],
+      "firstAuthor": false,
+      "venue": "23rd International Symposium on Quality Electronic Design (ISQED)",
+      "venueShort": "ISQED",
+      "citation": "2022, pp. 1–1",
+      "year": 2022,
+      "doi": "https://doi.org/10.1109/ISQED54688.2022.9806234",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["security", "symbolic execution", "assessment"],
+      "relatedProjectId": "",
+      "color": "viz-3"
+    },
+    {
+      "id": "rtest-2022-fault-attacks",
+      "type": "conference",
+      "title": "Protecting Security-Critical Real-Time Systems against Fault Attacks in Many-Core Platforms",
+      "authors": ["A. Norollah", "Z. Kazemi", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
+      "firstAuthor": true,
+      "venue": "CPSSI 4th International Symposium on Real-Time and Embedded Systems and Technologies (RTEST)",
+      "venueShort": "CPSSI RTEST",
+      "citation": "2022, pp. 1–6",
+      "year": 2022,
+      "doi": "https://doi.org/10.1109/RTEST56034.2022.9850010",
+      "cover": "",
+      "coverThumbnail": "",
+      "topics": ["security", "real-time", "many-core"],
+      "relatedProjectId": "safas",
+      "color": "viz-1"
+    }
+  ]
+}

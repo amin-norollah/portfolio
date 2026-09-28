@@ -1,0 +1,191 @@
+{
+  "mode": "advice",
+  "modes": {
+    "advice": {
+      "heading": {
+        "en": "I'm not looking for a new role, but I'm happy to talk.",
+        "sv": "Jag söker inget nytt jobb, men hör gärna av dig.",
+        "fa": "فعلاً دنبال کار جدید نیستم، ولی اگر کمکی از دستم بربیاید خوشحال می‌شوم."
+      },
+      "lead": {
+        "en": "I like where I work and I'm not planning to move. If you want someone to look at a system or a technical decision, or you have an idea you'd like to talk through, send me a message. I read everything myself.",
+        "sv": "Jag trivs där jag jobbar och har inga planer på att byta. Men vill du att någon tittar på ett system eller ett tekniskt beslut, eller har du en idé du vill bolla, skriv gärna. Jag läser allt själv.",
+        "fa": "جایی که کار می‌کنم را دوست دارم و فعلاً قصد رفتن ندارم. ولی اگر می‌خواهید کسی نگاهی به سیستم یا تصمیم فنی‌تان بیندازد، یا ایده‌ای دارید که دوست دارید درباره‌اش حرف بزنیم، پیام بدهید. همه‌ی پیام‌ها را خودم می‌خوانم."
+      },
+      "emailSubject": {
+        "en": "Hello Amin - a question I'd like your take on",
+        "sv": "Hej Amin - en fråga jag vill höra vad du tycker om",
+        "fa": "سلام امین، یک سؤال فنی داشتم"
+      },
+      "listTitle": {
+        "en": "What you can message me about",
+        "sv": "Det här kan du höra av dig om",
+        "fa": "برای این‌ها می‌توانید پیام بدهید"
+      },
+      "list": {
+        "en": [
+          "A second opinion on architecture or a technical decision",
+          "Backend, API or integration problems you're stuck on",
+          "How to design identity and access control",
+          "Performance problems you haven't been able to pin down"
+        ],
+        "sv": [
+          "Synpunkter på arkitektur eller ett tekniskt beslut",
+          "Problem med backend, API:er eller integrationer som ni har kört fast i",
+          "Hur man bygger upp inloggning och behörigheter",
+          "Prestandaproblem där ni inte hittar orsaken"
+        ],
+        "fa": [
+          "نظر درباره‌ی معماری یا یک تصمیم فنی",
+          "مشکل بک‌اند، API یا یکپارچه‌سازی که رویش گیر کرده‌اید",
+          "طراحی احراز هویت و سطح دسترسی",
+          "مشکل کارایی که هنوز نفهمیده‌اید از کجا می‌آید"
+        ]
+      }
+    },
+    "hiring": {
+      "heading": {
+        "en": "If you have a system that needs to hold up, let's talk.",
+        "sv": "Har du ett system som måste hålla? Då pratar vi.",
+        "fa": "سیستمی دارید که باید سرپا بماند؟ خوشحال می‌شوم درباره‌اش صحبت کنیم."
+      },
+      "lead": {
+        "en": "The fastest route is email. I read everything, and I reply to anything with a real question in it - a system that is misbehaving, a platform that needs rebuilding, a role worth moving for.",
+        "sv": "Snabbaste vägen är e-post. Jag läser allt och svarar på allt som innehåller en verklig fråga - ett system som krånglar, en plattform som behöver byggas om, en roll värd att flytta för.",
+        "fa": "ایمیل سریع‌ترین راه است. همه را خودم می‌خوانم و اگر سؤال مشخصی داشته باشید حتماً جواب می‌دهم، چه درباره‌ی سیستمی باشد که درست کار نمی‌کند و چه یک موقعیت شغلی."
+      },
+      "emailSubject": {
+        "en": "Hello Amin - a project I would like to discuss",
+        "sv": "Hej Amin - ett projekt jag vill diskutera",
+        "fa": "سلام امین، درباره‌ی یک پروژه"
+      },
+      "listTitle": {
+        "en": "What I am looking for",
+        "sv": "Vad jag söker",
+        "fa": "دنبال چه کاری هستم"
+      },
+      "list": {
+        "en": [
+          "Senior or lead engineering roles with real backend ownership",
+          "Platform, API and integration work where correctness matters",
+          "Identity and authorisation systems built once, properly",
+          "Teams that treat performance and accessibility as requirements"
+        ],
+        "sv": [
+          "Seniora eller ledande ingenjörsroller med verkligt backend-ägarskap",
+          "Plattforms-, API- och integrationsarbete där korrekthet betyder något",
+          "Identitets- och auktoriseringssystem byggda en gång, ordentligt",
+          "Team som behandlar prestanda och tillgänglighet som krav"
+        ],
+        "fa": [
+          "نقش سنیور یا لید که مسئولیت واقعی بک‌اند با خودم باشد",
+          "کار روی پلتفرم، API و یکپارچه‌سازی، جایی که درست کار کردن سیستم واقعاً مهم است",
+          "سیستم‌های هویت و دسترسی که از اول درست ساخته شوند",
+          "تیمی که کارایی و دسترس‌پذیری را از روز اول جدی بگیرد"
+        ]
+      }
+    }
+  },
+  "ctaPrimary": {
+    "en": "Send an email",
+    "sv": "Skicka e-post",
+    "fa": "ارسال ایمیل"
+  },
+  "ctaSecondary": {
+    "en": "Message me on LinkedIn",
+    "sv": "Skriv till mig på LinkedIn",
+    "fa": "پیام در لینکدین"
+  },
+  "channels": [
+    {
+      "id": "email",
+      "icon": "mail",
+      "label": {
+        "en": "Email",
+        "sv": "E-post",
+        "fa": "ایمیل"
+      },
+      "value": "a.norollah.official@gmail.com",
+      "href": "mailto:a.norollah.official@gmail.com",
+      "copyable": true,
+      "note": {
+        "en": "Best for anything with a scope attached.",
+        "sv": "Bäst för allt som har en tydlig omfattning.",
+        "fa": "اگر موضوع مشخصی دارید، ایمیل بهترین راه است."
+      }
+    },
+    {
+      "id": "linkedin",
+      "icon": "linkedin",
+      "label": {
+        "en": "LinkedIn",
+        "sv": "LinkedIn",
+        "fa": "لینکدین"
+      },
+      "value": "amin-norollah",
+      "href": "https://www.linkedin.com/in/amin-norollah",
+      "copyable": false,
+      "note": {
+        "en": "For a quick message or staying in touch.",
+        "sv": "För ett kort meddelande eller för att hålla kontakten.",
+        "fa": "برای پیام کوتاه یا در ارتباط ماندن."
+      }
+    },
+    {
+      "id": "whatsapp",
+      "icon": "chat",
+      "label": {
+        "en": "WhatsApp",
+        "sv": "WhatsApp",
+        "fa": "واتس‌اپ"
+      },
+      "value": "balrug",
+      "href": "",
+      "copyable": true,
+      "note": {
+        "en": "Username balrug. Easiest for a quick question.",
+        "sv": "Användarnamn balrug. Enklast för en snabb fråga.",
+        "fa": "آیدی balrug. برای سؤال کوتاه از همه راحت‌تر است."
+      }
+    },
+    {
+      "id": "telegram",
+      "icon": "send",
+      "label": {
+        "en": "Telegram",
+        "sv": "Telegram",
+        "fa": "تلگرام"
+      },
+      "value": "@balrug",
+      "href": "https://t.me/balrug",
+      "copyable": false,
+      "note": {
+        "en": "Same handle, if you prefer Telegram.",
+        "sv": "Samma namn, om du hellre använder Telegram.",
+        "fa": "همان آیدی، اگر تلگرام را ترجیح می‌دهید."
+      }
+    },
+    {
+      "id": "github",
+      "icon": "github",
+      "label": {
+        "en": "GitHub",
+        "sv": "GitHub",
+        "fa": "گیت‌هاب"
+      },
+      "value": "amin-norollah",
+      "href": "https://github.com/amin-norollah",
+      "copyable": false,
+      "note": {
+        "en": "Open-source projects and code.",
+        "sv": "Projekt och kod med öppen källkod.",
+        "fa": "پروژه‌ها و کدهای متن‌بازم."
+      }
+    }
+  ],
+  "responseTime": {
+    "en": "Usually replies within two working days.",
+    "sv": "Svarar oftast inom två arbetsdagar.",
+    "fa": "معمولاً ظرف دو روز کاری جواب می‌دهم."
+  }
+}

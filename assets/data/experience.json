@@ -1,0 +1,607 @@
+[
+  {
+    "id": "focalpay",
+    "company": "FocalPay",
+    "companyShort": "FocalPay",
+    "role": { "en": "Senior Full-Stack Developer", "sv": "Senior fullstackutvecklare", "fa": "توسعه‌دهنده‌ی ارشد فول‌استک" },
+    "level": { "en": "Senior", "sv": "Senior", "fa": "ارشد" },
+    "start": "2025-03",
+    "end": null,
+    "current": true,
+    "logo": "imgs/brands/focalpay.svg",
+    "url": "https://focalpay.se/",
+    "industry": { "en": "Payments & retail", "sv": "Betalningar & handel", "fa": "پرداخت و خرده‌فروشی" },
+    "summary": {
+      "en": "Part of the Backend Engineering team at FocalPay, an all-in-one checkout, payments and back-office platform. My focus has shifted toward Android and the physical cashier hardware behind the retail floor.",
+      "sv": "Del av Backend Engineering-teamet på FocalPay, en allt-i-ett-plattform för kassa, betalningar och back-office. Mitt fokus har flyttats mot Android och den fysiska kassahårdvaran bakom butiksgolvet.",
+      "fa": "در تیم Backend Engineering شرکت FocalPay کار می‌کنم. FocalPay برای فروشگاه‌ها صندوق فروش، پرداخت و پشتیبانی فراهم می‌کند. این روزها بیشتر روی اندروید و سخت‌افزارهای کنار صندوق کار می‌کنم."
+    },
+    "description": {
+      "en": [
+        "I am part of the Backend Engineering team, contributing to the development, maintenance and improvement of services supporting FocalPay's retail, checkout and payment platform. Most of it is Java and Spring Boot, built test-first with comprehensive automated suites rather than tested after the fact.",
+        "The newer part of the role is Android: building and integrating applications that talk to the cashier ecosystem and the external hardware on the shop floor - payment terminals, printers, scanners. To keep that reliable I built Cashier Probe, a Playwright and TypeScript framework that drives the Electron point-of-sale application on real store hardware rather than a simulator."
+      ],
+      "sv": [
+        "Jag är en del av Backend Engineering-teamet och bidrar till utveckling, underhåll och förbättring av tjänsterna bakom FocalPays kassa-, betalnings- och plattformslösning. Mesta arbetet sker i Java och Spring Boot, byggt testdrivet med heltäckande automatiserade sviter snarare än testat i efterhand.",
+        "Den nyare delen av rollen är Android: bygga och integrera applikationer som pratar med kassaekosystemet och den fysiska hårdvaran i butiken - betalterminaler, skrivare, skannrar. För att hålla det tillförlitligt byggde jag Cashier Probe, ett ramverk i Playwright och TypeScript som kör Electron-kassan på verklig butikshårdvara i stället för en simulator."
+      ],
+      "fa": [
+        "در تیم Backend Engineering روی توسعه و نگه‌داری سرویس‌هایی کار می‌کنم که صندوق، پرداخت و بقیه‌ی بخش‌های خرده‌فروشی FocalPay روی آن‌ها سوارند. بیشتر کارمان با Java و Spring Boot است و تست‌ها را از همان اول کار می‌نویسیم، نه وقتی کار تمام شد.",
+        "بخش تازه‌تر کارم اندروید است: اپ‌هایی که با صندوق و سخت‌افزار داخل فروشگاه کار می‌کنند، مثل پایانه‌ی پرداخت، چاپگر و اسکنر. برای این‌که مطمئن باشیم این بخش درست کار می‌کند، Cashier Probe را ساختم؛ یک فریم‌ورک تست با Playwright و TypeScript که صندوق Electron را روی سخت‌افزار واقعی فروشگاه اجرا می‌کند، نه روی شبیه‌ساز."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Test-driven development as the default, not an afterthought",
+        "Bridging backend services and physical retail hardware through Android",
+        "Building the test framework itself when the existing tools cannot reach real hardware"
+      ],
+      "sv": [
+        "Testdriven utveckling som standard, inte en eftertanke",
+        "Bygga bryggan mellan backend-tjänster och fysisk butikshårdvara via Android",
+        "Bygga själva testramverket när befintliga verktyg inte når riktig hårdvara"
+      ],
+      "fa": [
+        "تست نوشتن از اول کار، به‌عنوان یک عادت همیشگی",
+        "وصل کردن سرویس‌های بک‌اند به سخت‌افزار فروشگاه از طریق اندروید",
+        "ساختن یک فریم‌ورک تست از صفر، چون ابزارهای موجود به سخت‌افزار واقعی دسترسی نداشتند"
+      ]
+    },
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "MongoDB",
+      "PostgreSQL",
+      "Kafka",
+      "Android",
+      "Kotlin",
+      "TypeScript",
+      "Playwright",
+      "Electron",
+      "REST APIs"
+    ],
+    "highlightProjectIds": ["focalpay-marketplace", "focalpay-inventory", "cashier-probe"],
+    "color": "viz-1"
+  },
+  {
+    "id": "cyberdesign",
+    "company": "CyberDesign",
+    "companyShort": "CyberDesign",
+    "role": { "en": "Full-Stack Developer", "sv": "Fullstackutvecklare", "fa": "توسعه‌دهنده‌ی فول‌استک" },
+    "level": { "en": "Full-Stack Developer", "sv": "Fullstackutvecklare", "fa": "فول‌استک" },
+    "start": "2023-08",
+    "end": "2025-03",
+    "current": false,
+    "logo": "imgs/brands/focalpay.svg",
+    "url": "https://focalpay.se/",
+    "industry": { "en": "Payments & retail", "sv": "Betalningar & handel", "fa": "پرداخت و خرده‌فروشی" },
+    "summary": {
+      "en": "Backend services and APIs for the FocalPay checkout and payments platform - a Java and Spring Boot Order API, a Node.js integration into the Centra e-commerce platform, and testing across the stack.",
+      "sv": "Backend-tjänster och API:er för FocalPays kassa- och betalplattform - ett Order-API i Java och Spring Boot, en Node.js-integration mot e-handelsplattformen Centra, och tester genom hela stacken.",
+      "fa": "روی سرویس‌ها و APIهای بک‌اند پلتفرم صندوق و پرداخت FocalPay کار می‌کردم: یک Order API با Java و Spring Boot، سرویسی با Node.js برای اتصال به پلتفرم تجارت الکترونیک Centra و تست در همه‌ی لایه‌ها."
+    },
+    "description": {
+      "en": [
+        "I designed, developed and maintained backend services and APIs for the FocalPay platform, implementing new features from business requirements and improving existing systems through refactoring and optimisation.",
+        "The work spanned a Java and Spring Boot Order API, a Node.js integration service connecting FocalPay to the Centra e-commerce platform, performance work and Cypress coverage on the Vue.js cashier front end, and a Robot Framework test suite for the APIs.",
+        "I collaborated with the development team on technical and architectural decisions, took part in code reviews, and wrote automated tests to improve system reliability."
+      ],
+      "sv": [
+        "Jag designade, utvecklade och underhöll backend-tjänster och API:er för FocalPay-plattformen, implementerade nya funktioner utifrån affärskrav och förbättrade befintliga system genom refaktorering och optimering.",
+        "Arbetet sträckte sig över ett Order-API i Java och Spring Boot, en Node.js-integrationstjänst som kopplar FocalPay till e-handelsplattformen Centra, prestandaarbete och Cypress-täckning på Vue.js-kassafronten, och en testsvit i Robot Framework för API:erna.",
+        "Jag samarbetade med utvecklingsteamet kring tekniska och arkitektoniska beslut, deltog i kodgranskningar och skrev automatiserade tester för att förbättra systemets tillförlitlighet."
+      ],
+      "fa": [
+        "سرویس‌ها و APIهای بک‌اند FocalPay را طراحی و پیاده‌سازی می‌کردم و نگه‌داری‌شان هم با من بود. قابلیت‌های تازه را بر اساس نیاز کسب‌وکار اضافه می‌کردم و کدهای موجود را بازنویسی و بهینه می‌کردم.",
+        "از جمله کارهایم: یک Order API با Java و Spring Boot، یک سرویس Node.js که FocalPay را به Centra وصل می‌کرد، بهتر کردن سرعت و نوشتن تست‌های Cypress برای فرانت‌اند Vue.js صندوق، و مجموعه‌تست‌های Robot Framework برای APIها.",
+        "در تصمیم‌های فنی و معماری کنار بقیه‌ی تیم بودم، کد بقیه را review می‌کردم و تست خودکار می‌نوشتم تا سیستم پایدارتر شود."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Engaging in international collaboration",
+        "Establishing strong collaboration among group members",
+        "Staying updated with market trends, which has helped us stay at the forefront of technology and new tooling"
+      ],
+      "sv": [
+        "Delta i internationellt samarbete",
+        "Etablera starkt samarbete mellan gruppens medlemmar",
+        "Hålla oss uppdaterade med marknadstrender, vilket hjälpt oss ligga i teknikens framkant med nya verktyg"
+      ],
+      "fa": [
+        "کار با تیم‌های بین‌المللی",
+        "تیمی که اعضایش واقعاً با هم کار می‌کردند",
+        "همیشه با ابزارها و فناوری‌های تازه جلو می‌رفتیم"
+      ]
+    },
+    "technologies": [
+      "TypeScript", "Node.js", "NestJS", "Express.js", "Java", "Spring Boot", "Vue.js", "React",
+      "Cypress", "Robot Framework", "C#", "WPF", "MongoDB", "Redis",
+      "Prometheus", "Swagger", "REST APIs", "Go", "Selenium"
+    ],
+    "highlightProjectIds": ["focalpay-order-api", "cashier-frontend", "robot-test-framework", "centra-integration", "navigation-project"],
+    "color": "viz-6"
+  },
+  {
+    "id": "mofid",
+    "company": "Mofid Securities",
+    "companyShort": "Mofid",
+    "role": { "en": "Senior Backend Developer", "sv": "Senior backendutvecklare", "fa": "توسعه‌دهنده‌ی ارشد بک‌اند" },
+    "level": { "en": "Senior", "sv": "Senior", "fa": "ارشد" },
+    "start": "2023-05",
+    "end": "2023-10",
+    "current": false,
+    "logo": "imgs/brands/mofid-securities.svg",
+    "url": "https://www.mofidonline.com/",
+    "industry": { "en": "Fintech & trading", "sv": "Fintech & handel", "fa": "فین‌تک و معاملات" },
+    "summary": {
+      "en": "Mofid Securities holds the largest share of Iran's stock exchange. I worked in the Mofid Online team across two sub-teams, where the defining challenge was a backend handling roughly thirty million requests per hour.",
+      "sv": "Mofid Securities har den största andelen av Irans börshandel. Jag arbetade i Mofid Online-teamet fördelat på två underteam, där den avgörande utmaningen var en backend som hanterade omkring trettio miljoner förfrågningar i timmen.",
+      "fa": "کارگزاری مفید بزرگ‌ترین سهم بازار بورس ایران را دارد. در تیم مفید آنلاین و در دو زیرتیم کار کردم و سخت‌ترین بخش کار بک‌اندی بود که ساعتی حدود سی میلیون درخواست می‌گرفت."
+    },
+    "description": {
+      "en": [
+        "Mofid Securities is one of the top companies in Iran and has captured the largest market share in the country's stock exchange. During my time there I worked as a backend developer in the Mofid Online team, specifically in the Mofid Online Admin and Mofid Online Web API sub-teams. I encountered various challenges during this period and gained valuable experience.",
+        "Mofid Online Admin: challenges here included code refactoring and restructuring, optimising the database stored procedures, and implementing new APIs. This sub-team was one of the best at Mofid Securities, and in a short period we delivered a product ready for deployment against up-to-date standards.",
+        "Mofid Online Web API: the main challenge was managing the high volume of requests to the backend - approximately thirty million requests per hour. My main tasks were focused on improving performance, refactoring existing code, and redesigning APIs for the new versions of the Online Plus and Hamrah Plus applications. In practice that meant using asynchronous functions appropriately, identifying and eliminating zombie threads, and raising code quality."
+      ],
+      "sv": [
+        "Mofid Securities är ett av Irans ledande företag och har den största marknadsandelen i landets börshandel. Under min tid där arbetade jag som backendutvecklare i Mofid Online-teamet, närmare bestämt i underteamen Mofid Online Admin och Mofid Online Web API. Jag mötte flera utmaningar under perioden och fick värdefull erfarenhet.",
+        "Mofid Online Admin: utmaningarna här omfattade refaktorering och omstrukturering av kod, optimering av databasens lagrade procedurer, och implementering av nya API:er. Detta underteam var ett av de bästa på Mofid Securities, och under kort tid levererade vi en produkt klar för driftsättning enligt aktuella standarder.",
+        "Mofid Online Web API: den huvudsakliga utmaningen var att hantera den höga volymen förfrågningar mot backenden - omkring trettio miljoner per timme. Mina huvuduppgifter handlade om att förbättra prestanda, refaktorera befintlig kod och designa om API:er för de nya versionerna av applikationerna Online Plus och Hamrah Plus. I praktiken innebar det att använda asynkrona funktioner korrekt, identifiera och eliminera zombietrådar, och höja kodkvaliteten."
+      ],
+      "fa": [
+        "کارگزاری مفید بزرگ‌ترین سهم بازار بورس ایران را دارد. آنجا توسعه‌دهنده‌ی بک‌اند تیم مفید آنلاین بودم و در دو زیرتیم کار کردم: Mofid Online Admin و Mofid Online Web API.",
+        "Mofid Online Admin: کارمان بازنویسی و ساختاردهی دوباره‌ی کد، بهینه کردن stored procedureها و نوشتن APIهای جدید بود. تیم خیلی خوبی بودیم و در مدت کوتاهی محصولی تحویل دادیم که آماده‌ی استقرار بود.",
+        "Mofid Online Web API: مشکل اصلی حجم درخواست‌ها بود، حدود سی میلیون در ساعت. بیشتر روی سرعت، بازنویسی کد و طراحی دوباره‌ی APIها برای نسخه‌های جدید آنلاین پلاس و همراه پلاس کار کردم. در عمل یعنی async را درست به کار بردیم، تردهای زامبی را پیدا و حذف کردیم و کیفیت کد را بالا بردیم."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "We had a highly skilled development team consisting entirely of senior developers",
+        "Dealing with a high volume of requests in the backend presented numerous performance challenges, which gave me valuable experience",
+        "We attended training classes aimed at enhancing our technical skills",
+        "We had a positive team dynamic, with the lead and other members working together toward project goals",
+        "Working at Mofid Securities was an exceptional experience because of the respectful and supportive interactions among employees"
+      ],
+      "sv": [
+        "Vi hade ett mycket kompetent utvecklingsteam som helt bestod av seniora utvecklare",
+        "Att hantera en hög volym förfrågningar i backenden gav många prestandautmaningar, vilket gav mig värdefull erfarenhet",
+        "Vi deltog i utbildningar som syftade till att förstärka våra tekniska färdigheter",
+        "Vi hade en positiv teamdynamik, där ledaren och övriga medlemmar arbetade tillsammans mot projektmålen",
+        "Att arbeta på Mofid Securities var en exceptionell erfarenhet på grund av det respektfulla och stöttande samspelet mellan medarbetarna"
+      ],
+      "fa": [
+        "تیمی که همه‌ی اعضایش سنیور بودند",
+        "حجم بالای درخواست‌ها پر از مسئله‌ی کارایی بود و چیزهای زیادی از آن یاد گرفتم",
+        "کلاس‌های آموزشی داخلی برای بالا بردن مهارت فنی",
+        "سرپرست و اعضای تیم واقعاً هم‌جهت بودند و برای یک هدف کار می‌کردند",
+        "محیطی محترمانه و حمایتگر که کار کردن در آن لذت داشت"
+      ]
+    },
+    "technologies": [
+      "Java", "Spring Boot", ".NET Core", "Redis", "SQL Server", "RabbitMQ",
+      "Prometheus", "Grafana", "Entity Framework", "Swagger", "REST APIs"
+    ],
+    "highlightProjectIds": ["mofid-online-plus", "mofid-online-admin"],
+    "color": "viz-2"
+  },
+  {
+    "id": "cntxts",
+    "company": "Cntxts Inc.",
+    "companyShort": "Cntxts",
+    "role": { "en": "Full-Stack Developer & Front-End Lead", "sv": "Fullstackutvecklare & frontend-lead", "fa": "توسعه‌دهنده‌ی فول‌استک و سرپرست فرانت‌اند" },
+    "level": { "en": "Front-end lead", "sv": "Frontend-lead", "fa": "سرپرست فرانت‌اند" },
+    "start": "2022-09",
+    "end": "2023-09",
+    "current": false,
+    "logo": "imgs/projects/VICINIA.svg",
+    "url": "https://dev.cntxts.com/kiosk",
+    "industry": { "en": "SaaS & location systems", "sv": "SaaS & positioneringssystem", "fa": "SaaS و سامانه‌های مکانی" },
+    "summary": {
+      "en": "Full-stack developer and later front-end lead on the Vicinia indoor mapping and positioning project - a Java Spring Boot back end and an Angular front end for routing, news, advertisements, events and announcements.",
+      "sv": "Fullstackutvecklare och senare frontend-lead för projektet Vicinia för inomhuskartläggning och positionering - en backend i Java Spring Boot och en frontend i Angular för navigering, nyheter, annonser, evenemang och meddelanden.",
+      "fa": "در پروژه‌ی Vicinia (نقشه و مسیریابی داخل ساختمان) توسعه‌دهنده‌ی فول‌استک بودم و بعداً سرپرست فرانت‌اند شدم. بک‌اند با Java Spring Boot بود و فرانت‌اند با Angular، برای مسیریابی، اخبار، تبلیغات، رویدادها و اطلاعیه‌ها."
+    },
+    "description": {
+      "en": [
+        "As a full-stack developer on the Vicinia indoor mapping and positioning project, I engineered and maintained RESTful web services using Java Spring Boot, and built the Angular front end that consumed them - routing options on the map alongside news, advertisements, events and announcements.",
+        "I later led the front-end team through two Angular applications, providing technical guidance and conducting code reviews. That included a new kiosk application that consumed the Spring Boot APIs to manage and display dynamic navigation routes, advertisements and multimedia content.",
+        "Alongside the kiosk itself, I built a map library that extended Google Maps with 2D and 2.5D building views, improved pins and information display, and routing and directions, plus a Docker-in-Docker structure for a robot testing project and Cypress coverage for end-to-end and component-level scenarios."
+      ],
+      "sv": [
+        "Som fullstackutvecklare på Vicinia-projektet för inomhuskartläggning och positionering byggde och underhöll jag RESTful webbtjänster i Java Spring Boot, och byggde Angular-frontenden som konsumerade dem - ruttalternativ på kartan tillsammans med nyheter, annonser, evenemang och meddelanden.",
+        "Senare ledde jag frontend-teamet genom två Angular-applikationer, gav teknisk vägledning och genomförde kodgranskningar. Det inkluderade en ny kioskapplikation som konsumerade Spring Boot-API:erna för att hantera och visa dynamiska navigeringsrutter, annonser och multimediainnehåll.",
+        "Utöver själva kiosken byggde jag ett kartbibliotek som utökade Google Maps med 2D- och 2,5D-vyer av byggnader, förbättrade pins och informationsvisning samt ruttning och vägbeskrivningar, plus en Docker-in-Docker-struktur för ett robottestprojekt och Cypress-täckning för end-to-end- och komponentscenarier."
+      ],
+      "fa": [
+        "در پروژه‌ی Vicinia فول‌استک کار می‌کردم. سرویس‌های REST را با Java Spring Boot می‌نوشتم و نگه می‌داشتم و فرانت‌اند Angularی را هم که از آن‌ها استفاده می‌کرد می‌ساختم: مسیریابی روی نقشه، اخبار، تبلیغات، رویدادها و اطلاعیه‌ها.",
+        "بعدها سرپرست فرانت‌اند دو اپ Angular شدم و راهنمایی فنی و code review با من بود. یکی از این دو اپ یک کیوسک جدید بود که مسیرهای ناوبری، تبلیغات و محتوای چندرسانه‌ای را از APIهای Spring Boot می‌گرفت و نشان می‌داد.",
+        "کنار کیوسک، یک کتابخانه‌ی نقشه هم نوشتم که به Google Maps نمای دوبعدی و ۲٫۵بعدی ساختمان‌ها، پین‌ها و پنجره‌های اطلاعات بهتر و مسیریابی اضافه می‌کرد. برای پروژه‌ی تست Robot هم ساختار Docker-in-Docker را راه انداختم و تست‌های end-to-end و کامپوننت را با Cypress نوشتم."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Collaborating with teams from different countries",
+        "Building strong relationships within teams",
+        "Facing numerous design challenges that significantly enhanced my skills",
+        "Undertaking projects from inception, enabling me to implement optimal project structures"
+      ],
+      "sv": [
+        "Samarbeta med team från olika länder",
+        "Bygga starka relationer inom teamen",
+        "Möta många designutmaningar som avsevärt förbättrade mina färdigheter",
+        "Driva projekt från start, vilket lät mig införa optimala projektstrukturer"
+      ],
+      "fa": [
+        "کار با هم‌تیمی‌هایی از کشورهای مختلف",
+        "رابطه‌ی خوب و نزدیک با هم‌تیمی‌ها",
+        "مسئله‌های طراحی زیادی که خیلی چیزها یادم داد",
+        "شروع پروژه‌ها از صفر، که اجازه می‌داد از اول ساختار درستی بچینیم"
+      ]
+    },
+    "technologies": [
+      "Angular", "TypeScript", "Java", "Spring Boot", "Node.js", "MongoDB",
+      "PrimeNG", "Angular Material", "Google Maps", "RxJS", "SQL Server",
+      "RabbitMQ", "Swagger", "Cypress", "Docker"
+    ],
+    "highlightProjectIds": [
+      "kiosk-web-app",
+      "vicinia-map-library",
+      "vicinia-desk",
+      "vicinia-backend",
+      "compass-campus-map"
+    ],
+    "color": "viz-3"
+  },
+  {
+    "id": "sarveentech",
+    "company": "SarveenTech",
+    "companyShort": "SarveenTech",
+    "role": { "en": ".NET Backend Developer & Code Reviewer", "sv": ".NET-backendutvecklare & kodgranskare", "fa": "توسعه‌دهنده‌ی بک‌اند .NET و بازبین کد" },
+    "level": { "en": "Part-time", "sv": "Deltid", "fa": "پاره‌وقت" },
+    "start": "2022-04",
+    "end": "2023-05",
+    "current": false,
+    "logo": "imgs/brands/sarveentech.svg",
+    "url": "https://sc.sarveentech.ir/",
+    "industry": { "en": "SaaS & identity", "sv": "SaaS & identitet", "fa": "SaaS و هویت" },
+    "summary": {
+      "en": "Part-time alongside my other roles: the security side of the backend for the Sarveen Farm management project, then maintainer for all of Sarveen's services - a secure identity server on IdentityServer4 and Skoruba Identity Server Admin.",
+      "sv": "Deltid vid sidan av mina andra roller: säkerhetssidan av backenden för farmhanteringsprojektet Sarveen Farm, sedan underhållsansvarig för alla Sarveens tjänster - en säker identitetsserver på IdentityServer4 och Skoruba Identity Server Admin.",
+      "fa": "این کار را پاره‌وقت و کنار کارهای دیگرم انجام می‌دادم. اول روی بخش امنیت بک‌اند Sarveen Farm (یک سیستم مدیریت مزرعه) کار کردم و بعد نگه‌داری همه‌ی سرویس‌های Sarveen با من شد، از جمله یک سرور هویت روی IdentityServer4 و Skoruba Identity Server Admin."
+    },
+    "description": {
+      "en": [
+        "Working part-time alongside my other commitments, I worked on the security aspect of the back end for the farm management project named Sarveen Farm, and subsequently served as the maintainer for all of Sarveen's services.",
+        "I developed a secure and dependable identity server using IdentityServer4 and Skoruba Identity Server Admin, providing complete authentication and authorisation with single session sign-in and sign-out for mobile, web, native and other clients, using OpenID Connect and OAuth 2.1.",
+        "I improved and maintained the .NET 6 back-end APIs, optimised microservice load times and RabbitMQ usage, created new APIs, and conducted code reviews for the front-end project."
+      ],
+      "sv": [
+        "Vid sidan av mina andra åtaganden arbetade jag deltid med säkerhetssidan av backenden för farmhanteringsprojektet Sarveen Farm, och blev sedan underhållsansvarig för alla Sarveens tjänster.",
+        "Jag byggde en säker och pålitlig identitetsserver med IdentityServer4 och Skoruba Identity Server Admin, som levererade komplett autentisering och auktorisering med enkel sessionsinloggning och -utloggning för mobil-, webb-, nativa och andra klienter, med OpenID Connect och OAuth 2.1.",
+        "Jag förbättrade och underhöll .NET 6-backend-API:erna, optimerade mikrotjänsternas laddningstider och RabbitMQ-användning, skapade nya API:er och genomförde kodgranskningar för frontend-projektet."
+      ],
+      "fa": [
+        "پاره‌وقت و کنار بقیه‌ی کارهایم، روی بخش امنیت بک‌اند Sarveen Farm کار کردم که یک سیستم مدیریت مزرعه است. بعد نگه‌داری همه‌ی سرویس‌های Sarveen را هم به عهده گرفتم.",
+        "با IdentityServer4 و Skoruba Identity Server Admin یک سرور هویت ساختم. روی OpenID Connect و OAuth 2.1 کار می‌کرد و احراز هویت و سطح دسترسی را برای اپ‌های موبایل، وب، دسکتاپ و بقیه‌ی کلاینت‌ها یک‌جا مدیریت می‌کرد، با ورود و خروج یکپارچه.",
+        "APIهای بک‌اند روی .NET 6 را بهتر کردم و نگه داشتم، زمان بالا آمدن میکروسرویس‌ها و مصرف RabbitMQ را بهینه کردم، API جدید نوشتم و کدهای فرانت‌اند را review می‌کردم."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "A professional yet relaxed working atmosphere",
+        "Collaborating on two simultaneous projects involving different technologies that needed to be integrated",
+        "Addressing software security concerns",
+        "Collaborating with the hardware and operational teams"
+      ],
+      "sv": [
+        "En professionell men avspänd arbetsmiljö",
+        "Samarbeta i två parallella projekt med olika tekniker som behövde integreras",
+        "Hantera säkerhetsfrågor i mjukvaran",
+        "Samarbeta med hårdvaru- och driftteamen"
+      ],
+      "fa": [
+        "فضای کاری حرفه‌ای و در عین حال آرام",
+        "کار هم‌زمان روی دو پروژه با فناوری‌های متفاوت که باید به هم وصل می‌شدند",
+        "درگیر شدن با مسائل امنیتی نرم‌افزار",
+        "همکاری با تیم‌های سخت‌افزار و عملیات"
+      ]
+    },
+    "technologies": [
+      ".NET Core", "IdentityServer4", "OAuth 2.1", "OpenID Connect", "Angular", "SQL Server",
+      "Entity Framework", "RabbitMQ", "Prometheus", "Grafana", "Swagger"
+    ],
+    "highlightProjectIds": ["smartcattle-backend", "smartcattle-identity"],
+    "color": "viz-5"
+  },
+  {
+    "id": "faracontrol",
+    "company": "Fara-control I.P",
+    "companyShort": "Fara-control",
+    "role": { "en": "Senior .NET Backend Developer", "sv": "Senior .NET-backendutvecklare", "fa": "توسعه‌دهنده‌ی ارشد بک‌اند .NET" },
+    "level": { "en": "Mid-level → Team lead", "sv": "Mellannivå → teamledare", "fa": "میان‌رده → سرپرست تیم" },
+    "start": "2020-10",
+    "end": "2023-02",
+    "current": false,
+    "logo": "imgs/brands/faracontrol.svg",
+    "url": "http://portal.macosyst.com/",
+    "industry": { "en": "Industrial monitoring", "sv": "Industriell övervakning", "fa": "پایش صنعتی" },
+    "summary": {
+      "en": "Multi-level .NET software for monitoring electrical and distribution substations - Simpal v1 and v2 - followed by FaraWAMS, a high-performance real-time platform for power grid and SCADA monitoring where I ended up leading the development team.",
+      "sv": "Flernivå-.NET-programvara för övervakning av el- och distributionsstationer - Simpal v1 och v2 - följt av FaraWAMS, en högpresterande realtidsplattform för övervakning av elnät och SCADA-system, där jag till slut ledde utvecklingsteamet.",
+      "fa": "نرم‌افزار چندلایه‌ی .NET برای پایش پست‌های برق و شبکه‌ی توزیع (Simpal نسخه‌ی ۱ و ۲) و بعد FaraWAMS، یک پلتفرم بی‌درنگ برای پایش شبکه‌ی برق و SCADA. آخر کار سرپرست تیم توسعه‌ی FaraWAMS هم شدم."
+    },
+    "description": {
+      "en": [
+        "I contributed to the development of advanced software solutions for monitoring electrical substations and power grid networks, starting on Simpal v1 and v2, multi-level .NET software for monitoring electrical and distribution substations, where I owned the back-end and front-end design of Simpal v2. Calculations run on real-time data as it arrives and are displayed as time-series charts, bars, XY plots, flow diagrams and heat maps, with Angular on the front end and .NET Core 3.1 on the back end.",
+        "That work grew into FaraWAMS, the successor to Simpal v2 and a high-performance, real-time industrial platform for monitoring and controlling power grid networks and SCADA systems - five servers, .NET 6 on the back end, React on the front, Apache Ignite for real-time in-memory data, SQL Server as the primary relational store and MongoDB for archives.",
+        "I led the development team on FaraWAMS, holding a dual role as both tech lead and team lead, largely because of my familiarity with the system and the company's small size, and built the user-friendly real-time charting modules that let engineers monitor the grid effectively."
+      ],
+      "sv": [
+        "Jag bidrog till utvecklingen av avancerade mjukvarulösningar för övervakning av elstationer och elnät, med start i Simpal v1 och v2, flernivå-.NET-programvara för övervakning av el- och distributionsstationer, där jag ansvarade för backend- och frontenddesignen för Simpal v2. Beräkningar körs på realtidsdata när den anländer och visas som tidsseriediagram, staplar, XY-plottar, flödesdiagram och värmekartor, med Angular i frontend och .NET Core 3.1 i backend.",
+        "Det arbetet växte till FaraWAMS, efterföljaren till Simpal v2 och en högpresterande industriell realtidsplattform för att övervaka och styra elnät och SCADA-system - fem servrar, .NET 6 i backend, React i frontend, Apache Ignite för realtidsdata i minnet, SQL Server som primärt relationslager och MongoDB för arkiv.",
+        "Jag ledde utvecklingsteamet för FaraWAMS och hade en dubbel roll som både tech lead och teamledare, mycket på grund av min förtrogenhet med systemet och att företaget var litet, och byggde de användarvänliga realtidsdiagram-modulerna som lät ingenjörer övervaka nätet effektivt."
+      ],
+      "fa": [
+        "روی نرم‌افزارهای پایش پست‌های برق و شبکه‌ی توزیع کار می‌کردم. شروعش Simpal نسخه‌ی ۱ و ۲ بود، یک نرم‌افزار چندلایه با .NET، که طراحی بک‌اند و فرانت‌اند نسخه‌ی ۲ با من بود. داده‌ها همان لحظه پردازش می‌شدند و به شکل نمودار سری زمانی، میله‌ای، XY، دیاگرام جریان و نقشه‌ی حرارتی نمایش داده می‌شدند. فرانت‌اند با Angular بود و بک‌اند با .NET Core 3.1.",
+        "بعد نوبت FaraWAMS بود که جای Simpal v2 را گرفت: پلتفرمی صنعتی و بی‌درنگ برای پایش و کنترل شبکه‌ی برق و سیستم‌های SCADA. پنج سرور داشت، بک‌اند با .NET 6، فرانت‌اند با React، Apache Ignite برای داده‌ی بی‌درنگ در حافظه، SQL Server به‌عنوان دیتابیس اصلی و MongoDB برای آرشیو.",
+        "سرپرستی تیم توسعه‌ی FaraWAMS با من بود و هم نقش سرپرست فنی را داشتم و هم مدیر تیم را، بیشتر به این دلیل که سیستم را خوب می‌شناختم و شرکت هم کوچک بود. ماژول‌های نمودار بی‌درنگ را هم خودم ساختم تا مهندس‌ها راحت‌تر شبکه را زیر نظر داشته باشند."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Being a team lead for the first time gave me a valuable opportunity to adopt a managerial perspective and work toward the product we wanted",
+        "The director's trust in our team's expertise, and the freedom that came with it, let us use the latest web development technologies in the final product",
+        "Projects involving substantial computational load and a high volume of requests",
+        "Collaborating with teams across different companies and organisations"
+      ],
+      "sv": [
+        "Att vara teamledare för första gången gav mig en värdefull möjlighet att anta ett ledarskapsperspektiv och arbeta mot den produkt vi ville ha",
+        "Direktörens tillit till teamets kompetens, och friheten som följde, lät oss använda de senaste webbutvecklingsteknikerna i slutprodukten",
+        "Projekt med betydande beräkningslast och hög volym förfrågningar",
+        "Samarbete med team över olika företag och organisationer"
+      ],
+      "fa": [
+        "اولین تجربه‌ی سرپرستی تیم، که یادم داد از دید مدیریتی هم به کار نگاه کنم",
+        "مدیر به تیم اعتماد داشت و همین آزادی باعث شد از فناوری‌های به‌روز وب در محصول استفاده کنیم",
+        "پروژه‌هایی با محاسبات سنگین و حجم بالای درخواست",
+        "کار با تیم‌هایی از شرکت‌ها و سازمان‌های دیگر"
+      ]
+    },
+    "technologies": [
+      ".NET 6", ".NET Core 3.1", "React", "Angular", "C#", "SQL Server", "SQLite", "MongoDB",
+      "Apache Ignite", "Node.js", "Express.js", "IdentityServer4", "PostgreSQL", "RabbitMQ",
+      "Redis", "SCADA", "WPF", "Windows Forms", "OxyPlot", "SciChart", "Swagger"
+    ],
+    "highlightProjectIds": ["farawams-backend", "farawams-identity", "simpal-v2", "simpal-v1"],
+    "color": "viz-4"
+  },
+  {
+    "id": "iust",
+    "company": "Iran University of Science and Technology",
+    "companyShort": "IUST",
+    "role": { "en": "Researcher", "sv": "Forskare", "fa": "پژوهشگر" },
+    "level": { "en": "Researcher", "sv": "Forskare", "fa": "پژوهشگر" },
+    "start": "2019-01",
+    "end": "2022-04",
+    "current": false,
+    "logo": "imgs/brands/IUST.svg",
+    "url": "https://www.iust.ac.ir/en",
+    "industry": { "en": "Academic research", "sv": "Akademisk forskning", "fa": "پژوهش دانشگاهی" },
+    "linkSection": "academic",
+    "summary": {
+      "en": "Research graduate at IUST collaborating with Université Grenoble Alpes, publishing on hardware security, real-time scheduling and sorting architectures. Thirteen peer-reviewed papers came out of it.",
+      "sv": "Forskarutbildad vid IUST i samarbete med Université Grenoble Alpes, med publikationer om hårdvarusäkerhet, realtidsschemaläggning och sorteringsarkitekturer. Tretton granskade artiklar kom ur det.",
+      "fa": "پژوهشگر دانشگاه علم و صنعت ایران (IUST) بودم و با دانشگاه گرنوبل آلپ همکاری داشتیم. روی امنیت سخت‌افزار، زمان‌بندی بی‌درنگ و سخت‌افزار مرتب‌سازی کار کردم و سیزده مقاله‌ی داوری‌شده منتشر کردم."
+    },
+    "description": {
+      "en": [
+        "I am a former research graduate of Iran University of Science and Technology, where I collaborated with the hardware accelerator and real-time systems teams in conjunction with Université Grenoble Alpes in France.",
+        "My research resulted in numerous scientific papers, with a particular focus on hardware security. One project investigated and identified vulnerable points in high-level code during clock-glitching attacks on RISC-V chips.",
+        "I also aimed to identify sensitive code blocks in C and C++ and in their compiled assembly. To do this we used KLEE and LLVM for symbolic execution simulation, along with a RISC-V simulator and the Xilinx Vivado tool.",
+        "Our efforts concluded in the publication of several papers in international journals and conferences, and I am proud to have contributed to the advancement of this field."
+      ],
+      "sv": [
+        "Jag är tidigare forskarutbildad vid Iran University of Science and Technology, där jag samarbetade med hårdvaruaccelerator- och realtidssystemteamen tillsammans med Université Grenoble Alpes i Frankrike.",
+        "Min forskning resulterade i ett stort antal vetenskapliga artiklar, med särskilt fokus på hårdvarusäkerhet. Ett projekt undersökte och identifierade sårbara punkter i högnivåkod under clock-glitching-attacker mot RISC-V-chip.",
+        "Jag ville också identifiera känsliga kodblock i C och C++ och i deras kompilerade assembler. För detta använde vi KLEE och LLVM för simulering med symbolisk exekvering, tillsammans med en RISC-V-simulator och verktyget Xilinx Vivado.",
+        "Våra insatser mynnade ut i publicering av flera artiklar i internationella tidskrifter och konferenser, och jag är stolt över att ha bidragit till fältets utveckling."
+      ],
+      "fa": [
+        "در دانشگاه علم و صنعت ایران پژوهشگر بودم و با گروه‌هایی کار می‌کردم که روی شتاب‌دهنده‌های سخت‌افزاری و سیستم‌های بی‌درنگ کار می‌کردند. همکار اصلی‌مان دانشگاه گرنوبل آلپ فرانسه بود.",
+        "حاصل این پژوهش‌ها چند مقاله بود که بیشترشان به امنیت سخت‌افزار مربوط می‌شد. در یکی از پروژه‌ها بررسی کردیم کدام بخش‌های کد سطح‌بالا روی تراشه‌های RISC-V در برابر حمله‌ی clock glitching آسیب‌پذیرند.",
+        "در پروژه‌ی دیگری دنبال بلوک‌های حساس در کد C و C++ و اسمبلی خروجی کامپایلر بودیم. برای این کار از KLEE و LLVM برای اجرای نمادین، یک شبیه‌ساز RISC-V و Xilinx Vivado استفاده کردیم.",
+        "نتیجه‌ی این کارها چند مقاله در مجلات و کنفرانس‌های بین‌المللی شد."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "International cooperation",
+        "Solving complex problems by focusing on the best solutions",
+        "Collaborating with student teams and managing their work"
+      ],
+      "sv": [
+        "Internationellt samarbete",
+        "Lösa komplexa problem genom att fokusera på de bästa lösningarna",
+        "Samarbeta med studentteam och leda deras arbete"
+      ],
+      "fa": [
+        "همکاری بین‌المللی",
+        "برای مسئله‌های سخت، به اولین جوابی که پیدا می‌شد قانع نمی‌شدیم",
+        "کار با دانشجوها و هماهنگ کردن کارشان"
+      ]
+    },
+    "technologies": ["C++", "SystemC", "Verilog", "KLEE", "LLVM", "RISC-V", "Xilinx Vivado"],
+    "highlightProjectIds": ["safas", "rths", "pat-noxim"],
+    "color": "viz-2"
+  },
+  {
+    "id": "freelance",
+    "company": "Independent projects",
+    "companyShort": "Freelance",
+    "role": { "en": "Freelance Full-Stack Developer", "sv": "Frilansande fullstackutvecklare", "fa": "توسعه‌دهنده‌ی فول‌استک فریلنس" },
+    "level": { "en": "Freelancer", "sv": "Frilans", "fa": "فریلنس" },
+    "start": "2018-01",
+    "end": "2022-01",
+    "current": false,
+    "logo": "",
+    "url": "",
+    "industry": { "en": "Various", "sv": "Varierande", "fa": "متنوع" },
+    "summary": {
+      "en": "Web projects for individuals and companies - FNN, Noonnet, a restaurant management system, Neuro20EP and others - mostly React and Node.js on the front, .NET where the maths got heavy.",
+      "sv": "Webbprojekt för privatpersoner och företag - FNN, Noonnet, ett restauranghanteringssystem, Neuro20EP och andra - mest React och Node.js i fronten, .NET där matematiken blev tung.",
+      "fa": "پروژه‌های وب برای آدم‌ها و شرکت‌های مختلف، مثل FNN، Noonnet، یک سیستم مدیریت رستوران و Neuro20EP. بیشتر با React و Node.js، و هر جا محاسبات سنگین می‌شد با .NET."
+    },
+    "description": {
+      "en": [
+        "During this period, alongside my main roles, I had the opportunity to develop numerous web-based projects for various individuals and companies. These included FNN, Noonnet, a restaurant management system, and Neuro20EP, among others.",
+        "For FNN I implemented a responsive web design using modern front-end technologies such as React, HTML5 and CSS3, and used Node.js and MongoDB on the back end to ensure good performance and scalability. FNN itself grew into a deep-learning stock market analysis tool capable of analysing more than thirty markets instantly, built on CNTK, WPF, SQLite and .NET Core 3.1.",
+        "Neuro20EP was a health-care application that receives converted analogue brain signals across more than eight input channels, processes and analyses that data, and helps neurologists diagnose abnormalities using indicators."
+      ],
+      "sv": [
+        "Under denna period, vid sidan av mina huvudroller, fick jag utveckla ett stort antal webbaserade projekt för olika privatpersoner och företag. Bland dem fanns FNN, Noonnet, ett restauranghanteringssystem och Neuro20EP.",
+        "För FNN implementerade jag en responsiv webbdesign med moderna frontend-tekniker som React, HTML5 och CSS3, och använde Node.js och MongoDB i backend för god prestanda och skalbarhet. FNN växte sedan till ett aktiemarknadsanalysverktyg baserat på djupinlärning som kan analysera fler än trettio marknader direkt, byggt på CNTK, WPF, SQLite och .NET Core 3.1.",
+        "Neuro20EP var en vårdapplikation som tar emot konverterade analoga hjärnsignaler över fler än åtta ingångskanaler, bearbetar och analyserar datan, och hjälper neurologer att diagnostisera avvikelser med hjälp av indikatorer."
+      ],
+      "fa": [
+        "کنار کار اصلی‌ام، برای آدم‌ها و شرکت‌های مختلف پروژه‌ی وب انجام می‌دادم، از جمله FNN، Noonnet، یک سیستم مدیریت رستوران و Neuro20EP.",
+        "برای FNN فرانت‌اند واکنش‌گرا را با React، HTML5 و CSS3 نوشتم و بک‌اند را با Node.js و MongoDB، تا هم سریع باشد و هم بشود بزرگش کرد. FNN بعدها به ابزاری برای تحلیل بازار سهام با یادگیری عمیق تبدیل شد که بیش از سی بازار را هم‌زمان و بی‌درنگ تحلیل می‌کرد و روی CNTK، WPF، SQLite و .NET Core 3.1 ساخته شده بود.",
+        "Neuro20EP یک نرم‌افزار سلامت بود. سیگنال‌های مغزی را از بیش از هشت کانال ورودی می‌گرفت، پردازش و تحلیل می‌کرد و با نشان دادن شاخص‌ها به متخصص مغز و اعصاب کمک می‌کرد ناهنجاری‌ها را پیدا کند."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Enhancing my coding speed",
+        "Expanding my knowledge by tackling challenges across various topics",
+        "Gaining valuable experience through working with remote teams"
+      ],
+      "sv": [
+        "Öka min kodningshastighet",
+        "Bredda min kunskap genom att ta mig an utmaningar inom olika områden",
+        "Få värdefull erfarenhet genom att arbeta med distansteam"
+      ],
+      "fa": [
+        "سریع‌تر شدن در کدنویسی",
+        "یاد گرفتن از پروژه‌هایی با موضوع‌های خیلی متفاوت",
+        "تجربه‌ی کار با تیم‌های دورکار"
+      ]
+    },
+    "technologies": [
+      "React", "Node.js", "Express.js", "MongoDB", "HTML5", "CSS3",
+      ".NET Core", ".NET Framework", "WPF", "CNTK", "SQL Server", "SQLite", "Swagger"
+    ],
+    "highlightProjectIds": ["fnn", "neuro20ep", "restaurant-management", "noonnet"],
+    "color": "viz-6"
+  },
+  {
+    "id": "iust-msc",
+    "company": "Iran University of Science and Technology",
+    "companyShort": "IUST MSc",
+    "role": { "en": "MSc Student, Computer Engineering", "sv": "Masterstudent, datorteknik", "fa": "دانشجوی کارشناسی ارشد مهندسی کامپیوتر" },
+    "level": { "en": "MSc", "sv": "MSc", "fa": "کارشناسی ارشد" },
+    "start": "2015-09",
+    "end": "2018-09",
+    "current": false,
+    "logo": "imgs/brands/IUST.svg",
+    "url": "https://www.iust.ac.ir/en",
+    "industry": { "en": "Education", "sv": "Utbildning", "fa": "تحصیل" },
+    "linkSection": "academic",
+    "isEducation": true,
+    "summary": {
+      "en": "MSc in computer engineering at IUST, finished with a 4.0 GPA and first place in my class. This is where computer architecture and real-time systems became my research area.",
+      "sv": "MSc i datorteknik vid IUST, avslutad med snittbetyget 4,0 och förstaplatsen i årskullen. Det var här datorarkitektur och realtidssystem blev mitt forskningsområde.",
+      "fa": "ارشد مهندسی کامپیوتر را در IUST با معدل ۴٫۰ و رتبه‌ی اول کلاس خواندم. در همین دوره بود که معماری کامپیوتر و سیستم‌های بی‌درنگ شد حوزه‌ی پژوهشی‌ام."
+    },
+    "description": {
+      "en": [
+        "I studied for an MSc in computer engineering at Iran University of Science and Technology and graduated at the top of my class with a GPA of 4.0.",
+        "The programme pushed me toward computer architecture, networks-on-chip and real-time systems. My first papers came out of this period, and after graduating I stayed on at IUST as a researcher."
+      ],
+      "sv": [
+        "Jag läste en MSc i datorteknik vid Iran University of Science and Technology och tog examen främst i årskullen med snittbetyget 4,0.",
+        "Programmet drev mig mot datorarkitektur, networks-on-chip och realtidssystem. Mina första artiklar kom från den här perioden, och efter examen stannade jag kvar vid IUST som forskare."
+      ],
+      "fa": [
+        "کارشناسی ارشد مهندسی کامپیوتر را در دانشگاه علم و صنعت ایران خواندم و با معدل ۴٫۰ و رتبه‌ی اول کلاس فارغ‌التحصیل شدم.",
+        "در این دوره سراغ معماری کامپیوتر، شبکه‌های روی تراشه و سیستم‌های بی‌درنگ رفتم. اولین مقاله‌هایم مال همین دوره است و بعد از فارغ‌التحصیلی به‌عنوان پژوهشگر در IUST ماندم."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Graduated first in class with a 4.0 GPA",
+        "A research habit of measuring before guessing"
+      ],
+      "sv": [
+        "Tog examen främst i årskullen med snittbetyget 4,0",
+        "En forskarvana att mäta innan man gissar"
+      ],
+      "fa": [
+        "فارغ‌التحصیلی با رتبه‌ی اول و معدل ۴٫۰",
+        "عادت پژوهشی: اول اندازه‌گیری، بعد نتیجه‌گیری"
+      ]
+    },
+    "technologies": ["C++", "SystemC", "Verilog"],
+    "highlightProjectIds": ["pat-noxim"],
+    "color": "viz-1"
+  },
+  {
+    "id": "ultrasonic",
+    "company": "Ultrasonic co. (Topsonics)",
+    "companyShort": "Topsonics",
+    "role": { "en": "Computer Engineer", "sv": "Dataingenjör", "fa": "مهندس کامپیوتر" },
+    "level": { "en": "Junior → Mid-level", "sv": "Junior → mellannivå", "fa": "تازه‌کار → میان‌رده" },
+    "start": "2013-08",
+    "end": "2017-03",
+    "current": false,
+    "logo": "imgs/brands/ultrasonic.svg",
+    "url": "",
+    "industry": { "en": "Scientific instruments", "sv": "Vetenskapliga instrument", "fa": "تجهیزات علمی دقیق" },
+    "summary": {
+      "en": "Where it started. Graphical interfaces for an ultrasonic homogeniser and a 3D printer, plus the website work that turned into a career in web development.",
+      "sv": "Där det började. Grafiska gränssnitt för en ultraljudshomogenisator och en 3D-skrivare, plus det webbarbete som blev en karriär inom webbutveckling.",
+      "fa": "همه‌چیز از اینجا شروع شد. رابط گرافیکی برای یک هموژنایزر اولتراسونیک و یک چاپگر سه‌بعدی ساختم و کمی هم کار وب کردم که بعدها شد کار اصلی‌ام."
+    },
+    "description": {
+      "en": [
+        "My contributions to this company included participation in multiple projects, such as the design of a graphical interface for an ultrasonic homogeniser device, the creation of a software interface for a 3D printer, and website development.",
+        "Through my involvement in these projects I was able to build my expertise in software design and development. I take pride in having played a role in delivering high-quality solutions that met or exceeded project requirements.",
+        "This is also where my web work began: editing Joomla and WordPress sites with PHP, CSS and HTML for a small firm while I was still an undergraduate - the experience that started everything else."
+      ],
+      "sv": [
+        "Mina bidrag till detta företag omfattade deltagande i flera projekt, som design av ett grafiskt gränssnitt för en ultraljudshomogenisator, skapande av ett programgränssnitt för en 3D-skrivare, och webbutveckling.",
+        "Genom mitt engagemang i dessa projekt kunde jag bygga min kompetens inom mjukvarudesign och -utveckling. Jag är stolt över att ha bidragit till att leverera högkvalitativa lösningar som uppfyllde eller överträffade projektkraven.",
+        "Det var också här mitt webbarbete började: att redigera Joomla- och WordPress-sajter med PHP, CSS och HTML för ett litet företag medan jag fortfarande läste grundutbildning - erfarenheten som satte igång allt annat."
+      ],
+      "fa": [
+        "اینجا روی چند پروژه کار کردم: رابط گرافیکی دستگاه هموژنایزر اولتراسونیک، نرم‌افزار کنترل یک چاپگر سه‌بعدی و ساخت وب‌سایت.",
+        "این پروژه‌ها پایه‌ی کار من در طراحی و توسعه‌ی نرم‌افزار را ساختند و همین‌جا یاد گرفتم کاری تحویل بدهم که واقعاً نیاز مشتری را برآورده کند.",
+        "کار وب من هم از همین‌جا شروع شد: وقتی هنوز دانشجوی کارشناسی بودم، سایت‌های جوملا و وردپرس یک شرکت کوچک را با PHP، CSS و HTML ویرایش می‌کردم. همین تجربه مسیر بعدی‌ام را مشخص کرد."
+      ]
+    },
+    "takeaways": {
+      "en": [
+        "Accumulated knowledge and expertise",
+        "Under the guidance of a skilled manager, Mr. Shahidi, I was able to uncover and nurture my talents",
+        "Leveraging cutting-edge science and gathering customer feedback to enhance product development"
+      ],
+      "sv": [
+        "Ackumulerad kunskap och kompetens",
+        "Under vägledning av en skicklig chef, herr Shahidi, kunde jag upptäcka och utveckla mina talanger",
+        "Använda den senaste vetenskapen och samla kundfeedback för att förbättra produktutvecklingen"
+      ],
+      "fa": [
+        "پایه‌ای محکم از دانش و تجربه",
+        "مدیرم، آقای شهیدی، کمک کرد استعدادهایم را پیدا کنم و پرورششان بدهم",
+        "گرفتن بازخورد از مشتری‌ها و استفاده از آن برای بهتر کردن محصول"
+      ]
+    },
+    "technologies": [
+      "C#", ".NET Framework", "Windows Forms", "WPF", "C++", "PHP",
+      "Joomla", "WordPress", "JavaScript", "CSS", "HTML"
+    ],
+    "highlightProjectIds": [],
+    "color": "viz-3"
+  }
+]

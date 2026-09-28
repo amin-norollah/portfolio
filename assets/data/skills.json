@@ -1,0 +1,372 @@
+{
+  "heading": {
+    "en": "Broad enough to choose the right tool, deep enough to be on call for it.",
+    "sv": "Bred nog att välja rätt verktyg, djup nog att ha beredskap för det.",
+    "fa": "با ابزارهای زیادی کار کرده‌ام، ولی آن‌هایی را که انتخاب می‌کنم تا تهش بلدم."
+  },
+  "lead": {
+    "en": "Every technology here has been used in production or in published research - nothing is listed from a tutorial. The chart below is my own record of where my attention actually went, year by year, since 2011.",
+    "sv": "Varje teknik här har använts i produktion eller i publicerad forskning - inget är listat från en tutorial. Diagrammet nedan är min egen anteckning över var min uppmärksamhet faktiskt gick, år för år, sedan 2011.",
+    "fa": "هر چیزی که اینجا می‌بینید یا در یک پروژه‌ی واقعی به کار رفته یا در یک پژوهش منتشرشده. چیزی را فقط به خاطر دیدن یک آموزش اضافه نکرده‌ام. نمودار پایین هم نشان می‌دهد از ۲۰۱۱ تا الان هر سال بیشتر وقتم را روی چه چیزی گذاشته‌ام."
+  },
+  "categories": [
+    {
+      "id": "languages",
+      "label": { "en": "Languages", "sv": "Språk", "fa": "زبان‌ها" },
+      "description": {
+        "en": "The set I move between comfortably. C# and TypeScript are home; C++ came from research and never left, and Rust is the newest, used for systems tools and simulation.",
+        "sv": "Uppsättningen jag rör mig bekvämt mellan. C# och TypeScript är hemma; C++ kom från forskningen och försvann aldrig, och Rust är det senaste, för systemverktyg och simulering.",
+        "fa": "این‌ها زبان‌هایی‌اند که راحت بینشان جابه‌جا می‌شوم. C# و TypeScript زبان‌های اصلی‌ام هستند، C++ از دوران پژوهش مانده و Rust تازه‌ترینشان است که برای ابزارهای سیستمی و شبیه‌سازی از آن استفاده می‌کنم."
+      },
+      "icon": "code",
+      "color": "viz-4",
+      "skills": [
+        {
+          "id": "csharp",
+          "name": "C#",
+          "logo": "imgs/skills/languages/csharp.svg",
+          "primary": true
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "logo": "imgs/skills/languages/typescript.svg",
+          "primary": true
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "logo": "imgs/skills/languages/javascript.svg",
+          "primary": true
+        },
+        { "id": "java", "name": "Java", "logo": "imgs/skills/languages/java.svg", "primary": true },
+        { "id": "rust", "name": "Rust", "logo": "imgs/skills/languages/rust.svg" },
+        { "id": "cpp", "name": "C++", "logo": "imgs/skills/languages/cplusplus.svg" },
+        { "id": "php", "name": "PHP", "logo": "imgs/skills/languages/php.svg" },
+        { "id": "html", "name": "HTML", "logo": "imgs/skills/languages/html5.svg" },
+        { "id": "css", "name": "CSS", "logo": "imgs/skills/languages/css3.svg" },
+        { "id": "sass", "name": "Sass", "logo": "imgs/skills/languages/sass.svg" }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": { "en": "Back end", "sv": "Backend", "fa": "بک‌اند" },
+      "description": {
+        "en": "Where most of my work happens: services, API contracts, integration flows and the paths that have to hold under load.",
+        "sv": "Där merparten av mitt arbete sker: tjänster, API-kontrakt, integrationsflöden och de vägar som måste hålla under last.",
+        "fa": "بیشتر کارم اینجاست: سرویس‌ها، قرارداد API، یکپارچه‌سازی و بخش‌هایی که باید زیر بار سنگین سرپا بمانند."
+      },
+      "icon": "server",
+      "color": "viz-2",
+      "skills": [
+        {
+          "id": "dotnet-core",
+          "name": ".NET 8",
+          "logo": "imgs/skills/backend/dot-net.svg",
+          "primary": true
+        },
+        {
+          "id": "spring-boot",
+          "name": "Spring Boot",
+          "logo": "imgs/skills/backend/spring.svg",
+          "primary": true
+        },
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "logo": "imgs/skills/backend/nodejs.svg",
+          "primary": true
+        },
+        {
+          "id": "expressjs",
+          "name": "Express.js",
+          "logo": "imgs/skills/backend/express.svg",
+          "primary": true
+        },
+        {
+          "id": "nestjs",
+          "name": "NestJS",
+          "logo": "imgs/skills/backend/nestjs.svg",
+          "primary": true
+        },
+        { "id": "prisma", "name": "Prisma", "logo": "imgs/skills/backend/prisma.svg" },
+        { "id": "wordpress", "name": "WordPress", "logo": "imgs/skills/backend/wordpress.svg" },
+        {
+          "id": "dotnet-framework",
+          "name": ".NET Framework 4.8",
+          "logo": "imgs/skills/backend/netFramework.svg"
+        },
+        { "id": "graphql", "name": "GraphQL", "logo": "imgs/skills/backend/graphql.svg" }
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": { "en": "Front end", "sv": "Frontend", "fa": "فرانت‌اند" },
+      "description": {
+        "en": "Angular is my default, but I have shipped production Vue and React too - the structure matters more than the framework.",
+        "sv": "Angular är mitt förval, men jag har levererat Vue och React i produktion också - strukturen betyder mer än ramverket.",
+        "fa": "Angular انتخاب اولم است، ولی با Vue و React هم پروژه‌ی واقعی تحویل داده‌ام. به نظرم ساختار درست از خود فریم‌ورک مهم‌تر است."
+      },
+      "icon": "browser",
+      "color": "viz-1",
+      "skills": [
+        {
+          "id": "angular",
+          "name": "Angular",
+          "logo": "imgs/skills/frontend/angularjs.svg",
+          "primary": true
+        },
+        { "id": "rxjs", "name": "RxJS", "logo": "imgs/skills/frontend/rxjs.svg", "primary": true },
+        {
+          "id": "vue",
+          "name": "Vue.js",
+          "logo": "imgs/skills/frontend/vueJs.svg",
+          "primary": true
+        },
+        {
+          "id": "react",
+          "name": "React",
+          "logo": "imgs/skills/frontend/react.svg",
+          "primary": true
+        },
+        {
+          "id": "angular-material",
+          "name": "Angular Material",
+          "logo": "imgs/skills/frontend/material.svg"
+        },
+        { "id": "primeng", "name": "PrimeNG", "logo": "imgs/skills/frontend/prime.svg" },
+        { "id": "redux", "name": "Redux", "logo": "imgs/skills/frontend/redux.svg" },
+        {
+          "id": "react-native",
+          "name": "React Native",
+          "logo": "imgs/skills/frontend/react-native.svg"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "label": { "en": "Data stores", "sv": "Datalager", "fa": "پایگاه داده" },
+      "description": {
+        "en": "Chosen for the access pattern. SQL Server and PostgreSQL for relational truth, MongoDB for archives, Redis for everything that must be instant.",
+        "sv": "Valda efter åtkomstmönster. SQL Server och PostgreSQL som sanningskälla för relationell data, MongoDB för arkiv, Redis för allt som måste vara omedelbart.",
+        "fa": "انتخابم به نوع دسترسی به داده بستگی دارد: SQL Server و PostgreSQL برای داده‌ی رابطه‌ای اصلی، MongoDB برای آرشیو و Redis برای هر چیزی که باید فوری در دسترس باشد."
+      },
+      "icon": "database",
+      "color": "viz-3",
+      "skills": [
+        {
+          "id": "sqlserver",
+          "name": "MS SQL Server",
+          "logo": "imgs/skills/databases/microsoftsqlserver.svg",
+          "primary": true
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "logo": "imgs/skills/databases/mongodb.svg",
+          "primary": true
+        },
+        {
+          "id": "redis",
+          "name": "Redis",
+          "logo": "imgs/skills/databases/redis.svg",
+          "primary": true
+        },
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "logo": "imgs/skills/databases/postgresql.svg",
+          "primary": true
+        },
+        { "id": "mysql", "name": "MySQL", "logo": "imgs/skills/databases/mysql.svg" },
+        { "id": "firebase", "name": "Firebase", "logo": "imgs/skills/databases/firebase.svg" },
+        { "id": "sqlite", "name": "SQLite", "logo": "imgs/skills/databases/sqlite.svg" }
+      ]
+    },
+    {
+      "id": "security",
+      "label": { "en": "Identity & security", "sv": "Identitet & säkerhet", "fa": "هویت و امنیت" },
+      "description": {
+        "en": "Two production identity servers built on OpenID Connect and OAuth 2.1, serving mobile, web and native clients from one session model.",
+        "sv": "Två identitetsservrar i produktion byggda på OpenID Connect och OAuth 2.1, som betjänar mobil-, webb- och nativa klienter från en sessionsmodell.",
+        "fa": "دو سرور هویت در production ساخته‌ام، روی OpenID Connect و OAuth 2.1، که به اپ‌های موبایل، وب و دسکتاپ با یک مدل نشست مشترک سرویس می‌دهند."
+      },
+      "icon": "shield",
+      "color": "viz-5",
+      "skills": [
+        {
+          "id": "identityserver",
+          "name": "Duende IdentityServer",
+          "logo": "imgs/skills/security/identityserevr4.svg",
+          "primary": true
+        },
+        {
+          "id": "oauth",
+          "name": "OAuth 2.1",
+          "logo": "imgs/skills/security/Oauth2.svg",
+          "primary": true
+        },
+        {
+          "id": "openid",
+          "name": "OpenID Connect",
+          "logo": "imgs/skills/security/OpenID.svg",
+          "primary": true
+        },
+        { "id": "owasp", "name": "OWASP", "logo": "imgs/skills/security/OWASP.svg" }
+      ]
+    }
+  ],
+  "timeline": {
+    "caption": {
+      "en": "Relative focus per language, 2011 to 2026. C++ and C# from the research and desktop years; JavaScript rising with the web work; Java arriving with Spring Boot in 2022 and taking over through 2025 and 2026.",
+      "sv": "Relativt fokus per språk, 2011 till 2026. C++ och C# från forsknings- och desktopåren; JavaScript stiger med webbarbetet; Java anländer med Spring Boot 2022 och tar över under 2025 och 2026.",
+      "fa": "سهم هر زبان از وقتم، از ۲۰۱۱ تا ۲۰۲۶. C++ و C# مال سال‌های پژوهش و نرم‌افزار دسکتاپ‌اند، جاوااسکریپت با کار وب بالا می‌رود و جاوا از ۲۰۲۲ با Spring Boot می‌آید و در ۲۰۲۵ و ۲۰۲۶ اول می‌شود."
+    },
+    "axisLabel": {
+      "en": "Relative focus",
+      "sv": "Relativt fokus",
+      "fa": "تمرکز نسبی"
+    },
+    "years": [
+      2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+    ],
+    "series": [
+      {
+        "id": "csharp",
+        "name": "C#",
+        "color": "viz-2",
+        "values": [60, 60, 0, 0, 0, 40, 60, 50, 40, 30, 40, 35, 30, 20, 15, 0]
+      },
+      {
+        "id": "js",
+        "name": "JavaScript / TypeScript",
+        "color": "viz-1",
+        "values": [0, 0, 0, 30, 45, 35, 0, 30, 40, 50, 50, 40, 30, 30, 40, 40]
+      },
+      {
+        "id": "cpp",
+        "name": "C++",
+        "color": "viz-4",
+        "values": [10, 20, 40, 30, 30, 5, 30, 10, 0, 10, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "color": "viz-5",
+        "values": [0, 0, 25, 25, 0, 0, 0, 0, 0, 0, 0, 10, 30, 30, 45, 60]
+      }
+    ]
+  },
+  "composition": {
+    "caption": {
+      "en": "Where the toolset sits. Derived from the technology counts in this section, not estimated.",
+      "sv": "Var verktygslådan ligger. Baserat på antalet teknologier i det här avsnittet, inte en uppskattning.",
+      "fa": "نشان می‌دهد بیشتر ابزارهایم در کدام حوزه‌اند. از روی تعداد فناوری‌های همین بخش حساب شده، نه با حدس و تخمین."
+    }
+  },
+  "toolbelt": [
+    {
+      "id": "cloud",
+      "label": { "en": "Cloud & delivery", "sv": "Moln & leverans", "fa": "ابر و تحویل" },
+      "items": [
+        "Azure",
+        "Google Cloud",
+        "GitHub Actions",
+        "Docker",
+        "Kubernetes",
+        "CI/CD pipelines"
+      ]
+    },
+    {
+      "id": "observability",
+      "label": { "en": "Monitoring & logging", "sv": "Övervakning & loggning", "fa": "پایش و لاگ" },
+      "items": [
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Redpanda / Kafka",
+        "RabbitMQ",
+        "Apache Ignite",
+        "Nginx"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": {
+        "en": "Architecture & patterns",
+        "sv": "Arkitektur & mönster",
+        "fa": "معماری و الگوها"
+      },
+      "items": [
+        "Microservices",
+        "Domain-Driven Design",
+        "Clean Architecture",
+        "Hexagonal Architecture",
+        "Transactional Outbox",
+        "Modular Monolith",
+        "CQRS",
+        "Unit of Work",
+        "Repository Pattern"
+      ]
+    },
+    {
+      "id": "testing",
+      "label": { "en": "Testing & ORMs", "sv": "Testning & ORM:er", "fa": "آزمون و ORMها" },
+      "items": [
+        "xUnit",
+        "JUnit 5",
+        "Testcontainers",
+        "k6",
+        "Cypress",
+        "Playwright",
+        "Robot Framework",
+        "JMeter",
+        "Chai",
+        "Jest",
+        "Entity Framework Core",
+        "Prisma",
+        "Mongoose"
+      ]
+    },
+    {
+      "id": "realtime",
+      "label": { "en": "Real-time & messaging", "sv": "Realtid & meddelanden", "fa": "بی‌درنگ و پیام‌رسانی" },
+      "items": ["Socket.IO", "WebSockets", "Protocol Buffers", "gRPC", "Telegram Bot API"]
+    },
+    {
+      "id": "maps",
+      "label": { "en": "Maps & geo", "sv": "Kartor & geodata", "fa": "نقشه و داده‌ی مکانی" },
+      "items": ["Google Maps", "Marker clustering", "Indoor routing", "Leaflet", "H3 hex grid"]
+    },
+    {
+      "id": "cms",
+      "label": { "en": "CMS & commerce", "sv": "CMS & handel", "fa": "CMS و فروشگاه" },
+      "items": ["WordPress", "WooCommerce", "Polylang", "Centra"]
+    },
+    {
+      "id": "mobile",
+      "label": { "en": "Mobile", "sv": "Mobil", "fa": "موبایل" },
+      "items": ["React Native", "Reanimated", "Lottie", "Capacitor", "Telegram Mini Apps"]
+    },
+    {
+      "id": "design",
+      "label": { "en": "Design tools", "sv": "Designverktyg", "fa": "ابزارهای طراحی" },
+      "items": ["Figma", "Photoshop", "CorelDRAW"]
+    },
+    {
+      "id": "research",
+      "label": { "en": "Research tooling", "sv": "Forskningsverktyg", "fa": "ابزار پژوهش" },
+      "items": [
+        "KLEE",
+        "LLVM",
+        "Xilinx Vivado",
+        "SystemC",
+        "Verilog",
+        "RISC-V simulator",
+        "Apache Arrow",
+        "Parquet",
+        "DuckDB"
+      ]
+    }
+  ]
+}

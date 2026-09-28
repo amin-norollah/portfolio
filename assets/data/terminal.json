@@ -1,0 +1,188 @@
+{
+  "user": "guest",
+  "host": "norollah.com",
+  "cwd": "~",
+  "banner": {
+    "en": [
+      "portfolio {{version}} - interactive shell",
+      "Type <b>help</b> for the list of commands, or <b>info</b> to start."
+    ],
+    "sv": [
+      "portfolio {{version}} - interaktivt skal",
+      "Skriv <b>help</b> för listan över kommandon, eller <b>info</b> för att börja."
+    ],
+    "fa": [
+      "portfolio {{version}} - ترمینال تعاملی",
+      "برای دیدن فهرست دستورها <b>help</b> را بزنید، یا برای شروع <b>info</b> را وارد کنید."
+    ]
+  },
+  "notFound": {
+    "en": "command not found: {{input}} - try <b>help</b>",
+    "sv": "kommandot hittades inte: {{input}} - prova <b>help</b>",
+    "fa": "دستور یافت نشد: {{input}} - <b>help</b> را امتحان کنید"
+  },
+  "usage": {
+    "en": "usage: {{usage}}",
+    "sv": "användning: {{usage}}",
+    "fa": "کاربرد: {{usage}}"
+  },
+  "commands": [
+    {
+      "name": "help",
+      "kind": "help",
+      "description": {
+        "en": "list every command",
+        "sv": "lista alla kommandon",
+        "fa": "فهرست همه‌ی دستورها"
+      }
+    },
+    {
+      "name": "info",
+      "kind": "static",
+      "description": {
+        "en": "about me, in one screen",
+        "sv": "om mig, på en skärm",
+        "fa": "درباره‌ی من، در یک صفحه"
+      },
+      "output": {
+        "en": [
+          "name          : Amin Norollah",
+          "known as      : balrug",
+          "degree        : MSc Computer Engineering (IUST)",
+          "career        : full-stack developer & team lead",
+          "languages     : c#, ts, js, java, c++",
+          "backend       : .net core, spring boot, node.js, nestjs",
+          "frontend      : angular, vue.js, react",
+          "data          : sql server, mongodb, redis, apache ignite",
+          "identity      : identityserver, oauth 2.1, openid connect",
+          "experience    : {{years}}+ years",
+          "publications  : {{publications}} peer-reviewed papers",
+          "hobbies       : working on my own projects"
+        ],
+        "sv": [
+          "namn          : Amin Norollah",
+          "känd som      : balrug",
+          "examen        : MSc datorteknik (IUST)",
+          "yrke          : fullstackutvecklare och teamledare",
+          "språk         : c#, ts, js, java, c++",
+          "backend       : .net core, spring boot, node.js, nestjs",
+          "frontend      : angular, vue.js, react",
+          "data          : sql server, mongodb, redis, apache ignite",
+          "identitet     : identityserver, oauth 2.1, openid connect",
+          "erfarenhet    : {{years}}+ år",
+          "publikationer : {{publications}} granskade artiklar",
+          "intressen     : att bygga mina egna projekt"
+        ],
+        "fa": [
+          "نام            : امین نورالله",
+          "شناخته‌شده به  : balrug",
+          "مدرک           : کارشناسی ارشد مهندسی کامپیوتر (IUST)",
+          "حرفه           : توسعه‌دهنده‌ی فول‌استک و سرپرست تیم",
+          "زبان‌ها        : c#, ts, js, java, c++",
+          "بک‌اند         : .net core, spring boot, node.js, nestjs",
+          "فرانت‌اند      : angular, vue.js, react",
+          "داده           : sql server, mongodb, redis, apache ignite",
+          "هویت           : identityserver, oauth 2.1, openid connect",
+          "تجربه          : {{years}}+ سال",
+          "مقالات         : {{publications}} مقاله‌ی داوری‌شده",
+          "سرگرمی         : پروژه‌های شخصی"
+        ]
+      }
+    },
+    {
+      "name": "stack",
+      "kind": "skills",
+      "description": {
+        "en": "print the technology stack by category",
+        "sv": "skriv ut teknikstacken per kategori",
+        "fa": "نمایش پشته‌ی فناوری به تفکیک دسته"
+      }
+    },
+    {
+      "name": "ls",
+      "kind": "sections",
+      "description": {
+        "en": "list the sections of this site",
+        "sv": "lista sajtens avsnitt",
+        "fa": "فهرست بخش‌های این سایت"
+      }
+    },
+    {
+      "name": "goto",
+      "kind": "goto",
+      "usage": "goto <section>",
+      "description": {
+        "en": "scroll to a section, e.g. goto projects",
+        "sv": "skrolla till ett avsnitt, t.ex. goto projects",
+        "fa": "پیمایش به یک بخش، مثلاً goto projects"
+      }
+    },
+    {
+      "name": "open",
+      "kind": "open",
+      "usage": "open <github|linkedin|email|website>",
+      "description": {
+        "en": "open one of my links",
+        "sv": "öppna en av mina länkar",
+        "fa": "باز کردن یکی از پیوندهای من"
+      }
+    },
+    {
+      "name": "theme",
+      "kind": "theme",
+      "usage": "theme <light|dark|system>",
+      "description": {
+        "en": "switch the colour theme",
+        "sv": "byt färgtema",
+        "fa": "تغییر تم رنگی"
+      }
+    },
+    {
+      "name": "lang",
+      "kind": "lang",
+      "usage": "lang <en|sv|fa>",
+      "description": {
+        "en": "switch language - fa flips the whole UI to RTL",
+        "sv": "byt språk - fa vänder hela gränssnittet till RTL",
+        "fa": "تغییر زبان (با fa کل رابط راست‌به‌چپ می‌شود)"
+      }
+    },
+    {
+      "name": "version",
+      "kind": "static",
+      "description": {
+        "en": "show the version of this web app",
+        "sv": "visa versionen av denna webbapp",
+        "fa": "نمایش نسخه‌ی این وب‌اپ"
+      },
+      "output": {
+        "en": ["portfolio {{version}} - Angular, zoneless, signal-driven"],
+        "sv": ["portfolio {{version}} - Angular, zoneless, signal-driven"],
+        "fa": ["portfolio {{version}} - ‏Angular، بدون Zone، سیگنال‌محور"]
+      }
+    },
+    {
+      "name": "copyright",
+      "kind": "static",
+      "description": {
+        "en": "show copyright",
+        "sv": "visa upphovsrätt",
+        "fa": "نمایش حق نشر"
+      },
+      "output": {
+        "en": ["© {{year}} - designed and built by Amin Norollah"],
+        "sv": ["© {{year}} - designad och byggd av Amin Norollah"],
+        "fa": ["© {{year}} - طراحی و ساخت: امین نورالله"]
+      }
+    },
+    {
+      "name": "clear",
+      "kind": "clear",
+      "description": {
+        "en": "clear the terminal",
+        "sv": "rensa terminalen",
+        "fa": "پاک کردن ترمینال"
+      }
+    }
+  ]
+}

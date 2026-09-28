@@ -1,0 +1,238 @@
+{
+  "name": "Amin Norollah",
+  "nameLocalized": {
+    "en": "Amin Norollah",
+    "sv": "Amin Norollah",
+    "fa": "امین نورالله"
+  },
+  "alias": "balrug",
+  "initials": "AN",
+  "title": {
+    "en": "Full-Stack Developer & Team Lead",
+    "sv": "Fullstackutvecklare och teamledare",
+    "fa": "توسعه‌دهنده‌ی فول‌استک و سرپرست تیم"
+  },
+  "titleLong": {
+    "en": "Full-Stack Developer & Team Lead · Backend-heavy",
+    "sv": "Fullstackutvecklare och teamledare · Backendtung",
+    "fa": "توسعه‌دهنده‌ی فول‌استک و سرپرست تیم · با تمرکز بر بک‌اند"
+  },
+  "tagline": {
+    "en": "Scalable APIs, integrations, and web platforms for serious products.",
+    "sv": "Skalbara API:er, integrationer och webbplattformar för seriösa produkter.",
+    "fa": "API، یکپارچه‌سازی و پلتفرم وب برای محصولاتی که باید درست کار کنند."
+  },
+  "vibeNote": {
+    "en": "Vibe coder these days",
+    "sv": "Vibe coder nuförtiden",
+    "fa": "این روزها بیشتر vibe coding می‌کنم"
+  },
+  "subtitle": {
+    "en": "I design and build production systems across fintech, SaaS, identity, and industrial platforms, with a backend-heavy skill set and a research background in computer engineering.",
+    "sv": "Jag designar och bygger produktionssystem inom fintech, SaaS, identitet och industriella plattformar, med en backendtung kompetensprofil och en forskningsbakgrund inom datorteknik.",
+    "fa": "سیستم‌هایی طراحی می‌کنم و می‌سازم که در محیط واقعی کار می‌کنند، در فین‌تک، SaaS، هویت و پلتفرم‌های صنعتی. بیشتر روی بک‌اند تمرکز دارم و پیشینه‌ی پژوهشی در مهندسی کامپیوتر هم دارم."
+  },
+  "summary": {
+    "en": "Full-stack developer and team lead with a backend-heavy profile across APIs, integrations, and product platforms. I bring production delivery experience in fintech, e-commerce, identity, industrial monitoring, and SaaS products, plus an MSc research background in computer engineering.",
+    "sv": "Fullstackutvecklare och teamledare med en backendtung profil inom API:er, integrationer och produktplattformar. Jag har erfarenhet av produktionsleveranser inom fintech, e-handel, identitet, industriell övervakning och SaaS-produkter, samt en forskningsbakgrund med MSc inom datorteknik.",
+    "fa": "توسعه‌دهنده‌ی فول‌استک و سرپرست تیم هستم و بیشتر روی بک‌اند کار می‌کنم: API، یکپارچه‌سازی و پلتفرم محصول. در فین‌تک، تجارت الکترونیک، هویت، پایش صنعتی و SaaS محصول واقعی تحویل داده‌ام و ارشد مهندسی کامپیوتر را هم با گرایش پژوهشی خوانده‌ام."
+  },
+  "pillars": {
+    "en": [
+      "Design maintainable backend services and integration flows.",
+      "Build frontend systems that support real product workflows.",
+      "Improve reliability, performance, testing, and operational clarity.",
+      "Communicate technical trade-offs clearly with teams and clients."
+    ],
+    "sv": [
+      "Designa underhållbara backend-tjänster och integrationsflöden.",
+      "Bygga frontend-system som stödjer verkliga produktflöden.",
+      "Förbättra tillförlitlighet, prestanda, testning och operativ tydlighet.",
+      "Kommunicera tekniska avvägningar tydligt med team och kunder."
+    ],
+    "fa": [
+      "طراحی سرویس‌های بک‌اند و یکپارچه‌سازی‌هایی که بشود نگهشان داشت.",
+      "ساخت فرانت‌اندهایی که با روند واقعی کار محصول جور باشند.",
+      "بهتر کردن پایداری، کارایی، تست و دید عملیاتی.",
+      "رک و روشن گفتن تریدآف‌های فنی به تیم و مشتری."
+    ]
+  },
+  "location": {
+    "city": { "en": "", "sv": "", "fa": "" },
+    "country": { "en": "", "sv": "", "fa": "" },
+    "remote": {
+      "en": "On-site · European hours",
+      "sv": "På plats · europeiska arbetstider",
+      "fa": "حضوری · ساعات کاری اروپا"
+    }
+  },
+  "email": "a.norollah.official@gmail.com",
+  "website": "https://norollah.com",
+  "avatar": "imgs/profile-front.png",
+  "avatarBackdrop": "imgs/profile-back.jpg",
+  "avatarAlt": {
+    "en": "Portrait of Amin Norollah",
+    "sv": "Porträtt av Amin Norollah",
+    "fa": "تصویر امین نورالله"
+  },
+  "logo": "imgs/Logo.svg",
+  "resume": {
+    "url": "#print",
+    "label": {
+      "en": "Print résumé",
+      "sv": "Skriv ut CV",
+      "fa": "چاپ رزومه"
+    }
+  },
+  "availability": {
+    "status": "closed",
+    "label": {
+      "en": "Not looking for a new role",
+      "sv": "Söker ingen ny roll just nu",
+      "fa": "فعلاً دنبال نقش جدید نیستم"
+    },
+    "detail": {
+      "en": "Happy where I am, but glad to help with questions, second opinions and ideas.",
+      "sv": "Jag trivs där jag är, men hör gärna av dig med frågor och idéer.",
+      "fa": "از جای فعلی‌ام راضی‌ام، ولی برای سؤال، مشورت و ایده در دسترسم."
+    }
+  },
+  "spokenLanguages": [
+    {
+      "code": "en",
+      "name": { "en": "English", "sv": "Engelska", "fa": "انگلیسی" },
+      "level": { "en": "Professional", "sv": "Yrkesnivå", "fa": "سطح حرفه‌ای" },
+      "proficiency": 92
+    },
+    {
+      "code": "fa",
+      "name": { "en": "Persian", "sv": "Persiska", "fa": "فارسی" },
+      "level": { "en": "Native", "sv": "Modersmål", "fa": "زبان مادری" },
+      "proficiency": 100
+    },
+    {
+      "code": "sv",
+      "name": { "en": "Swedish", "sv": "Svenska", "fa": "سوئدی" },
+      "level": { "en": "Basic", "sv": "Grundnivå", "fa": "سطح پایه" },
+      "proficiency": 35
+    }
+  ],
+  "startedProfessionally": 2012,
+  "startedWebDevelopment": 2018,
+  "metrics": [
+    {
+      "id": "years",
+      "source": "yearsExperience",
+      "suffix": "+",
+      "icon": "clock",
+      "label": {
+        "en": "years software engineering",
+        "sv": "år inom mjukvaruutveckling",
+        "fa": "سال مهندسی نرم‌افزار"
+      },
+      "context": {
+        "en": "From early CMS and product work to senior platform delivery.",
+        "sv": "Från tidigt CMS- och produktarbete till senior plattformsleverans.",
+        "fa": "از اولین کارها روی CMS تا تحویل پلتفرم در نقش ارشد."
+      }
+    },
+    {
+      "id": "languages",
+      "source": "languageCount",
+      "icon": "code",
+      "label": {
+        "en": "programming languages",
+        "sv": "programmeringsspråk",
+        "fa": "زبان برنامه‌نویسی"
+      },
+      "context": {
+        "en": "C#, TypeScript, JavaScript, Java, C++, HTML, CSS and Sass.",
+        "sv": "C#, TypeScript, JavaScript, Java, C++, HTML, CSS och Sass.",
+        "fa": "C#، TypeScript، JavaScript، Java، ++C، HTML، CSS و Sass."
+      }
+    },
+    {
+      "id": "publications",
+      "source": "publicationCount",
+      "icon": "academic",
+      "label": {
+        "en": "isi published papers",
+        "sv": "granskade publikationer",
+        "fa": "مقاله‌ی داوری‌شده"
+      },
+      "context": {
+        "en": "IEEE and Elsevier journals and conferences, MSc research at IUST.",
+        "sv": "IEEE- och Elsevier-tidskrifter och konferenser, MSc-forskning vid IUST.",
+        "fa": "در مجلات و کنفرانس‌های IEEE و الزویر، از دوران پژوهش در IUST."
+      }
+    },
+    {
+      "id": "projects",
+      "source": "projectCount",
+      "icon": "cube",
+      "label": {
+        "en": "documented projects",
+        "sv": "dokumenterade projekt",
+        "fa": "پروژه‌ی مستندشده"
+      },
+      "context": {
+        "en": "Counted from this site's own project data - web, academic and desktop.",
+        "sv": "Räknat från sajtens egna projektdata - webb, akademiskt och desktop.",
+        "fa": "از روی داده‌های همین سایت شمرده شده: وب، دانشگاهی و دسکتاپ."
+      }
+    },
+    {
+      "id": "domains",
+      "value": 5,
+      "icon": "layers",
+      "label": {
+        "en": "product domains",
+        "sv": "produktdomäner",
+        "fa": "دامنه‌ی محصول"
+      },
+      "context": {
+        "en": "Fintech, SaaS, identity, industrial monitoring, and e-commerce.",
+        "sv": "Fintech, SaaS, identitet, industriell övervakning och e-handel.",
+        "fa": "فین‌تک، SaaS، هویت، پایش صنعتی و تجارت الکترونیک."
+      }
+    },
+    {
+      "id": "experience",
+      "source": "experienceCount",
+      "icon": "briefcase",
+      "label": {
+        "en": "roles across the industry",
+        "sv": "roller inom branschen",
+        "fa": "نقش شغلی"
+      },
+      "context": {
+        "en": "Counted from this site's own experience timeline, research included.",
+        "sv": "Räknat från sajtens egen erfarenhetstidslinje, forskning inräknad.",
+        "fa": "از روی سوابق کاری همین سایت شمرده شده و پژوهش هم جزوش است."
+      }
+    }
+  ],
+  "seo": {
+    "siteUrl": "https://norollah.com",
+    "description": {
+      "en": "Amin Norollah - Full-Stack Developer & Team Lead. Scalable APIs, integrations and web platforms across fintech, SaaS, identity and industrial monitoring. Selected work, publications and experience.",
+      "sv": "Amin Norollah - fullstackutvecklare och teamledare. Skalbara API:er, integrationer och webbplattformar inom fintech, SaaS, identitet och industriell övervakning. Utvalda arbeten, publikationer och erfarenhet.",
+      "fa": "امین نورالله، توسعه‌دهنده‌ی فول‌استک و سرپرست تیم. API، یکپارچه‌سازی و پلتفرم وب در فین‌تک، SaaS، هویت و پایش صنعتی. نمونه‌کارها، مقاله‌ها و سوابق کاری."
+    },
+    "keywords": [
+      "Amin Norollah",
+      "senior full-stack engineer",
+      "backend engineer",
+      ".NET",
+      "Spring Boot",
+      "Node.js",
+      "Angular",
+      "identity server",
+      "OAuth 2.1",
+      "hardware security",
+      "RISC-V"
+    ],
+    "ogImage": "imgs/meta-image.jpg",
+    "twitterHandle": ""
+  }
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "github-contributions",
+    "slug": "maintain-github-contributions-when-leaving-an-organization",
+    "title": {
+      "en": "Maintain Your GitHub Contributions When Leaving an Organization",
+      "sv": "Behåll dina GitHub-bidrag när du lämnar en organisation",
+      "fa": "موقع رفتن از شرکت، سابقه‌ی گیت‌هابتان را از دست ندهید"
+    },
+    "excerpt": {
+      "en": "Your contribution graph is part of your résumé, and it quietly empties the day you are removed from a company's GitHub organization. The fix takes about a minute - if you do it before you leave.",
+      "sv": "Din bidragsgraf är en del av ditt CV, och den töms tyst den dag du tas bort från ett företags GitHub-organisation. Lösningen tar ungefär en minut - om du gör den innan du slutar.",
+      "fa": "گراف مشارکت گیت‌هاب بخشی از رزومه‌ی شماست، ولی روزی که از organization شرکت حذف می‌شوید بی‌سروصدا خالی می‌شود. جلوگیری از آن یک دقیقه وقت می‌گیرد، به شرطی که قبل از رفتن انجامش بدهید."
+    },
+    "cover": "imgs/feeds/github_contributions.jpg",
+    "coverAlt": {
+      "en": "A GitHub contribution graph",
+      "sv": "En GitHub-bidragsgraf",
+      "fa": "گراف مشارکت گیت‌هاب"
+    },
+    "publishedAt": "2024-02-02",
+    "readingMinutes": 3,
+    "category": "career",
+    "tags": ["github", "career", "developer-tools"],
+    "featured": true,
+    "url": "",
+    "accent": "viz-1",
+    "content": {
+      "en": [
+        "<p>As software engineers, we frequently experience the thrill of transitioning to a new job. However, we often fail to consider the inevitable outcome of being removed from our previous GitHub organization. Our hard work and contributions will rapidly vanish from our GitHub profile after we are removed from the company where we made significant updates over time.</p>",
+        "<p>For those of us who value our GitHub profiles, it can be disheartening to think about losing our contributions. A software engineer's GitHub profile is like their résumé in my eyes. So it is important to make sure we keep our contributions intact on our profiles. A neat and regular contributions graph not only shows how committed you are, but also makes you more noticeable to potential employers.</p>",
+        "<h4>What should we do to make sure we do not lose the contributions we worked hard for?</h4>",
+        "<p>The solution is straightforward. Make sure to star the repositories in your organization that you are actively contributing to. This way your contributions will still be tracked in your graph, even if you decide to leave the organization or unfork the repository later on.</p>",
+        "<h4>And before you depart from your company, be sure…</h4>",
+        "<p>…to update the necessary information in your personal account, including unverifying your company email address in your email settings. You can then delete it and re-add it without verification, to ensure any associated commits remain linked to your account.</p>"
+      ],
+      "sv": [
+        "<p>Som mjukvaruingenjörer upplever vi ofta spänningen i att byta jobb. Däremot tänker vi sällan på den oundvikliga följden av att tas bort från vår tidigare GitHub-organisation. Vårt hårda arbete och våra bidrag försvinner snabbt från GitHub-profilen efter att vi tagits bort från företaget där vi gjorde betydande uppdateringar över tid.</p>",
+        "<p>För oss som värdesätter våra GitHub-profiler kan det vara nedslående att tänka på att förlora bidragen. I mina ögon är en mjukvaruingenjörs GitHub-profil som ett CV. Därför är det viktigt att se till att bidragen förblir intakta. En prydlig och regelbunden bidragsgraf visar inte bara hur engagerad du är, utan gör dig också mer synlig för potentiella arbetsgivare.</p>",
+        "<h4>Vad ska vi göra för att inte förlora de bidrag vi arbetat hårt för?</h4>",
+        "<p>Lösningen är enkel. Se till att stjärnmarkera de repositorier i din organisation som du aktivt bidrar till. På så sätt spåras dina bidrag fortfarande i din graf, även om du senare väljer att lämna organisationen eller ta bort din fork.</p>",
+        "<h4>Och innan du lämnar företaget, kom ihåg…</h4>",
+        "<p>…att uppdatera nödvändig information i ditt personliga konto, inklusive att avverifiera din företagsadress i e-postinställningarna. Du kan sedan ta bort den och lägga till den igen utan verifiering, för att säkerställa att tillhörande commits förblir länkade till ditt konto.</p>"
+      ],
+      "fa": [
+        "<p>ما برنامه‌نویس‌ها زیاد شغل عوض می‌کنیم، ولی کمتر کسی یادش هست که بعد از رفتن، از organization گیت‌هاب شرکت قبلی حذف می‌شود. همان لحظه، مشارکت‌هایی که سال‌ها در آن شرکت داشته‌ایم از پروفایلمان غیب می‌شوند.</p>",
+        "<p>اگر برای پروفایل گیت‌هابتان اهمیت قائلید، این اتفاق اذیت‌کننده است. به نظرم پروفایل گیت‌هاب برای یک برنامه‌نویس حکم رزومه را دارد. گرافی که منظم و پیوسته پر شده نشان می‌دهد پیگیر کارتان هستید و به چشم کارفرماها هم راحت‌تر می‌آید.</p>",
+        "<h4>چه کار کنیم که این مشارکت‌ها از دست نروند؟</h4>",
+        "<p>راهش ساده است: ریپازیتوری‌هایی از organization را که در آن‌ها کار کرده‌اید star کنید. این‌طوری حتی اگر بعداً از organization بیرون بروید یا fork را پاک کنید، مشارکت‌هایتان در گراف می‌ماند.</p>",
+        "<h4>یک کار دیگر هم قبل از رفتن انجام بدهید…</h4>",
+        "<p>…ایمیل کاری را در حساب شخصی‌تان درست تنظیم کنید: در تنظیمات ایمیل، آدرس شرکت را از حالت تأییدشده خارج کنید، پاکش کنید و دوباره بدون تأیید اضافه‌اش کنید تا کامیت‌های قدیمی همچنان به حساب شما وصل بمانند.</p>"
+      ]
+    }
+  },
+  {
+    "id": "css-sibling-hover",
+    "slug": "css-trick-selecting-and-changing-sibling-elements-on-hover",
+    "title": {
+      "en": "CSS Trick: Selecting and Changing Sibling Elements on Hover",
+      "sv": "CSS-trick: välja och ändra syskonelement vid hover",
+      "fa": "ترفند CSS: استایل دادن به هم‌نیاهای قبل و بعد از عنصری که ماوس رویش است"
+    },
+    "excerpt": {
+      "en": "You can style the elements before and after the one being hovered without a single line of JavaScript - :has() plus the general sibling combinator is all it takes.",
+      "sv": "Du kan styla elementen före och efter det som hovras utan en rad JavaScript - :has() plus den generella syskonkombinatorn är allt som behövs.",
+      "fa": "بدون یک خط جاوااسکریپت می‌شود عناصر قبل و بعد از عنصری را که ماوس رویش است استایل داد. فقط ‏:has() و ترکیب‌گر هم‌نیای عمومی لازم است."
+    },
+    "cover": "imgs/feeds/csstrick.jpg",
+    "coverAlt": {
+      "en": "A row of links with siblings styled on hover",
+      "sv": "En rad länkar med syskon som stylas vid hover",
+      "fa": "ردیفی از لینک‌ها که هم‌نیاهایشان هنگام hover استایل می‌گیرند"
+    },
+    "publishedAt": "2023-10-28",
+    "readingMinutes": 4,
+    "category": "css",
+    "tags": ["css", "selectors", "frontend"],
+    "featured": true,
+    "url": "",
+    "accent": "viz-2",
+    "content": {
+      "en": [
+        "<p>Have you ever wondered how to select and change the styles of previous and next sibling elements when one of the elements is being hovered? While using JavaScript is certainly an option, did you know that you can achieve the same effect using pure CSS?</p>",
+        "<p>Consider that we have the following elements:</p>",
+        "<pre><code>&lt;div&gt;\n  &lt;a&gt;1&lt;/a&gt;&lt;a&gt;2&lt;/a&gt;&lt;a&gt;3&lt;/a&gt;&lt;a&gt;4&lt;/a&gt;&lt;a&gt;5&lt;/a&gt;\n&lt;/div&gt;</code></pre>",
+        "<p>And the CSS rule is:</p>",
+        "<pre><code>a { color: #f55; }</code></pre>",
+        "<p>Now, here comes the interesting part. I use the <code>:has()</code> selector along with the general sibling combinator <code>~</code> to target the previous sibling elements - the ones before <code>a:hover</code> - and I use <code>~ a</code> to select the next sibling elements when any of the <code>&lt;a&gt;</code> elements is being hovered. This combination of selectors lets us precisely select and style the desired elements based on the hover state.</p>",
+        "<pre><code>a:has(~ a:hover),\na:hover ~ a {\n  color: #000;\n}</code></pre>"
+      ],
+      "sv": [
+        "<p>Har du någonsin undrat hur man väljer och ändrar stilarna på föregående och nästa syskonelement när ett av elementen hovras? Att använda JavaScript är förvisso ett alternativ, men visste du att du kan uppnå samma effekt med ren CSS?</p>",
+        "<p>Anta att vi har följande element:</p>",
+        "<pre><code>&lt;div&gt;\n  &lt;a&gt;1&lt;/a&gt;&lt;a&gt;2&lt;/a&gt;&lt;a&gt;3&lt;/a&gt;&lt;a&gt;4&lt;/a&gt;&lt;a&gt;5&lt;/a&gt;\n&lt;/div&gt;</code></pre>",
+        "<p>Och CSS-regeln är:</p>",
+        "<pre><code>a { color: #f55; }</code></pre>",
+        "<p>Nu kommer den intressanta delen. Jag använder selektorn <code>:has()</code> tillsammans med den generella syskonkombinatorn <code>~</code> för att träffa de föregående syskonelementen - de före <code>a:hover</code> - och jag använder <code>~ a</code> för att välja nästa syskonelement när något av <code>&lt;a&gt;</code>-elementen hovras. Den kombinationen av selektorer låter oss exakt välja och styla de önskade elementen utifrån hover-tillståndet.</p>",
+        "<pre><code>a:has(~ a:hover),\na:hover ~ a {\n  color: #000;\n}</code></pre>"
+      ],
+      "fa": [
+        "<p>تا حالا خواسته‌اید وقتی ماوس روی یک عنصر می‌رود، استایل هم‌نیاهای قبل و بعدش عوض شود؟ با جاوااسکریپت می‌شود، ولی با CSS خالص هم شدنی است.</p>",
+        "<p>فرض کنید عناصر زیر را داریم:</p>",
+        "<pre><code>&lt;div&gt;\n  &lt;a&gt;1&lt;/a&gt;&lt;a&gt;2&lt;/a&gt;&lt;a&gt;3&lt;/a&gt;&lt;a&gt;4&lt;/a&gt;&lt;a&gt;5&lt;/a&gt;\n&lt;/div&gt;</code></pre>",
+        "<p>و قاعده‌ی CSS این است:</p>",
+        "<pre><code>a { color: #f55; }</code></pre>",
+        "<p>حالا بخش جالبش. با انتخابگر <code>:has()</code> و ترکیب‌گر هم‌نیای عمومی <code>~</code> هم‌نیاهای قبلی را می‌گیرم (یعنی آن‌هایی که قبل از <code>a:hover</code> آمده‌اند) و با <code>~ a</code> هم‌نیاهای بعدی را. پس وقتی ماوس روی هر کدام از <code>&lt;a&gt;</code>ها باشد، دقیقاً همان عناصری که می‌خواهیم استایل می‌گیرند.</p>",
+        "<pre><code>a:has(~ a:hover),\na:hover ~ a {\n  color: #000;\n}</code></pre>"
+      ]
+    }
+  },
+  {
+    "id": "better-angular-developer",
+    "slug": "becoming-a-better-angular-developer",
+    "title": {
+      "en": "Becoming a Better Angular Developer: Tips for Growth and Success",
+      "sv": "Att bli en bättre Angular-utvecklare: tips för utveckling och framgång",
+      "fa": "چطور در Angular بهتر شویم"
+    },
+    "excerpt": {
+      "en": "After sitting through many Angular interviews, the same few gaps keep showing up. Here are the areas that separate a comfortable Angular developer from a strong one.",
+      "sv": "Efter att ha suttit med i många Angular-intervjuer återkommer samma få kunskapsluckor. Här är de områden som skiljer en helt okej Angular-utvecklare från en riktigt stark.",
+      "fa": "در مصاحبه‌های زیادی برای Angular بوده‌ام و تقریباً همیشه همان چند ضعف تکرار می‌شود. این‌ها همان چیزهایی‌اند که یک توسعه‌دهنده‌ی معمولی را از یک توسعه‌دهنده‌ی قوی جدا می‌کنند."
+    },
+    "cover": "imgs/feeds/mid1.jpg",
+    "coverAlt": {
+      "en": "Angular development illustration",
+      "sv": "Illustration av Angular-utveckling",
+      "fa": "تصویرسازی توسعه با Angular"
+    },
+    "publishedAt": "2023-10-19",
+    "readingMinutes": 4,
+    "category": "angular",
+    "tags": ["angular", "typescript", "rxjs", "testing"],
+    "featured": true,
+    "url": "",
+    "accent": "viz-3",
+    "content": {
+      "en": [
+        "<p>In the ever-evolving realm of web development, it is important for Angular developers to keep growing and getting better. By improving your skills and following best practices, you can become a stronger Angular developer and achieve great results.</p>",
+        "<p>Having attended many Angular interviews, I have noticed some areas where candidates often struggle. So I will explore some key areas that can help you level up your Angular development skills.</p>",
+        "<p><strong>Master TypeScript.</strong> Understand the benefits of TypeScript for improved code quality and management - it is not a formality on top of JavaScript, it is the tool that lets you make a whole class of bug impossible.</p>",
+        "<p><strong>Harness the power of RxJS.</strong> Learn how to use Observables, operators and Subjects for efficient handling of asynchronous operations, and learn which of them you actually need.</p>",
+        "<p><strong>Embrace testing and debugging.</strong> Familiarise yourself with testing frameworks such as Jasmine, Karma and Cypress, and develop strong debugging skills - reading a stack trace properly saves more time than any shortcut.</p>",
+        "<p><strong>Manage memory.</strong> To avoid memory leaks and keep the application fast: unsubscribe from events when they are no longer needed, clean up event listeners, avoid circular references, and use the OnPush change detection strategy.</p>",
+        "<p>Happy coding.</p>"
+      ],
+      "sv": [
+        "<p>I webbutvecklingens ständigt föränderliga värld är det viktigt för Angular-utvecklare att fortsätta växa och bli bättre. Genom att förbättra dina färdigheter och följa best practice kan du bli en starkare Angular-utvecklare och nå bra resultat.</p>",
+        "<p>Efter att ha deltagit i många Angular-intervjuer har jag lagt märke till några områden där kandidater ofta har svårt. Därför går jag igenom några nyckelområden som kan hjälpa dig lyfta dina Angular-färdigheter.</p>",
+        "<p><strong>Behärska TypeScript.</strong> Förstå fördelarna med TypeScript för bättre kodkvalitet och hantering - det är inte en formalitet ovanpå JavaScript, det är verktyget som låter dig göra en hel buggklass omöjlig.</p>",
+        "<p><strong>Utnyttja kraften i RxJS.</strong> Lär dig använda Observables, operatorer och Subjects för effektiv hantering av asynkrona operationer, och lär dig vilka av dem du faktiskt behöver.</p>",
+        "<p><strong>Omfamna testning och felsökning.</strong> Bekanta dig med testramverk som Jasmine, Karma och Cypress, och utveckla starka felsökningsfärdigheter - att läsa en stack trace ordentligt sparar mer tid än någon genväg.</p>",
+        "<p><strong>Hantera minnet.</strong> För att undvika minnesläckor och hålla applikationen snabb: avregistrera prenumerationer när de inte längre behövs, städa upp event listeners, undvik cirkulära referenser, och använd change detection-strategin OnPush.</p>",
+        "<p>Lycka till med kodandet.</p>"
+      ],
+      "fa": [
+        "<p>دنیای وب مدام تغییر می‌کند و توسعه‌دهنده‌ی Angular هم اگر نخواهد عقب بماند باید مدام یاد بگیرد.</p>",
+        "<p>در مصاحبه‌های زیادی برای موقعیت‌های Angular بوده‌ام و چند جا هست که داوطلب‌ها تقریباً همیشه در آن‌ها می‌لنگند. در ادامه همین‌ها را می‌گویم.</p>",
+        "<p><strong>TypeScript را درست یاد بگیرید.</strong> TypeScript فقط یک لایه‌ی تزئینی روی جاوااسکریپت نیست. اگر درست از آن استفاده کنید، جلوی خیلی از باگ‌ها را قبل از اجرا می‌گیرد و کد را هم خواناتر می‌کند.</p>",
+        "<p><strong>RxJS را جدی بگیرید.</strong> Observable، اپراتورها و Subject را یاد بگیرید تا کارهای async را تمیز مدیریت کنید. از آن مهم‌تر، یاد بگیرید کدام‌شان را واقعاً لازم دارید.</p>",
+        "<p><strong>تست و دیباگ را کنار نگذارید.</strong> با Jasmine و Karma و Cypress کار کنید و دیباگ کردن را تمرین کنید. کسی که stack trace را درست بخواند، از هر میان‌بری جلو می‌افتد.</p>",
+        "<p><strong>حواستان به حافظه باشد.</strong> برای این‌که برنامه نشت حافظه نداشته باشد و سریع بماند، subscriptionهایی را که دیگر لازم نیستند unsubscribe کنید، event listenerهای اضافه را بردارید، از رفرنس‌های حلقه‌ای دوری کنید و تا جایی که می‌شود از change detection با استراتژی OnPush استفاده کنید.</p>",
+        "<p>کدنویسی خوش بگذرد!</p>"
+      ]
+    }
+  },
+  {
+    "id": "good-team-member",
+    "slug": "advantages-of-being-a-good-team-member",
+    "title": {
+      "en": "The Advantages of Being a Good Team Member in Application Development",
+      "sv": "Fördelarna med att vara en bra teammedlem i applikationsutveckling",
+      "fa": "چرا عضو خوب تیم بودن این‌قدر مهم است"
+    },
+    "excerpt": {
+      "en": "Being a good team member is as important to a project's success as technical skill. Four concrete ways it shows up in the code you ship.",
+      "sv": "Att vara en bra teammedlem är lika viktigt för ett projekts framgång som teknisk skicklighet. Fyra konkreta sätt det märks i koden du levererar.",
+      "fa": "کار تیمی خوب به‌اندازه‌ی مهارت فنی روی نتیجه‌ی پروژه اثر دارد. در این نوشته چهار جا را نشان می‌دهم که این موضوع مستقیم در کد دیده می‌شود."
+    },
+    "cover": "imgs/feeds/mid2.jpg",
+    "coverAlt": {
+      "en": "A development team collaborating",
+      "sv": "Ett utvecklingsteam som samarbetar",
+      "fa": "تیمی از توسعه‌دهندگان در حال همکاری"
+    },
+    "publishedAt": "2023-08-08",
+    "readingMinutes": 5,
+    "category": "team",
+    "tags": ["teamwork", "collaboration", "career"],
+    "featured": false,
+    "url": "",
+    "accent": "viz-5",
+    "content": {
+      "en": [
+        "<p>In the world of software development, teamwork is key to creating complex applications. Being a good team member is just as important as technical skills for project success. But we all face challenges in being great team members. Let us explore the benefits of being valuable team players in app development, and how it boosts effectiveness and efficiency.</p>",
+        "<h4>1. Collaboration and communication boost</h4>",
+        "<p>When team members actively engage, share ideas and communicate effectively, they create a collaborative environment. Open dialogue and diverse perspectives lead to collective problem-solving, informed decision-making and streamlined development. This collaboration results in higher-quality code, fewer errors and improved efficiency.</p>",
+        "<h4>2. Task efficiency</h4>",
+        "<p>Understanding each team member's strengths and weaknesses is key to being a good team player. Recognising individual expertise allows for efficient task assignment, maximising contributions. This approach increases productivity, minimises bottlenecks and ensures a balanced workload distribution.</p>",
+        "<h4>3. Enhanced programming skills</h4>",
+        "<p>When we actively participate and share knowledge, we learn from each other's expertise. This creates a continuous learning environment where we discover new techniques, best practices and innovative solutions. As a result we all level up our programming skills, leading to better code and smoother development.</p>",
+        "<h4>4. Positive team dynamics and morale</h4>",
+        "<p>Good team members contribute to a positive and supportive environment, recognising achievements and fostering camaraderie. Positive dynamics drive motivation, creativity, job satisfaction and overall project success.</p>",
+        "<p>Being a good team member has lots of benefits. It helps us work together better, distribute tasks efficiently, and take responsibility for our work. We also get to keep learning and growing as a team, while creating a positive and friendly atmosphere. Success in developing applications is not just about technical know-how, but also about working well together.</p>"
+      ],
+      "sv": [
+        "<p>I mjukvaruutvecklingens värld är lagarbete avgörande för att skapa komplexa applikationer. Att vara en bra teammedlem är precis lika viktigt som tekniska färdigheter för ett projekts framgång. Men vi stöter alla på utmaningar när det gäller att vara riktigt bra teammedlemmar. Låt oss utforska fördelarna med att vara en värdefull lagspelare i apputveckling, och hur det ökar effektivitet och genomslag.</p>",
+        "<h4>1. Ökat samarbete och bättre kommunikation</h4>",
+        "<p>När teammedlemmar aktivt engagerar sig, delar idéer och kommunicerar effektivt skapar de en samarbetsinriktad miljö. Öppen dialog och skilda perspektiv leder till kollektiv problemlösning, välgrundade beslut och effektivare utveckling. Detta samarbete ger kod av högre kvalitet, färre fel och bättre effektivitet.</p>",
+        "<h4>2. Effektiv uppgiftsfördelning</h4>",
+        "<p>Att förstå varje teammedlems styrkor och svagheter är centralt för att vara en bra lagspelare. Att se och använda varje persons expertis möjliggör effektiv uppgiftsfördelning och maximerar allas bidrag. Detta ökar produktiviteten, minimerar flaskhalsar och säkerställer en balanserad arbetsbelastning.</p>",
+        "<h4>3. Förbättrade programmeringsfärdigheter</h4>",
+        "<p>När vi aktivt deltar och delar kunskap lär vi av varandras expertis. Det skapar en miljö av kontinuerligt lärande där vi upptäcker nya tekniker, best practice och innovativa lösningar. Resultatet är att vi alla höjer våra programmeringsfärdigheter, vilket ger bättre kod och smidigare utveckling.</p>",
+        "<h4>4. Positiv teamdynamik och trivsel</h4>",
+        "<p>Bra teammedlemmar bidrar till en positiv och stöttande miljö, uppmärksammar prestationer och främjar sammanhållning. Positiv dynamik driver motivation, kreativitet, arbetsglädje och projektets framgång.</p>",
+        "<p>Att vara en bra teammedlem har många fördelar. Det hjälper oss samarbeta bättre, fördela uppgifter effektivt och ta ansvar för vårt arbete. Vi får också fortsätta lära och växa som team, samtidigt som vi skapar en positiv och vänlig atmosfär. Framgång i applikationsutveckling handlar inte bara om tekniskt kunnande, utan också om att fungera bra tillsammans.</p>"
+      ],
+      "fa": [
+        "<p>نرم‌افزارهای بزرگ را یک نفر تنها نمی‌سازد. این‌که چقدر خوب در تیم کار کنید، به‌اندازه‌ی مهارت فنی‌تان روی نتیجه اثر دارد، و راستش را بخواهید همه‌مان گاهی در این قسمت کم می‌آوریم. این‌جا چند دلیل می‌آورم که چرا ارزش دارد رویش وقت بگذاریم.</p>",
+        "<h4>۱. همکاری و ارتباط بهتر</h4>",
+        "<p>وقتی آدم‌ها ایده‌هایشان را راحت مطرح می‌کنند و حرف هم را می‌شنوند، مسئله‌ها زودتر حل می‌شوند و تصمیم‌ها سنجیده‌تر گرفته می‌شوند. نتیجه‌اش را در کد هم می‌بینید: باگ کمتر و کیفیت بهتر.</p>",
+        "<h4>۲. تقسیم درست کارها</h4>",
+        "<p>اگر بدانید هر کس در تیم در چه کاری قوی است و کجا ضعف دارد، کارها را بهتر تقسیم می‌کنید. این‌طوری کسی زیر بار کار له نمی‌شود و کارها هم کمتر جایی گیر می‌کنند.</p>",
+        "<h4>۳. یاد گرفتن از هم</h4>",
+        "<p>وقتی دانسته‌هایمان را با هم در میان می‌گذاریم، هر کس از تجربه‌ی بقیه چیزی یاد می‌گیرد؛ یک تکنیک تازه، راه بهتری برای حل یک مسئله یا ابزاری که کسی نمی‌شناخت. در طول زمان کل تیم بهتر کد می‌نویسد.</p>",
+        "<h4>۴. روحیه‌ی تیم</h4>",
+        "<p>عضو خوب تیم کار بقیه را می‌بیند و قدرش را می‌داند. در تیمی که آدم‌ها هوای هم را دارند، انگیزه بالا می‌ماند و این روی کل پروژه اثر می‌گذارد.</p>",
+        "<p>خلاصه این‌که دانش فنی لازم است ولی کافی نیست. اگر بلد نباشیم کنار هم کار کنیم، بهترین مهارت‌ها هم به نتیجه‌ی خوبی نمی‌رسند.</p>"
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "github",
+    "type": "github",
+    "label": "GitHub",
+    "handle": "amin-norollah",
+    "url": "https://github.com/amin-norollah",
+    "primary": true,
+    "ariaLabel": {
+      "en": "GitHub profile, opens in a new tab",
+      "sv": "GitHub-profil, öppnas i en ny flik",
+      "fa": "پروفایل گیت‌هاب (در زبانه‌ی جدید باز می‌شود)"
+    }
+  },
+  {
+    "id": "linkedin",
+    "type": "linkedin",
+    "label": "LinkedIn",
+    "handle": "amin-norollah",
+    "url": "https://www.linkedin.com/in/amin-norollah",
+    "primary": true,
+    "ariaLabel": {
+      "en": "LinkedIn profile, opens in a new tab",
+      "sv": "LinkedIn-profil, öppnas i en ny flik",
+      "fa": "پروفایل لینکدین (در زبانه‌ی جدید باز می‌شود)"
+    }
+  },
+  {
+    "id": "email",
+    "type": "mail",
+    "label": "Email",
+    "handle": "a.norollah.official@gmail.com",
+    "url": "mailto:a.norollah.official@gmail.com",
+    "primary": true,
+    "ariaLabel": {
+      "en": "Send an email to a.norollah.official@gmail.com",
+      "sv": "Skicka e-post till a.norollah.official@gmail.com",
+      "fa": "ارسال ایمیل به a.norollah.official@gmail.com"
+    }
+  },
+  {
+    "id": "telegram",
+    "type": "send",
+    "label": "Telegram",
+    "handle": "@balrug",
+    "url": "https://t.me/balrug",
+    "primary": false,
+    "ariaLabel": {
+      "en": "Telegram, opens in a new tab",
+      "sv": "Telegram, öppnas i en ny flik",
+      "fa": "تلگرام (در زبانه‌ی جدید باز می‌شود)"
+    }
+  }
+]

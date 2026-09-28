@@ -1,0 +1,478 @@
+{
+ "imgs/about/team.png": [
+  304,
+  150
+ ],
+ "imgs/about/team2.jpg": [
+  451,
+  380
+ ],
+ "imgs/about/team3.jpg": [
+  600,
+  380
+ ],
+ "imgs/about/team4.jpg": [
+  1080,
+  703
+ ],
+ "imgs/brands/arnicafam.svg": [
+  1200,
+  1200
+ ],
+ "imgs/brands/faracontrol.svg": [
+  1000,
+  1100
+ ],
+ "imgs/brands/focalpay.svg": [
+  2083.33,
+  1666.66
+ ],
+ "imgs/brands/IUST.svg": [
+  50000,
+  50000
+ ],
+ "imgs/brands/mofid-securities.svg": [
+  1162,
+  1162
+ ],
+ "imgs/brands/sarveentech.svg": [
+  50000,
+  50000
+ ],
+ "imgs/brands/ultrasonic.svg": [
+  50000,
+  50000
+ ],
+ "imgs/feeds/csstrick.jpg": [
+  654,
+  283
+ ],
+ "imgs/feeds/github_contributions.jpg": [
+  764,
+  191
+ ],
+ "imgs/feeds/mid1.jpg": [
+  654,
+  283
+ ],
+ "imgs/feeds/mid2.jpg": [
+  654,
+  283
+ ],
+ "imgs/Logo.svg": [
+  50000,
+  50000
+ ],
+ "imgs/meta-image.jpg": [
+  300,
+  300
+ ],
+ "imgs/profile-back.jpg": [
+  220,
+  220
+ ],
+ "imgs/profile-front.png": [
+  220,
+  287
+ ],
+ "imgs/projects/bandcenter.png": [
+  200,
+  200
+ ],
+ "imgs/projects/CareYourEyes.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/chainsync.svg": [
+  4000,
+  4333.33
+ ],
+ "imgs/projects/CSite-logo.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/diskwiper.svg": [
+  100,
+  100
+ ],
+ "imgs/projects/escpos-inspector.svg": [
+  100,
+  100
+ ],
+ "imgs/projects/farawams.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/FNN.jpg": [
+  400,
+  400
+ ],
+ "imgs/projects/fortune-hunters.jpg": [
+  240,
+  240
+ ],
+ "imgs/projects/fraud-scoring.svg": [
+  100,
+  100
+ ],
+ "imgs/projects/identityserver-farawams.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/identityserver-smartcatle.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/jsCode.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/laddergo.png": [
+  237,
+  240
+ ],
+ "imgs/projects/modifonline.svg": [
+  2083.33,
+  1041.66
+ ],
+ "imgs/projects/myPortfolio.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/neuro20ep.jpg": [
+  400,
+  400
+ ],
+ "imgs/projects/Pat-noxim.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/pinkie.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/RTHS.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/SAFAS.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/simpal1.jpg": [
+  400,
+  400
+ ],
+ "imgs/projects/simpal2.jpg": [
+  400,
+  400
+ ],
+ "imgs/projects/smartcattle.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/tessera.svg": [
+  100,
+  100
+ ],
+ "imgs/projects/VICINIA.svg": [
+  50000,
+  25000
+ ],
+ "imgs/projects/web-design-amin.svg": [
+  50000,
+  25000
+ ],
+ "imgs/publications/MCE_thumbnail.jpg": [
+  73,
+  100
+ ],
+ "imgs/publications/MCE.jpg": [
+  665,
+  900
+ ],
+ "imgs/publications/MICRO_thumbnail.jpg": [
+  73,
+  100
+ ],
+ "imgs/publications/MICRO.jpg": [
+  665,
+  900
+ ],
+ "imgs/publications/TPDS_thumbnail.jpg": [
+  73,
+  100
+ ],
+ "imgs/publications/TPDS.jpg": [
+  665,
+  900
+ ],
+ "imgs/publications/TVLSI_thumbnail.jpg": [
+  73,
+  100
+ ],
+ "imgs/publications/TVLSI.jpg": [
+  665,
+  900
+ ],
+ "imgs/skills/backend/dot-net.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/backend/express.svg": [
+  255000,
+  330000
+ ],
+ "imgs/skills/backend/graphql.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/backend/nestjs.svg": [
+  100,
+  100
+ ],
+ "imgs/skills/backend/netFramework.svg": [
+  456,
+  456
+ ],
+ "imgs/skills/backend/nodejs.svg": [
+  442.37,
+  270.929
+ ],
+ "imgs/skills/backend/prisma.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/backend/spring.svg": [
+  1041.66,
+  1041.66
+ ],
+ "imgs/skills/backend/wordpress.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/firebase.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/microsoftsqlserver.svg": [
+  255000,
+  330000
+ ],
+ "imgs/skills/databases/mongodb.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/mysql.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/postgresql.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/redis.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/databases/sqlite.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/frontend/angularjs.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/frontend/material.svg": [
+  50000,
+  50000
+ ],
+ "imgs/skills/frontend/prime.svg": [
+  100,
+  100
+ ],
+ "imgs/skills/frontend/react-native.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/frontend/react.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/frontend/redux.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/frontend/rxjs.svg": [
+  262.79999999999995,
+  272.2
+ ],
+ "imgs/skills/frontend/vueJs.svg": [
+  1041.66,
+  1041.66
+ ],
+ "imgs/skills/languages/cplusplus.svg": [
+  1041.66,
+  1041.66
+ ],
+ "imgs/skills/languages/csharp.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/css3.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/html5.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/java.svg": [
+  1041.66,
+  1041.66
+ ],
+ "imgs/skills/languages/javascript.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/php.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/rust.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/sass.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/languages/typescript.svg": [
+  128,
+  128
+ ],
+ "imgs/skills/security/identityserevr4.svg": [
+  255000,
+  330000
+ ],
+ "imgs/skills/security/Oauth2.svg": [
+  598.486,
+  671.089
+ ],
+ "imgs/skills/security/OpenID.svg": [
+  150000,
+  150000
+ ],
+ "imgs/skills/security/OWASP.svg": [
+  50000,
+  50000
+ ],
+ "imgs/slider/arnicafam.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/back-end1.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/bandcenter.jpg": [
+  1920,
+  827
+ ],
+ "imgs/slider/business.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/careEye.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/centra.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/chainsync.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/diskwiper.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/escpos-inspector.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/farawams.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/flight.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/focalpay-cashier.jpg": [
+  1094,
+  319
+ ],
+ "imgs/slider/focalpay-inventory.jpg": [
+  1600,
+  638
+ ],
+ "imgs/slider/focalpay-marketplace.jpg": [
+  1266,
+  505
+ ],
+ "imgs/slider/fortune-hunters.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/fraud-scoring.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/heatmap.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/kiosk.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/laddergo.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/mofid-online.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/Mosaic.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/nast.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/newVersion.jpg": [
+  1094,
+  319
+ ],
+ "imgs/slider/pinkie.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/smartcattle.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/tessera.jpg": [
+  800,
+  319
+ ],
+ "imgs/slider/under-the-moon-light.jpg": [
+  800,
+  319
+ ]
+}

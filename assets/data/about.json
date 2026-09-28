@@ -1,0 +1,403 @@
+{
+  "heading": {
+    "en": "Shipping since 2012, and still asking what the system will look like in year three.",
+    "sv": "Levererar sedan 2012, och frågar fortfarande hur systemet ser ut om tre år.",
+    "fa": "از ۲۰۱۲ کد می‌نویسم و هنوز قبل از هر کاری از خودم می‌پرسم این سیستم سه سال دیگر چه وضعی دارد."
+  },
+  "lead": {
+    "en": "I create digital products that live on the internet - mostly the parts you do not see. APIs, integrations, identity, and the performance work that decides whether a platform feels solid.",
+    "sv": "Jag skapar digitala produkter som lever på internet - mest de delar du inte ser. API:er, integrationer, identitet, och det prestandaarbete som avgör om en plattform känns stabil.",
+    "fa": "بیشتر روی بخش‌هایی از محصول کار می‌کنم که کاربر نمی‌بیند: API، یکپارچه‌سازی با سیستم‌های دیگر، احراز هویت و کارایی. کاربر معمولاً این بخش‌ها را نمی‌بیند، ولی اگر خوب کار نکنند زود متوجه می‌شود."
+  },
+  "paragraphs": {
+    "en": [
+      "My love affair with web development dates back to 2012, when I was pursuing my bachelor's degree and had the opportunity to work for a small firm. There I was tasked with editing Joomla and WordPress sites using PHP, CSS and HTML, and that experience ignited the fascination I still work from.",
+      "As I advanced, I moved onto more complex projects and joined bigger teams. Those years taught me to deliver top-notch results inside tight deadlines without trading away quality, and gave me hands-on range across a wide array of languages and frameworks - which is really an education in knowing which tool the problem actually needs.",
+      "Today my profile is backend-heavy: designing and developing server applications, APIs, integration flows, testing, debugging, and training staff. My expertise spans .NET, C#, JavaScript (ES6+), TypeScript, Java, and both SQL and NoSQL databases, and I am particularly adept at optimising web functionality to improve data retrieval and workflow efficiency.",
+      "Alongside product work I spent three years as a researcher at IUST in collaboration with Université Grenoble Alpes, publishing on hardware security and real-time systems. Research changed how I engineer: it made me slower to guess and much faster to measure."
+    ],
+    "sv": [
+      "Min kärleksaffär med webbutveckling går tillbaka till 2012, när jag läste min kandidatexamen och fick chansen att arbeta för ett litet företag. Där fick jag redigera Joomla- och WordPress-sajter med PHP, CSS och HTML, och den erfarenheten tände den fascination jag fortfarande arbetar utifrån.",
+      "I takt med att jag utvecklades gick jag vidare till mer komplexa projekt och större team. De åren lärde mig att leverera förstklassiga resultat inom snäva deadlines utan att kompromissa med kvaliteten, och gav mig praktisk bredd över många språk och ramverk - vilket i grunden är en utbildning i att veta vilket verktyg problemet faktiskt behöver.",
+      "Idag är min profil backendtung: att designa och utveckla serverapplikationer, API:er, integrationsflöden, testning, felsökning och att utbilda kollegor. Min kompetens omfattar .NET, C#, JavaScript (ES6+), TypeScript, Java samt både SQL- och NoSQL-databaser, och jag är särskilt skicklig på att optimera webbfunktioner för snabbare datahämtning och effektivare arbetsflöden.",
+      "Parallellt med produktarbetet var jag i tre år forskare vid IUST i samarbete med Université Grenoble Alpes, med publikationer inom hårdvarusäkerhet och realtidssystem. Forskningen förändrade hur jag arbetar tekniskt: den gjorde mig långsammare att gissa och betydligt snabbare att mäta."
+    ],
+    "fa": [
+      "سال ۲۰۱۲، وقتی دانشجوی کارشناسی بودم، در یک شرکت کوچک مشغول کار شدم. کارم ویرایش سایت‌های جوملا و وردپرس با PHP، CSS و HTML بود و علاقه‌ام به توسعه‌ی وب از همان‌جا شروع شد.",
+      "کم‌کم سراغ پروژه‌های پیچیده‌تر و تیم‌های بزرگ‌تر رفتم. آن سال‌ها یاد گرفتم با مهلت‌های تنگ کار کنم و کیفیت را فدا نکنم. با زبان‌ها و فریم‌ورک‌های زیادی هم کار کردم و همین کمک کرد بفهمم هر مسئله واقعاً چه ابزاری لازم دارد.",
+      "الان بیشتر وقتم روی بک‌اند می‌گذرد: طراحی و توسعه‌ی سرویس‌ها و API، یکپارچه‌سازی، تست، دیباگ و کمک به همکارها. با .NET و C#، جاوااسکریپت (ES6+) و TypeScript، جاوا و دیتابیس‌های SQL و NoSQL کار می‌کنم و در سریع‌تر کردن دسترسی به داده و روان‌تر کردن کار سیستم تجربه‌ی زیادی دارم.",
+      "کنار کار اصلی، سه سال هم در IUST پژوهشگر بودم و با دانشگاه گرنوبل آلپ همکاری داشتیم. در امنیت سخت‌افزار و سیستم‌های بی‌درنگ مقاله منتشر کردم. پژوهش عادتم را عوض کرد: الان کمتر حدس می‌زنم و زودتر می‌روم سراغ اندازه‌گیری."
+    ]
+  },
+  "philosophy": [
+    {
+      "id": "maintainable",
+      "icon": "blueprint",
+      "title": {
+        "en": "Maintainable beats clever",
+        "sv": "Underhållbart slår smart",
+        "fa": "کدی که بشود نگهش داشت، مهم‌تر از کد زرنگ است"
+      },
+      "body": {
+        "en": "I design backend services and integration flows around explicit boundaries and contracts, so the next person - often me, two years later - can change one thing without discovering four others.",
+        "sv": "Jag designar backend-tjänster och integrationsflöden kring explicita gränser och kontrakt, så att nästa person - ofta jag själv två år senare - kan ändra en sak utan att upptäcka fyra andra.",
+        "fa": "سرویس‌ها و یکپارچه‌سازی‌ها را طوری طراحی می‌کنم که مرزها و قراردادهایشان روشن باشد. نفر بعدی که سراغ کد می‌آید (که معمولاً خودم هستم، دو سال بعد) باید بتواند یک چیز را عوض کند بدون این‌که چهار جای دیگر خراب شود."
+      }
+    },
+    {
+      "id": "performance",
+      "icon": "pulse",
+      "title": {
+        "en": "Performance is a requirement, not a phase",
+        "sv": "Prestanda är ett krav, inte en fas",
+        "fa": "کارایی را از روز اول جدی می‌گیرم"
+      },
+      "body": {
+        "en": "Thirty million requests an hour does not leave room for guessing. Profile first, remove the zombie threads, fix the query, then optimise the code - in that order, because the order is where the wins are.",
+        "sv": "Trettio miljoner förfrågningar i timmen lämnar inget rum för gissningar. Profilera först, ta bort zombietrådarna, fixa frågan, optimera sedan koden - i den ordningen, för ordningen är där vinsterna finns.",
+        "fa": "وقتی ساعتی سی میلیون درخواست می‌آید، جایی برای حدس زدن نمی‌ماند. اول پروفایل می‌گیرم، بعد تردهای زامبی را پیدا می‌کنم، بعد کوئری‌ها را درست می‌کنم و آخر سر سراغ بهینه کردن خود کد می‌روم. این ترتیب را تجربه یادم داده."
+      }
+    },
+    {
+      "id": "security",
+      "icon": "shield",
+      "title": {
+        "en": "Identity is infrastructure",
+        "sv": "Identitet är infrastruktur",
+        "fa": "احراز هویت کار زیرساخت است"
+      },
+      "body": {
+        "en": "Having built identity servers on OpenID Connect and OAuth 2.1 for mobile, web and native clients, I treat authentication as a platform capability with one owner - never as a feature each team reimplements.",
+        "sv": "Efter att ha byggt identitetsservrar på OpenID Connect och OAuth 2.1 för mobil-, webb- och nativa klienter behandlar jag autentisering som en plattformsförmåga med en ägare - aldrig som en funktion varje team implementerar om.",
+        "fa": "چند سرور هویت روی OpenID Connect و OAuth 2.1 برای اپ‌های موبایل، وب و دسکتاپ ساخته‌ام. نتیجه‌ای که گرفتم این است که احراز هویت باید یک صاحب مشخص داشته باشد و یک بار در سطح پلتفرم حل شود. اگر هر تیم خودش از اول پیاده‌اش کند، دیر یا زود یک جایش می‌لنگد."
+      }
+    },
+    {
+      "id": "testing",
+      "icon": "check",
+      "title": {
+        "en": "Tests that operate the real thing",
+        "sv": "Tester som kör det verkliga",
+        "fa": "تست روی سیستم واقعی"
+      },
+      "body": {
+        "en": "On the Cashier Probe framework I drove a real POS with real terminals, cash guards, scanners and printers - no mocks. Tests that avoid the messy edges are the tests that pass while production fails.",
+        "sv": "I ramverket Cashier Probe körde jag ett verkligt kassasystem med verkliga terminaler, kontantskydd, skannrar och skrivare - inga mockar. Tester som undviker de stökiga kanterna är de tester som går igenom medan produktionen fallerar.",
+        "fa": "در Cashier Probe صندوق فروش را با پایانه‌ی پرداخت، دستگاه پول نقد، اسکنر و چاپگر واقعی تست می‌کنیم، بدون mock. تجربه‌ام این است که تستی که از موقعیت‌های نامرتب فرار کند همیشه پاس می‌شود، حتی روزی که production از کار افتاده."
+      }
+    },
+    {
+      "id": "research",
+      "icon": "academic",
+      "title": {
+        "en": "Measure before you believe",
+        "sv": "Mät innan du tror",
+        "fa": "اول اندازه بگیر، بعد باور کن"
+      },
+      "body": {
+        "en": "Three years of publishing taught me to distrust a plausible explanation until there is a number beside it. That habit transfers directly to production debugging.",
+        "sv": "Tre år av publicering lärde mig att misstro en trovärdig förklaring tills en siffra bekräftar den. Den vanan överförs direkt till felsökning i produktion.",
+        "fa": "سه سال کار پژوهشی یادم داد هیچ توضیحی را، هر قدر هم قانع‌کننده باشد، تا عددی کنارش نباشد قبول نکنم. همین عادت الان موقع دیباگ کردن در production خیلی به کارم می‌آید."
+      }
+    },
+    {
+      "id": "team",
+      "icon": "users",
+      "title": {
+        "en": "Clear trade-offs, out loud",
+        "sv": "Tydliga avvägningar, sagda högt",
+        "fa": "تریدآف‌ها را روی میز بگذار"
+      },
+      "body": {
+        "en": "Leading a team for the first time at Fara-control taught me the managerial view: most technical disagreements are really unstated constraints, and saying them out loud resolves the argument.",
+        "sv": "Att leda ett team för första gången på Fara-control gav mig ett ledarskapsperspektiv: de flesta tekniska oenigheter är egentligen outtalade begränsningar, och att säga dem högt löser diskussionen.",
+        "fa": "اولین بار که در Fara-control سرپرست تیم شدم، فهمیدم بیشتر بحث‌های فنی سر محدودیت‌هایی است که کسی به زبان نیاورده. کافی است یک نفر آن‌ها را بگوید تا بحث تمام شود."
+      }
+    }
+  ],
+  "focus": [
+    {
+      "id": "backend-systems",
+      "label": {
+        "en": "Backend systems and APIs",
+        "sv": "Backend-system och API:er",
+        "fa": "سیستم‌های بک‌اند و APIها"
+      },
+      "detail": {
+        "en": "Designing maintainable services, API contracts, integration flows, and performance-sensitive backend paths.",
+        "sv": "Designa underhållbara tjänster, API-kontrakt, integrationsflöden och prestandakritiska backend-vägar.",
+        "fa": "طراحی سرویس‌هایی که بشود نگهشان داشت، قرارداد API، یکپارچه‌سازی و بخش‌هایی از بک‌اند که سرعت در آن‌ها حیاتی است."
+      },
+      "depth": {
+        "en": "Primary",
+        "sv": "Främsta",
+        "fa": "اصلی"
+      },
+      "weight": 38,
+      "color": "viz-1",
+      "skills": [
+        ".NET",
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "NestJS",
+        "Express.js",
+        "REST APIs",
+        "RabbitMQ"
+      ],
+      "proof": {
+        "en": [
+          "30M requests/hour fintech backend work",
+          "Payment and e-commerce integrations",
+          "Identity and industrial platform services"
+        ],
+        "sv": [
+          "Backend-arbete inom fintech med 30 miljoner förfrågningar/timme",
+          "Betalnings- och e-handelsintegrationer",
+          "Identitets- och industriella plattformstjänster"
+        ],
+        "fa": [
+          "بک‌اند فین‌تک با ساعتی ۳۰ میلیون درخواست",
+          "یکپارچه‌سازی‌های پرداخت و تجارت الکترونیک",
+          "سرویس‌های هویت و پلتفرم صنعتی"
+        ]
+      },
+      "relatedProjectIds": [
+        "chainsync",
+        "mofid-online-plus",
+        "centra-integration",
+        "farawams-backend"
+      ]
+    },
+    {
+      "id": "frontend-platforms",
+      "label": {
+        "en": "Frontend architecture",
+        "sv": "Frontend-arkitektur",
+        "fa": "معماری فرانت‌اند"
+      },
+      "detail": {
+        "en": "Building web applications with clear structure, design systems, routing, state, and testing discipline.",
+        "sv": "Bygga webbapplikationer med tydlig struktur, designsystem, routing, state och testdisciplin.",
+        "fa": "اپ‌های وب با ساختار تمیز: دیزاین‌سیستم، routing، مدیریت state و تست."
+      },
+      "depth": {
+        "en": "Production",
+        "sv": "Produktion",
+        "fa": "عملیاتی"
+      },
+      "weight": 27,
+      "color": "viz-2",
+      "skills": [
+        "Angular",
+        "Vue",
+        "React",
+        "TypeScript",
+        "RxJS",
+        "SCSS",
+        "Cypress"
+      ],
+      "proof": {
+        "en": [
+          "Angular kiosk platform",
+          "Vue cashier performance work",
+          "React industrial monitoring UI"
+        ],
+        "sv": [
+          "Angular-kioskplattform",
+          "Prestandaarbete i Vue-kassasystem",
+          "React-gränssnitt för industriell övervakning"
+        ],
+        "fa": [
+          "پلتفرم کیوسک با Angular",
+          "بهینه‌سازی کارایی صندوق فروش با Vue",
+          "رابط پایش صنعتی با React"
+        ]
+      },
+      "relatedProjectIds": [
+        "compass-campus-map",
+        "kiosk-web-app",
+        "cashier-frontend",
+        "farawams-backend"
+      ]
+    },
+    {
+      "id": "data-operations",
+      "label": {
+        "en": "Data, caching, and observability",
+        "sv": "Data, cachning och observability",
+        "fa": "داده، کش و مشاهده‌پذیری"
+      },
+      "detail": {
+        "en": "Choosing storage and runtime patterns that fit the shape of product data and operating constraints.",
+        "sv": "Välja lagrings- och runtime-mönster som passar produktdatans form och driftens begränsningar.",
+        "fa": "انتخاب روش ذخیره‌سازی و کش بر اساس شکل داده و محدودیت‌های واقعی محصول."
+      },
+      "depth": {
+        "en": "Production",
+        "sv": "Produktion",
+        "fa": "عملیاتی"
+      },
+      "weight": 21,
+      "color": "viz-3",
+      "skills": [
+        "SQL Server",
+        "MongoDB",
+        "Redis",
+        "Apache Ignite",
+        "Prometheus",
+        "Grafana"
+      ],
+      "proof": {
+        "en": [
+          "Trading platform performance work",
+          "Industrial archive and real-time data handling"
+        ],
+        "sv": [
+          "Prestandaarbete i handelsplattform",
+          "Hantering av industriell arkiv- och realtidsdata"
+        ],
+        "fa": [
+          "بهینه‌سازی کارایی پلتفرم معاملات",
+          "داده‌ی آرشیوی و بی‌درنگ در سیستم‌های صنعتی"
+        ]
+      },
+      "relatedProjectIds": [
+        "mofid-online-plus",
+        "farawams-backend"
+      ]
+    },
+    {
+      "id": "security-research",
+      "label": {
+        "en": "Security, identity, and research",
+        "sv": "Säkerhet, identitet och forskning",
+        "fa": "امنیت، هویت و پژوهش"
+      },
+      "detail": {
+        "en": "Identity service experience plus academic research in hardware security and real-time systems.",
+        "sv": "Erfarenhet av identitetstjänster samt akademisk forskning inom hårdvarusäkerhet och realtidssystem.",
+        "fa": "تجربه‌ی ساخت سرویس هویت، به‌علاوه‌ی کار پژوهشی در امنیت سخت‌افزار و سیستم‌های بی‌درنگ."
+      },
+      "depth": {
+        "en": "Research background",
+        "sv": "Forskningsbakgrund",
+        "fa": "پیشینه‌ی پژوهشی"
+      },
+      "weight": 14,
+      "color": "viz-5",
+      "skills": [
+        "IdentityServer4",
+        "OAuth",
+        "JWT",
+        "Hardware security",
+        "RISC-V",
+        "LLVM",
+        "KLEE"
+      ],
+      "proof": {
+        "en": [
+          "MSc Computer Engineering",
+          "IEEE and Elsevier publications",
+          "Identity service product work"
+        ],
+        "sv": [
+          "MSc i datorteknik",
+          "IEEE- och Elsevier-publikationer",
+          "Produktarbete med identitetstjänster"
+        ],
+        "fa": [
+          "کارشناسی ارشد مهندسی کامپیوتر",
+          "مقالات IEEE و الزویر",
+          "ساخت سرویس هویت برای محصول واقعی"
+        ]
+      },
+      "relatedProjectIds": [
+        "diskwiper",
+        "farawams-identity",
+        "smartcattle-identity",
+        "safas"
+      ]
+    }
+  ],
+  "currentlyLearning": [
+    {
+      "name": "Rust for systems work",
+      "note": {
+        "en": "Used where predictable performance and memory safety matter. Two projects so far: a network-on-chip simulator with 18 crates, and a disk wiper with no external dependencies at all.",
+        "sv": "Används där förutsägbar prestanda och minnessäkerhet spelar roll. Två projekt hittills: en simulator för network-on-chip med 18 crates, och en diskrensare helt utan externa beroenden.",
+        "fa": "وقتی کارایی قابل پیش‌بینی و امنیت حافظه مهم باشد سراغش می‌روم. تا الان دو پروژه با آن نوشته‌ام: یک شبیه‌ساز شبکه‌ی روی تراشه با ۱۸ crate و یک ابزار پاک‌سازی دیسک بدون هیچ وابستگی خارجی."
+      }
+    },
+    {
+      "name": "Java & Spring Boot",
+      "note": {
+        "en": "Adopted for a project that ties several existing infrastructures together into one coherent backend, running alongside the existing Node.js stack.",
+        "sv": "Antaget för ett projekt som binder samman flera befintliga infrastrukturer till en sammanhållen backend, sida vid sida med den befintliga Node.js-stacken.",
+        "fa": "برای پروژه‌ای سراغش رفتم که باید چند سیستم موجود را زیر یک بک‌اند یکپارچه جمع کند، کنار Node.js که از قبل داشتیم."
+      }
+    },
+    {
+      "name": "AI-assisted fraud detection",
+      "note": {
+        "en": "Training models to catch data tampering and fraud in accounting records, the kind of anomaly a manual review usually misses.",
+        "sv": "Tränar modeller för att upptäcka datamanipulation och bedrägeri i bokföringsdata, den typ av avvikelse en manuell granskning ofta missar.",
+        "fa": "مدل‌هایی آموزش می‌دهم که دست‌کاری داده و تقلب را در اسناد حسابداری پیدا کنند، همان ناهنجاری‌هایی که در بازبینی دستی معمولاً از چشم می‌افتند."
+      }
+    },
+    {
+      "name": "Marketplace & logistics platform",
+      "note": {
+        "en": "Building a full marketplace end to end, with an AI layer on the logistics side pushing more throughput out of the same infrastructure.",
+        "sv": "Bygger en komplett marknadsplats från grunden, med ett AI-lager på logistiksidan som pressar ut mer kapacitet ur samma infrastruktur.",
+        "fa": "دارم یک مارکت‌پلیس کامل را از صفر می‌سازم، با یک لایه‌ی هوش مصنوعی در بخش لجستیک که از همان زیرساخت کار بیشتری بکشد."
+      }
+    }
+  ],
+  "team": {
+    "heading": {
+      "en": "Teams I have built with",
+      "sv": "Team jag byggt med",
+      "fa": "تیم‌هایی که با آن‌ها کار کرده‌ام"
+    },
+    "note": {
+      "en": "International collaboration has been a constant - Sweden, France, Iran - and it is the part of the work I would not trade.",
+      "sv": "Internationellt samarbete har varit en konstant - Sverige, Frankrike, Iran - och det är den del av arbetet jag inte skulle byta bort.",
+      "fa": "همیشه با آدم‌هایی از کشورهای مختلف کار کرده‌ام، از سوئد و فرانسه تا ایران، و این بخش از کارم را خیلی دوست دارم."
+    },
+    "images": [
+      {
+        "src": "imgs/about/team4.jpg",
+        "alt": {
+          "en": "Team gathering at an engineering offsite",
+          "sv": "Teamsamling vid en offsite utanför kontoret",
+          "fa": "تیم در یک دورهمی کاری بیرون از دفتر"
+        }
+      },
+      {
+        "src": "imgs/about/team2.jpg",
+        "alt": {
+          "en": "Colleagues working together at the office",
+          "sv": "Kollegor som arbetar tillsammans på kontoret",
+          "fa": "همکاران در حال کار مشترک در دفتر"
+        }
+      },
+      {
+        "src": "imgs/about/team3.jpg",
+        "alt": {
+          "en": "Development team during a project milestone",
+          "sv": "Utvecklingsteamet under en projektmilstolpe",
+          "fa": "تیم توسعه بعد از رسیدن به یکی از مرحله‌های مهم پروژه"
+        }
+      },
+      {
+        "src": "imgs/about/team.png",
+        "alt": {
+          "en": "Team photo from an earlier project",
+          "sv": "Teamfoto från ett tidigare projekt",
+          "fa": "عکس تیمی از یک پروژه‌ی پیشین"
+        }
+      }
+    ]
+  }
+}
