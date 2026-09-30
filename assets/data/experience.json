@@ -392,9 +392,9 @@
     "industry": { "en": "Academic research", "sv": "Akademisk forskning", "fa": "پژوهش دانشگاهی" },
     "linkSection": "academic",
     "summary": {
-      "en": "Research graduate at IUST collaborating with Université Grenoble Alpes, publishing on hardware security, real-time scheduling and sorting architectures. Thirteen peer-reviewed papers came out of it.",
-      "sv": "Forskarutbildad vid IUST i samarbete med Université Grenoble Alpes, med publikationer om hårdvarusäkerhet, realtidsschemaläggning och sorteringsarkitekturer. Tretton granskade artiklar kom ur det.",
-      "fa": "پژوهشگر دانشگاه علم و صنعت ایران (IUST) بودم و با دانشگاه گرنوبل آلپ همکاری داشتیم. روی امنیت سخت‌افزار، زمان‌بندی بی‌درنگ و سخت‌افزار مرتب‌سازی کار کردم و سیزده مقاله‌ی داوری‌شده منتشر کردم."
+      "en": "Research graduate at IUST collaborating with Université Grenoble Alpes, publishing on hardware security, real-time scheduling and sorting architectures. Thirteen published papers came out of it.",
+      "sv": "Forskarutbildad vid IUST i samarbete med Université Grenoble Alpes, med publikationer om hårdvarusäkerhet, realtidsschemaläggning och sorteringsarkitekturer. Tretton publicerade artiklar kom ur det.",
+      "fa": "پژوهشگر دانشگاه علم و صنعت ایران (IUST) بودم و با دانشگاه گرنوبل آلپ همکاری داشتیم. روی امنیت سخت‌افزار، زمان‌بندی بی‌درنگ و سخت‌افزار مرتب‌سازی کار کردم و سیزده مقاله منتشر کردم."
     },
     "description": {
       "en": [

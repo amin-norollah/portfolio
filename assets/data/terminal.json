@@ -56,7 +56,7 @@
           "data          : sql server, mongodb, redis, apache ignite",
           "identity      : identityserver, oauth 2.1, openid connect",
           "experience    : {{years}}+ years",
-          "publications  : {{publications}} peer-reviewed papers",
+          "publications  : {{publications}} published papers",
           "hobbies       : working on my own projects"
         ],
         "sv": [
@@ -70,7 +70,7 @@
           "data          : sql server, mongodb, redis, apache ignite",
           "identitet     : identityserver, oauth 2.1, openid connect",
           "erfarenhet    : {{years}}+ år",
-          "publikationer : {{publications}} granskade artiklar",
+          "publikationer : {{publications}} publicerade artiklar",
           "intressen     : att bygga mina egna projekt"
         ],
         "fa": [
@@ -84,7 +84,7 @@
           "داده           : sql server, mongodb, redis, apache ignite",
           "هویت           : identityserver, oauth 2.1, openid connect",
           "تجربه          : {{years}}+ سال",
-          "مقالات         : {{publications}} مقاله‌ی داوری‌شده",
+          "مقالات         : {{publications}} مقاله‌ی منتشرشده",
           "سرگرمی         : پروژه‌های شخصی"
         ]
       }

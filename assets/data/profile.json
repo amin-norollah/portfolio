@@ -153,9 +153,9 @@
       "source": "publicationCount",
       "icon": "academic",
       "label": {
-        "en": "peer-reviewed papers",
-        "sv": "granskade publikationer",
-        "fa": "مقاله‌ی داوری‌شده"
+        "en": "published papers",
+        "sv": "publicerade artiklar",
+        "fa": "مقاله‌ی منتشرشده"
       },
       "context": {
         "en": "IEEE and Elsevier journals and conferences, MSc research at IUST.",
