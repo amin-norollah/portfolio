@@ -73,7 +73,7 @@
     "start": "2019-01",
     "end": "2022-04",
     "summary": {
-      "en": "I was a research graduate of IUST, collaborating with Université Grenoble Alpes in France. My work focused on hardware security: one project investigated and identified vulnerable points in high-level code during clock-glitching attacks on RISC-V chips, and another set out to locate sensitive code blocks in C/C++ and in the assembly they compile to.",
+      "en": "After graduating I stayed at IUST as a researcher, collaborating with Université Grenoble Alpes in France. My work focused on hardware security: one project investigated and identified vulnerable points in high-level code during clock-glitching attacks on RISC-V chips, and another set out to locate sensitive code blocks in C/C++ and in the assembly they compile to.",
       "sv": "Efter examen fortsatte jag som forskare vid IUST, i samarbete med Université Grenoble Alpes i Frankrike. Mitt arbete inriktades på hårdvarusäkerhet: ett projekt undersökte och identifierade sårbara punkter i högnivåkod under clock-glitching-attacker mot RISC-V-chip, och ett annat syftade till att lokalisera känsliga kodblock i C/C++ och i den assemblerkod de kompileras till.",
       "fa": "بعد از فارغ‌التحصیلی در IUST ماندم و به‌عنوان پژوهشگر با دانشگاه گرنوبل آلپ فرانسه کار کردم. بیشتر روی امنیت سخت‌افزار کار می‌کردیم. در یک پروژه بررسی کردیم کدام بخش‌های کد سطح‌بالا روی تراشه‌های RISC-V در برابر حمله‌ی clock-glitching آسیب‌پذیرند، و در پروژه‌ی دیگری دنبال بلوک‌های حساس در کد C/C++ و اسمبلی خروجی کامپایلر بودیم."
     },

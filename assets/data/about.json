@@ -7,7 +7,7 @@
   "lead": {
     "en": "I build digital products that live on the internet - mostly the parts you don't see. APIs, integrations, identity, and the performance work that decides if a platform feels solid or not.",
     "sv": "Jag bygger digitala produkter som finns på internet - mest de delarna man inte ser. API:er, integrationer, identitet och prestandaarbete. Det är sånt som avgör om en plattform känns stabil eller inte.",
-    "fa": "بیشتر روی بخش‌هایی از محصول کار می‌کنم که کاربر نمی‌بیند: API، یکپارچه‌سازی با سیستم‌های دیگر، احراز هویت و کارایی. کاربر معمولاً این بخش‌ها را نمی‌بیند، ولی اگر خوب کار نکنند زود متوجه می‌شود."
+    "fa": "بیشتر روی بخش‌هایی از محصول کار می‌کنم که کاربر نمی‌بیند: API، یکپارچه‌سازی با سیستم‌های دیگر، احراز هویت و کارایی. این بخش‌ها به چشم نمی‌آیند، ولی اگر خوب کار نکنند کاربر زود متوجه می‌شود."
   },
   "paragraphs": {
     "en": [
@@ -18,7 +18,7 @@
     ],
     "sv": [
       "Jag började med webbutveckling 2012, under min kandidatutbildning, när jag fick chansen att jobba på ett litet företag. Där redigerade jag Joomla- och WordPress-sajter med PHP, CSS och HTML. Det var där mitt intresse för det här området började, och det har aldrig försvunnit.",
-      "Med tiden gick jag vidare till större projekt och större team. De åren lärde mig att leverera bra resultat under snäva deadlines utan att ge upp på kvaliteten. Jag jobbade också med många olika språk och ramverk, vilket lärde mig att välja rätt verktyg för varje problem.",
+      "Med tiden gick jag vidare till större projekt och större team. De åren lärde mig att leverera bra resultat under snäva deadlines utan att tumma på kvaliteten. Jag jobbade också med många olika språk och ramverk, vilket lärde mig att välja rätt verktyg för varje problem.",
       "Idag jobbar jag mest med backend: att designa och bygga serverapplikationer, API:er, integrationsflöden, testning, felsökning och att hjälpa andra utvecklare i teamet. Jag jobbar mest med .NET, C#, JavaScript (ES6+), TypeScript, Java, och både SQL- och NoSQL-databaser. Jag är också bra på att optimera saker så att data laddas snabbare och arbetsflöden går smidigare.",
       "Vid sidan av produktarbetet var jag i tre år forskare på IUST, tillsammans med Université Grenoble Alpes, och publicerade artiklar om hårdvarusäkerhet och realtidssystem. Forskningen förändrade hur jag jobbar som ingenjör: jag slutade gissa så mycket och började mäta istället."
     ],
@@ -53,7 +53,7 @@
         "fa": "کارایی را از روز اول جدی می‌گیرم"
       },
       "body": {
-        "en": "Thirty million requests an hour means there is no room for guessing. First I profile the system, then remove threads that are stuck doing nothing, then fix the slow queries, and only after that I optimise the code. This order matters, it's where the real gains come from.",
+        "en": "Thirty million requests an hour means there is no room for guessing. First I profile the system, then remove threads that are stuck doing nothing, then fix the slow queries, and only then do I optimise the code. The order matters: that's where the real gains come from.",
         "sv": "Trettio miljoner förfrågningar i timmen betyder att det inte finns plats för gissningar. Först profilerar jag systemet, sen tar jag bort trådar som fastnat och inte gör något, sen fixar jag långsamma queries, och först efter det optimerar jag koden. Den ordningen spelar roll, det är där de riktiga förbättringarna kommer ifrån.",
         "fa": "وقتی ساعتی سی میلیون درخواست می‌آید، جایی برای حدس زدن نمی‌ماند. اول پروفایل می‌گیرم، بعد تردهای زامبی را پیدا می‌کنم، بعد کوئری‌ها را درست می‌کنم و آخر سر سراغ بهینه کردن خود کد می‌روم. این ترتیب را تجربه یادم داده."
       }
@@ -83,7 +83,7 @@
       "body": {
         "en": "With the Cashier Probe framework, I run tests on a real point-of-sale system with real terminals, cash guards, scanners and printers, no mocks. Tests that skip the messy real-world parts are the same tests that pass while production still breaks.",
         "sv": "Med ramverket Cashier Probe kör jag tester på ett riktigt kassasystem, med riktiga terminaler, kontantskydd, skannrar och skrivare, inga mockar. Tester som hoppar över de stökiga verkliga delarna är samma tester som passerar medan produktionen ändå går sönder.",
-        "fa": "در Cashier Probe صندوق فروش را با پایانه‌ی پرداخت، دستگاه پول نقد، اسکنر و چاپگر واقعی تست می‌کنیم، بدون mock. تجربه‌ام این است که تستی که از موقعیت‌های نامرتب فرار کند همیشه پاس می‌شود، حتی روزی که production از کار افتاده."
+        "fa": "در Cashier Probe صندوق فروش را با پایانه‌ی پرداخت، دستگاه پول نقد، اسکنر و چاپگر واقعی تست می‌کنیم، بدون mock. تجربه‌ام این است که تستی که از دردسرهای دنیای واقعی فرار کند همیشه پاس می‌شود، حتی روزی که production از کار افتاده."
       }
     },
     {
@@ -330,11 +330,11 @@
       }
     },
     {
-      "name": "Java & Spring Boot",
+      "name": "Android & Kotlin",
       "note": {
-        "en": "I picked it up for a project that connects several existing systems into one backend, running next to our existing Node.js stack.",
-        "sv": "Jag började med det för ett projekt som kopplar ihop flera befintliga system till en gemensam backend, sida vid sida med vår befintliga Node.js-stack.",
-        "fa": "برای پروژه‌ای سراغش رفتم که باید چند سیستم موجود را زیر یک بک‌اند یکپارچه جمع کند، کنار Node.js که از قبل داشتیم."
+        "en": "The newer part of my job at FocalPay: apps that talk to the cashier system and the hardware in the store, like payment terminals, printers and scanners.",
+        "sv": "Den nyare delen av mitt jobb på FocalPay: appar som pratar med kassasystemet och hårdvaran i butiken, som betalterminaler, skrivare och skannrar.",
+        "fa": "بخش تازه‌ی کارم در FocalPay: اپ‌هایی که با سیستم صندوق و سخت‌افزار فروشگاه، مثل پایانه‌ی پرداخت، چاپگر و اسکنر، کار می‌کنند."
       }
     },
     {
@@ -361,8 +361,8 @@
       "fa": "تیم‌هایی که با آن‌ها کار کرده‌ام"
     },
     "note": {
-      "en": "I have always worked with international teams, Sweden, France, Iran, and that's one part of the job I really enjoy.",
-      "sv": "Jag har alltid jobbat med internationella team, Sverige, Frankrike, Iran, och det är en del av jobbet jag verkligen uppskattar.",
+      "en": "I have always worked with international teams (Sweden, France, Iran), and that's one part of the job I really enjoy.",
+      "sv": "Jag har alltid jobbat med internationella team (Sverige, Frankrike, Iran), och det är en del av jobbet jag verkligen uppskattar.",
       "fa": "همیشه با آدم‌هایی از کشورهای مختلف کار کرده‌ام، از سوئد و فرانسه تا ایران، و این بخش از کارم را خیلی دوست دارم."
     },
     "images": [

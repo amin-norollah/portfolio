@@ -115,7 +115,7 @@
     }
   ],
   "startedProfessionally": 2012,
-  "startedWebDevelopment": 2018,
+  "startedWebDevelopment": 2012,
   "metrics": [
     {
       "id": "years",
@@ -143,9 +143,9 @@
         "fa": "زبان برنامه‌نویسی"
       },
       "context": {
-        "en": "C#, TypeScript, JavaScript, Java, C++, HTML, CSS and Sass.",
-        "sv": "C#, TypeScript, JavaScript, Java, C++, HTML, CSS och Sass.",
-        "fa": "C#، TypeScript، JavaScript، Java، ++C، HTML، CSS و Sass."
+        "en": "C#, TypeScript, JavaScript, Java, Rust, C++, PHP, HTML, CSS and Sass.",
+        "sv": "C#, TypeScript, JavaScript, Java, Rust, C++, PHP, HTML, CSS och Sass.",
+        "fa": "C#، TypeScript، JavaScript، Java، Rust، ++C، PHP، HTML، CSS و Sass."
       }
     },
     {
@@ -153,7 +153,7 @@
       "source": "publicationCount",
       "icon": "academic",
       "label": {
-        "en": "isi published papers",
+        "en": "peer-reviewed papers",
         "sv": "granskade publikationer",
         "fa": "مقاله‌ی داوری‌شده"
       },
@@ -173,9 +173,9 @@
         "fa": "پروژه‌ی مستندشده"
       },
       "context": {
-        "en": "Counted from this site's own project data - web, academic and desktop.",
-        "sv": "Räknat från sajtens egna projektdata - webb, akademiskt och desktop.",
-        "fa": "از روی داده‌های همین سایت شمرده شده: وب، دانشگاهی و دسکتاپ."
+        "en": "Counted from this site's own project data - web, mobile, academic and desktop.",
+        "sv": "Räknat från sajtens egna projektdata - webb, mobil, akademiskt och desktop.",
+        "fa": "از روی داده‌های همین سایت شمرده شده: وب، موبایل، دانشگاهی و دسکتاپ."
       }
     },
     {

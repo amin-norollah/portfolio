@@ -386,13 +386,13 @@
     },
     "description": {
       "en": [
-        "Tessera is a cycle-accurate network-on-chip simulator written from scratch in Rust, as the successor to PAT-Noxim, the SystemC simulator from my master's research. It keeps what made PAT-Noxim useful to researchers, power, area and thermal modelling alongside latency, and drops the limits that came with SystemC.",
+        "Tessera is a cycle-accurate network-on-chip simulator written from scratch in Rust, as the successor to PAT-Noxim, the SystemC simulator from my master's research. It keeps what made PAT-Noxim useful to researchers (power, area and thermal modelling alongside latency) and drops the limits that came with SystemC.",
         "The engine models routers with virtual channels and credit-based flow control on 2D mesh and torus topologies, with eight routing algorithms (from XY and odd-even to table-based routing imported from Noxim), four selection policies and three switch allocators including iSLIP. Traffic can be synthetic, closed-loop, or replayed from Netrace and SynFull traces.",
         "Every run is deterministic. Per-node random streams and keyframe snapshots mean you can seek to any cycle and replay it bit for bit, and that replay doubles as a test oracle. Runs are recorded to Arrow and Parquet and queried with DuckDB, so comparing two experiments is a SQL query rather than a spreadsheet. A frozen plugin API, with an optional WebAssembly sandbox, lets new routing or traffic models register through the same path as the built-ins.",
         "The workspace has 18 crates and 247 tests. Still open: bindings to the reference power and thermal models (DSENT, ORION, McPAT, HotSpot), parallel execution, and a web UI."
       ],
       "sv": [
-        "Tessera är en cykelexakt simulator för network-on-chip, skriven från grunden i Rust som efterträdare till PAT-Noxim, SystemC-simulatorn från min masterforskning. Den behåller det som gjorde PAT-Noxim användbar för forskare, modeller för effekt, yta och temperatur bredvid latens, och gör sig av med begränsningarna som följde med SystemC.",
+        "Tessera är en cykelexakt simulator för network-on-chip, skriven från grunden i Rust som efterträdare till PAT-Noxim, SystemC-simulatorn från min masterforskning. Den behåller det som gjorde PAT-Noxim användbar för forskare (modeller för effekt, yta och temperatur bredvid latens) och gör sig av med begränsningarna som följde med SystemC.",
         "Motorn modellerar routrar med virtuella kanaler och kreditbaserad flödeskontroll på 2D-mesh och torus, med åtta routingalgoritmer (från XY och odd-even till tabellbaserad routing importerad från Noxim), fyra urvalspolicyer och tre switchallokatorer, bland dem iSLIP. Trafiken kan vara syntetisk, sluten, eller återspelad från Netrace- och SynFull-spår.",
         "Varje körning är deterministisk. Separata slumpströmmar per nod och nyckelbildsögonblick gör att man kan hoppa till vilken cykel som helst och spela upp den bit för bit, och den uppspelningen fungerar också som testorakel. Körningar sparas i Arrow och Parquet och frågas med DuckDB, så att jämföra två experiment är en SQL-fråga i stället för ett kalkylark. Ett fryst plugin-API, med valfri WebAssembly-sandlåda, låter nya routing- och trafikmodeller registreras på samma väg som de inbyggda.",
         "Arbetsytan har 18 crates och 247 tester. Kvar att göra: bindningar till referensmodellerna för effekt och värme (DSENT, ORION, McPAT, HotSpot), parallell körning och ett webbgränssnitt."
@@ -2064,16 +2064,16 @@
     },
     "description": {
       "en": [
-        "One of the projects was to design health-care software that receives converted analogue brain signals from more than eight input channels, processes the data, analyses it, and helps neurologists diagnose abnormalities using indicators.",
-        "The technology for most of these projects was C++ and C# on .NET Framework 4.7.2, with SciChart for the signal rendering that had to stay readable in real time."
+        "The software receives converted analogue brain signals from more than eight input channels, processes the data, analyses it, and helps neurologists diagnose abnormalities using indicators.",
+        "It was written in C++ and C# on .NET Framework 4.7.2, with SciChart for the signal rendering that had to stay readable in real time."
       ],
       "sv": [
-        "Ett av projekten var att designa vårdprogramvara som tar emot konverterade analoga hjärnsignaler från fler än åtta ingångskanaler, bearbetar datan, analyserar den, och hjälper neurologer att diagnostisera avvikelser med hjälp av indikatorer.",
-        "Tekniken för de flesta av dessa projekt var C++ och C# på .NET Framework 4.7.2, med SciChart för signalrenderingen som måste förbli läsbar i realtid."
+        "Programvaran tar emot konverterade analoga hjärnsignaler från fler än åtta ingångskanaler, bearbetar datan, analyserar den, och hjälper neurologer att diagnostisera avvikelser med hjälp av indikatorer.",
+        "Den skrevs i C++ och C# på .NET Framework 4.7.2, med SciChart för signalrenderingen som måste förbli läsbar i realtid."
       ],
       "fa": [
-        "یکی از این پروژه‌ها نرم‌افزار سلامتی بود که سیگنال‌های مغزی را از بیش از هشت کانال ورودی می‌گیرد، پردازش و تحلیل می‌کند و با نشان دادن شاخص‌ها به متخصص مغز و اعصاب کمک می‌کند ناهنجاری‌ها را پیدا کند.",
-        "بیشتر این پروژه‌ها با C++ و C# روی .NET Framework 4.7.2 نوشته شدند و برای رسم سیگنال از SciChart استفاده کردیم تا نمودار در لحظه خوانا بماند."
+        "این نرم‌افزار سلامت، سیگنال‌های مغزی را از بیش از هشت کانال ورودی می‌گیرد، پردازش و تحلیل می‌کند و با نشان دادن شاخص‌ها به متخصص مغز و اعصاب کمک می‌کند ناهنجاری‌ها را پیدا کند.",
+        "با C++ و C# روی .NET Framework 4.7.2 نوشته شد و برای رسم سیگنال از SciChart استفاده کردیم تا نمودار در لحظه خوانا بماند."
       ]
     },
     "technologies": [

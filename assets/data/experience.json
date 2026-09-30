@@ -14,7 +14,7 @@
     "summary": {
       "en": "Part of the Backend Engineering team at FocalPay, an all-in-one checkout, payments and back-office platform. My focus has shifted toward Android and the physical cashier hardware behind the retail floor.",
       "sv": "Del av Backend Engineering-teamet på FocalPay, en allt-i-ett-plattform för kassa, betalningar och back-office. Mitt fokus har flyttats mot Android och den fysiska kassahårdvaran bakom butiksgolvet.",
-      "fa": "در تیم Backend Engineering شرکت FocalPay کار می‌کنم. FocalPay برای فروشگاه‌ها صندوق فروش، پرداخت و پشتیبانی فراهم می‌کند. این روزها بیشتر روی اندروید و سخت‌افزارهای کنار صندوق کار می‌کنم."
+      "fa": "در تیم Backend Engineering شرکت FocalPay کار می‌کنم. FocalPay برای فروشگاه‌ها صندوق فروش، پرداخت و مدیریت پشت‌صحنه‌ی فروشگاه (back-office) را فراهم می‌کند. این روزها بیشتر روی اندروید و سخت‌افزارهای کنار صندوق کار می‌کنم."
     },
     "description": {
       "en": [
@@ -22,7 +22,7 @@
         "The newer part of the role is Android: building and integrating applications that talk to the cashier ecosystem and the external hardware on the shop floor - payment terminals, printers, scanners. To keep that reliable I built Cashier Probe, a Playwright and TypeScript framework that drives the Electron point-of-sale application on real store hardware rather than a simulator."
       ],
       "sv": [
-        "Jag är en del av Backend Engineering-teamet och bidrar till utveckling, underhåll och förbättring av tjänsterna bakom FocalPays kassa-, betalnings- och plattformslösning. Mesta arbetet sker i Java och Spring Boot, byggt testdrivet med heltäckande automatiserade sviter snarare än testat i efterhand.",
+        "Jag är en del av Backend Engineering-teamet och bidrar till utveckling, underhåll och förbättring av tjänsterna bakom FocalPays kassa-, betalnings- och plattformslösning. Det mesta av arbetet görs i Java och Spring Boot, byggt testdrivet med heltäckande automatiserade sviter snarare än testat i efterhand.",
         "Den nyare delen av rollen är Android: bygga och integrera applikationer som pratar med kassaekosystemet och den fysiska hårdvaran i butiken - betalterminaler, skrivare, skannrar. För att hålla det tillförlitligt byggde jag Cashier Probe, ett ramverk i Playwright och TypeScript som kör Electron-kassan på verklig butikshårdvara i stället för en simulator."
       ],
       "fa": [
@@ -398,16 +398,16 @@
     },
     "description": {
       "en": [
-        "I am a former research graduate of Iran University of Science and Technology, where I collaborated with the hardware accelerator and real-time systems teams in conjunction with Université Grenoble Alpes in France.",
+        "I was a researcher at Iran University of Science and Technology, where I collaborated with the hardware accelerator and real-time systems teams in conjunction with Université Grenoble Alpes in France.",
         "My research resulted in numerous scientific papers, with a particular focus on hardware security. One project investigated and identified vulnerable points in high-level code during clock-glitching attacks on RISC-V chips.",
         "I also aimed to identify sensitive code blocks in C and C++ and in their compiled assembly. To do this we used KLEE and LLVM for symbolic execution simulation, along with a RISC-V simulator and the Xilinx Vivado tool.",
-        "Our efforts concluded in the publication of several papers in international journals and conferences, and I am proud to have contributed to the advancement of this field."
+        "That work resulted in several papers in international journals and conferences."
       ],
       "sv": [
-        "Jag är tidigare forskarutbildad vid Iran University of Science and Technology, där jag samarbetade med hårdvaruaccelerator- och realtidssystemteamen tillsammans med Université Grenoble Alpes i Frankrike.",
+        "Jag var tidigare forskare vid Iran University of Science and Technology, där jag samarbetade med hårdvaruaccelerator- och realtidssystemteamen tillsammans med Université Grenoble Alpes i Frankrike.",
         "Min forskning resulterade i ett stort antal vetenskapliga artiklar, med särskilt fokus på hårdvarusäkerhet. Ett projekt undersökte och identifierade sårbara punkter i högnivåkod under clock-glitching-attacker mot RISC-V-chip.",
         "Jag ville också identifiera känsliga kodblock i C och C++ och i deras kompilerade assembler. För detta använde vi KLEE och LLVM för simulering med symbolisk exekvering, tillsammans med en RISC-V-simulator och verktyget Xilinx Vivado.",
-        "Våra insatser mynnade ut i publicering av flera artiklar i internationella tidskrifter och konferenser, och jag är stolt över att ha bidragit till fältets utveckling."
+        "Arbetet resulterade i flera artiklar i internationella tidskrifter och konferenser."
       ],
       "fa": [
         "در دانشگاه علم و صنعت ایران پژوهشگر بودم و با گروه‌هایی کار می‌کردم که روی شتاب‌دهنده‌های سخت‌افزاری و سیستم‌های بی‌درنگ کار می‌کردند. همکار اصلی‌مان دانشگاه گرنوبل آلپ فرانسه بود.",
@@ -450,8 +450,8 @@
     "url": "",
     "industry": { "en": "Various", "sv": "Varierande", "fa": "متنوع" },
     "summary": {
-      "en": "Web projects for individuals and companies - FNN, Noonnet, a restaurant management system, Neuro20EP and others - mostly React and Node.js on the front, .NET where the maths got heavy.",
-      "sv": "Webbprojekt för privatpersoner och företag - FNN, Noonnet, ett restauranghanteringssystem, Neuro20EP och andra - mest React och Node.js i fronten, .NET där matematiken blev tung.",
+      "en": "Web projects for individuals and companies - FNN, Noonnet, a restaurant management system, Neuro20EP and others - mostly React on the front and Node.js behind it, with .NET where the maths got heavy.",
+      "sv": "Webbprojekt för privatpersoner och företag - FNN, Noonnet, ett restauranghanteringssystem, Neuro20EP och andra - mest React i fronten och Node.js bakom, med .NET där matematiken blev tung.",
       "fa": "پروژه‌های وب برای آدم‌ها و شرکت‌های مختلف، مثل FNN، Noonnet، یک سیستم مدیریت رستوران و Neuro20EP. بیشتر با React و Node.js، و هر جا محاسبات سنگین می‌شد با .NET."
     },
     "description": {

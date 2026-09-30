@@ -24,7 +24,7 @@
   "usage": {
     "en": "usage: {{usage}}",
     "sv": "användning: {{usage}}",
-    "fa": "کاربرد: {{usage}}"
+    "fa": "طرز استفاده: {{usage}}"
   },
   "commands": [
     {
@@ -120,7 +120,7 @@
     {
       "name": "open",
       "kind": "open",
-      "usage": "open <github|linkedin|email|website>",
+      "usage": "open <github|linkedin|email|telegram>",
       "description": {
         "en": "open one of my links",
         "sv": "öppna en av mina länkar",
@@ -157,7 +157,7 @@
       },
       "output": {
         "en": ["portfolio {{version}} - Angular, zoneless, signal-driven"],
-        "sv": ["portfolio {{version}} - Angular, zoneless, signal-driven"],
+        "sv": ["portfolio {{version}} - Angular, utan zone.js, signalbaserad"],
         "fa": ["portfolio {{version}} - ‏Angular، بدون Zone، سیگنال‌محور"]
       }
     },

@@ -1,11 +1,11 @@
-<?xml version="3.2" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://norollah.com/</loc>
     <changefreq>monthly</changefreq>
-    <priority>3.2</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/?lang=en"/>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/?lang=sv"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/?lang=fa"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://norollah.com/"/>
