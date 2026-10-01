@@ -152,6 +152,11 @@
       "id": "tvlsi-rths",
       "type": "journal",
       "title": "RTHS: A Low-Cost High-Performance Real-Time Hardware Sorter, Using a Multidimensional Sorting Algorithm",
+      "summary": {
+        "en": "Parallel hardware sorters are fast, but the logic they need grows quickly with the number of inputs. RTHS is a multidimensional, matrix-based sorting algorithm with its own hardware architecture, built to cut that cost without giving up speed. The same design also works as a min/max queue, or for picking out the largest or smallest records in a large data set. How it compares with bitonic sorting networks on a Virtex-7 FPGA is in the paper.",
+        "sv": "Parallella hårdvarusorterare är snabba, men logiken de kräver växer fort med antalet indata. RTHS är en flerdimensionell, matrisbaserad sorteringsalgoritm med en egen hårdvaruarkitektur, gjord för att få ner den kostnaden utan att tappa fart. Samma konstruktion fungerar också som min/max-kö, eller för att plocka ut de största eller minsta posterna i stora datamängder. Hur den står sig mot bitoniska sorteringsnät på en Virtex-7-FPGA kan du läsa i artikeln.",
+        "fa": "مرتب‌کننده‌های سخت‌افزاری موازی سریع‌اند، ولی با زیاد شدن ورودی‌ها منطق سخت‌افزاری‌شان هم به‌سرعت بزرگ می‌شود. RTHS یک الگوریتم مرتب‌سازی چندبُعدی و ماتریسی با معماری سخت‌افزاری مخصوص خودش است که برای پایین آوردن همین هزینه طراحی شده، بدون اینکه سرعت فدا شود. از همین طرح می‌شود به‌عنوان صف Min/Max یا برای پیدا کردن بزرگ‌ترین و کوچک‌ترین رکوردها در داده‌های حجیم هم استفاده کرد. اینکه روی FPGA مدل Virtex-7 در مقایسه با شبکه‌های Bitonic چه نتیجه‌ای گرفت را در خود مقاله بخوانید."
+      },
       "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
       "firstAuthor": true,
       "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
@@ -169,6 +174,11 @@
       "id": "tpds-hrhs",
       "type": "journal",
       "title": "HRHS: A High-Performance Real-Time Hardware Scheduler",
+      "summary": {
+        "en": "On a many-core chip, a software scheduler can spend thousands of clock cycles on each decision. HRHS moves scheduling into hardware and splits the main scheduler into identical partial schedulers, so it scales with the number of cores and its timing stays predictable. Each partial scheduler runs EDF in this work, but the policy can be swapped for another. We implemented it on FPGA and in 45 nm ASIC; the comparison with conventional and clustered schedulers is in the paper.",
+        "sv": "På ett chip med många kärnor kan en schemaläggare i mjukvara lägga tusentals klockcykler på varje beslut. HRHS flyttar schemaläggningen till hårdvara och delar upp huvudschemaläggaren i likadana delschemaläggare, så att den skalar med antalet kärnor och har förutsägbara tider. Här kör varje delschemaläggare EDF, men policyn går att byta ut. Vi implementerade den både på FPGA och som 45 nm-ASIC, och jämförelsen med vanliga och klustrade schemaläggare finns i artikeln.",
+        "fa": "در تراشه‌های چندهسته‌ای، زمان‌بند نرم‌افزاری ممکن است برای هر تصمیم هزاران سیکل ساعت وقت بگذارد. HRHS زمان‌بندی را به سخت‌افزار می‌برد و زمان‌بند اصلی را به چند زمان‌بند جزئی یکسان تقسیم می‌کند تا با بیشتر شدن هسته‌ها مقیاس‌پذیر بماند و زمان پاسخش قابل پیش‌بینی باشد. در این کار هر زمان‌بند جزئی از الگوریتم EDF استفاده می‌کند، ولی می‌شود سیاست دیگری جایش گذاشت. طرح را هم روی FPGA و هم به‌صورت ASIC با فناوری ۴۵ نانومتر پیاده کردیم. مقایسه‌اش با زمان‌بندهای معمولی و خوشه‌ای را در مقاله ببینید."
+      },
       "authors": ["D. Derafshi", "A. Norollah", "M. Khosroanjam", "H. Beitollahi"],
       "firstAuthor": false,
       "venue": "IEEE Transactions on Parallel and Distributed Systems",
@@ -186,6 +196,11 @@
       "id": "mce-3d-sorting",
       "type": "journal",
       "title": "Hardware Support for Efficient and Low-Power Data Sorting in Massive Data Application: The 3-D Sorting Method",
+      "summary": {
+        "en": "A hardware sorter speeds up data-heavy applications, but it eats into the resources of an FPGA, which are limited to begin with. ULP-Sorter is a three-dimensional sorting architecture based on our multidimensional sorting algorithm, designed for very low power and a small footprint. It targets edge devices, where both power and chip area are tight. Read the paper to see how much it saves compared with earlier hardware sorters.",
+        "sv": "En sorterare i hårdvara gör dataintensiva tillämpningar snabbare, men den tar resurser från en FPGA som redan har begränsat med plats. ULP-Sorter är en tredimensionell sorteringsarkitektur byggd på vår flerdimensionella sorteringsalgoritm, med fokus på mycket låg effekt och liten yta. Målet är edge-enheter, där både effekt och chipyta är knappa. Läs artikeln för att se hur mycket den sparar jämfört med tidigare hårdvarusorterare.",
+        "fa": "مرتب‌کننده‌ی سخت‌افزاری برنامه‌هایی را که با داده‌ی زیاد سروکار دارند سریع‌تر می‌کند، ولی بخشی از منابع FPGA را می‌گیرد که از اول هم محدود است. ULP-Sorter یک معماری مرتب‌سازی سه‌بُعدی بر پایه‌ی الگوریتم مرتب‌سازی چندبُعدی ماست که برای مصرف توان خیلی کم و اشغال فضای کم طراحی شده. هدفش دستگاه‌های لبه (edge) است که هم توان و هم مساحت تراشه در آن‌ها محدود است. برای اینکه ببینید در مقایسه با مرتب‌کننده‌های قبلی چقدر صرفه‌جویی می‌کند، مقاله را بخوانید."
+      },
       "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi", "D. Hély"],
       "firstAuthor": true,
       "venue": "IEEE Consumer Electronics Magazine",
@@ -203,6 +218,11 @@
       "id": "micpro-security-scheduler",
       "type": "journal",
       "title": "A security-aware hardware scheduler for modern multi-core systems with hard real-time constraints",
+      "summary": {
+        "en": "Moving task scheduling out of the operating system and into dedicated hardware makes it faster and more predictable on multi-core chips. In a system with hard real-time deadlines, though, the scheduler also has to take security into account. This paper presents a security-aware hardware scheduler for modern multi-core systems that still meets hard real-time constraints. The design and how it was evaluated are in the paper.",
+        "sv": "Att flytta schemaläggningen från operativsystemet till dedikerad hårdvara gör den snabbare och mer förutsägbar på flerkärniga chip. I ett system med hårda realtidskrav måste schemaläggaren dessutom ta hänsyn till säkerhet. Artikeln presenterar en säkerhetsmedveten hårdvaruschemaläggare för moderna flerkärniga system som fortfarande klarar hårda realtidskrav. Hur den är uppbyggd och hur den utvärderades står i artikeln.",
+        "fa": "بردن زمان‌بندی وظایف از سیستم‌عامل به سخت‌افزار اختصاصی، آن را در تراشه‌های چندهسته‌ای سریع‌تر و قابل پیش‌بینی‌تر می‌کند. اما در سیستمی که ضرب‌الاجل‌های سخت بی‌درنگ دارد، زمان‌بند باید امنیت را هم در نظر بگیرد. این مقاله یک زمان‌بند سخت‌افزاری امنیت‌محور برای سیستم‌های چندهسته‌ای مدرن معرفی می‌کند که همچنان محدودیت‌های سخت بی‌درنگ را رعایت می‌کند. جزئیات طراحی و نحوه‌ی ارزیابی‌اش را در مقاله بخوانید."
+      },
       "authors": ["A. Norollah", "H. Beitollahi", "Z. Kazemi", "M. Fazeli"],
       "firstAuthor": true,
       "venue": "Elsevier Microprocessors and Microsystems (MICPRO)",
@@ -220,6 +240,11 @@
       "id": "socc-2018-pat-noxim",
       "type": "conference",
       "title": "PAT-Noxim: A Precise Power & Thermal Cycle-Accurate NoC Simulator",
+      "summary": {
+        "en": "Access-Noxim is a widely used cycle-accurate simulator for networks-on-chip, but it ignores how power and temperature affect each other, which makes its power and thermal estimates less accurate. PAT-Noxim adds that cross effect and estimates power and area with architecture-level tools. It also supports pipelined and non-pipelined routers, any number of virtual channels per port, and fabrication technologies from 90 nm down to 22 nm. How much more accurate it turned out to be is in the paper.",
+        "sv": "Access-Noxim är en välanvänd cykelexakt simulator för networks-on-chip, men den bortser från hur effekt och temperatur påverkar varandra, vilket gör uppskattningarna av effekt och temperatur mindre träffsäkra. PAT-Noxim tar med den växelverkan och räknar ut effekt och yta med verktyg på arkitekturnivå. Den stöder också routrar med och utan pipeline, valfritt antal virtuella kanaler per port och tillverkningsteknik från 90 ned till 22 nm. Hur mycket noggrannare den blev kan du läsa i artikeln.",
+        "fa": "Access-Noxim از شبیه‌سازهای شناخته‌شده و دقیق در سطح سیکل برای شبکه‌های روی تراشه (NoC) است، ولی اثر متقابل توان و دما را نادیده می‌گیرد و برای همین تخمین توان و دمایش دقت کافی ندارد. PAT-Noxim این اثر متقابل را وارد محاسبه می‌کند و توان و مساحت را با ابزارهای سطح معماری به دست می‌آورد. علاوه بر این از روترهای با و بدون pipeline، هر تعداد کانال مجازی در هر پورت، و فناوری‌های ساخت از ۹۰ تا ۲۲ نانومتر پشتیبانی می‌کند. اینکه دقتش چقدر بهتر شد را در مقاله بخوانید."
+      },
       "authors": ["A. Norollah", "D. Derafshi", "H. Beitollahi", "A. Patooghy"],
       "firstAuthor": true,
       "venue": "31st IEEE International System-on-Chip Conference (SOCC)",
@@ -237,6 +262,11 @@
       "id": "mwscas-2019-accelerator",
       "type": "conference",
       "title": "A New Hardware Accelerator for Data Sorting in Area & Energy Constrained Architectures",
+      "summary": {
+        "en": "FPGA sorting accelerators beat general-purpose processors and GPUs, but every extra input adds compare-and-swap units, and some applications simply do not have the resources to spare. This paper presents a sorting architecture that uses unary processing to need far fewer resources while still delivering the performance the application needs. The numbers for an 8-input sorter are in the paper.",
+        "sv": "Sorteringsacceleratorer på FPGA slår vanliga processorer och GPU:er, men varje extra indata kräver fler compare-and-swap-enheter, och i vissa tillämpningar finns helt enkelt inte resurserna. Artikeln presenterar en sorteringsarkitektur som med unär beräkning (unary processing) klarar sig med betydligt mindre resurser och ändå levererar den prestanda som behövs. Siffrorna för en sorterare med 8 indata finns i artikeln.",
+        "fa": "شتاب‌دهنده‌های مرتب‌سازی روی FPGA از پردازنده‌های همه‌منظوره و GPU کارآمدترند، ولی هر ورودی اضافه یعنی واحدهای Compare-And-Swap بیشتر، و بعضی کاربردها اصلاً این‌قدر منابع ندارند. این مقاله یک معماری مرتب‌سازی معرفی می‌کند که با پردازش یکانی (Unary) به منابع خیلی کمتری نیاز دارد و همچنان کارایی لازم را می‌دهد. نتایج یک مرتب‌کننده‌ی ۸ورودی را در مقاله ببینید."
+      },
       "authors": ["A. Norollah", "H. Beitollahi", "A. Patooghy"],
       "firstAuthor": true,
       "venue": "IEEE 62nd International Midwest Symposium on Circuits and Systems (MWSCAS)",
@@ -254,6 +284,11 @@
       "id": "hpcs-2019-sorting",
       "type": "conference",
       "title": "An Efficient Sorting Architecture for Area and Energy Constrained Edge Computing Devices",
+      "summary": {
+        "en": "Some edge devices hand basic operations like sorting to small hardware modules so the processor can do other work. Existing hardware sorters, though, cost too much area and energy for that setting. We designed a sorter for edge devices based on the bitonic algorithm, running compare-and-swap operations in parallel and using unary processing to keep hardware and energy use down. The synthesis results are in the paper.",
+        "sv": "Vissa edge-enheter lämnar över enkla beräkningar som sortering till små hårdvarumoduler, så att processorn kan göra annat. Befintliga hårdvarusorterare kostar dock för mycket yta och energi för den sortens enheter. Vi konstruerade en sorterare för edge-enheter baserad på bitonisk sortering, där compare-and-swap-operationerna körs parallellt och unär beräkning håller nere både hårdvara och energiåtgång. Syntesresultaten finns i artikeln.",
+        "fa": "بعضی دستگاه‌های لبه (edge) کارهای ساده‌ای مثل مرتب‌سازی را به ماژول‌های سخت‌افزاری کوچک می‌سپارند تا پردازنده آزاد بماند. ولی مرتب‌کننده‌های سخت‌افزاری موجود برای این دستگاه‌ها بیش از حد مساحت و انرژی مصرف می‌کنند. ما یک مرتب‌کننده بر پایه‌ی الگوریتم Bitonic برای دستگاه‌های لبه طراحی کردیم که عملیات Compare-And-Swap را موازی انجام می‌دهد و با پردازش یکانی (Unary) مصرف سخت‌افزار و انرژی را پایین نگه می‌دارد. نتایج سنتز را در مقاله بخوانید."
+      },
       "authors": ["A. Norollah", "Z. Kazemi", "H. Beitollahi"],
       "firstAuthor": true,
       "venue": "International Conference on High Performance Computing & Simulation (HPCS)",
@@ -271,6 +306,11 @@
       "id": "isvlsi-2020-3d-sorter",
       "type": "conference",
       "title": "3D-Sorter: 3D Design of a Resource-Aware Hardware Sorter for Edge Computing Platforms Under Area and Energy Consumption Constraints",
+      "summary": {
+        "en": "3D-Sorter is a hardware sorting architecture built on our multidimensional sorting algorithm. It arranges the input records as a three-dimensional matrix and sorts each dimension in a few phases using partial sorting, instead of comparing everything at once. The goal is a sorter small and frugal enough for edge components. The paper shows how it compares with the best hardware sorters of the time in logic, registers and power.",
+        "sv": "3D-Sorter är en sorteringsarkitektur i hårdvara byggd på vår flerdimensionella sorteringsalgoritm. Den ordnar indataposterna i en tredimensionell matris och sorterar varje dimension i några faser med partiell sortering, i stället för att jämföra allt på en gång. Målet är en sorterare som är liten och snål nog för edge-komponenter. I artikeln ser du hur den står sig mot tidens bästa hårdvarusorterare i logik, register och effekt.",
+        "fa": "3D-Sorter یک معماری مرتب‌سازی سخت‌افزاری بر پایه‌ی الگوریتم مرتب‌سازی چندبُعدی ماست. رکوردهای ورودی را به شکل یک ماتریس سه‌بُعدی می‌چیند و به‌جای اینکه همه را یک‌جا با هم مقایسه کند، هر بُعد را در چند مرحله با مرتب‌سازی جزئی مرتب می‌کند. هدف، مرتب‌کننده‌ای است که آن‌قدر کوچک و کم‌مصرف باشد که در قطعات لبه (edge) جا شود. اینکه از نظر منطق، رجیستر و توان در برابر بهترین مرتب‌کننده‌های آن زمان چه وضعی دارد را در مقاله ببینید."
+      },
       "authors": ["A. Norollah", "Z. Kazemi", "D. Hély"],
       "firstAuthor": true,
       "venue": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
@@ -288,6 +328,11 @@
       "id": "socc-2020-mist-scan",
       "type": "conference",
       "title": "Mist-Scan: A Secure Scan Chain Architecture to Resist Scan-Based Attacks in Cryptographic Chips",
+      "summary": {
+        "en": "Scan chains such as JTAG make chips testable and updatable in the field, but they also give attackers a side channel into crypto chips. Burning the chain after production is not an option for most products. Mist-scan detects scan-based attacks at runtime: authorised users get the real responses, while anyone else gets fake outputs and never reaches the sensitive data. We tested it on a DES implementation; read the paper to see how well it held up and what it costs in area.",
+        "sv": "Scan-kedjor som JTAG gör chip testbara och uppdaterbara ute på fältet, men de ger också angripare en sidokanal in i kryptochip. Att bränna av kedjan efter tillverkningen är inget alternativ för de flesta produkter. Mist-scan upptäcker scan-baserade attacker medan chipet körs: behöriga användare får de riktiga svaren, medan alla andra får falska utdata och aldrig kommer åt känslig information. Vi testade metoden på en DES-implementation. Läs artikeln för att se hur väl den höll och vad den kostar i yta.",
+        "fa": "زنجیره‌های اسکن مثل JTAG تست و به‌روزرسانی تراشه را در محل استفاده ممکن می‌کنند، ولی همین‌ها یک کانال جانبی هم برای حمله به تراشه‌های رمزنگاری باز می‌کنند. سوزاندن زنجیره بعد از تولید هم برای بیشتر محصولات راه‌حل قابل قبولی نیست. Mist-scan حمله‌های مبتنی بر اسکن را در زمان اجرا تشخیص می‌دهد: کاربر مجاز پاسخ واقعی می‌گیرد و بقیه خروجی جعلی، بدون اینکه به اطلاعات حساس برسند. این روش را روی پیاده‌سازی DES آزمایش کردیم. برای اینکه ببینید چقدر موفق بود و چه هزینه‌ای در مساحت دارد، مقاله را بخوانید."
+      },
       "authors": ["M. Taherifard", "H. Beitollahi", "F. Jamali", "A. Norollah", "A. Patooghy"],
       "firstAuthor": false,
       "venue": "IEEE 33rd International System-on-Chip Conference (SOCC)",
@@ -305,6 +350,11 @@
       "id": "dft-2021-riscv",
       "type": "conference",
       "title": "An In-Depth Vulnerability Analysis of RISC-V Micro-Architecture Against Fault Injection Attack",
+      "summary": {
+        "en": "Fault injection attacks can be studied with real hardware experiments or with simulation. Experiments show that something broke but not why, and simulation shows the details but may not match reality. This work uses both on C functions running on a RISC-V embedded system: clock-glitching experiments find the sensitive parts of a program, simulation pinpoints the faulty operations behind them, and those findings are fed back to tune the experiments. How many more vulnerabilities that loop uncovered is in the paper.",
+        "sv": "Attacker med felinjicering kan studeras med verkliga hårdvaruexperiment eller med simulering. Experimenten visar att något gick fel men inte varför, medan simuleringen ger detaljerna men inte alltid stämmer med verkligheten. Det här arbetet kombinerar båda på C-funktioner som körs på ett inbyggt RISC-V-system: experiment med clock glitching hittar de känsliga delarna av ett program, simuleringen pekar ut vilka operationer som faktiskt går fel, och resultaten används sedan för att finjustera experimenten. Hur många fler sårbarheter det gav står i artikeln.",
+        "fa": "حمله‌های تزریق خطا را می‌شود با آزمایش روی سخت‌افزار واقعی یا با شبیه‌سازی بررسی کرد. آزمایش نشان می‌دهد چیزی خراب شده ولی نمی‌گوید چرا، و شبیه‌سازی جزئیات را نشان می‌دهد ولی همیشه با واقعیت جور درنمی‌آید. در این کار هر دو را روی توابع C که روی یک سیستم نهفته‌ی RISC-V اجرا می‌شوند ترکیب کردیم: آزمایش clock-glitching بخش‌های حساس برنامه را پیدا می‌کند، شبیه‌سازی دقیقاً عملیات معیوب را مشخص می‌کند، و نتیجه‌اش دوباره برای تنظیم آزمایش‌ها به کار می‌رود. اینکه این چرخه چند آسیب‌پذیری بیشتر پیدا کرد را در مقاله بخوانید."
+      },
       "authors": ["Z. Kazemi", "A. Norollah", "A. Kchaou", "M. Fazeli", "D. Hély", "V. Beroulle"],
       "firstAuthor": false,
       "venue": "IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
@@ -322,6 +372,11 @@
       "id": "hpec-2021-dependent-tasks",
       "type": "conference",
       "title": "Efficient Scheduling of Dependent Tasks in Many-Core Real-Time System Using a Hardware Scheduler",
+      "summary": {
+        "en": "Real-time many-core systems often run tasks that depend on each other, which makes scheduling harder. In this hardware scheduler, the operating system picks the tasks that can be scheduled with EDF, groups related tasks by their dependencies, and passes the groups to dedicated hardware, which then assigns them to the cores. The paper shows how many more tasks it gets through on time compared with earlier work.",
+        "sv": "Realtidssystem med många kärnor kör ofta uppgifter som är beroende av varandra, vilket gör schemaläggningen svårare. I den här hårdvaruschemaläggaren väljer operativsystemet ut de uppgifter som kan schemaläggas med EDF, grupperar relaterade uppgifter efter deras beroenden och skickar grupperna till dedikerad hårdvara, som sedan fördelar dem på kärnorna. Artikeln visar hur många fler uppgifter som blir klara i tid jämfört med tidigare lösningar.",
+        "fa": "در سیستم‌های بی‌درنگ چندهسته‌ای، وظایف معمولاً به هم وابسته‌اند و همین زمان‌بندی را سخت‌تر می‌کند. در این زمان‌بند سخت‌افزاری، سیستم‌عامل وظایفی را که با EDF قابل زمان‌بندی‌اند انتخاب می‌کند، وظایف مرتبط را بر اساس وابستگی‌شان گروه‌بندی می‌کند و گروه‌ها را به سخت‌افزار اختصاصی می‌دهد تا آن‌ها را بین هسته‌ها تقسیم کند. اینکه در مقایسه با کارهای قبلی چند وظیفه‌ی بیشتر سر وقت انجام می‌شود را در مقاله ببینید."
+      },
       "authors": ["A. Norollah", "Z. Kazemi", "N. Sayadi", "H. Beitollahi", "M. Fazeli", "D. Hély"],
       "firstAuthor": true,
       "venue": "IEEE High Performance Extreme Computing Conference (HPEC)",
@@ -339,6 +394,11 @@
       "id": "isqed-2022-offline-assessment",
       "type": "conference",
       "title": "An Offline Hardware Security Assessment Approach using Symbol Assertion and Code Shredding",
+      "summary": {
+        "en": "Before embedded software meets a fault injection attack, it helps to know which parts of the code are most exposed. This paper uses symbolic execution to find and rank those weak points through code review. LLVM and its KLEE add-on insert symbolic assertions into the code, which gives a vulnerability factor for spotting corner cases in the execution paths. Read the paper for the case study and what the assertions caught.",
+        "sv": "Innan inbyggd mjukvara utsätts för en attack med felinjicering är det bra att veta vilka delar av koden som är mest utsatta. Artikeln använder symbolisk exekvering för att hitta och rangordna de svaga punkterna genom kodgranskning. LLVM och tillägget KLEE lägger in symboliska assertions i koden, vilket ger en sårbarhetsfaktor som hjälper till att hitta specialfall i exekveringsvägarna. Läs artikeln för fallstudien och vad assertions hittade.",
+        "fa": "قبل از اینکه نرم‌افزار نهفته با حمله‌ی تزریق خطا روبه‌رو شود، بهتر است بدانیم کدام بخش‌های کد آسیب‌پذیرترند. این مقاله با اجرای نمادین (symbolic execution) و از راه بازبینی کد، این نقاط ضعف را پیدا و اولویت‌بندی می‌کند. LLVM و افزونه‌اش KLEE در کد assertion نمادین می‌گذارند و از آن یک ضریب آسیب‌پذیری به دست می‌آید که حالت‌های مرزی را در مسیرهای اجرا نشان می‌دهد. مطالعه‌ی موردی و اینکه assertionها چه چیزهایی را پیدا کردند در مقاله آمده است."
+      },
       "authors": ["Z. Kazemi", "A. Norollah", "M. Fazeli", "D. Hély", "V. Beroulle"],
       "firstAuthor": false,
       "venue": "23rd International Symposium on Quality Electronic Design (ISQED)",
@@ -356,6 +416,11 @@
       "id": "rtest-2022-fault-attacks",
       "type": "conference",
       "title": "Protecting Security-Critical Real-Time Systems against Fault Attacks in Many-Core Platforms",
+      "summary": {
+        "en": "Security-critical real-time systems are moving from single-core to many-core platforms, and that shift opens the door to fault injection attacks that slow tasks down or make the system fail. This paper proposes an online, security-aware hardware scheduler that defends against them by replicating tasks: critical tasks and their copies are scheduled independently in hardware with the Least Slack Time first algorithm, under real-time constraints. Whether every task still meets its deadline is answered in the paper.",
+        "sv": "Säkerhetskritiska realtidssystem går från en kärna till många, och den förändringen öppnar för attacker med felinjicering som saktar ner uppgifter eller får systemet att fallera. Artikeln föreslår en säkerhetsmedveten hårdvaruschemaläggare som körs online och skyddar mot sådana attacker genom att replikera uppgifter: kritiska uppgifter och deras kopior schemaläggs oberoende av varandra i hårdvara med algoritmen Least Slack Time first, under realtidskrav. Om alla uppgifter ändå klarar sina deadlines får du svar på i artikeln.",
+        "fa": "سیستم‌های بی‌درنگی که امنیت برایشان حیاتی است دارند از پردازنده‌های تک‌هسته‌ای به چندهسته‌ای مهاجرت می‌کنند، و همین تغییر راه را برای حمله‌های تزریق خطا باز می‌کند که وظایف را کند می‌کنند یا سیستم را از کار می‌اندازند. این مقاله یک زمان‌بند سخت‌افزاری برخط و امنیت‌محور پیشنهاد می‌دهد که با تکثیر وظایف جلوی این حمله‌ها را می‌گیرد: وظایف حیاتی و نسخه‌های تکراری‌شان مستقل از هم و با الگوریتم Least Slack Time first در سخت‌افزار زمان‌بندی می‌شوند. اینکه آیا همه‌ی وظایف باز هم به ضرب‌الاجلشان می‌رسند یا نه، جوابش در مقاله است."
+      },
       "authors": ["A. Norollah", "Z. Kazemi", "D. Derafshi", "H. Beitollahi", "M. Fazeli"],
       "firstAuthor": true,
       "venue": "CPSSI 4th International Symposium on Real-Time and Embedded Systems and Technologies (RTEST)",
