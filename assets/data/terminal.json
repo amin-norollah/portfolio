@@ -74,7 +74,7 @@
           "intressen     : att bygga mina egna projekt"
         ],
         "fa": [
-          "نام            : امین نورالله",
+          "نام            : امین نوراله",
           "شناخته‌شده به  : balrug",
           "مدرک           : کارشناسی ارشد مهندسی کامپیوتر (IUST)",
           "حرفه           : توسعه‌دهنده‌ی فول‌استک و سرپرست تیم",
@@ -172,7 +172,7 @@
       "output": {
         "en": ["© {{year}} - designed and built by Amin Norollah"],
         "sv": ["© {{year}} - designad och byggd av Amin Norollah"],
-        "fa": ["© {{year}} - طراحی و ساخت: امین نورالله"]
+        "fa": ["© {{year}} - طراحی و ساخت: امین نوراله"]
       }
     },
     {
