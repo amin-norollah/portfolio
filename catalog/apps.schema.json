@@ -38,6 +38,7 @@
           "uniqueItems": true,
           "items": { "enum": ["android", "ios", "web", "windows", "macos", "linux"] }
         },
+        "enabled": { "type": "boolean" },
         "featured": { "type": "boolean" },
         "order": { "type": "integer", "minimum": 1 },
         "releasedAt": { "type": "string", "pattern": "^\\d{4}(-\\d{2})?$" },
