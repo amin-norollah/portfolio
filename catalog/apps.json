@@ -1,0 +1,85 @@
+{
+  "$schema": "./apps.schema.json",
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-05",
+  "apps": [
+    {
+      "id": "sample-app",
+      "name": "Sample App",
+      "status": "beta",
+      "category": "productivity",
+      "platforms": ["android", "web"],
+      "featured": true,
+      "order": 1,
+      "releasedAt": "2026-10",
+      "version": "0.1.0",
+      "icon": "https://norollah.com/catalog/apps/sample-app/icon.svg",
+      "cover": "https://norollah.com/catalog/apps/sample-app/cover.svg",
+      "screenshots": [
+        {
+          "url": "https://norollah.com/catalog/apps/sample-app/screen-1.svg",
+          "alt": {
+            "en": "Home screen with a list of tasks",
+            "fa": "صفحه‌ی اصلی با فهرستی از کارها",
+            "sv": "Startskärm med en lista över uppgifter",
+            "es": "Pantalla de inicio con una lista de tareas"
+          }
+        },
+        {
+          "url": "https://norollah.com/catalog/apps/sample-app/screen-2.svg",
+          "alt": {
+            "en": "Dark theme overview",
+            "fa": "نمای کلی تم تیره",
+            "sv": "Översikt i mörkt tema",
+            "es": "Vista general del tema oscuro"
+          }
+        }
+      ],
+      "tagline": {
+        "en": "A placeholder entry for testing the catalog",
+        "fa": "یک نمونه‌ی آزمایشی برای تست کاتالوگ",
+        "sv": "Ett exempel för att testa katalogen",
+        "es": "Una entrada de ejemplo para probar el catálogo"
+      },
+      "description": {
+        "en": "Not a real app. This entry exists so a client can fetch the catalog, render every field and switch language. Replace it once the first real app is added.",
+        "fa": "این یک اپ واقعی نیست. این مورد فقط برای این است که یک کلاینت بتواند کاتالوگ را بخواند، همه‌ی فیلدها را نمایش دهد و زبان را عوض کند. بعد از اضافه شدن اولین اپ واقعی حذفش کنید.",
+        "sv": "Inte en riktig app. Posten finns så att en klient kan hämta katalogen, visa alla fält och byta språk. Ersätt den när den första riktiga appen läggs till.",
+        "es": "No es una app real. Esta entrada existe para que un cliente pueda descargar el catálogo, mostrar todos los campos y cambiar de idioma. Reemplázala cuando se añada la primera app real."
+      },
+      "links": [
+        {
+          "type": "website",
+          "url": "https://norollah.com/",
+          "label": {
+            "en": "Website",
+            "fa": "وب‌سایت",
+            "sv": "Webbplats",
+            "es": "Sitio web"
+          }
+        },
+        {
+          "type": "privacy",
+          "url": "https://norollah.com/privacy/"
+        }
+      ],
+      "tags": ["sample", "test"],
+      "details": [
+        {
+          "label": {
+            "en": "Offline support",
+            "fa": "پشتیبانی آفلاین",
+            "sv": "Offlinestöd",
+            "es": "Soporte sin conexión"
+          },
+          "value": {
+            "en": "Yes",
+            "fa": "بله",
+            "sv": "Ja",
+            "es": "Sí"
+          }
+        }
+      ]
+    }
+  ]
+}
