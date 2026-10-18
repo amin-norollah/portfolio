@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://norollah.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/"/>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/"/>
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/"/>
@@ -122,8 +122,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://norollah.com/articles/advantages-of-being-a-good-team-member/"/>
   </url>
   <url>
+    <loc>https://norollah.com/projects/toyfox-landing/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://norollah.com/projects/toyfox-landing/"/>
+  </url>
+  <url>
+    <loc>https://norollah.com/sv/projects/toyfox-landing/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://norollah.com/projects/toyfox-landing/"/>
+  </url>
+  <url>
+    <loc>https://norollah.com/fa/projects/toyfox-landing/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/toyfox-landing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://norollah.com/projects/toyfox-landing/"/>
+  </url>
+  <url>
     <loc>https://norollah.com/projects/fraud-risk-scoring/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fraud-risk-scoring/"/>
@@ -131,7 +155,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/fraud-risk-scoring/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fraud-risk-scoring/"/>
@@ -139,7 +163,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/fraud-risk-scoring/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fraud-risk-scoring/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fraud-risk-scoring/"/>
@@ -147,7 +171,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/focalpay-inventory/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-inventory/"/>
@@ -155,7 +179,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/focalpay-inventory/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-inventory/"/>
@@ -163,7 +187,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/focalpay-inventory/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-inventory/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-inventory/"/>
@@ -171,7 +195,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/bandcenter-store/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/bandcenter-store/"/>
@@ -179,7 +203,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/bandcenter-store/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/bandcenter-store/"/>
@@ -187,7 +211,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/bandcenter-store/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/bandcenter-store/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/bandcenter-store/"/>
@@ -195,7 +219,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/escpos-inspector/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/escpos-inspector/"/>
@@ -203,7 +227,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/escpos-inspector/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/escpos-inspector/"/>
@@ -211,7 +235,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/escpos-inspector/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/escpos-inspector/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/escpos-inspector/"/>
@@ -219,7 +243,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/diskwiper/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/diskwiper/"/>
@@ -227,7 +251,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/diskwiper/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/diskwiper/"/>
@@ -235,7 +259,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/diskwiper/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/diskwiper/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/diskwiper/"/>
@@ -243,7 +267,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/cashier-probe/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-probe/"/>
@@ -251,7 +275,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/cashier-probe/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-probe/"/>
@@ -259,7 +283,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/cashier-probe/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-probe/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-probe/"/>
@@ -267,7 +291,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/focalpay-marketplace/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-marketplace/"/>
@@ -275,7 +299,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/focalpay-marketplace/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-marketplace/"/>
@@ -283,7 +307,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/focalpay-marketplace/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-marketplace/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-marketplace/"/>
@@ -291,7 +315,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/tessera/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/tessera/"/>
@@ -299,7 +323,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/tessera/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/tessera/"/>
@@ -307,7 +331,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/tessera/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/tessera/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/tessera/"/>
@@ -315,7 +339,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/chainsync/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/chainsync/"/>
@@ -323,7 +347,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/chainsync/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/chainsync/"/>
@@ -331,7 +355,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/chainsync/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/chainsync/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/chainsync/"/>
@@ -339,7 +363,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/laddergo/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/laddergo/"/>
@@ -347,7 +371,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/laddergo/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/laddergo/"/>
@@ -355,7 +379,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/laddergo/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/laddergo/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/laddergo/"/>
@@ -363,7 +387,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/compass-campus-map/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/compass-campus-map/"/>
@@ -371,7 +395,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/compass-campus-map/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/compass-campus-map/"/>
@@ -379,7 +403,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/compass-campus-map/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/compass-campus-map/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/compass-campus-map/"/>
@@ -387,7 +411,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/navigation-project/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/navigation-project/"/>
@@ -395,7 +419,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/navigation-project/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/navigation-project/"/>
@@ -403,7 +427,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/navigation-project/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/navigation-project/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/navigation-project/"/>
@@ -411,7 +435,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/fortune-hunters/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fortune-hunters/"/>
@@ -419,7 +443,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/fortune-hunters/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fortune-hunters/"/>
@@ -427,7 +451,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/fortune-hunters/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fortune-hunters/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fortune-hunters/"/>
@@ -435,7 +459,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/centra-integration/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/centra-integration/"/>
@@ -443,7 +467,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/centra-integration/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/centra-integration/"/>
@@ -451,7 +475,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/centra-integration/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/centra-integration/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/centra-integration/"/>
@@ -459,7 +483,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/arnicafam-landing/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/arnicafam-landing/"/>
@@ -467,7 +491,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/arnicafam-landing/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/arnicafam-landing/"/>
@@ -475,7 +499,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/arnicafam-landing/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/arnicafam-landing/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/arnicafam-landing/"/>
@@ -483,7 +507,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/robot-test-framework/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/robot-test-framework/"/>
@@ -491,7 +515,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/robot-test-framework/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/robot-test-framework/"/>
@@ -499,7 +523,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/robot-test-framework/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/robot-test-framework/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/robot-test-framework/"/>
@@ -507,7 +531,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/focalpay-order-api/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-order-api/"/>
@@ -515,7 +539,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/focalpay-order-api/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-order-api/"/>
@@ -523,7 +547,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/focalpay-order-api/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/focalpay-order-api/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/focalpay-order-api/"/>
@@ -531,7 +555,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/cashier-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-frontend/"/>
@@ -539,7 +563,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/cashier-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-frontend/"/>
@@ -547,7 +571,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/cashier-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/cashier-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/cashier-frontend/"/>
@@ -555,7 +579,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/mofid-online-plus/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-plus/"/>
@@ -563,7 +587,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/mofid-online-plus/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-plus/"/>
@@ -571,7 +595,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/mofid-online-plus/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-plus/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-plus/"/>
@@ -579,7 +603,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/mofid-online-admin/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-admin/"/>
@@ -587,7 +611,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/mofid-online-admin/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-admin/"/>
@@ -595,7 +619,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/mofid-online-admin/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/mofid-online-admin/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/mofid-online-admin/"/>
@@ -603,7 +627,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/vicinia-map-library/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-map-library/"/>
@@ -611,7 +635,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/vicinia-map-library/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-map-library/"/>
@@ -619,7 +643,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/vicinia-map-library/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-map-library/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-map-library/"/>
@@ -627,7 +651,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/vicinia-desk/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-desk/"/>
@@ -635,7 +659,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/vicinia-desk/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-desk/"/>
@@ -643,7 +667,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/vicinia-desk/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-desk/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-desk/"/>
@@ -651,7 +675,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/vicinia-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-backend/"/>
@@ -659,7 +683,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/vicinia-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-backend/"/>
@@ -667,7 +691,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/vicinia-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/vicinia-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/vicinia-backend/"/>
@@ -675,7 +699,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/kiosk-web-app/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/kiosk-web-app/"/>
@@ -683,7 +707,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/kiosk-web-app/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/kiosk-web-app/"/>
@@ -691,7 +715,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/kiosk-web-app/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/kiosk-web-app/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/kiosk-web-app/"/>
@@ -699,7 +723,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/farawams-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-identity/"/>
@@ -707,7 +731,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/farawams-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-identity/"/>
@@ -715,7 +739,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/farawams-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-identity/"/>
@@ -723,7 +747,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/pinkie/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pinkie/"/>
@@ -731,7 +755,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/pinkie/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pinkie/"/>
@@ -739,7 +763,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/pinkie/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pinkie/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pinkie/"/>
@@ -747,7 +771,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/care-your-eyes/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/care-your-eyes/"/>
@@ -755,7 +779,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/care-your-eyes/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/care-your-eyes/"/>
@@ -763,7 +787,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/care-your-eyes/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/care-your-eyes/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/care-your-eyes/"/>
@@ -771,7 +795,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/csite-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-backend/"/>
@@ -779,7 +803,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/csite-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-backend/"/>
@@ -787,7 +811,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/csite-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-backend/"/>
@@ -795,7 +819,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/csite-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-frontend/"/>
@@ -803,7 +827,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/csite-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-frontend/"/>
@@ -811,7 +835,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/csite-frontend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/csite-frontend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/csite-frontend/"/>
@@ -819,7 +843,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/under-the-moonlight/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/under-the-moonlight/"/>
@@ -827,7 +851,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/under-the-moonlight/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/under-the-moonlight/"/>
@@ -835,7 +859,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/under-the-moonlight/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/under-the-moonlight/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/under-the-moonlight/"/>
@@ -843,7 +867,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/farawams-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-backend/"/>
@@ -851,7 +875,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/farawams-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-backend/"/>
@@ -859,7 +883,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/farawams-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/farawams-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/farawams-backend/"/>
@@ -867,7 +891,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/safas/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/safas/"/>
@@ -875,7 +899,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/safas/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/safas/"/>
@@ -883,7 +907,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/safas/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/safas/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/safas/"/>
@@ -891,7 +915,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/portfolio-site/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/portfolio-site/"/>
@@ -899,7 +923,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/portfolio-site/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/portfolio-site/"/>
@@ -907,7 +931,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/portfolio-site/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/portfolio-site/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/portfolio-site/"/>
@@ -915,7 +939,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/smartcattle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-backend/"/>
@@ -923,7 +947,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/smartcattle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-backend/"/>
@@ -931,7 +955,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/smartcattle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-backend/"/>
@@ -939,7 +963,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/smartcattle-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-identity/"/>
@@ -947,7 +971,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/smartcattle-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-identity/"/>
@@ -955,7 +979,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/smartcattle-identity/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/smartcattle-identity/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/smartcattle-identity/"/>
@@ -963,7 +987,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/candle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/candle-backend/"/>
@@ -971,7 +995,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/candle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/candle-backend/"/>
@@ -979,7 +1003,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/candle-backend/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/candle-backend/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/candle-backend/"/>
@@ -987,7 +1011,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/fnn/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fnn/"/>
@@ -995,7 +1019,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/fnn/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fnn/"/>
@@ -1003,7 +1027,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/fnn/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/fnn/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/fnn/"/>
@@ -1011,7 +1035,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/js-code-pages/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-pages/"/>
@@ -1019,7 +1043,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/js-code-pages/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-pages/"/>
@@ -1027,7 +1051,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/js-code-pages/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-pages/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-pages/"/>
@@ -1035,7 +1059,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/js-code-games/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-games/"/>
@@ -1043,7 +1067,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/js-code-games/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-games/"/>
@@ -1051,7 +1075,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/js-code-games/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/js-code-games/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/js-code-games/"/>
@@ -1059,7 +1083,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/restaurant-management/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/restaurant-management/"/>
@@ -1067,7 +1091,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/restaurant-management/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/restaurant-management/"/>
@@ -1075,7 +1099,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/restaurant-management/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/restaurant-management/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/restaurant-management/"/>
@@ -1083,7 +1107,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/simpal-v1/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v1/"/>
@@ -1091,7 +1115,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/simpal-v1/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v1/"/>
@@ -1099,7 +1123,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/simpal-v1/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v1/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v1/"/>
@@ -1107,7 +1131,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/simpal-v2/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v2/"/>
@@ -1115,7 +1139,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/simpal-v2/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v2/"/>
@@ -1123,7 +1147,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/simpal-v2/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/simpal-v2/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/simpal-v2/"/>
@@ -1131,7 +1155,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/neuro20ep/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/neuro20ep/"/>
@@ -1139,7 +1163,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/neuro20ep/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/neuro20ep/"/>
@@ -1147,7 +1171,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/neuro20ep/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/neuro20ep/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/neuro20ep/"/>
@@ -1155,7 +1179,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/noonnet/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/noonnet/"/>
@@ -1163,7 +1187,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/noonnet/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/noonnet/"/>
@@ -1171,7 +1195,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/noonnet/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/noonnet/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/noonnet/"/>
@@ -1179,7 +1203,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/rths/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/rths/"/>
@@ -1187,7 +1211,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/rths/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/rths/"/>
@@ -1195,7 +1219,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/rths/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/rths/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/rths/"/>
@@ -1203,7 +1227,7 @@
   </url>
   <url>
     <loc>https://norollah.com/projects/pat-noxim/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pat-noxim/"/>
@@ -1211,7 +1235,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/projects/pat-noxim/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pat-noxim/"/>
@@ -1219,7 +1243,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/projects/pat-noxim/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/projects/pat-noxim/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/projects/pat-noxim/"/>
@@ -1539,7 +1563,7 @@
   </url>
   <url>
     <loc>https://norollah.com/privacy/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/privacy/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/privacy/"/>
@@ -1547,7 +1571,7 @@
   </url>
   <url>
     <loc>https://norollah.com/sv/privacy/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/privacy/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/privacy/"/>
@@ -1555,7 +1579,7 @@
   </url>
   <url>
     <loc>https://norollah.com/fa/privacy/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://norollah.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://norollah.com/sv/privacy/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://norollah.com/fa/privacy/"/>

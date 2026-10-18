@@ -1,5 +1,55 @@
 [
   {
+    "id": "toyfox-landing",
+    "name": "toyfox Studio Site",
+    "track": "web",
+    "category": "frontend",
+    "date": "2026-10",
+    "year": 2026,
+    "ownership": {
+      "kind": "personal",
+      "org": ""
+    },
+    "logo": "imgs/projects/toyfox.svg",
+    "cover": "imgs/slider/toyfox.jpg",
+    "url": "https://toyfox.app",
+    "repo": "",
+    "featured": true,
+    "tagline": {
+      "en": "The home of the apps I build and publish: a five-language site that is rendered to plain HTML at build time",
+      "sv": "Hemmet för apparna jag bygger och publicerar: en femspråkig sajt som renderas till ren HTML vid bygget",
+      "fa": "خانه‌ی اپلیکیشن‌هایی که می‌سازم و منتشر می‌کنم: سایتی پنج‌زبانه که موقع build به HTML ساده تبدیل می‌شود"
+    },
+    "description": {
+      "en": [
+        "toyfox is the site for the apps I build and publish: ladderGo, civilDesk and ChainSync. It is an Angular 21 site rendered to plain HTML files at build time, so every page loads fully for visitors and search engines without a Node server running behind it.",
+        "It speaks five languages (English, Swedish, Spanish, Persian and Arabic). Each page has its own URL per language, the last two mirror the layout to right-to-left, and there is a flag language picker and a light and dark theme. SEO is built in: canonical and hreflang tags, Open Graph, JSON-LD, a generated sitemap, robots.txt and an llms.txt for AI agents. It also carries the support, privacy policy and account deletion pages that Google Play asks for.",
+        "I set up the server too: a hardened VPS behind Cloudflare with nginx and Let's Encrypt, key-only SSH, and a release that goes live with one command and can be rolled back. The same host runs the backends of my other apps, each on its own subdomain."
+      ],
+      "sv": [
+        "toyfox är sajten för apparna jag bygger och publicerar: ladderGo, civilDesk och ChainSync. Det är en Angular 21-sajt som renderas till ren HTML vid bygget, så varje sida laddas fullt ut för besökare och sökmotorer utan en Node-server bakom.",
+        "Den finns på fem språk (engelska, svenska, spanska, persiska och arabiska). Varje sida har en egen URL per språk, de två sista speglar layouten till höger-till-vänster, och det finns en språkväljare med flaggor samt ljust och mörkt tema. SEO är inbyggt: canonical- och hreflang-taggar, Open Graph, JSON-LD, en genererad sitemap, robots.txt och en llms.txt för AI-agenter. Där finns också sidorna för support, integritetspolicy och radering av konto som Google Play kräver.",
+        "Jag satte upp servern också: en härdad VPS bakom Cloudflare med nginx och Let's Encrypt, SSH enbart med nycklar, och en release som går live med ett kommando och kan rullas tillbaka. Samma värd kör backend för mina andra appar, var och en på sin egen subdomän."
+      ],
+      "fa": [
+        "toyfox سایت اپلیکیشن‌هایی است که می‌سازم و منتشر می‌کنم: ladderGo، civilDesk و ChainSync. این یک سایت Angular 21 است که موقع build به فایل‌های HTML ساده تبدیل می‌شود، پس هر صفحه برای بازدیدکننده‌ها و موتورهای جستجو کامل بارگذاری می‌شود و پشتش سرور Node اجرا نمی‌شود.",
+        "سایت پنج زبان دارد (انگلیسی، سوئدی، اسپانیایی، فارسی و عربی). هر صفحه برای هر زبان نشانی جدا دارد، دو زبان آخر چیدمان را راست‌به‌چپ می‌کنند و یک انتخاب‌گر زبان با پرچم و پوسته‌ی روشن و تیره هم هست. سئو از ابتدا در کار است: تگ‌های canonical و hreflang، Open Graph، JSON-LD، نقشه‌ی سایت خودکار، robots.txt و یک llms.txt برای عامل‌های هوش مصنوعی. صفحه‌های پشتیبانی، سیاست حریم خصوصی و حذف حساب را هم که گوگل‌پلی می‌خواهد دارد.",
+        "سرور را هم خودم راه انداختم: یک VPS مقاوم‌سازی‌شده پشت Cloudflare با nginx و Let's Encrypt، ورود SSH فقط با کلید، و انتشاری که با یک دستور زنده می‌شود و قابل برگشت است. همین میزبان بک‌اند اپلیکیشن‌های دیگرم را هم اجرا می‌کند، هرکدام روی زیردامنه‌ی خودش."
+      ]
+    },
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "SCSS",
+      "SEO",
+      "i18n",
+      "RTL",
+      "nginx",
+      "Cloudflare",
+      "Linux"
+    ]
+  },
+  {
     "id": "fraud-risk-scoring",
     "name": "Explainable Fraud Risk Scoring",
     "track": "academic",
