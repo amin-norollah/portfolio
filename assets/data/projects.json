@@ -427,7 +427,7 @@
     "logo": "imgs/projects/tessera.svg",
     "cover": "imgs/slider/tessera.jpg",
     "url": "",
-    "repo": "",
+    "repo": "https://github.com/amin-norollah/Tessera",
     "featured": true,
     "tagline": {
       "en": "A clean-room Rust successor to PAT-Noxim: deterministic, replayable network-on-chip simulation with a queryable record of every run",
@@ -439,19 +439,22 @@
         "Tessera is a cycle-accurate network-on-chip simulator written from scratch in Rust, as the successor to PAT-Noxim, the SystemC simulator from my master's research. It keeps what made PAT-Noxim useful to researchers (power, area and thermal modelling alongside latency) and drops the limits that came with SystemC.",
         "The engine models routers with virtual channels and credit-based flow control on 2D mesh and torus topologies, with eight routing algorithms (from XY and odd-even to table-based routing imported from Noxim), four selection policies and three switch allocators including iSLIP. Traffic can be synthetic, closed-loop, or replayed from Netrace and SynFull traces.",
         "Every run is deterministic. Per-node random streams and keyframe snapshots mean you can seek to any cycle and replay it bit for bit, and that replay doubles as a test oracle. Runs are recorded to Arrow and Parquet and queried with DuckDB, so comparing two experiments is a SQL query rather than a spreadsheet. A frozen plugin API, with an optional WebAssembly sandbox, lets new routing or traffic models register through the same path as the built-ins.",
-        "The workspace has 18 crates and 247 tests. Still open: bindings to the reference power and thermal models (DSENT, ORION, McPAT, HotSpot), parallel execution, and a web UI."
+        "The workspace has 18 crates and 247 tests. Still open: bindings to the reference power and thermal models (DSENT, ORION, McPAT, HotSpot), parallel execution, and a web UI.",
+        "The code is open source under MIT or Apache-2.0, and contributions are welcome. The repository has a contributing guide and a roadmap for what comes next."
       ],
       "sv": [
         "Tessera är en cykelexakt simulator för network-on-chip, skriven från grunden i Rust som efterträdare till PAT-Noxim, SystemC-simulatorn från min masterforskning. Den behåller det som gjorde PAT-Noxim användbar för forskare (modeller för effekt, yta och temperatur bredvid latens) och gör sig av med begränsningarna som följde med SystemC.",
         "Motorn modellerar routrar med virtuella kanaler och kreditbaserad flödeskontroll på 2D-mesh och torus, med åtta routingalgoritmer (från XY och odd-even till tabellbaserad routing importerad från Noxim), fyra urvalspolicyer och tre switchallokatorer, bland dem iSLIP. Trafiken kan vara syntetisk, sluten, eller återspelad från Netrace- och SynFull-spår.",
         "Varje körning är deterministisk. Separata slumpströmmar per nod och nyckelbildsögonblick gör att man kan hoppa till vilken cykel som helst och spela upp den bit för bit, och den uppspelningen fungerar också som testorakel. Körningar sparas i Arrow och Parquet och frågas med DuckDB, så att jämföra två experiment är en SQL-fråga i stället för ett kalkylark. Ett fryst plugin-API, med valfri WebAssembly-sandlåda, låter nya routing- och trafikmodeller registreras på samma väg som de inbyggda.",
-        "Arbetsytan har 18 crates och 247 tester. Kvar att göra: bindningar till referensmodellerna för effekt och värme (DSENT, ORION, McPAT, HotSpot), parallell körning och ett webbgränssnitt."
+        "Arbetsytan har 18 crates och 247 tester. Kvar att göra: bindningar till referensmodellerna för effekt och värme (DSENT, ORION, McPAT, HotSpot), parallell körning och ett webbgränssnitt.",
+        "Koden är öppen källkod under MIT eller Apache-2.0, och bidrag är välkomna. I repot finns en guide för bidragsgivare och en roadmap för vad som kommer härnäst."
       ],
       "fa": [
         "Tessera یک شبیه‌ساز دقیق در سطح سیکل برای شبکه‌ی روی تراشه است که از صفر با Rust نوشته شده، به‌عنوان جانشین PAT-Noxim، شبیه‌ساز SystemC دوران پژوهش کارشناسی ارشدم. آن چیزی را که PAT-Noxim را برای پژوهشگران مفید می‌کرد نگه می‌دارد، یعنی مدل‌سازی توان، مساحت و دما در کنار تأخیر، و محدودیت‌هایی را که SystemC با خودش می‌آورد کنار می‌گذارد.",
         "موتور، روترها را با کانال‌های مجازی و کنترل جریان مبتنی بر اعتبار روی توپولوژی‌های mesh و torus دوبعدی مدل می‌کند، با هشت الگوریتم مسیریابی (از XY و odd-even تا مسیریابی جدولی واردشده از Noxim)، چهار سیاست انتخاب و سه تخصیص‌دهنده‌ی سوئیچ از جمله iSLIP. ترافیک می‌تواند مصنوعی، حلقه‌بسته، یا بازپخش ردهای Netrace و SynFull باشد.",
         "هر اجرا قطعی است. جریان‌های تصادفی جدا برای هر گره و snapshotهای کلیدی یعنی می‌شود به هر سیکلی پرید و آن را بیت به بیت دوباره اجرا کرد، و همین بازپخش نقش مرجع تست را هم بازی می‌کند. اجراها در Arrow و Parquet ذخیره و با DuckDB پرس‌وجو می‌شوند، پس مقایسه‌ی دو آزمایش یک کوئری SQL است نه یک صفحه‌گسترده. یک API پلاگین تثبیت‌شده، با sandbox اختیاری WebAssembly، اجازه می‌دهد مدل‌های تازه‌ی مسیریابی یا ترافیک از همان مسیری ثبت شوند که مدل‌های داخلی ثبت می‌شوند.",
-        "این workspace هجده crate و ۲۴۷ تست دارد. کارهای باقی‌مانده: اتصال به مدل‌های مرجع توان و دما (DSENT، ORION، McPAT، HotSpot)، اجرای موازی و رابط وب."
+        "این workspace هجده crate و ۲۴۷ تست دارد. کارهای باقی‌مانده: اتصال به مدل‌های مرجع توان و دما (DSENT، ORION، McPAT، HotSpot)، اجرای موازی و رابط وب.",
+        "کد پروژه با مجوز MIT یا Apache-2.0 متن‌باز است و از مشارکت استقبال می‌کنم. در مخزن یک راهنمای مشارکت و یک roadmap برای قدم‌های بعدی هست."
       ]
     },
     "technologies": [
